@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Hf2CoNiO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.03476400
+_cell_length_b   5.39634300
+_cell_length_c   9.15543993
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   123.27766442
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Hf2CoNiO6
+_chemical_formula_sum   'Hf4 Co2 Ni2 O12'
+_cell_volume   207.95781060
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hf  Hf0  1  0.71378674  0.91964957  0.75027436  1
+  Hf  Hf1  1  0.28621326  0.41964957  0.74972564  1
+  Hf  Hf2  1  0.71378674  0.58035043  0.25027436  1
+  Hf  Hf3  1  0.28621326  0.08035043  0.24972564  1
+  Co  Co4  1  0.00000000  0.50000000  0.00000000  1
+  Co  Co5  1  0.00000000  0.00000000  0.50000000  1
+  Ni  Ni6  1  0.50000000  0.00000000  0.00000000  1
+  Ni  Ni7  1  0.50000000  0.50000000  0.50000000  1
+  O  O8  1  0.73294637  0.18421392  0.91899214  1
+  O  O9  1  0.59710076  0.68731630  0.91672670  1
+  O  O10  1  0.08552179  0.07753612  0.75349484  1
+  O  O11  1  0.91447821  0.57753612  0.74650516  1
+  O  O12  1  0.40289924  0.18731630  0.58327330  1
+  O  O13  1  0.26705363  0.68421392  0.58100786  1
+  O  O14  1  0.73294637  0.31578608  0.41899214  1
+  O  O15  1  0.59710076  0.81268370  0.41672670  1
+  O  O16  1  0.08552179  0.42246388  0.25349484  1
+  O  O17  1  0.91447821  0.92246388  0.24650516  1
+  O  O18  1  0.40289924  0.31268370  0.08327330  1
+  O  O19  1  0.26705363  0.81578608  0.08100786  1

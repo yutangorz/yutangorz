@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Tb2VNiO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.26455300
+_cell_length_b   5.60669400
+_cell_length_c   9.09726812
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.74082232
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb2VNiO6
+_chemical_formula_sum   'Tb4 V2 Ni2 O12'
+_cell_volume   220.65452759
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.27398090  0.07209418  0.75119188  1
+  Tb  Tb1  1  0.72601910  0.57209418  0.74880812  1
+  Tb  Tb2  1  0.27398090  0.42790582  0.25119188  1
+  Tb  Tb3  1  0.72601910  0.92790582  0.24880812  1
+  V  V4  1  0.00000000  0.00000000  0.00000000  1
+  V  V5  1  0.00000000  0.50000000  0.50000000  1
+  Ni  Ni6  1  0.50000000  0.50000000  0.00000000  1
+  Ni  Ni7  1  0.50000000  0.00000000  0.50000000  1
+  O  O8  1  0.64368224  0.80894909  0.94726247  1
+  O  O9  1  0.75455977  0.29740699  0.94157996  1
+  O  O10  1  0.86734315  0.96807851  0.75922337  1
+  O  O11  1  0.13265685  0.46807851  0.74077663  1
+  O  O12  1  0.24544023  0.79740699  0.55842004  1
+  O  O13  1  0.35631776  0.30894909  0.55273753  1
+  O  O14  1  0.64368224  0.69105091  0.44726247  1
+  O  O15  1  0.75455977  0.20259301  0.44157996  1
+  O  O16  1  0.86734315  0.53192149  0.25922337  1
+  O  O17  1  0.13265685  0.03192149  0.24077663  1
+  O  O18  1  0.24544023  0.70259301  0.05842004  1
+  O  O19  1  0.35631776  0.19105091  0.05273753  1

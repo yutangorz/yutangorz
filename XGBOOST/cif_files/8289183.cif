@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_TiAg2WO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.43035860
+_cell_length_b   5.51647031
+_cell_length_c   5.45286300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.29037778
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiAg2WO6
+_chemical_formula_sum   'Ti2 Ag4 W2 O12'
+_cell_volume   231.54163314
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.00000000  0.50000000  0.00000000  1
+  Ti  Ti1  1  0.50000000  0.00000000  0.00000000  1
+  Ag  Ag2  1  0.25034097  0.50000000  0.74665156  1
+  Ag  Ag3  1  0.74965903  0.50000000  0.25334844  1
+  Ag  Ag4  1  0.75034097  0.00000000  0.74665156  1
+  Ag  Ag5  1  0.24965903  0.00000000  0.25334844  1
+  W  W6  1  0.00000000  0.00000000  0.50000000  1
+  W  W7  1  0.50000000  0.50000000  0.50000000  1
+  O  O8  1  0.74749926  0.50000000  0.81093926  1
+  O  O9  1  0.96784410  0.75216017  0.71486380  1
+  O  O10  1  0.96784410  0.24783983  0.71486380  1
+  O  O11  1  0.03215590  0.75216017  0.28513620  1
+  O  O12  1  0.03215590  0.24783983  0.28513620  1
+  O  O13  1  0.25250074  0.50000000  0.18906074  1
+  O  O14  1  0.24749926  0.00000000  0.81093926  1
+  O  O15  1  0.46784410  0.25216017  0.71486380  1
+  O  O16  1  0.46784410  0.74783983  0.71486380  1
+  O  O17  1  0.53215590  0.25216017  0.28513620  1
+  O  O18  1  0.53215590  0.74783983  0.28513620  1
+  O  O19  1  0.75250074  0.00000000  0.18906074  1

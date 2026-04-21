@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_HgTe(PbO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.74241134
+_cell_length_b   5.74241134
+_cell_length_c   8.77886200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   HgTe(PbO3)2
+_chemical_formula_sum   'Hg2 Te2 Pb4 O12'
+_cell_volume   289.48550274
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Hg  Hg0  1  0.00000000  0.00000000  0.00000000  1
+  Hg  Hg1  1  0.50000000  0.50000000  0.50000000  1
+  Te  Te2  1  0.50000000  0.50000000  0.00000000  1
+  Te  Te3  1  0.00000000  0.00000000  0.50000000  1
+  Pb  Pb4  1  0.50000000  0.00000000  0.25000000  1
+  Pb  Pb5  1  0.00000000  0.50000000  0.25000000  1
+  Pb  Pb6  1  0.00000000  0.50000000  0.75000000  1
+  Pb  Pb7  1  0.50000000  0.00000000  0.75000000  1
+  O  O8  1  0.34732759  0.19708986  0.00000000  1
+  O  O9  1  0.80291014  0.34732759  0.00000000  1
+  O  O10  1  0.19708986  0.65267241  0.00000000  1
+  O  O11  1  0.65267241  0.80291014  0.00000000  1
+  O  O12  1  0.50000000  0.50000000  0.22261314  1
+  O  O13  1  0.00000000  0.00000000  0.27738686  1
+  O  O14  1  0.84732759  0.69708986  0.50000000  1
+  O  O15  1  0.30291014  0.84732759  0.50000000  1
+  O  O16  1  0.69708986  0.15267241  0.50000000  1
+  O  O17  1  0.15267241  0.30291014  0.50000000  1
+  O  O18  1  0.00000000  0.00000000  0.72261314  1
+  O  O19  1  0.50000000  0.50000000  0.77738686  1

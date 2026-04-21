@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Sr2PuNbO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.82751754
+_cell_length_b   5.89506072
+_cell_length_c   5.95421726
+_cell_angle_alpha   90.32383473
+_cell_angle_beta   118.99005614
+_cell_angle_gamma   119.55170295
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2PuNbO6
+_chemical_formula_sum   'Sr2 Pu1 Nb1 O6'
+_cell_volume   147.37694822
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.98888251  0.25189055  0.22748253  1
+  Sr  Sr1  1  0.01111749  0.74810945  0.77251747  1
+  Pu  Pu2  1  0.50000000  0.00000000  0.50000000  1
+  Nb  Nb3  1  0.50000000  0.50000000  0.00000000  1
+  O  O4  1  0.46818210  0.19157045  0.15559834  1
+  O  O5  1  0.96629011  0.66687550  0.17785101  1
+  O  O6  1  0.59401753  0.71722492  0.33291402  1
+  O  O7  1  0.40598247  0.28277508  0.66708598  1
+  O  O8  1  0.03370989  0.33312450  0.82214899  1
+  O  O9  1  0.53181790  0.80842955  0.84440166  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Sr2UFeO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.00166618
+_cell_length_b   5.79517788
+_cell_length_c   5.85003367
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.13746492
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2UFeO6
+_chemical_formula_sum   'Sr4 U2 Fe2 O12'
+_cell_volume   277.28766712
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.75231608  0.50000000  0.76283877  1
+  Sr  Sr1  1  0.74768392  0.00000000  0.23716123  1
+  Sr  Sr2  1  0.25231608  0.00000000  0.76283877  1
+  Sr  Sr3  1  0.24768392  0.50000000  0.23716123  1
+  U  U4  1  0.50000000  0.00000000  0.50000000  1
+  U  U5  1  0.00000000  0.50000000  0.50000000  1
+  Fe  Fe6  1  0.00000000  0.00000000  0.00000000  1
+  Fe  Fe7  1  0.50000000  0.50000000  0.00000000  1
+  O  O8  1  0.04470580  0.75730530  0.80445664  1
+  O  O9  1  0.04470580  0.24269470  0.80445664  1
+  O  O10  1  0.75776146  0.00000000  0.67589484  1
+  O  O11  1  0.74223854  0.50000000  0.32410516  1
+  O  O12  1  0.45529420  0.25730530  0.19554336  1
+  O  O13  1  0.45529420  0.74269470  0.19554336  1
+  O  O14  1  0.54470580  0.25730530  0.80445664  1
+  O  O15  1  0.54470580  0.74269470  0.80445664  1
+  O  O16  1  0.25776146  0.50000000  0.67589484  1
+  O  O17  1  0.24223854  0.00000000  0.32410516  1
+  O  O18  1  0.95529420  0.75730530  0.19554336  1
+  O  O19  1  0.95529420  0.24269470  0.19554336  1

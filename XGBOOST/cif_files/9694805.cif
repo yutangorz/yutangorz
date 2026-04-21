@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_NbCuO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.60392875
+_cell_length_b   5.17374130
+_cell_length_c   7.72846766
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   94.83963994
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NbCuO3
+_chemical_formula_sum   'Nb4 Cu4 O12'
+_cell_volume   223.27472516
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nb  Nb0  1  0.99973234  0.01536799  0.98299163  1
+  Nb  Nb1  1  0.51627002  0.48490828  0.54812115  1
+  Nb  Nb2  1  0.99973234  0.98463201  0.48299163  1
+  Nb  Nb3  1  0.51627002  0.51509172  0.04812115  1
+  Cu  Cu4  1  0.49218859  0.01348541  0.77084018  1
+  Cu  Cu5  1  0.01992890  0.48642749  0.76107121  1
+  Cu  Cu6  1  0.49218859  0.98651459  0.27084018  1
+  Cu  Cu7  1  0.01992890  0.51357251  0.26107121  1
+  O  O8  1  0.20415781  0.31608848  0.95613248  1
+  O  O9  1  0.69217183  0.19500395  0.95604937  1
+  O  O10  1  0.50533227  0.62799454  0.77371776  1
+  O  O11  1  0.00978126  0.87230131  0.75742618  1
+  O  O12  1  0.82330045  0.30430010  0.57469462  1
+  O  O13  1  0.31213647  0.18377223  0.57405573  1
+  O  O14  1  0.20415781  0.68391152  0.45613248  1
+  O  O15  1  0.69217183  0.80499605  0.45604937  1
+  O  O16  1  0.50533227  0.37200546  0.27371776  1
+  O  O17  1  0.00978126  0.12769869  0.25742618  1
+  O  O18  1  0.82330045  0.69569990  0.07469462  1
+  O  O19  1  0.31213647  0.81622777  0.07405573  1

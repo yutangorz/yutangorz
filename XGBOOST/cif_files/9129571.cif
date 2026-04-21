@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_RbZnI3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   8.00845256
+_cell_length_b   6.85552884
+_cell_length_c   9.47451924
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   112.87830303
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   RbZnI3
+_chemical_formula_sum   'Rb2 Zn2 I6'
+_cell_volume   479.25122792
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Rb  Rb0  1  0.04087653  0.03807065  0.73955757  1
+  Rb  Rb1  1  0.95912347  0.53807065  0.26044243  1
+  Zn  Zn2  1  0.51480461  0.43982084  0.64127233  1
+  Zn  Zn3  1  0.48519539  0.93982084  0.35872767  1
+  I  I4  1  0.82685285  0.54535738  0.84557320  1
+  I  I5  1  0.22169478  0.53354210  0.68419501  1
+  I  I6  1  0.51240672  0.04306807  0.64242249  1
+  I  I7  1  0.48759328  0.54306807  0.35757751  1
+  I  I8  1  0.77830522  0.03354210  0.31580499  1
+  I  I9  1  0.17314715  0.04535738  0.15442680  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Nd2CrIrO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.41550000
+_cell_length_b   5.73058900
+_cell_length_c   9.42418354
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.37190409
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nd2CrIrO6
+_chemical_formula_sum   'Nd4 Cr2 Ir2 O12'
+_cell_volume   241.40207113
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  1  0.23035732  0.93313331  0.75011184  1
+  Nd  Nd1  1  0.76964268  0.43313331  0.74988816  1
+  Nd  Nd2  1  0.23035732  0.56686669  0.25011184  1
+  Nd  Nd3  1  0.76964268  0.06686669  0.24988816  1
+  Cr  Cr4  1  0.50000000  0.50000000  0.00000000  1
+  Cr  Cr5  1  0.50000000  0.00000000  0.50000000  1
+  Ir  Ir6  1  0.00000000  0.00000000  0.00000000  1
+  Ir  Ir7  1  0.00000000  0.50000000  0.50000000  1
+  O  O8  1  0.14703331  0.69470581  0.95010076  1
+  O  O9  1  0.25682511  0.20661655  0.94723779  1
+  O  O10  1  0.35758908  0.53125665  0.75392228  1
+  O  O11  1  0.64241092  0.03125665  0.74607772  1
+  O  O12  1  0.74317489  0.70661655  0.55276221  1
+  O  O13  1  0.85296669  0.19470581  0.54989924  1
+  O  O14  1  0.14703331  0.80529419  0.45010076  1
+  O  O15  1  0.25682511  0.29338345  0.44723779  1
+  O  O16  1  0.35758908  0.96874335  0.25392228  1
+  O  O17  1  0.64241092  0.46874335  0.24607772  1
+  O  O18  1  0.74317489  0.79338345  0.05276221  1
+  O  O19  1  0.85296669  0.30529419  0.04989924  1

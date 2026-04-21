@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Tb2YbMnO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.36986658
+_cell_length_b   5.72438826
+_cell_length_c   9.42167727
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.53914714
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb2YbMnO6
+_chemical_formula_sum   'Tb4 Yb2 Mn2 O12'
+_cell_volume   238.56703354
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.27435545  0.43263590  0.75402396  1
+  Tb  Tb1  1  0.72564455  0.93263590  0.74597604  1
+  Tb  Tb2  1  0.27435545  0.06736410  0.25402396  1
+  Tb  Tb3  1  0.72564455  0.56736410  0.24597604  1
+  Yb  Yb4  1  0.50000000  0.00000000  0.00000000  1
+  Yb  Yb5  1  0.50000000  0.50000000  0.50000000  1
+  Mn  Mn6  1  0.00000000  0.50000000  0.00000000  1
+  Mn  Mn7  1  0.00000000  0.00000000  0.50000000  1
+  O  O8  1  0.65386351  0.67579346  0.94499284  1
+  O  O9  1  0.75995178  0.21507204  0.92768966  1
+  O  O10  1  0.89641897  0.55495085  0.77099729  1
+  O  O11  1  0.10358103  0.05495085  0.72900271  1
+  O  O12  1  0.24004822  0.71507204  0.57231034  1
+  O  O13  1  0.34613649  0.17579346  0.55500716  1
+  O  O14  1  0.65386351  0.82420654  0.44499284  1
+  O  O15  1  0.75995178  0.28492796  0.42768966  1
+  O  O16  1  0.89641897  0.94504915  0.27099729  1
+  O  O17  1  0.10358103  0.44504915  0.22900271  1
+  O  O18  1  0.24004822  0.78492796  0.07231034  1
+  O  O19  1  0.34613649  0.32420654  0.05500716  1

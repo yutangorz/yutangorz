@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_SrPbO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.72417900
+_cell_length_b   6.63599600
+_cell_length_c   8.71239565
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   122.31164712
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   SrPbO3
+_chemical_formula_sum   'Sr4 Pb4 O12'
+_cell_volume   328.56281240
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.61169301  0.09167396  0.85877514  1
+  Sr  Sr1  1  0.38830699  0.59167396  0.64122486  1
+  Sr  Sr2  1  0.61169301  0.40832604  0.35877514  1
+  Sr  Sr3  1  0.38830699  0.90832604  0.14122486  1
+  Pb  Pb4  1  0.09568584  0.35927357  0.88985628  1
+  Pb  Pb5  1  0.90431416  0.85927357  0.61014372  1
+  Pb  Pb6  1  0.09568584  0.14072643  0.38985628  1
+  Pb  Pb7  1  0.90431416  0.64072643  0.11014372  1
+  O  O8  1  0.56530889  0.75661800  0.97323863  1
+  O  O9  1  0.77551655  0.43097042  0.87841849  1
+  O  O10  1  0.97110876  0.03222998  0.83552744  1
+  O  O11  1  0.02889124  0.53222998  0.66447256  1
+  O  O12  1  0.22448345  0.93097042  0.62158151  1
+  O  O13  1  0.43469111  0.25661800  0.52676137  1
+  O  O14  1  0.56530889  0.74338200  0.47323863  1
+  O  O15  1  0.77551655  0.06902958  0.37841849  1
+  O  O16  1  0.97110876  0.46777002  0.33552744  1
+  O  O17  1  0.02889124  0.96777002  0.16447256  1
+  O  O18  1  0.22448345  0.56902958  0.12158151  1
+  O  O19  1  0.43469111  0.24338200  0.02676137  1

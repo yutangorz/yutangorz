@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_LiTl2CoCl6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   11.89322975
+_cell_length_b   6.86811479
+_cell_length_c   6.86705154
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.25855160
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiTl2CoCl6
+_chemical_formula_sum   'Li2 Tl4 Co2 Cl12'
+_cell_volume   458.02936111
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.00000000  0.50000000  0.50000000  1
+  Li  Li1  1  0.50000000  0.00000000  0.50000000  1
+  Tl  Tl2  1  0.75008406  0.50000000  0.75004494  1
+  Tl  Tl3  1  0.24991594  0.50000000  0.24995506  1
+  Tl  Tl4  1  0.25008406  0.00000000  0.75004494  1
+  Tl  Tl5  1  0.74991594  0.00000000  0.24995506  1
+  Co  Co6  1  0.00000000  0.00000000  0.00000000  1
+  Co  Co7  1  0.50000000  0.50000000  0.00000000  1
+  Cl  Cl8  1  0.00046390  0.76604244  0.76643064  1
+  Cl  Cl9  1  0.00046390  0.23395756  0.76643064  1
+  Cl  Cl10  1  0.26598610  0.50000000  0.76516088  1
+  Cl  Cl11  1  0.73401390  0.50000000  0.23483912  1
+  Cl  Cl12  1  0.99953610  0.76604244  0.23356936  1
+  Cl  Cl13  1  0.99953610  0.23395756  0.23356936  1
+  Cl  Cl14  1  0.50046390  0.26604244  0.76643064  1
+  Cl  Cl15  1  0.50046390  0.73395756  0.76643064  1
+  Cl  Cl16  1  0.76598610  0.00000000  0.76516088  1
+  Cl  Cl17  1  0.23401390  0.00000000  0.23483912  1
+  Cl  Cl18  1  0.49953610  0.26604244  0.23356936  1
+  Cl  Cl19  1  0.49953610  0.73395756  0.23356936  1

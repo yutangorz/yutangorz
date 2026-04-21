@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Zr2CoNiO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.08356700
+_cell_length_b   5.47776300
+_cell_length_c   9.11562176
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   123.83046192
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Zr2CoNiO6
+_chemical_formula_sum   'Zr4 Co2 Ni2 O12'
+_cell_volume   210.86103424
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Zr  Zr0  1  0.71660579  0.91816760  0.75018158  1
+  Zr  Zr1  1  0.28339421  0.41816760  0.74981842  1
+  Zr  Zr2  1  0.71660579  0.58183240  0.25018158  1
+  Zr  Zr3  1  0.28339421  0.08183240  0.24981842  1
+  Co  Co4  1  0.00000000  0.50000000  0.00000000  1
+  Co  Co5  1  0.00000000  0.00000000  0.50000000  1
+  Ni  Ni6  1  0.50000000  0.00000000  0.00000000  1
+  Ni  Ni7  1  0.50000000  0.50000000  0.50000000  1
+  O  O8  1  0.74078852  0.18252004  0.92393987  1
+  O  O9  1  0.59961677  0.68547772  0.92210026  1
+  O  O10  1  0.09094674  0.07091608  0.75281357  1
+  O  O11  1  0.90905326  0.57091608  0.74718643  1
+  O  O12  1  0.40038323  0.18547772  0.57789974  1
+  O  O13  1  0.25921148  0.68252004  0.57606013  1
+  O  O14  1  0.74078852  0.31747996  0.42393987  1
+  O  O15  1  0.59961677  0.81452228  0.42210026  1
+  O  O16  1  0.09094674  0.42908392  0.25281357  1
+  O  O17  1  0.90905326  0.92908392  0.24718643  1
+  O  O18  1  0.40038323  0.31452228  0.07789974  1
+  O  O19  1  0.25921148  0.81747996  0.07606013  1

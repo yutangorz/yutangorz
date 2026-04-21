@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_YbEu2MoO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.60547200
+_cell_length_b   5.63315739
+_cell_length_c   5.66118062
+_cell_angle_alpha   90.30793202
+_cell_angle_beta   118.83818281
+_cell_angle_gamma   119.44698861
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbEu2MoO6
+_chemical_formula_sum   'Yb1 Eu2 Mo1 O6'
+_cell_volume   129.28763444
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.00000000  0.00000000  0.00000000  1
+  Eu  Eu1  1  0.50882006  0.74143547  0.27062309  1
+  Eu  Eu2  1  0.49117994  0.25856453  0.72937691  1
+  Mo  Mo3  1  0.00000000  0.50000000  0.50000000  1
+  O  O4  1  0.92049632  0.29945002  0.16628976  1
+  O  O5  1  0.53144722  0.32280821  0.31757479  1
+  O  O6  1  0.02273206  0.81026618  0.34833501  1
+  O  O7  1  0.97726794  0.18973382  0.65166499  1
+  O  O8  1  0.46855278  0.67719179  0.68242521  1
+  O  O9  1  0.07950368  0.70054998  0.83371024  1

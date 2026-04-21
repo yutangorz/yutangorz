@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_LaEu2SbO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.74601300
+_cell_length_b   5.86945925
+_cell_length_c   5.91626402
+_cell_angle_alpha   90.44859225
+_cell_angle_beta   118.86618678
+_cell_angle_gamma   119.27855110
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LaEu2SbO6
+_chemical_formula_sum   'La1 Eu2 Sb1 O6'
+_cell_volume   144.43726528
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.00000000  0.00000000  0.50000000  1
+  Eu  Eu1  1  0.48668388  0.25631811  0.21944860  1
+  Eu  Eu2  1  0.51331612  0.74368189  0.78055140  1
+  Sb  Sb3  1  0.00000000  0.50000000  0.00000000  1
+  O  O4  1  0.86650725  0.18437124  0.14357531  1
+  O  O5  1  0.85957608  0.65481906  0.16846382  1
+  O  O6  1  0.44713444  0.70939169  0.34205809  1
+  O  O7  1  0.55286556  0.29060831  0.65794191  1
+  O  O8  1  0.14042392  0.34518094  0.83153618  1
+  O  O9  1  0.13349275  0.81562876  0.85642469  1

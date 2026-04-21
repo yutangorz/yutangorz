@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Na2CrReO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.30978683
+_cell_length_b   5.37959194
+_cell_length_c   9.24244351
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.07532747
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2CrReO6
+_chemical_formula_sum   'Na4 Cr2 Re2 O12'
+_cell_volume   216.06149940
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.25692998  0.03358061  0.24932707  1
+  Na  Na1  1  0.74307002  0.53358061  0.25067293  1
+  Na  Na2  1  0.25692998  0.46641939  0.74932707  1
+  Na  Na3  1  0.74307002  0.96641939  0.75067293  1
+  Cr  Cr4  1  0.00000000  0.50000000  0.00000000  1
+  Cr  Cr5  1  0.00000000  0.00000000  0.50000000  1
+  Re  Re6  1  0.50000000  0.00000000  0.00000000  1
+  Re  Re7  1  0.50000000  0.50000000  0.50000000  1
+  O  O8  1  0.25241283  0.79403606  0.03571760  1
+  O  O9  1  0.33245207  0.28243592  0.03665361  1
+  O  O10  1  0.81496952  0.98751728  0.24409174  1
+  O  O11  1  0.18503048  0.48751728  0.25590826  1
+  O  O12  1  0.66754793  0.78243592  0.46334639  1
+  O  O13  1  0.74758717  0.29403606  0.46428240  1
+  O  O14  1  0.25241283  0.70596394  0.53571760  1
+  O  O15  1  0.33245207  0.21756408  0.53665361  1
+  O  O16  1  0.81496952  0.51248272  0.74409174  1
+  O  O17  1  0.18503048  0.01248272  0.75590826  1
+  O  O18  1  0.66754793  0.71756408  0.96334639  1
+  O  O19  1  0.74758717  0.20596394  0.96428240  1

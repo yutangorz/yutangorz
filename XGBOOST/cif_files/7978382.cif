@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_LiCa2NiH6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.02121241
+_cell_length_b   5.02129525
+_cell_length_c   8.69627023
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.26807116
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiCa2NiH6
+_chemical_formula_sum   'Li2 Ca4 Ni2 H12'
+_cell_volume   179.01606884
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.50000000  0.00000000  0.00000000  1
+  Li  Li1  1  0.50000000  0.50000000  0.50000000  1
+  Ca  Ca2  1  0.74997742  0.50000000  0.24999718  1
+  Ca  Ca3  1  0.25002258  0.00000000  0.25000282  1
+  Ca  Ca4  1  0.74997742  0.00000000  0.74999718  1
+  Ca  Ca5  1  0.25002258  0.50000000  0.75000282  1
+  Ni  Ni6  1  0.00000000  0.50000000  0.00000000  1
+  Ni  Ni7  1  0.00000000  0.00000000  0.50000000  1
+  H  H8  1  0.23711177  0.26002009  0.00038704  1
+  H  H9  1  0.76084529  0.26325033  0.00077436  1
+  H  H10  1  0.23956061  0.50020418  0.23838476  1
+  H  H11  1  0.76043939  0.00020418  0.26161524  1
+  H  H12  1  0.23915471  0.76325033  0.49922564  1
+  H  H13  1  0.76288823  0.76002009  0.49961296  1
+  H  H14  1  0.23711177  0.23997991  0.50038704  1
+  H  H15  1  0.76084529  0.23674967  0.50077436  1
+  H  H16  1  0.23956061  0.99979582  0.73838476  1
+  H  H17  1  0.76043939  0.49979582  0.76161524  1
+  H  H18  1  0.23915471  0.73674967  0.99922564  1
+  H  H19  1  0.76288823  0.73997991  0.99961296  1

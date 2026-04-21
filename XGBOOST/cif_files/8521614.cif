@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Nd2VCoO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.44448200
+_cell_length_b   5.62610000
+_cell_length_c   9.37928165
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.12919043
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nd2VCoO6
+_chemical_formula_sum   'Nd4 V2 Co2 O12'
+_cell_volume   234.96911850
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  1  0.76679276  0.05953325  0.75083497  1
+  Nd  Nd1  1  0.23320724  0.55953325  0.74916503  1
+  Nd  Nd2  1  0.76679276  0.44046675  0.25083497  1
+  Nd  Nd3  1  0.23320724  0.94046675  0.24916503  1
+  V  V4  1  0.50000000  0.00000000  0.00000000  1
+  V  V5  1  0.50000000  0.50000000  0.50000000  1
+  Co  Co6  1  0.00000000  0.50000000  0.00000000  1
+  Co  Co7  1  0.00000000  0.00000000  0.50000000  1
+  O  O8  1  0.16210760  0.80174721  0.95381355  1
+  O  O9  1  0.25293594  0.28772329  0.94871507  1
+  O  O10  1  0.35108287  0.98064201  0.76013765  1
+  O  O11  1  0.64891713  0.48064201  0.73986235  1
+  O  O12  1  0.74706406  0.78772329  0.55128493  1
+  O  O13  1  0.83789240  0.30174721  0.54618645  1
+  O  O14  1  0.16210760  0.69825279  0.45381355  1
+  O  O15  1  0.25293594  0.21227671  0.44871507  1
+  O  O16  1  0.35108287  0.51935799  0.26013765  1
+  O  O17  1  0.64891713  0.01935799  0.23986235  1
+  O  O18  1  0.74706406  0.71227671  0.05128493  1
+  O  O19  1  0.83789240  0.19825279  0.04618645  1

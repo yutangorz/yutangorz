@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Tb2CoCuO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.24329880
+_cell_length_b   5.58085921
+_cell_length_c   9.05730338
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.10171052
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb2CoCuO6
+_chemical_formula_sum   'Tb4 Co2 Cu2 O12'
+_cell_volume   216.83443925
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.27167680  0.07404580  0.75034548  1
+  Tb  Tb1  1  0.72832320  0.57404580  0.74965452  1
+  Tb  Tb2  1  0.27167680  0.42595420  0.25034548  1
+  Tb  Tb3  1  0.72832320  0.92595420  0.24965452  1
+  Co  Co4  1  0.00000000  0.00000000  0.00000000  1
+  Co  Co5  1  0.00000000  0.50000000  0.50000000  1
+  Cu  Cu6  1  0.50000000  0.50000000  0.00000000  1
+  Cu  Cu7  1  0.50000000  0.00000000  0.50000000  1
+  O  O8  1  0.64386649  0.80250890  0.94961742  1
+  O  O9  1  0.75206928  0.30226156  0.94709248  1
+  O  O10  1  0.85523010  0.97407926  0.75532113  1
+  O  O11  1  0.14476990  0.47407926  0.74467887  1
+  O  O12  1  0.24793072  0.80226156  0.55290752  1
+  O  O13  1  0.35613351  0.30250890  0.55038258  1
+  O  O14  1  0.64386649  0.69749110  0.44961742  1
+  O  O15  1  0.75206928  0.19773844  0.44709248  1
+  O  O16  1  0.85523010  0.52592074  0.25532113  1
+  O  O17  1  0.14476990  0.02592074  0.24467887  1
+  O  O18  1  0.24793072  0.69773844  0.05290752  1
+  O  O19  1  0.35613351  0.19749110  0.05038258  1

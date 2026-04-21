@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_NaMgF3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.21644900
+_cell_length_b   5.41622577
+_cell_length_c   7.50063000
+_cell_angle_alpha   89.94389088
+_cell_angle_beta   89.66833692
+_cell_angle_gamma   89.63521762
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaMgF3
+_chemical_formula_sum   'Na4 Mg4 F12'
+_cell_volume   211.91085145
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.48498289  0.44347744  0.24964466  1
+  Na  Na1  1  0.01665893  0.94357806  0.25063659  1
+  Na  Na2  1  0.98334107  0.05642194  0.74936341  1
+  Na  Na3  1  0.51501711  0.55652256  0.75035534  1
+  Mg  Mg4  1  0.50000000  0.00000000  0.00000000  1
+  Mg  Mg5  1  0.00000000  0.50000000  0.00000000  1
+  Mg  Mg6  1  0.50000000  0.00000000  0.50000000  1
+  Mg  Mg7  1  0.00000000  0.50000000  0.50000000  1
+  F  F8  1  0.30259533  0.70124312  0.05034597  1
+  F  F9  1  0.19736224  0.20167055  0.05218451  1
+  F  F10  1  0.59923037  0.02906441  0.24950733  1
+  F  F11  1  0.90124302  0.53155987  0.25040194  1
+  F  F12  1  0.19740225  0.20112766  0.44833405  1
+  F  F13  1  0.30299836  0.70149397  0.44946598  1
+  F  F14  1  0.69700164  0.29850603  0.55053402  1
+  F  F15  1  0.80259775  0.79887234  0.55166595  1
+  F  F16  1  0.09875698  0.46844013  0.74959806  1
+  F  F17  1  0.40076963  0.97093559  0.75049267  1
+  F  F18  1  0.80263776  0.79832945  0.94781549  1
+  F  F19  1  0.69740467  0.29875688  0.94965403  1

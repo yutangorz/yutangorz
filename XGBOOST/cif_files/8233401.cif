@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Tb2MnCuO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.26883100
+_cell_length_b   5.64577200
+_cell_length_c   9.03004861
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.41152793
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb2MnCuO6
+_chemical_formula_sum   'Tb4 Mn2 Cu2 O12'
+_cell_volume   218.92294614
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.26975136  0.07555211  0.75033222  1
+  Tb  Tb1  1  0.73024864  0.57555211  0.74966778  1
+  Tb  Tb2  1  0.26975136  0.42444789  0.25033222  1
+  Tb  Tb3  1  0.73024864  0.92444789  0.24966778  1
+  Mn  Mn4  1  0.00000000  0.00000000  0.00000000  1
+  Mn  Mn5  1  0.00000000  0.50000000  0.50000000  1
+  Cu  Cu6  1  0.50000000  0.50000000  0.00000000  1
+  Cu  Cu7  1  0.50000000  0.00000000  0.50000000  1
+  O  O8  1  0.65257587  0.82072035  0.94875629  1
+  O  O9  1  0.76772298  0.29249676  0.94668280  1
+  O  O10  1  0.14495571  0.46677053  0.75029282  1
+  O  O11  1  0.85504429  0.96677053  0.74970718  1
+  O  O12  1  0.23227702  0.79249676  0.55331720  1
+  O  O13  1  0.34742413  0.32072035  0.55124371  1
+  O  O14  1  0.65257587  0.67927965  0.44875629  1
+  O  O15  1  0.76772298  0.20750324  0.44668280  1
+  O  O16  1  0.14495571  0.03322947  0.25029282  1
+  O  O17  1  0.85504429  0.53322947  0.24970718  1
+  O  O18  1  0.23227702  0.70750324  0.05331720  1
+  O  O19  1  0.34742413  0.17927965  0.05124371  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Eu2NiTeO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.54831180
+_cell_length_b   5.43827686
+_cell_length_c   9.48228128
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.49178333
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Eu2NiTeO6
+_chemical_formula_sum   'Eu4 Ni2 Te2 O12'
+_cell_volume   232.95147143
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  1  0.24467345  0.48162895  0.75098245  1
+  Eu  Eu1  1  0.75532655  0.98162895  0.74901755  1
+  Eu  Eu2  1  0.24467345  0.01837105  0.25098245  1
+  Eu  Eu3  1  0.75532655  0.51837105  0.24901755  1
+  Ni  Ni4  1  0.50000000  0.00000000  0.00000000  1
+  Ni  Ni5  1  0.50000000  0.50000000  0.50000000  1
+  Te  Te6  1  0.00000000  0.50000000  0.00000000  1
+  Te  Te7  1  0.00000000  0.00000000  0.50000000  1
+  O  O8  1  0.21697377  0.72812373  0.95767734  1
+  O  O9  1  0.18110147  0.23578453  0.95760092  1
+  O  O10  1  0.67985154  0.50783152  0.75716084  1
+  O  O11  1  0.32014846  0.00783152  0.74283916  1
+  O  O12  1  0.81889853  0.73578453  0.54239908  1
+  O  O13  1  0.78302623  0.22812373  0.54232266  1
+  O  O14  1  0.21697377  0.77187627  0.45767734  1
+  O  O15  1  0.18110147  0.26421547  0.45760092  1
+  O  O16  1  0.67985154  0.99216848  0.25716084  1
+  O  O17  1  0.32014846  0.49216848  0.24283916  1
+  O  O18  1  0.81889853  0.76421547  0.04239908  1
+  O  O19  1  0.78302623  0.27187627  0.04232266  1

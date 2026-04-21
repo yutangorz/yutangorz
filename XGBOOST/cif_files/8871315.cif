@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_NiMo(PbO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.67688039
+_cell_length_b   5.59113790
+_cell_length_c   5.66764896
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.53302348
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NiMo(PbO3)2
+_chemical_formula_sum   'Ni2 Mo2 Pb4 O12'
+_cell_volume   249.54329054
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ni  Ni0  1  0.50000000  0.00000000  0.50000000  1
+  Ni  Ni1  1  0.00000000  0.50000000  0.50000000  1
+  Mo  Mo2  1  0.00000000  0.00000000  0.00000000  1
+  Mo  Mo3  1  0.50000000  0.50000000  0.00000000  1
+  Pb  Pb4  1  0.74912517  0.50000000  0.75544766  1
+  Pb  Pb5  1  0.75087483  0.00000000  0.24455234  1
+  Pb  Pb6  1  0.24912517  0.00000000  0.75544766  1
+  Pb  Pb7  1  0.25087483  0.50000000  0.24455234  1
+  O  O8  1  0.03355629  0.75552759  0.79289164  1
+  O  O9  1  0.03355629  0.24447241  0.79289164  1
+  O  O10  1  0.75856925  0.00000000  0.69836889  1
+  O  O11  1  0.74143075  0.50000000  0.30163111  1
+  O  O12  1  0.46644371  0.25552759  0.20710836  1
+  O  O13  1  0.46644371  0.74447241  0.20710836  1
+  O  O14  1  0.53355629  0.25552759  0.79289164  1
+  O  O15  1  0.53355629  0.74447241  0.79289164  1
+  O  O16  1  0.25856925  0.50000000  0.69836889  1
+  O  O17  1  0.24143075  0.00000000  0.30163111  1
+  O  O18  1  0.96644371  0.75552759  0.20710836  1
+  O  O19  1  0.96644371  0.24447241  0.20710836  1

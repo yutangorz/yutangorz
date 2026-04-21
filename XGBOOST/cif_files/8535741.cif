@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Na2LiRhF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.16504100
+_cell_length_b   5.32400900
+_cell_length_c   8.98214902
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.79223752
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2LiRhF6
+_chemical_formula_sum   'Na4 Li2 Rh2 F12'
+_cell_volume   202.84101600
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.77317484  0.42832300  0.75276626  1
+  Na  Na1  1  0.22682516  0.92832300  0.74723374  1
+  Na  Na2  1  0.77317484  0.07167700  0.25276626  1
+  Na  Na3  1  0.22682516  0.57167700  0.24723374  1
+  Li  Li4  1  0.00000000  0.00000000  0.00000000  1
+  Li  Li5  1  0.00000000  0.50000000  0.50000000  1
+  Rh  Rh6  1  0.50000000  0.50000000  0.00000000  1
+  Rh  Rh7  1  0.50000000  0.00000000  0.50000000  1
+  F  F8  1  0.12911055  0.69672581  0.94472088  1
+  F  F9  1  0.25247569  0.18885496  0.94367429  1
+  F  F10  1  0.64182340  0.02971924  0.75487434  1
+  F  F11  1  0.35817660  0.52971924  0.74512566  1
+  F  F12  1  0.74752431  0.68885496  0.55632571  1
+  F  F13  1  0.87088945  0.19672581  0.55527912  1
+  F  F14  1  0.12911055  0.80327419  0.44472088  1
+  F  F15  1  0.25247569  0.31114504  0.44367429  1
+  F  F16  1  0.64182340  0.47028076  0.25487434  1
+  F  F17  1  0.35817660  0.97028076  0.24512566  1
+  F  F18  1  0.74752431  0.81114504  0.05632571  1
+  F  F19  1  0.87088945  0.30327419  0.05527912  1

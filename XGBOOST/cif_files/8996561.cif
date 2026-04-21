@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_CrCo(BiO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.36959153
+_cell_length_b   5.54289652
+_cell_length_c   9.36132949
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.93925898
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CrCo(BiO3)2
+_chemical_formula_sum   'Cr2 Co2 Bi4 O12'
+_cell_volume   228.40315028
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cr  Cr0  1  0.00000000  0.00000000  0.00000000  1
+  Cr  Cr1  1  0.00000000  0.50000000  0.50000000  1
+  Co  Co2  1  0.50000000  0.50000000  0.00000000  1
+  Co  Co3  1  0.50000000  0.00000000  0.50000000  1
+  Bi  Bi4  1  0.74101851  0.55264576  0.75047954  1
+  Bi  Bi5  1  0.25898149  0.05264576  0.74952046  1
+  Bi  Bi6  1  0.74101851  0.94735424  0.25047954  1
+  Bi  Bi7  1  0.25898149  0.44735424  0.24952046  1
+  O  O8  1  0.75395938  0.29993195  0.95934605  1
+  O  O9  1  0.65529682  0.79061160  0.95788789  1
+  O  O10  1  0.17008275  0.47750517  0.75502473  1
+  O  O11  1  0.82991725  0.97750517  0.74497527  1
+  O  O12  1  0.34470318  0.29061160  0.54211211  1
+  O  O13  1  0.24604062  0.79993195  0.54065395  1
+  O  O14  1  0.75395938  0.20006805  0.45934605  1
+  O  O15  1  0.65529682  0.70938840  0.45788789  1
+  O  O16  1  0.17008275  0.02249483  0.25502473  1
+  O  O17  1  0.82991725  0.52249483  0.24497527  1
+  O  O18  1  0.34470318  0.20938840  0.04211211  1
+  O  O19  1  0.24604062  0.70006805  0.04065395  1

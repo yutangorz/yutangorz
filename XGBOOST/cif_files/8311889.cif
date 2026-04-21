@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Eu2TmNbO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.81915600
+_cell_length_b   5.72701200
+_cell_length_c   5.75775251
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.84506302
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Eu2TmNbO6
+_chemical_formula_sum   'Eu4 Tm2 Nb2 O12'
+_cell_volume   265.72947371
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  1  0.74827699  0.50000000  0.72680254  1
+  Eu  Eu1  1  0.25172301  0.50000000  0.27319746  1
+  Eu  Eu2  1  0.24827699  0.00000000  0.72680254  1
+  Eu  Eu3  1  0.75172301  0.00000000  0.27319746  1
+  Tm  Tm4  1  0.00000000  0.00000000  0.00000000  1
+  Tm  Tm5  1  0.50000000  0.50000000  0.00000000  1
+  Nb  Nb6  1  0.00000000  0.50000000  0.50000000  1
+  Nb  Nb7  1  0.50000000  0.00000000  0.50000000  1
+  O  O8  1  0.23623925  0.50000000  0.84271048  1
+  O  O9  1  0.93868523  0.25731656  0.67619929  1
+  O  O10  1  0.93868523  0.74268344  0.67619929  1
+  O  O11  1  0.06131477  0.25731656  0.32380071  1
+  O  O12  1  0.06131477  0.74268344  0.32380071  1
+  O  O13  1  0.76376075  0.50000000  0.15728952  1
+  O  O14  1  0.73623925  0.00000000  0.84271048  1
+  O  O15  1  0.43868523  0.75731656  0.67619929  1
+  O  O16  1  0.43868523  0.24268344  0.67619929  1
+  O  O17  1  0.56131477  0.75731656  0.32380071  1
+  O  O18  1  0.56131477  0.24268344  0.32380071  1
+  O  O19  1  0.26376075  0.00000000  0.15728952  1

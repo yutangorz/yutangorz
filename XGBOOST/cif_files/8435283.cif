@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Sm2NiSnO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.44966900
+_cell_length_b   5.73294800
+_cell_length_c   9.48589624
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.26739929
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sm2NiSnO6
+_chemical_formula_sum   'Sm4 Ni2 Sn2 O12'
+_cell_volume   244.92137362
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  1  0.77028822  0.06482180  0.75068756  1
+  Sm  Sm1  1  0.22971178  0.56482180  0.74931244  1
+  Sm  Sm2  1  0.77028822  0.43517820  0.25068756  1
+  Sm  Sm3  1  0.22971178  0.93517820  0.24931244  1
+  Ni  Ni4  1  0.00000000  0.50000000  0.00000000  1
+  Ni  Ni5  1  0.00000000  0.00000000  0.50000000  1
+  Sn  Sn6  1  0.50000000  0.00000000  0.00000000  1
+  Sn  Sn7  1  0.50000000  0.50000000  0.50000000  1
+  O  O8  1  0.13651662  0.80407497  0.94286997  1
+  O  O9  1  0.24806243  0.30150631  0.94145786  1
+  O  O10  1  0.63815546  0.45993091  0.75111617  1
+  O  O11  1  0.36184454  0.95993091  0.74888383  1
+  O  O12  1  0.75193757  0.80150631  0.55854214  1
+  O  O13  1  0.86348338  0.30407497  0.55713003  1
+  O  O14  1  0.13651662  0.69592503  0.44286997  1
+  O  O15  1  0.24806243  0.19849369  0.44145786  1
+  O  O16  1  0.63815546  0.04006909  0.25111617  1
+  O  O17  1  0.36184454  0.54006909  0.24888383  1
+  O  O18  1  0.75193757  0.69849369  0.05854214  1
+  O  O19  1  0.86348338  0.19592503  0.05713003  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_K2NaTcF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.81045786
+_cell_length_b   5.81762702
+_cell_length_c   8.21695219
+_cell_angle_alpha   89.88011909
+_cell_angle_beta   89.96924007
+_cell_angle_gamma   89.94978104
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2NaTcF6
+_chemical_formula_sum   'K4 Na2 Tc2 F12'
+_cell_volume   277.75751024
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.49963967  0.50056320  0.24978785  1
+  K  K1  1  0.99941294  0.99952808  0.25004098  1
+  K  K2  1  0.00058706  0.00047192  0.74995902  1
+  K  K3  1  0.50036033  0.49943680  0.75021215  1
+  Na  Na4  1  0.00000000  0.50000000  0.00000000  1
+  Na  Na5  1  0.50000000  0.00000000  0.50000000  1
+  Tc  Tc6  1  0.50000000  0.00000000  0.00000000  1
+  Tc  Tc7  1  0.00000000  0.50000000  0.50000000  1
+  F  F8  1  0.25901281  0.24630155  0.00013874  1
+  F  F9  1  0.74743669  0.24205372  0.00085433  1
+  F  F10  1  0.49830200  0.00060828  0.24339495  1
+  F  F11  1  0.00066101  0.49962916  0.25641319  1
+  F  F12  1  0.75060437  0.26110943  0.49891730  1
+  F  F13  1  0.75947446  0.74882481  0.49978623  1
+  F  F14  1  0.24052554  0.25117519  0.50021377  1
+  F  F15  1  0.24939563  0.73889057  0.50108270  1
+  F  F16  1  0.99933899  0.50037084  0.74358681  1
+  F  F17  1  0.50169800  0.99939172  0.75660505  1
+  F  F18  1  0.25256331  0.75794628  0.99914567  1
+  F  F19  1  0.74098719  0.75369845  0.99986126  1

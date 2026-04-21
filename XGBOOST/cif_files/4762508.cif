@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_TbFeO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.30126100
+_cell_length_b   5.60403900
+_cell_length_c   7.62235500
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TbFeO3
+_chemical_formula_sum   'Tb4 Fe4 O12'
+_cell_volume   226.44853071
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.01831842  0.56849520  0.25000000  1
+  Tb  Tb1  1  0.48168158  0.06849520  0.25000000  1
+  Tb  Tb2  1  0.51831842  0.93150480  0.75000000  1
+  Tb  Tb3  1  0.98168158  0.43150480  0.75000000  1
+  Fe  Fe4  1  0.00000000  0.00000000  0.00000000  1
+  Fe  Fe5  1  0.00000000  0.00000000  0.50000000  1
+  Fe  Fe6  1  0.50000000  0.50000000  0.00000000  1
+  Fe  Fe7  1  0.50000000  0.50000000  0.50000000  1
+  O  O8  1  0.11197718  0.03879519  0.75000000  1
+  O  O9  1  0.19230514  0.30457135  0.05727233  1
+  O  O10  1  0.19230514  0.30457135  0.44272767  1
+  O  O11  1  0.30769486  0.80457135  0.05727233  1
+  O  O12  1  0.30769486  0.80457135  0.44272767  1
+  O  O13  1  0.38802282  0.53879519  0.75000000  1
+  O  O14  1  0.61197718  0.46120481  0.25000000  1
+  O  O15  1  0.69230514  0.19542865  0.55727233  1
+  O  O16  1  0.69230514  0.19542865  0.94272767  1
+  O  O17  1  0.80769486  0.69542865  0.55727233  1
+  O  O18  1  0.80769486  0.69542865  0.94272767  1
+  O  O19  1  0.88802282  0.96120481  0.25000000  1

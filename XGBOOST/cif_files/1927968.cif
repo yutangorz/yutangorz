@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_NaLa2TaO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.66960446
+_cell_length_b   5.95628300
+_cell_length_c   9.83605559
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.37596996
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaLa2TaO6
+_chemical_formula_sum   'Na2 La4 Ta2 O12'
+_cell_volume   274.14947144
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.50000000  0.50000000  0.00000000  1
+  Na  Na1  1  0.50000000  0.00000000  0.50000000  1
+  La  La2  1  0.26947864  0.05936563  0.75394571  1
+  La  La3  1  0.73052136  0.55936563  0.74605429  1
+  La  La4  1  0.26947864  0.44063437  0.25394571  1
+  La  La5  1  0.73052136  0.94063437  0.24605429  1
+  Ta  Ta6  1  0.00000000  0.00000000  0.00000000  1
+  Ta  Ta7  1  0.00000000  0.50000000  0.50000000  1
+  O  O8  1  0.65958941  0.82484017  0.94841931  1
+  O  O9  1  0.76300460  0.28107101  0.93155259  1
+  O  O10  1  0.88563420  0.94835177  0.76923077  1
+  O  O11  1  0.11436580  0.44835177  0.73076923  1
+  O  O12  1  0.23699540  0.78107101  0.56844741  1
+  O  O13  1  0.34041059  0.32484017  0.55158069  1
+  O  O14  1  0.65958941  0.67515983  0.44841931  1
+  O  O15  1  0.76300460  0.21892899  0.43155259  1
+  O  O16  1  0.88563420  0.55164823  0.26923077  1
+  O  O17  1  0.11436580  0.05164823  0.23076923  1
+  O  O18  1  0.23699540  0.71892899  0.06844741  1
+  O  O19  1  0.34041059  0.17515983  0.05158069  1

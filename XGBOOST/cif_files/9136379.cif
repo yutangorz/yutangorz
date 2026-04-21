@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Sr2DyBiO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.89264468
+_cell_length_b   5.93084256
+_cell_length_c   5.95447617
+_cell_angle_alpha   90.54847719
+_cell_angle_beta   119.26107785
+_cell_angle_gamma   119.73084300
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2DyBiO6
+_chemical_formula_sum   'Sr2 Dy1 Bi1 O6'
+_cell_volume   148.67208322
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.51436935  0.25121699  0.26733018  1
+  Sr  Sr1  1  0.48563065  0.74878301  0.73266982  1
+  Dy  Dy2  1  0.00000000  0.50000000  0.00000000  1
+  Bi  Bi3  1  0.00000000  0.00000000  0.50000000  1
+  O  O4  1  0.89751417  0.75733585  0.15712841  1
+  O  O5  1  0.51212951  0.81938604  0.31013346  1
+  O  O6  1  0.01851153  0.30836988  0.32093788  1
+  O  O7  1  0.98148847  0.69163012  0.67906212  1
+  O  O8  1  0.48787049  0.18061396  0.68986654  1
+  O  O9  1  0.10248583  0.24266415  0.84287159  1

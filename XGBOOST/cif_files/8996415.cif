@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ce2MnCuO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.54013322
+_cell_length_b   5.58851744
+_cell_length_c   9.34707114
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.95915123
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce2MnCuO6
+_chemical_formula_sum   'Ce4 Mn2 Cu2 O12'
+_cell_volume   234.24741168
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.74256964  0.04027319  0.75025179  1
+  Ce  Ce1  1  0.25743036  0.54027319  0.74974821  1
+  Ce  Ce2  1  0.74256964  0.45972681  0.25025179  1
+  Ce  Ce3  1  0.25743036  0.95972681  0.24974821  1
+  Mn  Mn4  1  0.50000000  0.00000000  0.00000000  1
+  Mn  Mn5  1  0.50000000  0.50000000  0.50000000  1
+  Cu  Cu6  1  0.00000000  0.50000000  0.00000000  1
+  Cu  Cu7  1  0.00000000  0.00000000  0.50000000  1
+  O  O8  1  0.72994805  0.79321170  0.96037611  1
+  O  O9  1  0.66666667  0.27184266  0.96020428  1
+  O  O10  1  0.17486013  0.98516780  0.75031259  1
+  O  O11  1  0.82513987  0.48516780  0.74968741  1
+  O  O12  1  0.33339214  0.77184266  0.53979572  1
+  O  O13  1  0.27005195  0.29321170  0.53962389  1
+  O  O14  1  0.72994805  0.70678830  0.46037611  1
+  O  O15  1  0.66666667  0.22815734  0.46020428  1
+  O  O16  1  0.17486013  0.51483220  0.25031259  1
+  O  O17  1  0.82513987  0.01483220  0.24968741  1
+  O  O18  1  0.33339214  0.72815734  0.03979572  1
+  O  O19  1  0.27005195  0.20678830  0.03962389  1

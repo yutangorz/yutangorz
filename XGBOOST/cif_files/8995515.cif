@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Tb2NiGeO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.25039090
+_cell_length_b   5.53922101
+_cell_length_c   9.13709770
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.59568794
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb2NiGeO6
+_chemical_formula_sum   'Tb4 Ni2 Ge2 O12'
+_cell_volume   218.74741882
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.26912111  0.06782353  0.75043143  1
+  Tb  Tb1  1  0.73087889  0.56782353  0.74956857  1
+  Tb  Tb2  1  0.26912111  0.43217647  0.25043143  1
+  Tb  Tb3  1  0.73087889  0.93217647  0.24956857  1
+  Ni  Ni4  1  0.50000000  0.50000000  0.00000000  1
+  Ni  Ni5  1  0.50000000  0.00000000  0.50000000  1
+  Ge  Ge6  1  0.00000000  0.00000000  0.00000000  1
+  Ge  Ge7  1  0.00000000  0.50000000  0.50000000  1
+  O  O8  1  0.65421677  0.81238689  0.94937265  1
+  O  O9  1  0.76034848  0.29172866  0.94499186  1
+  O  O10  1  0.86235114  0.96830773  0.75859074  1
+  O  O11  1  0.13764886  0.46830773  0.74140926  1
+  O  O12  1  0.23965152  0.79172866  0.55500814  1
+  O  O13  1  0.34578323  0.31238689  0.55062735  1
+  O  O14  1  0.65421677  0.68761311  0.44937265  1
+  O  O15  1  0.76034848  0.20827134  0.44499186  1
+  O  O16  1  0.86235114  0.53169227  0.25859074  1
+  O  O17  1  0.13764886  0.03169227  0.24140926  1
+  O  O18  1  0.23965152  0.70827134  0.05500814  1
+  O  O19  1  0.34578323  0.18761311  0.05062735  1

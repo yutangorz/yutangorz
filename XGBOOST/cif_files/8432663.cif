@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_YbSeO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.39693800
+_cell_length_b   6.22758800
+_cell_length_c   8.10303200
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbSeO3
+_chemical_formula_sum   'Yb4 Se4 O12'
+_cell_volume   272.34214647
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.00000000  0.00000000  0.00000000  1
+  Yb  Yb1  1  0.00000000  0.00000000  0.50000000  1
+  Yb  Yb2  1  0.50000000  0.50000000  0.00000000  1
+  Yb  Yb3  1  0.50000000  0.50000000  0.50000000  1
+  Se  Se4  1  0.01570511  0.51731601  0.25000000  1
+  Se  Se5  1  0.48429489  0.01731601  0.25000000  1
+  Se  Se6  1  0.51570511  0.98268399  0.75000000  1
+  Se  Se7  1  0.98429489  0.48268399  0.75000000  1
+  O  O8  1  0.13501721  0.66938773  0.08804112  1
+  O  O9  1  0.13501721  0.66938773  0.41195888  1
+  O  O10  1  0.20315751  0.91931595  0.75000000  1
+  O  O11  1  0.29684249  0.41931595  0.75000000  1
+  O  O12  1  0.36498279  0.16938773  0.08804112  1
+  O  O13  1  0.36498279  0.16938773  0.41195888  1
+  O  O14  1  0.63501721  0.83061227  0.58804112  1
+  O  O15  1  0.63501721  0.83061227  0.91195888  1
+  O  O16  1  0.70315751  0.58068405  0.25000000  1
+  O  O17  1  0.79684249  0.08068405  0.25000000  1
+  O  O18  1  0.86498279  0.33061227  0.58804112  1
+  O  O19  1  0.86498279  0.33061227  0.91195888  1

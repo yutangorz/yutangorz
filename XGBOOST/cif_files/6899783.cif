@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Sr2LiCuH6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.29597074
+_cell_length_b   5.29606194
+_cell_length_c   7.49133340
+_cell_angle_alpha   89.99576991
+_cell_angle_beta   89.99851256
+_cell_angle_gamma   89.99833329
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2LiCuH6
+_chemical_formula_sum   'Sr4 Li2 Cu2 H12'
+_cell_volume   210.11533833
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.50010167  0.99987967  0.24997286  1
+  Sr  Sr1  1  0.00007492  0.49994557  0.24998354  1
+  Sr  Sr2  1  0.99992508  0.50005443  0.75001646  1
+  Sr  Sr3  1  0.49989833  0.00012033  0.75002714  1
+  Li  Li4  1  0.50000000  0.50000000  0.00000000  1
+  Li  Li5  1  0.00000000  0.00000000  0.50000000  1
+  Cu  Cu6  1  0.00000000  0.00000000  0.00000000  1
+  Cu  Cu7  1  0.50000000  0.50000000  0.50000000  1
+  H  H8  1  0.24099728  0.24549577  0.00030969  1
+  H  H9  1  0.24555184  0.75920575  0.00057133  1
+  H  H10  1  0.99925511  0.00030145  0.24311693  1
+  H  H11  1  0.50091771  0.49937651  0.25687416  1
+  H  H12  1  0.25320975  0.73920298  0.49937172  1
+  H  H13  1  0.26068238  0.25295485  0.49979888  1
+  H  H14  1  0.73931762  0.74704515  0.50020112  1
+  H  H15  1  0.74679025  0.26079702  0.50062828  1
+  H  H16  1  0.49908229  0.50062349  0.74312584  1
+  H  H17  1  0.00074489  0.99969855  0.75688307  1
+  H  H18  1  0.75444816  0.24079425  0.99942867  1
+  H  H19  1  0.75900272  0.75450423  0.99969031  1

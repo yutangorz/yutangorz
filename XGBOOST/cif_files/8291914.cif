@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Tb2CoNiO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.19730200
+_cell_length_b   5.51661300
+_cell_length_c   9.05793890
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.85482939
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tb2CoNiO6
+_chemical_formula_sum   'Tb4 Co2 Ni2 O12'
+_cell_volume   213.11439875
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tb  Tb0  1  0.27027894  0.43005128  0.75078233  1
+  Tb  Tb1  1  0.72972106  0.93005128  0.74921767  1
+  Tb  Tb2  1  0.27027894  0.06994872  0.25078233  1
+  Tb  Tb3  1  0.72972106  0.56994872  0.24921767  1
+  Co  Co4  1  0.00000000  0.50000000  0.00000000  1
+  Co  Co5  1  0.00000000  0.00000000  0.50000000  1
+  Ni  Ni6  1  0.50000000  0.00000000  0.00000000  1
+  Ni  Ni7  1  0.50000000  0.50000000  0.50000000  1
+  O  O8  1  0.65595996  0.69143503  0.95151638  1
+  O  O9  1  0.76142356  0.20842979  0.94803459  1
+  O  O10  1  0.85666148  0.52855248  0.75810511  1
+  O  O11  1  0.14333852  0.02855248  0.74189489  1
+  O  O12  1  0.23857644  0.70842979  0.55196541  1
+  O  O13  1  0.34404004  0.19143503  0.54848362  1
+  O  O14  1  0.65595996  0.80856497  0.45151638  1
+  O  O15  1  0.76142356  0.29157021  0.44803459  1
+  O  O16  1  0.85666148  0.97144752  0.25810511  1
+  O  O17  1  0.14333852  0.47144752  0.24189489  1
+  O  O18  1  0.23857644  0.79157021  0.05196541  1
+  O  O19  1  0.34404004  0.30856497  0.04848362  1

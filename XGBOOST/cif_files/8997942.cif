@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Nd2TmIrO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.56616488
+_cell_length_b   5.92693236
+_cell_length_c   9.53427281
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   123.17227399
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nd2TmIrO6
+_chemical_formula_sum   'Nd4 Tm2 Ir2 O12'
+_cell_volume   263.27778420
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  1  0.77624276  0.06777601  0.75101185  1
+  Nd  Nd1  1  0.22375724  0.56777601  0.74898815  1
+  Nd  Nd2  1  0.77624276  0.43222399  0.25101185  1
+  Nd  Nd3  1  0.22375724  0.93222399  0.24898815  1
+  Tm  Tm4  1  0.50000000  0.00000000  0.00000000  1
+  Tm  Tm5  1  0.50000000  0.50000000  0.50000000  1
+  Ir  Ir6  1  0.00000000  0.50000000  0.00000000  1
+  Ir  Ir7  1  0.00000000  0.00000000  0.50000000  1
+  O  O8  1  0.12588743  0.79996968  0.94268364  1
+  O  O9  1  0.24503474  0.30269855  0.94258465  1
+  O  O10  1  0.63617345  0.45221434  0.76036844  1
+  O  O11  1  0.36382655  0.95221434  0.73963156  1
+  O  O12  1  0.75496526  0.80269855  0.55741535  1
+  O  O13  1  0.87411257  0.29996968  0.55731636  1
+  O  O14  1  0.12588743  0.70003032  0.44268364  1
+  O  O15  1  0.24503474  0.19730145  0.44258465  1
+  O  O16  1  0.63617345  0.04778566  0.26036844  1
+  O  O17  1  0.36382655  0.54778566  0.23963156  1
+  O  O18  1  0.75496526  0.69730145  0.05741535  1
+  O  O19  1  0.87411257  0.20003032  0.05731636  1

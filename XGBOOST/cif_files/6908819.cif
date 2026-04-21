@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Sr2MgMoO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.58497883
+_cell_length_b   5.58662288
+_cell_length_c   7.90469948
+_cell_angle_alpha   90.00759126
+_cell_angle_beta   90.00271969
+_cell_angle_gamma   90.01738697
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2MgMoO6
+_chemical_formula_sum   'Sr4 Mg2 Mo2 O12'
+_cell_volume   246.63586255
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.99981839  0.99977860  0.24995764  1
+  Sr  Sr1  1  0.49993093  0.49993589  0.24999306  1
+  Sr  Sr2  1  0.00018161  0.00022140  0.75004236  1
+  Sr  Sr3  1  0.50006907  0.50006411  0.75000694  1
+  Mg  Mg4  1  0.00000000  0.50000000  0.00000000  1
+  Mg  Mg5  1  0.50000000  0.00000000  0.50000000  1
+  Mo  Mo6  1  0.50000000  0.00000000  0.00000000  1
+  Mo  Mo7  1  0.00000000  0.50000000  0.50000000  1
+  O  O8  1  0.74124165  0.75360590  0.00042759  1
+  O  O9  1  0.74671908  0.24115503  0.00077169  1
+  O  O10  1  0.49874197  0.99974522  0.24377651  1
+  O  O11  1  0.00096083  0.50005162  0.25622480  1
+  O  O12  1  0.75077287  0.26080769  0.49917268  1
+  O  O13  1  0.76101942  0.74836713  0.49970654  1
+  O  O14  1  0.23898058  0.25163287  0.50029346  1
+  O  O15  1  0.24922713  0.73919231  0.50082732  1
+  O  O16  1  0.99903917  0.49994838  0.74377520  1
+  O  O17  1  0.50125803  0.00025478  0.75622349  1
+  O  O18  1  0.25328092  0.75884497  0.99922831  1
+  O  O19  1  0.25875835  0.24639410  0.99957241  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Sm2TiCoO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.37568700
+_cell_length_b   5.67577300
+_cell_length_c   9.36118573
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.47510942
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sm2TiCoO6
+_chemical_formula_sum   'Sm4 Ti2 Co2 O12'
+_cell_volume   235.45785094
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  1  0.26982627  0.43308163  0.75169947  1
+  Sm  Sm1  1  0.73017373  0.93308163  0.74830053  1
+  Sm  Sm2  1  0.26982627  0.06691837  0.25169947  1
+  Sm  Sm3  1  0.73017373  0.56691837  0.24830053  1
+  Ti  Ti4  1  0.00000000  0.50000000  0.00000000  1
+  Ti  Ti5  1  0.00000000  0.00000000  0.50000000  1
+  Co  Co6  1  0.50000000  0.00000000  0.00000000  1
+  Co  Co7  1  0.50000000  0.50000000  0.50000000  1
+  O  O8  1  0.65215668  0.69075930  0.94955227  1
+  O  O9  1  0.75792166  0.20872276  0.94388304  1
+  O  O10  1  0.86030479  0.53376747  0.75631001  1
+  O  O11  1  0.13969521  0.03376747  0.74368999  1
+  O  O12  1  0.24207834  0.70872276  0.55611696  1
+  O  O13  1  0.34784332  0.19075930  0.55044773  1
+  O  O14  1  0.65215668  0.80924070  0.44955227  1
+  O  O15  1  0.75792166  0.29127724  0.44388304  1
+  O  O16  1  0.86030479  0.96623253  0.25631001  1
+  O  O17  1  0.13969521  0.46623253  0.24368999  1
+  O  O18  1  0.24207834  0.79127724  0.05611696  1
+  O  O19  1  0.34784332  0.30924070  0.05044773  1

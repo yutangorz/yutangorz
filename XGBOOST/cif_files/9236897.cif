@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Sr2PuPdO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.00122666
+_cell_length_b   5.78423414
+_cell_length_c   5.89836919
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.21684758
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2PuPdO6
+_chemical_formula_sum   'Sr4 Pu2 Pd2 O12'
+_cell_volume   278.76615701
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.75348743  0.50000000  0.76435736  1
+  Sr  Sr1  1  0.74651257  0.00000000  0.23564264  1
+  Sr  Sr2  1  0.25348743  0.00000000  0.76435736  1
+  Sr  Sr3  1  0.24651257  0.50000000  0.23564264  1
+  Pu  Pu4  1  0.50000000  0.00000000  0.50000000  1
+  Pu  Pu5  1  0.00000000  0.50000000  0.50000000  1
+  Pd  Pd6  1  0.00000000  0.00000000  0.00000000  1
+  Pd  Pd7  1  0.50000000  0.50000000  0.00000000  1
+  O  O8  1  0.05014629  0.75746710  0.81336104  1
+  O  O9  1  0.05014629  0.24253290  0.81336104  1
+  O  O10  1  0.76167367  0.00000000  0.67150688  1
+  O  O11  1  0.73832633  0.50000000  0.32849312  1
+  O  O12  1  0.44985371  0.25746710  0.18663896  1
+  O  O13  1  0.44985371  0.74253290  0.18663896  1
+  O  O14  1  0.55014629  0.25746710  0.81336104  1
+  O  O15  1  0.55014629  0.74253290  0.81336104  1
+  O  O16  1  0.26167367  0.50000000  0.67150688  1
+  O  O17  1  0.23832633  0.00000000  0.32849312  1
+  O  O18  1  0.94985371  0.75746710  0.18663896  1
+  O  O19  1  0.94985371  0.24253290  0.18663896  1

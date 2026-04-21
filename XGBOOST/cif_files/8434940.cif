@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ce2MgTiO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.54104300
+_cell_length_b   5.58155800
+_cell_length_c   9.59065654
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.19400987
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce2MgTiO6
+_chemical_formula_sum   'Ce4 Mg2 Ti2 O12'
+_cell_volume   242.39653094
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.24171706  0.53846775  0.75049952  1
+  Ce  Ce1  1  0.75828294  0.03846775  0.74950048  1
+  Ce  Ce2  1  0.24171706  0.96153225  0.25049952  1
+  Ce  Ce3  1  0.75828294  0.46153225  0.24950048  1
+  Mg  Mg4  1  0.50000000  0.00000000  0.00000000  1
+  Mg  Mg5  1  0.50000000  0.50000000  0.50000000  1
+  Ti  Ti6  1  0.00000000  0.50000000  0.00000000  1
+  Ti  Ti7  1  0.00000000  0.00000000  0.50000000  1
+  O  O8  1  0.23696180  0.28992819  0.95800229  1
+  O  O9  1  0.16595173  0.78088752  0.95650437  1
+  O  O10  1  0.67563522  0.48209496  0.75530205  1
+  O  O11  1  0.32436478  0.98209496  0.74469795  1
+  O  O12  1  0.83404827  0.28088752  0.54349563  1
+  O  O13  1  0.76303820  0.78992819  0.54199771  1
+  O  O14  1  0.23696180  0.21007181  0.45800229  1
+  O  O15  1  0.16595173  0.71911248  0.45650437  1
+  O  O16  1  0.67563522  0.01790504  0.25530205  1
+  O  O17  1  0.32436478  0.51790504  0.24469795  1
+  O  O18  1  0.83404827  0.21911248  0.04349563  1
+  O  O19  1  0.76303820  0.71007181  0.04199771  1

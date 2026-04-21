@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_La2MnNiO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.43611776
+_cell_length_b   5.44594678
+_cell_length_c   5.46823918
+_cell_angle_alpha   61.04740675
+_cell_angle_beta   60.52305111
+_cell_angle_gamma   60.42576652
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La2MnNiO6
+_chemical_formula_sum   'La2 Mn1 Ni1 O6'
+_cell_volume   116.18258364
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.25028332  0.24462737  0.25468440  1
+  La  La1  1  0.74971668  0.75537263  0.74531560  1
+  Mn  Mn2  1  0.50000000  0.50000000  0.50000000  1
+  Ni  Ni3  1  0.00000000  0.00000000  0.00000000  1
+  O  O4  1  0.74228192  0.33170302  0.18205894  1
+  O  O5  1  0.69796782  0.78932695  0.29325427  1
+  O  O6  1  0.20871216  0.77646589  0.30432173  1
+  O  O7  1  0.79128784  0.22353411  0.69567827  1
+  O  O8  1  0.30203218  0.21067305  0.70674573  1
+  O  O9  1  0.25771808  0.66829698  0.81794106  1

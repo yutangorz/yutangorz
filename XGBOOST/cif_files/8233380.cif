@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ce2MnNiO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.48134100
+_cell_length_b   5.46452700
+_cell_length_c   9.46794586
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.28565570
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce2MnNiO6
+_chemical_formula_sum   'Ce4 Mn2 Ni2 O12'
+_cell_volume   231.49174427
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.24415751  0.03100543  0.75036812  1
+  Ce  Ce1  1  0.75584249  0.53100543  0.74963188  1
+  Ce  Ce2  1  0.24415751  0.46899457  0.25036812  1
+  Ce  Ce3  1  0.75584249  0.96899457  0.24963188  1
+  Mn  Mn4  1  0.00000000  0.00000000  0.00000000  1
+  Mn  Mn5  1  0.00000000  0.50000000  0.50000000  1
+  Ni  Ni6  1  0.50000000  0.50000000  0.00000000  1
+  Ni  Ni7  1  0.50000000  0.00000000  0.50000000  1
+  O  O8  1  0.23432280  0.78432040  0.96312953  1
+  O  O9  1  0.17696616  0.27372360  0.96256798  1
+  O  O10  1  0.68788164  0.99070972  0.75677168  1
+  O  O11  1  0.31211836  0.49070972  0.74322832  1
+  O  O12  1  0.82303384  0.77372360  0.53743202  1
+  O  O13  1  0.76567720  0.28432040  0.53687047  1
+  O  O14  1  0.23432280  0.71567960  0.46312953  1
+  O  O15  1  0.17696616  0.22627640  0.46256798  1
+  O  O16  1  0.68788164  0.50929028  0.25677168  1
+  O  O17  1  0.31211836  0.00929028  0.24322832  1
+  O  O18  1  0.82303384  0.72627640  0.03743202  1
+  O  O19  1  0.76567720  0.21567960  0.03687047  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ba2HoVO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   10.10334400
+_cell_length_b   5.83171800
+_cell_length_c   5.84308776
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.29430747
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2HoVO6
+_chemical_formula_sum   'Ba4 Ho2 V2 O12'
+_cell_volume   280.99461254
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.24976241  0.00000000  0.74978712  1
+  Ba  Ba1  1  0.75023759  0.00000000  0.25021288  1
+  Ba  Ba2  1  0.74976241  0.50000000  0.74978712  1
+  Ba  Ba3  1  0.25023759  0.50000000  0.25021288  1
+  Ho  Ho4  1  0.00000000  0.00000000  0.00000000  1
+  Ho  Ho5  1  0.50000000  0.50000000  0.00000000  1
+  V  V6  1  0.00000000  0.50000000  0.50000000  1
+  V  V7  1  0.50000000  0.00000000  0.50000000  1
+  O  O8  1  0.23070946  0.50000000  0.74634622  1
+  O  O9  1  0.99207920  0.26896002  0.72262476  1
+  O  O10  1  0.99207920  0.73103998  0.72262476  1
+  O  O11  1  0.00792080  0.26896002  0.27737524  1
+  O  O12  1  0.00792080  0.73103998  0.27737524  1
+  O  O13  1  0.76929054  0.50000000  0.25365378  1
+  O  O14  1  0.73070946  0.00000000  0.74634622  1
+  O  O15  1  0.49207920  0.76896002  0.72262476  1
+  O  O16  1  0.49207920  0.23103998  0.72262476  1
+  O  O17  1  0.50792080  0.76896002  0.27737524  1
+  O  O18  1  0.50792080  0.23103998  0.27737524  1
+  O  O19  1  0.26929054  0.00000000  0.25365378  1

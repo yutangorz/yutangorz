@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Sm2NiPbO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.50440994
+_cell_length_b   5.84597773
+_cell_length_c   9.59530766
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.01448111
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sm2NiPbO6
+_chemical_formula_sum   'Sm4 Ni2 Pb2 O12'
+_cell_volume   255.93341247
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  1  0.77339338  0.06939091  0.75068649  1
+  Sm  Sm1  1  0.22660662  0.56939091  0.74931351  1
+  Sm  Sm2  1  0.77339338  0.43060909  0.25068649  1
+  Sm  Sm3  1  0.22660662  0.93060909  0.24931351  1
+  Ni  Ni4  1  0.00000000  0.50000000  0.00000000  1
+  Ni  Ni5  1  0.00000000  0.00000000  0.50000000  1
+  Pb  Pb6  1  0.50000000  0.00000000  0.00000000  1
+  Pb  Pb7  1  0.50000000  0.50000000  0.50000000  1
+  O  O8  1  0.24074913  0.31197651  0.93703431  1
+  O  O9  1  0.11666128  0.80148402  0.93565001  1
+  O  O10  1  0.63190748  0.44968145  0.75845035  1
+  O  O11  1  0.36809252  0.94968145  0.74154965  1
+  O  O12  1  0.88333872  0.30148402  0.56434999  1
+  O  O13  1  0.75925087  0.81197651  0.56296569  1
+  O  O14  1  0.24074913  0.18802349  0.43703431  1
+  O  O15  1  0.11666128  0.69851598  0.43565001  1
+  O  O16  1  0.63190748  0.05031855  0.25845035  1
+  O  O17  1  0.36809252  0.55031855  0.24154965  1
+  O  O18  1  0.88333872  0.19851598  0.06434999  1
+  O  O19  1  0.75925087  0.68802349  0.06296569  1

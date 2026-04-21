@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Eu2MgMoO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.45157200
+_cell_length_b   5.51095600
+_cell_length_c   9.46290587
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.15262341
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Eu2MgMoO6
+_chemical_formula_sum   'Eu4 Mg2 Mo2 O12'
+_cell_volume   232.44777334
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  1  0.24434703  0.96240362  0.75131057  1
+  Eu  Eu1  1  0.75565297  0.46240362  0.74868943  1
+  Eu  Eu2  1  0.24434703  0.53759638  0.25131057  1
+  Eu  Eu3  1  0.75565297  0.03759638  0.24868943  1
+  Mg  Mg4  1  0.50000000  0.50000000  0.00000000  1
+  Mg  Mg5  1  0.50000000  0.00000000  0.50000000  1
+  Mo  Mo6  1  0.00000000  0.00000000  0.00000000  1
+  Mo  Mo7  1  0.00000000  0.50000000  0.50000000  1
+  O  O8  1  0.24564242  0.20581329  0.96466257  1
+  O  O9  1  0.16665476  0.71885785  0.96241108  1
+  O  O10  1  0.68645585  0.01563939  0.75662524  1
+  O  O11  1  0.31354415  0.51563939  0.74337476  1
+  O  O12  1  0.83334524  0.21885785  0.53758892  1
+  O  O13  1  0.75435758  0.70581329  0.53533743  1
+  O  O14  1  0.24564242  0.29418671  0.46466257  1
+  O  O15  1  0.16665476  0.78114215  0.46241108  1
+  O  O16  1  0.68645585  0.48436061  0.25662524  1
+  O  O17  1  0.31354415  0.98436061  0.24337476  1
+  O  O18  1  0.83334524  0.28114215  0.03758892  1
+  O  O19  1  0.75435758  0.79418671  0.03533743  1

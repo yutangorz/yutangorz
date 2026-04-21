@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_La2TmRhO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.67875800
+_cell_length_b   5.84720800
+_cell_length_c   9.83661249
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.64130126
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   La2TmRhO6
+_chemical_formula_sum   'La4 Tm2 Rh2 O12'
+_cell_volume   268.72194059
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  La  La0  1  0.76508784  0.05430113  0.75107873  1
+  La  La1  1  0.23491216  0.55430113  0.74892127  1
+  La  La2  1  0.76508784  0.44569887  0.25107873  1
+  La  La3  1  0.23491216  0.94569887  0.24892127  1
+  Tm  Tm4  1  0.50000000  0.00000000  0.00000000  1
+  Tm  Tm5  1  0.50000000  0.50000000  0.50000000  1
+  Rh  Rh6  1  0.00000000  0.50000000  0.00000000  1
+  Rh  Rh7  1  0.00000000  0.00000000  0.50000000  1
+  O  O8  1  0.13555493  0.79448516  0.94618811  1
+  O  O9  1  0.24055714  0.30475229  0.94565555  1
+  O  O10  1  0.65198721  0.46525966  0.75772040  1
+  O  O11  1  0.34801279  0.96525966  0.74227960  1
+  O  O12  1  0.75944286  0.80475229  0.55434445  1
+  O  O13  1  0.86444507  0.29448516  0.55381189  1
+  O  O14  1  0.13555493  0.70551484  0.44618811  1
+  O  O15  1  0.24055714  0.19524771  0.44565555  1
+  O  O16  1  0.65198721  0.03474034  0.25772040  1
+  O  O17  1  0.34801279  0.53474034  0.24227960  1
+  O  O18  1  0.75944286  0.69524771  0.05434445  1
+  O  O19  1  0.86444507  0.20551484  0.05381189  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Cd2CoTeO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.45156100
+_cell_length_b   5.49266488
+_cell_length_c   5.49459492
+_cell_angle_alpha   90.01082498
+_cell_angle_beta   119.71761626
+_cell_angle_gamma   119.64822572
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cd2CoTeO6
+_chemical_formula_sum   'Cd2 Co1 Te1 O6'
+_cell_volume   117.43439178
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cd  Cd0  1  0.52068120  0.74959251  0.24992383  1
+  Cd  Cd1  1  0.47931880  0.25040749  0.75007617  1
+  Co  Co2  1  0.00000000  0.50000000  0.50000000  1
+  Te  Te3  1  0.00000000  0.00000000  0.00000000  1
+  O  O4  1  0.48152492  0.30964044  0.17817892  1
+  O  O5  1  0.12158763  0.76245584  0.23761621  1
+  O  O6  1  0.00935038  0.18029420  0.31168126  1
+  O  O7  1  0.99064962  0.81970580  0.68831874  1
+  O  O8  1  0.87841237  0.23754416  0.76238379  1
+  O  O9  1  0.51847508  0.69035956  0.82182108  1

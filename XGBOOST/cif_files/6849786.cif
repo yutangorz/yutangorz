@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Tl2CuRhF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.80157630
+_cell_length_b   5.79679037
+_cell_length_c   10.02682925
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.10194911
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Tl2CuRhF6
+_chemical_formula_sum   'Tl4 Cu2 Rh2 F12'
+_cell_volume   275.87962296
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tl  Tl0  1  0.75024058  0.50209516  0.75026880  1
+  Tl  Tl1  1  0.24975942  0.00209516  0.74973120  1
+  Tl  Tl2  1  0.75024058  0.99790484  0.25026880  1
+  Tl  Tl3  1  0.24975942  0.49790484  0.24973120  1
+  Cu  Cu4  1  0.50000000  0.50000000  0.00000000  1
+  Cu  Cu5  1  0.50000000  0.00000000  0.50000000  1
+  Rh  Rh6  1  0.00000000  0.00000000  0.00000000  1
+  Rh  Rh7  1  0.00000000  0.50000000  0.50000000  1
+  F  F8  1  0.74560018  0.24849965  0.99689174  1
+  F  F9  1  0.74831531  0.74797950  0.99638219  1
+  F  F10  1  0.75595545  0.00441803  0.75036510  1
+  F  F11  1  0.24404455  0.50441803  0.74963490  1
+  F  F12  1  0.25168469  0.24797950  0.50361781  1
+  F  F13  1  0.25439982  0.74849965  0.50310826  1
+  F  F14  1  0.74560018  0.25150035  0.49689174  1
+  F  F15  1  0.74831531  0.75202050  0.49638219  1
+  F  F16  1  0.75595545  0.49558197  0.25036510  1
+  F  F17  1  0.24404455  0.99558197  0.24963490  1
+  F  F18  1  0.25168469  0.25202050  0.00361781  1
+  F  F19  1  0.25439982  0.75150035  0.00310826  1

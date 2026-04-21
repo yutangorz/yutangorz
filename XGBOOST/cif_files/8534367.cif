@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_KScIn2F6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.22700600
+_cell_length_b   6.17755400
+_cell_length_c   10.76665096
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.25332466
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KScIn2F6
+_chemical_formula_sum   'K2 Sc2 In4 F12'
+_cell_volume   338.21287253
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.00000000  0.00000000  0.00000000  1
+  K  K1  1  0.00000000  0.50000000  0.50000000  1
+  Sc  Sc2  1  0.50000000  0.50000000  0.00000000  1
+  Sc  Sc3  1  0.50000000  0.00000000  0.50000000  1
+  In  In4  1  0.24717101  0.02266382  0.75070233  1
+  In  In5  1  0.75282899  0.52266382  0.74929767  1
+  In  In6  1  0.24717101  0.47733618  0.25070233  1
+  In  In7  1  0.75282899  0.97733618  0.24929767  1
+  F  F8  1  0.29232500  0.77662308  0.95533638  1
+  F  F9  1  0.18682984  0.32612374  0.95416829  1
+  F  F10  1  0.36869015  0.48229396  0.77915618  1
+  F  F11  1  0.63130985  0.98229396  0.72084382  1
+  F  F12  1  0.81317016  0.82612374  0.54583171  1
+  F  F13  1  0.70767500  0.27662308  0.54466362  1
+  F  F14  1  0.29232500  0.72337692  0.45533638  1
+  F  F15  1  0.18682984  0.17387626  0.45416829  1
+  F  F16  1  0.36869015  0.01770604  0.27915618  1
+  F  F17  1  0.63130985  0.51770604  0.22084382  1
+  F  F18  1  0.81317016  0.67387626  0.04583171  1
+  F  F19  1  0.70767500  0.22337692  0.04466362  1

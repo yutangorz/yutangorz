@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_AcIrO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.61570500
+_cell_length_b   5.90678700
+_cell_length_c   8.08245300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   AcIrO3
+_chemical_formula_sum   'Ac4 Ir4 O12'
+_cell_volume   268.10121609
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ac  Ac0  1  0.01587445  0.93588447  0.75000000  1
+  Ac  Ac1  1  0.48412555  0.43588447  0.75000000  1
+  Ac  Ac2  1  0.51587445  0.56411553  0.25000000  1
+  Ac  Ac3  1  0.98412555  0.06411553  0.25000000  1
+  Ir  Ir4  1  0.00000000  0.50000000  0.00000000  1
+  Ir  Ir5  1  0.00000000  0.50000000  0.50000000  1
+  Ir  Ir6  1  0.50000000  0.00000000  0.00000000  1
+  Ir  Ir7  1  0.50000000  0.00000000  0.50000000  1
+  O  O8  1  0.09208795  0.48159968  0.25000000  1
+  O  O9  1  0.19320571  0.20071094  0.54593859  1
+  O  O10  1  0.19320571  0.20071094  0.95406141  1
+  O  O11  1  0.30679429  0.70071094  0.54593859  1
+  O  O12  1  0.30679429  0.70071094  0.95406141  1
+  O  O13  1  0.40791205  0.98159968  0.25000000  1
+  O  O14  1  0.59208795  0.01840032  0.75000000  1
+  O  O15  1  0.69320571  0.29928906  0.04593859  1
+  O  O16  1  0.69320571  0.29928906  0.45406141  1
+  O  O17  1  0.80679429  0.79928906  0.04593859  1
+  O  O18  1  0.80679429  0.79928906  0.45406141  1
+  O  O19  1  0.90791205  0.51840032  0.75000000  1

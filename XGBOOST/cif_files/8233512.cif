@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_NaPr2BiO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.68732200
+_cell_length_b   6.06549000
+_cell_length_c   9.85985110
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   123.57909154
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   NaPr2BiO6
+_chemical_formula_sum   'Na2 Pr4 Bi2 O12'
+_cell_volume   283.36959975
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.50000000  0.50000000  0.00000000  1
+  Na  Na1  1  0.50000000  0.00000000  0.50000000  1
+  Pr  Pr2  1  0.27711486  0.06746794  0.75312010  1
+  Pr  Pr3  1  0.72288514  0.56746794  0.74687990  1
+  Pr  Pr4  1  0.27711486  0.43253206  0.25312010  1
+  Pr  Pr5  1  0.72288514  0.93253206  0.24687990  1
+  Bi  Bi6  1  0.00000000  0.00000000  0.00000000  1
+  Bi  Bi7  1  0.00000000  0.50000000  0.50000000  1
+  O  O8  1  0.63999141  0.81987230  0.94095937  1
+  O  O9  1  0.75170208  0.29180337  0.92539415  1
+  O  O10  1  0.89551615  0.94024132  0.76180600  1
+  O  O11  1  0.10448385  0.44024132  0.73819400  1
+  O  O12  1  0.24829792  0.79180337  0.57460585  1
+  O  O13  1  0.36000859  0.31987230  0.55904063  1
+  O  O14  1  0.63999141  0.68012770  0.44095937  1
+  O  O15  1  0.75170208  0.20819663  0.42539415  1
+  O  O16  1  0.89551615  0.55975868  0.26180600  1
+  O  O17  1  0.10448385  0.05975868  0.23819400  1
+  O  O18  1  0.24829792  0.70819663  0.07460585  1
+  O  O19  1  0.36000859  0.18012770  0.05904063  1

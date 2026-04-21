@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_CoBi2PtO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.43462152
+_cell_length_b   5.83886834
+_cell_length_c   9.43273522
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.54555557
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CoBi2PtO6
+_chemical_formula_sum   'Co2 Bi4 Pt2 O12'
+_cell_volume   246.54251487
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Co  Co0  1  0.50000000  0.00000000  0.00000000  1
+  Co  Co1  1  0.50000000  0.50000000  0.50000000  1
+  Bi  Bi2  1  0.23959516  0.43925607  0.75263852  1
+  Bi  Bi3  1  0.76040484  0.93925607  0.74736148  1
+  Bi  Bi4  1  0.23959516  0.06074393  0.25263852  1
+  Bi  Bi5  1  0.76040484  0.56074393  0.24736148  1
+  Pt  Pt6  1  0.00000000  0.50000000  0.00000000  1
+  Pt  Pt7  1  0.00000000  0.00000000  0.50000000  1
+  O  O8  1  0.28148967  0.68299850  0.96156794  1
+  O  O9  1  0.13040755  0.19874371  0.94884127  1
+  O  O10  1  0.64141235  0.53555041  0.75162044  1
+  O  O11  1  0.35858765  0.03555041  0.74837956  1
+  O  O12  1  0.86959245  0.69874371  0.55115873  1
+  O  O13  1  0.71851033  0.18299850  0.53843206  1
+  O  O14  1  0.28148967  0.81700150  0.46156794  1
+  O  O15  1  0.13040755  0.30125629  0.44884127  1
+  O  O16  1  0.64141235  0.96444959  0.25162044  1
+  O  O17  1  0.35858765  0.46444959  0.24837956  1
+  O  O18  1  0.86959245  0.80125629  0.05115873  1
+  O  O19  1  0.71851033  0.31700150  0.03843206  1

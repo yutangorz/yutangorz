@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Sr2HoBiO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.88305385
+_cell_length_b   5.91879339
+_cell_length_c   5.94076988
+_cell_angle_alpha   90.53026272
+_cell_angle_beta   119.31190864
+_cell_angle_gamma   119.72578537
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2HoBiO6
+_chemical_formula_sum   'Sr2 Ho1 Bi1 O6'
+_cell_volume   147.71122416
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.51457687  0.25118475  0.26705494  1
+  Sr  Sr1  1  0.48542313  0.74881525  0.73294506  1
+  Ho  Ho2  1  0.00000000  0.50000000  0.00000000  1
+  Bi  Bi3  1  0.00000000  0.00000000  0.50000000  1
+  O  O4  1  0.89846773  0.75657615  0.15736943  1
+  O  O5  1  0.51088842  0.81794352  0.30887177  1
+  O  O6  1  0.01787204  0.30811444  0.31950664  1
+  O  O7  1  0.98212796  0.69188556  0.68049336  1
+  O  O8  1  0.48911158  0.18205648  0.69112823  1
+  O  O9  1  0.10153227  0.24342385  0.84263057  1

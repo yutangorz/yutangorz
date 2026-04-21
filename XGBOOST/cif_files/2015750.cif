@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Nd2MnCoO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.40823000
+_cell_length_b   5.54454700
+_cell_length_c   9.39719622
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.12017871
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Nd2MnCoO6
+_chemical_formula_sum   'Nd4 Mn2 Co2 O12'
+_cell_volume   230.48611387
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Nd  Nd0  1  0.23813639  0.55273650  0.75034244  1
+  Nd  Nd1  1  0.76186361  0.05273650  0.74965756  1
+  Nd  Nd2  1  0.23813639  0.94726350  0.25034244  1
+  Nd  Nd3  1  0.76186361  0.44726350  0.24965756  1
+  Mn  Mn4  1  0.00000000  0.50000000  0.00000000  1
+  Mn  Mn5  1  0.00000000  0.00000000  0.50000000  1
+  Co  Co6  1  0.50000000  0.00000000  0.00000000  1
+  Co  Co7  1  0.50000000  0.50000000  0.50000000  1
+  O  O8  1  0.24324924  0.29849265  0.95767993  1
+  O  O9  1  0.15446697  0.78447049  0.95531513  1
+  O  O10  1  0.67444647  0.48148505  0.75668964  1
+  O  O11  1  0.32555353  0.98148505  0.74331036  1
+  O  O12  1  0.84553303  0.28447049  0.54468487  1
+  O  O13  1  0.75675076  0.79849265  0.54232007  1
+  O  O14  1  0.24324924  0.20150735  0.45767993  1
+  O  O15  1  0.15446697  0.71552951  0.45531513  1
+  O  O16  1  0.67444647  0.01851495  0.25668964  1
+  O  O17  1  0.32555353  0.51851495  0.24331036  1
+  O  O18  1  0.84553303  0.21552951  0.04468487  1
+  O  O19  1  0.75675076  0.70150735  0.04232007  1

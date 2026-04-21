@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_KNiF3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.59990300
+_cell_length_b   5.60861700
+_cell_length_c   7.94335600
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KNiF3
+_chemical_formula_sum   'K4 Ni4 F12'
+_cell_volume   249.48263092
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.50203945  0.00016747  0.75000000  1
+  K  K1  1  0.00203945  0.49983253  0.75000000  1
+  K  K2  1  0.99796055  0.50016747  0.25000000  1
+  K  K3  1  0.49796055  0.99983253  0.25000000  1
+  Ni  Ni4  1  0.00000000  0.00000000  0.00000000  1
+  Ni  Ni5  1  0.00000000  0.00000000  0.50000000  1
+  Ni  Ni6  1  0.50000000  0.50000000  0.00000000  1
+  Ni  Ni7  1  0.50000000  0.50000000  0.50000000  1
+  F  F8  1  0.99854984  0.01498217  0.75000000  1
+  F  F9  1  0.73561136  0.23571065  0.00766339  1
+  F  F10  1  0.73561136  0.23571065  0.49233661  1
+  F  F11  1  0.23561136  0.26428935  0.00766339  1
+  F  F12  1  0.23561136  0.26428935  0.49233661  1
+  F  F13  1  0.49854984  0.48501783  0.75000000  1
+  F  F14  1  0.50145016  0.51498217  0.25000000  1
+  F  F15  1  0.76438864  0.73571065  0.50766339  1
+  F  F16  1  0.76438864  0.73571065  0.99233661  1
+  F  F17  1  0.26438864  0.76428935  0.50766339  1
+  F  F18  1  0.26438864  0.76428935  0.99233661  1
+  F  F19  1  0.00145016  0.98501783  0.25000000  1

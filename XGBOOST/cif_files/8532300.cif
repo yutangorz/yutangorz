@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_CeBiO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.01569600
+_cell_length_b   6.47323500
+_cell_length_c   8.66813700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeBiO3
+_chemical_formula_sum   'Ce4 Bi4 O12'
+_cell_volume   337.54604337
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.00000000  0.00000000  0.00000000  1
+  Ce  Ce1  1  0.00000000  0.00000000  0.50000000  1
+  Ce  Ce2  1  0.50000000  0.50000000  0.00000000  1
+  Ce  Ce3  1  0.50000000  0.50000000  0.50000000  1
+  Bi  Bi4  1  0.01137840  0.52996937  0.25000000  1
+  Bi  Bi5  1  0.48862160  0.02996937  0.25000000  1
+  Bi  Bi6  1  0.51137840  0.97003063  0.75000000  1
+  Bi  Bi7  1  0.98862160  0.47003063  0.75000000  1
+  O  O8  1  0.15494450  0.32836576  0.07534474  1
+  O  O9  1  0.15494450  0.32836576  0.42465526  1
+  O  O10  1  0.17091239  0.06914607  0.75000000  1
+  O  O11  1  0.32908761  0.56914607  0.75000000  1
+  O  O12  1  0.34505550  0.82836576  0.07534474  1
+  O  O13  1  0.34505550  0.82836576  0.42465526  1
+  O  O14  1  0.65494450  0.17163424  0.57534474  1
+  O  O15  1  0.65494450  0.17163424  0.92465526  1
+  O  O16  1  0.67091239  0.43085393  0.25000000  1
+  O  O17  1  0.82908761  0.93085393  0.25000000  1
+  O  O18  1  0.84505550  0.67163424  0.57534474  1
+  O  O19  1  0.84505550  0.67163424  0.92465526  1

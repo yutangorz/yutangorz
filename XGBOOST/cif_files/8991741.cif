@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_LiTm2SbO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.27816505
+_cell_length_b   5.59220644
+_cell_length_c   9.22970141
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   122.46659057
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiTm2SbO6
+_chemical_formula_sum   'Li2 Tm4 Sb2 O12'
+_cell_volume   229.84985413
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.00000000  0.50000000  0.00000000  1
+  Li  Li1  1  0.00000000  0.00000000  0.50000000  1
+  Tm  Tm2  1  0.78658490  0.06990564  0.75635471  1
+  Tm  Tm3  1  0.21341510  0.56990564  0.74364529  1
+  Tm  Tm4  1  0.78658490  0.43009436  0.25635471  1
+  Tm  Tm5  1  0.21341510  0.93009436  0.24364529  1
+  Sb  Sb6  1  0.50000000  0.00000000  0.00000000  1
+  Sb  Sb7  1  0.50000000  0.50000000  0.50000000  1
+  O  O8  1  0.13774697  0.81073245  0.94100654  1
+  O  O9  1  0.23996711  0.29315205  0.92212799  1
+  O  O10  1  0.40014582  0.93902170  0.76217070  1
+  O  O11  1  0.59985418  0.43902170  0.73782930  1
+  O  O12  1  0.76003289  0.79315205  0.57787201  1
+  O  O13  1  0.86225303  0.31073245  0.55899346  1
+  O  O14  1  0.13774697  0.68926755  0.44100654  1
+  O  O15  1  0.23996711  0.20684795  0.42212799  1
+  O  O16  1  0.40014582  0.56097830  0.26217070  1
+  O  O17  1  0.59985418  0.06097830  0.23782930  1
+  O  O18  1  0.76003289  0.70684795  0.07787201  1
+  O  O19  1  0.86225303  0.18926755  0.05899346  1

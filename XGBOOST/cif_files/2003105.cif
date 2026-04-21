@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ca2TaCrO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.40975047
+_cell_length_b   5.52807700
+_cell_length_c   9.40349748
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.93964870
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2TaCrO6
+_chemical_formula_sum   'Ca4 Ta2 Cr2 O12'
+_cell_volume   230.52880734
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.76269498  0.54777014  0.75166417  1
+  Ca  Ca1  1  0.23730502  0.04777014  0.74833583  1
+  Ca  Ca2  1  0.76269498  0.95222986  0.25166417  1
+  Ca  Ca3  1  0.23730502  0.45222986  0.24833583  1
+  Ta  Ta4  1  0.50000000  0.50000000  0.00000000  1
+  Ta  Ta5  1  0.50000000  0.00000000  0.50000000  1
+  Cr  Cr6  1  0.00000000  0.00000000  0.00000000  1
+  Cr  Cr7  1  0.00000000  0.50000000  0.50000000  1
+  O  O8  1  0.15950596  0.29541891  0.95474192  1
+  O  O9  1  0.24904215  0.79276311  0.95184844  1
+  O  O10  1  0.34007476  0.47397106  0.75057615  1
+  O  O11  1  0.65992524  0.97397106  0.74942385  1
+  O  O12  1  0.75095785  0.29276311  0.54815156  1
+  O  O13  1  0.84049404  0.79541891  0.54525808  1
+  O  O14  1  0.15950596  0.20458109  0.45474192  1
+  O  O15  1  0.24904215  0.70723689  0.45184844  1
+  O  O16  1  0.34007476  0.02602894  0.25057615  1
+  O  O17  1  0.65992524  0.52602894  0.24942385  1
+  O  O18  1  0.75095785  0.20723689  0.04815156  1
+  O  O19  1  0.84049404  0.70458109  0.04525808  1

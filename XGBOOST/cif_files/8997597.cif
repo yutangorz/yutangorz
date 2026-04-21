@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_LiYb2ReO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.26740430
+_cell_length_b   5.55677810
+_cell_length_c   9.07307827
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.48386192
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   LiYb2ReO6
+_chemical_formula_sum   'Li2 Yb4 Re2 O12'
+_cell_volume   218.90320831
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Li  Li0  1  0.00000000  0.00000000  0.00000000  1
+  Li  Li1  1  0.00000000  0.50000000  0.50000000  1
+  Yb  Yb2  1  0.77258189  0.43102152  0.75364630  1
+  Yb  Yb3  1  0.22741811  0.93102152  0.74635370  1
+  Yb  Yb4  1  0.77258189  0.06897848  0.25364630  1
+  Yb  Yb5  1  0.22741811  0.56897848  0.24635370  1
+  Re  Re6  1  0.50000000  0.50000000  0.00000000  1
+  Re  Re7  1  0.50000000  0.00000000  0.50000000  1
+  O  O8  1  0.15989565  0.68581451  0.95276358  1
+  O  O9  1  0.26429126  0.21482070  0.94508856  1
+  O  O10  1  0.35952375  0.53166943  0.75809755  1
+  O  O11  1  0.64047625  0.03166943  0.74190245  1
+  O  O12  1  0.73570874  0.71482070  0.55491144  1
+  O  O13  1  0.84010435  0.18581451  0.54723642  1
+  O  O14  1  0.15989565  0.81418549  0.45276358  1
+  O  O15  1  0.26429126  0.28517930  0.44508856  1
+  O  O16  1  0.35952375  0.96833057  0.25809755  1
+  O  O17  1  0.64047625  0.46833057  0.24190245  1
+  O  O18  1  0.73570874  0.78517930  0.05491144  1
+  O  O19  1  0.84010435  0.31418549  0.04723642  1

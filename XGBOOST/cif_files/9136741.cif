@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_YbEu2WO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.59815895
+_cell_length_b   5.64755690
+_cell_length_c   5.67608201
+_cell_angle_alpha   90.35233881
+_cell_angle_beta   118.81137744
+_cell_angle_gamma   119.50238329
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbEu2WO6
+_chemical_formula_sum   'Yb1 Eu2 W1 O6'
+_cell_volume   129.68896859
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.00000000  0.00000000  0.00000000  1
+  Eu  Eu1  1  0.50890758  0.74184900  0.27049889  1
+  Eu  Eu2  1  0.49109242  0.25815100  0.72950111  1
+  W  W3  1  0.00000000  0.50000000  0.50000000  1
+  O  O4  1  0.91967262  0.29885034  0.16626908  1
+  O  O5  1  0.53265472  0.32322250  0.31847324  1
+  O  O6  1  0.02277808  0.81016644  0.34812224  1
+  O  O7  1  0.97722192  0.18983356  0.65187776  1
+  O  O8  1  0.46734528  0.67677750  0.68152676  1
+  O  O9  1  0.08032738  0.70114966  0.83373092  1

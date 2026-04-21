@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Pr2FeCuO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.40037314
+_cell_length_b   5.42623346
+_cell_length_c   5.43271190
+_cell_angle_alpha   61.14637146
+_cell_angle_beta   60.77831492
+_cell_angle_gamma   60.85300057
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pr2FeCuO6
+_chemical_formula_sum   'Pr2 Fe1 Cu1 O6'
+_cell_volume   114.91664850
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.74890276  0.24212009  0.25748354  1
+  Pr  Pr1  1  0.25109724  0.75787991  0.74251646  1
+  Fe  Fe2  1  0.00000000  0.50000000  0.50000000  1
+  Cu  Cu3  1  0.50000000  0.00000000  0.00000000  1
+  O  O4  1  0.25236339  0.32911184  0.17367790  1
+  O  O5  1  0.19486404  0.80255392  0.28720192  1
+  O  O6  1  0.70004077  0.77949672  0.30247757  1
+  O  O7  1  0.29995923  0.22050328  0.69752243  1
+  O  O8  1  0.80513596  0.19744608  0.71279808  1
+  O  O9  1  0.74763661  0.67088816  0.82632210  1

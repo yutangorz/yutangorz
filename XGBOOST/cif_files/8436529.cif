@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_EuPbO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.76121342
+_cell_length_b   5.76121342
+_cell_length_c   8.50409515
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   EuPbO3
+_chemical_formula_sum   'Eu4 Pb4 O12'
+_cell_volume   282.26435510
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  1  0.50000000  0.00000000  0.25000000  1
+  Eu  Eu1  1  0.00000000  0.50000000  0.25000000  1
+  Eu  Eu2  1  0.00000000  0.50000000  0.75000000  1
+  Eu  Eu3  1  0.50000000  0.00000000  0.75000000  1
+  Pb  Pb4  1  0.00000000  0.00000000  0.00000000  1
+  Pb  Pb5  1  0.50000000  0.50000000  0.00000000  1
+  Pb  Pb6  1  0.50000000  0.50000000  0.50000000  1
+  Pb  Pb7  1  0.00000000  0.00000000  0.50000000  1
+  O  O8  1  0.66596532  0.16596532  0.00000000  1
+  O  O9  1  0.16596532  0.33403468  0.00000000  1
+  O  O10  1  0.83403468  0.66596532  0.00000000  1
+  O  O11  1  0.33403468  0.83403468  0.00000000  1
+  O  O12  1  0.00000000  0.00000000  0.25000000  1
+  O  O13  1  0.50000000  0.50000000  0.25000000  1
+  O  O14  1  0.16596532  0.66596532  0.50000000  1
+  O  O15  1  0.66596532  0.83403468  0.50000000  1
+  O  O16  1  0.33403468  0.16596532  0.50000000  1
+  O  O17  1  0.83403468  0.33403468  0.50000000  1
+  O  O18  1  0.50000000  0.50000000  0.75000000  1
+  O  O19  1  0.00000000  0.00000000  0.75000000  1

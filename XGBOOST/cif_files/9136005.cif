@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Pr2TiNiO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.44046769
+_cell_length_b   5.47627880
+_cell_length_c   5.48627699
+_cell_angle_alpha   60.90327771
+_cell_angle_beta   60.61480403
+_cell_angle_gamma   60.58393308
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Pr2TiNiO6
+_chemical_formula_sum   'Pr2 Ti1 Ni1 O6'
+_cell_volume   117.40612335
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.25120325  0.23743820  0.25980247  1
+  Pr  Pr1  1  0.74879675  0.76256180  0.74019753  1
+  Ti  Ti2  1  0.50000000  0.50000000  0.50000000  1
+  Ni  Ni3  1  0.00000000  0.00000000  0.00000000  1
+  O  O4  1  0.74298618  0.34500589  0.16678977  1
+  O  O5  1  0.69268218  0.79988311  0.29943863  1
+  O  O6  1  0.19764917  0.78837932  0.31007106  1
+  O  O7  1  0.80235083  0.21162068  0.68992894  1
+  O  O8  1  0.30731782  0.20011689  0.70056137  1
+  O  O9  1  0.25701382  0.65499411  0.83321023  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_PrAlS3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.40361600
+_cell_length_b   6.94503900
+_cell_length_c   9.23125100
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PrAlS3
+_chemical_formula_sum   'Pr4 Al4 S12'
+_cell_volume   410.54477538
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pr  Pr0  1  0.46707563  0.40282279  0.25000000  1
+  Pr  Pr1  1  0.03292437  0.90282279  0.25000000  1
+  Pr  Pr2  1  0.96707563  0.09717721  0.75000000  1
+  Pr  Pr3  1  0.53292437  0.59717721  0.75000000  1
+  Al  Al4  1  0.50000000  0.00000000  0.50000000  1
+  Al  Al5  1  0.00000000  0.50000000  0.50000000  1
+  Al  Al6  1  0.00000000  0.50000000  0.00000000  1
+  Al  Al7  1  0.50000000  0.00000000  0.00000000  1
+  S  S8  1  0.80984884  0.81310263  0.54819252  1
+  S  S9  1  0.69015116  0.31310263  0.54819252  1
+  S  S10  1  0.30984884  0.68689737  0.45180748  1
+  S  S11  1  0.19015116  0.18689737  0.45180748  1
+  S  S12  1  0.89664668  0.51260612  0.25000000  1
+  S  S13  1  0.60335332  0.01260612  0.25000000  1
+  S  S14  1  0.30984884  0.68689737  0.04819252  1
+  S  S15  1  0.19015116  0.18689737  0.04819252  1
+  S  S16  1  0.80984884  0.81310263  0.95180748  1
+  S  S17  1  0.69015116  0.31310263  0.95180748  1
+  S  S18  1  0.39664668  0.98739388  0.75000000  1
+  S  S19  1  0.10335332  0.48739388  0.75000000  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_KEuBr3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   7.78080100
+_cell_length_b   8.23494300
+_cell_length_c   11.29047300
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   KEuBr3
+_chemical_formula_sum   'K4 Eu4 Br12'
+_cell_volume   723.43087853
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.02337487  0.07573103  0.25000000  1
+  K  K1  1  0.47662513  0.57573103  0.25000000  1
+  K  K2  1  0.52337487  0.42426897  0.75000000  1
+  K  K3  1  0.97662513  0.92426897  0.75000000  1
+  Eu  Eu4  1  0.00000000  0.50000000  0.00000000  1
+  Eu  Eu5  1  0.00000000  0.50000000  0.50000000  1
+  Eu  Eu6  1  0.50000000  0.00000000  0.00000000  1
+  Eu  Eu7  1  0.50000000  0.00000000  0.50000000  1
+  Br  Br8  1  0.11218450  0.53954378  0.75000000  1
+  Br  Br9  1  0.18687096  0.80703318  0.05775666  1
+  Br  Br10  1  0.18687096  0.80703318  0.44224334  1
+  Br  Br11  1  0.31312904  0.30703318  0.05775666  1
+  Br  Br12  1  0.31312904  0.30703318  0.44224334  1
+  Br  Br13  1  0.38781550  0.03954378  0.75000000  1
+  Br  Br14  1  0.61218450  0.96045622  0.25000000  1
+  Br  Br15  1  0.68687096  0.69296682  0.55775666  1
+  Br  Br16  1  0.68687096  0.69296682  0.94224334  1
+  Br  Br17  1  0.81312904  0.19296682  0.55775666  1
+  Br  Br18  1  0.81312904  0.19296682  0.94224334  1
+  Br  Br19  1  0.88781550  0.46045622  0.25000000  1

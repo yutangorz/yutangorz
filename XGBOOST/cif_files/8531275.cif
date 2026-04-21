@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_YbTeO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.07919800
+_cell_length_b   5.07919800
+_cell_length_c   11.33537700
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbTeO3
+_chemical_formula_sum   'Yb4 Te4 O12'
+_cell_volume   292.43291602
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.22260188  0.23086499  0.00558252  1
+  Yb  Yb1  1  0.76913501  0.22260188  0.25558252  1
+  Yb  Yb2  1  0.77739812  0.76913501  0.50558252  1
+  Yb  Yb3  1  0.23086499  0.77739812  0.75558252  1
+  Te  Te4  1  0.27633871  0.73649600  0.23565427  1
+  Te  Te5  1  0.26350400  0.27633871  0.48565427  1
+  Te  Te6  1  0.72366129  0.26350400  0.73565427  1
+  Te  Te7  1  0.73649600  0.72366129  0.98565427  1
+  O  O8  1  0.60635537  0.98498798  0.09130530  1
+  O  O9  1  0.88798645  0.49650338  0.10029397  1
+  O  O10  1  0.13889772  0.06617560  0.19236502  1
+  O  O11  1  0.01501202  0.60635537  0.34130530  1
+  O  O12  1  0.50349662  0.88798645  0.35029397  1
+  O  O13  1  0.93382440  0.13889772  0.44236502  1
+  O  O14  1  0.39364463  0.01501202  0.59130530  1
+  O  O15  1  0.11201355  0.50349662  0.60029397  1
+  O  O16  1  0.86110228  0.93382440  0.69236502  1
+  O  O17  1  0.98498798  0.39364463  0.84130530  1
+  O  O18  1  0.49650338  0.11201355  0.85029397  1
+  O  O19  1  0.06617560  0.86110228  0.94236502  1

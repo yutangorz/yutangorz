@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_TmAs(PbO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.73190620
+_cell_length_b   5.66261171
+_cell_length_c   9.78922664
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.16820138
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TmAs(PbO3)2
+_chemical_formula_sum   'Tm2 As2 Pb4 O12'
+_cell_volume   259.73665420
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Tm  Tm0  1  0.50000000  0.50000000  0.00000000  1
+  Tm  Tm1  1  0.50000000  0.00000000  0.50000000  1
+  As  As2  1  0.00000000  0.00000000  0.00000000  1
+  As  As3  1  0.00000000  0.50000000  0.50000000  1
+  Pb  Pb4  1  0.76251119  0.50000000  0.75433310  1
+  Pb  Pb5  1  0.23748881  0.00000000  0.74566690  1
+  Pb  Pb6  1  0.76251119  0.00000000  0.25433310  1
+  Pb  Pb7  1  0.23748881  0.50000000  0.24566690  1
+  O  O8  1  0.19995404  0.76582080  0.97421609  1
+  O  O9  1  0.20204923  0.23094893  0.97324763  1
+  O  O10  1  0.72552991  0.99891289  0.77081952  1
+  O  O11  1  0.27447009  0.49891289  0.72918048  1
+  O  O12  1  0.79795077  0.73094893  0.52675237  1
+  O  O13  1  0.80004596  0.26582080  0.52578391  1
+  O  O14  1  0.19995404  0.73417920  0.47421609  1
+  O  O15  1  0.20204923  0.26905107  0.47324763  1
+  O  O16  1  0.72552991  0.50108711  0.27081952  1
+  O  O17  1  0.27447009  0.00108711  0.22918048  1
+  O  O18  1  0.79795077  0.76905107  0.02675237  1
+  O  O19  1  0.80004596  0.23417920  0.02578391  1

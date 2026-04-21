@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Lu2MgTiO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.18892400
+_cell_length_b   5.51974900
+_cell_length_c   9.13434118
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.21104798
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Lu2MgTiO6
+_chemical_formula_sum   'Lu4 Mg2 Ti2 O12'
+_cell_volume   216.35391883
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Lu  Lu0  1  0.77393872  0.42928664  0.75243651  1
+  Lu  Lu1  1  0.22606128  0.92928664  0.74756349  1
+  Lu  Lu2  1  0.77393872  0.07071336  0.25243651  1
+  Lu  Lu3  1  0.22606128  0.57071336  0.24756349  1
+  Mg  Mg4  1  0.00000000  0.00000000  0.00000000  1
+  Mg  Mg5  1  0.00000000  0.50000000  0.50000000  1
+  Ti  Ti6  1  0.50000000  0.50000000  0.00000000  1
+  Ti  Ti7  1  0.50000000  0.00000000  0.50000000  1
+  O  O8  1  0.13326087  0.68790691  0.93862378  1
+  O  O9  1  0.24832304  0.19961315  0.93146584  1
+  O  O10  1  0.38279455  0.55072676  0.75577520  1
+  O  O11  1  0.61720545  0.05072676  0.74422480  1
+  O  O12  1  0.75167696  0.69961315  0.56853416  1
+  O  O13  1  0.86673913  0.18790691  0.56137622  1
+  O  O14  1  0.13326087  0.81209309  0.43862378  1
+  O  O15  1  0.24832304  0.30038685  0.43146584  1
+  O  O16  1  0.38279455  0.94927324  0.25577520  1
+  O  O17  1  0.61720545  0.44927324  0.24422480  1
+  O  O18  1  0.75167696  0.80038685  0.06853416  1
+  O  O19  1  0.86673913  0.31209309  0.06137622  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_BaZrO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.95885247
+_cell_length_b   5.95923327
+_cell_length_c   5.96050610
+_cell_angle_alpha   60.03415262
+_cell_angle_beta   60.02193566
+_cell_angle_gamma   60.07937225
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   BaZrO3
+_chemical_formula_sum   'Ba2 Zr2 O6'
+_cell_volume   149.81840458
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.74893717  0.75089724  0.25050010  1
+  Ba  Ba1  1  0.25106283  0.24910276  0.74949990  1
+  Zr  Zr2  1  0.50000000  0.50000000  0.00000000  1
+  Zr  Zr3  1  0.00000000  0.00000000  0.50000000  1
+  O  O4  1  0.25939904  0.76366381  0.23621240  1
+  O  O5  1  0.22920879  0.27070361  0.25204905  1
+  O  O6  1  0.73774253  0.24239814  0.26221581  1
+  O  O7  1  0.26225747  0.75760186  0.73778419  1
+  O  O8  1  0.77079121  0.72929639  0.74795095  1
+  O  O9  1  0.74060096  0.23633619  0.76378760  1

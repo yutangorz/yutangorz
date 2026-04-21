@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ca2CdMoO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.57712231
+_cell_length_b   5.60405030
+_cell_length_c   5.64163535
+_cell_angle_alpha   61.11716674
+_cell_angle_beta   61.07789828
+_cell_angle_gamma   61.24837582
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ca2CdMoO6
+_chemical_formula_sum   'Ca2 Cd1 Mo1 O6'
+_cell_volume   127.90127508
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ca  Ca0  1  0.24383855  0.22939967  0.23053634  1
+  Ca  Ca1  1  0.75616145  0.77060033  0.76946366  1
+  Cd  Cd2  1  0.50000000  0.50000000  0.50000000  1
+  Mo  Mo3  1  0.00000000  0.00000000  0.00000000  1
+  O  O4  1  0.32926142  0.79701873  0.13297701  1
+  O  O5  1  0.88607743  0.65884777  0.19915702  1
+  O  O6  1  0.76851436  0.11929897  0.33555325  1
+  O  O7  1  0.23148564  0.88070103  0.66444675  1
+  O  O8  1  0.11392257  0.34115223  0.80084298  1
+  O  O9  1  0.67073858  0.20298127  0.86702299  1

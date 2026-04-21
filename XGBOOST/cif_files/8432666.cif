@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_PtSeO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.88409000
+_cell_length_b   6.62371900
+_cell_length_c   6.94176400
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   PtSeO3
+_chemical_formula_sum   'Pt4 Se4 O12'
+_cell_volume   270.55218871
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Pt  Pt0  1  0.00000000  0.50000000  0.00000000  1
+  Pt  Pt1  1  0.00000000  0.50000000  0.50000000  1
+  Pt  Pt2  1  0.50000000  0.00000000  0.00000000  1
+  Pt  Pt3  1  0.50000000  0.00000000  0.50000000  1
+  Se  Se4  1  0.01884106  0.94549591  0.25000000  1
+  Se  Se5  1  0.48115894  0.44549591  0.25000000  1
+  Se  Se6  1  0.51884106  0.55450409  0.75000000  1
+  Se  Se7  1  0.98115894  0.05450409  0.75000000  1
+  O  O8  1  0.02654574  0.20387636  0.55159063  1
+  O  O9  1  0.02654574  0.20387636  0.94840937  1
+  O  O10  1  0.15782432  0.42300100  0.25000000  1
+  O  O11  1  0.34217568  0.92300100  0.25000000  1
+  O  O12  1  0.47345426  0.70387636  0.55159063  1
+  O  O13  1  0.47345426  0.70387636  0.94840937  1
+  O  O14  1  0.52654574  0.29612364  0.05159063  1
+  O  O15  1  0.52654574  0.29612364  0.44840937  1
+  O  O16  1  0.65782432  0.07699900  0.75000000  1
+  O  O17  1  0.84217568  0.57699900  0.75000000  1
+  O  O18  1  0.97345426  0.79612364  0.05159063  1
+  O  O19  1  0.97345426  0.79612364  0.44840937  1

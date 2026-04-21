@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Yb2TaInO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.63812089
+_cell_length_b   5.62816270
+_cell_length_c   5.57202874
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.64201366
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Yb2TaInO6
+_chemical_formula_sum   'Yb4 Ta2 In2 O12'
+_cell_volume   248.67051247
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.24901870  0.00000000  0.71853652  1
+  Yb  Yb1  1  0.75098130  0.00000000  0.28146348  1
+  Yb  Yb2  1  0.74901870  0.50000000  0.71853652  1
+  Yb  Yb3  1  0.25098130  0.50000000  0.28146348  1
+  Ta  Ta4  1  0.50000000  0.00000000  0.50000000  1
+  Ta  Ta5  1  0.00000000  0.50000000  0.50000000  1
+  In  In6  1  0.00000000  0.00000000  0.00000000  1
+  In  In7  1  0.50000000  0.50000000  0.00000000  1
+  O  O8  1  0.73539864  0.00000000  0.85655133  1
+  O  O9  1  0.43079194  0.75644094  0.67005279  1
+  O  O10  1  0.43079194  0.24355906  0.67005279  1
+  O  O11  1  0.56920806  0.75644094  0.32994721  1
+  O  O12  1  0.56920806  0.24355906  0.32994721  1
+  O  O13  1  0.26460136  0.00000000  0.14344867  1
+  O  O14  1  0.23539864  0.50000000  0.85655133  1
+  O  O15  1  0.93079194  0.25644094  0.67005279  1
+  O  O16  1  0.93079194  0.74355906  0.67005279  1
+  O  O17  1  0.06920806  0.25644094  0.32994721  1
+  O  O18  1  0.06920806  0.74355906  0.32994721  1
+  O  O19  1  0.76460136  0.50000000  0.14344867  1

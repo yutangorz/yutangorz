@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Sm2CoPtO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.35772491
+_cell_length_b   5.79563527
+_cell_length_c   9.37750039
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.82754004
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sm2CoPtO6
+_chemical_formula_sum   'Sm4 Co2 Pt2 O12'
+_cell_volume   239.02617862
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sm  Sm0  1  0.27346088  0.07353901  0.75017667  1
+  Sm  Sm1  1  0.72653912  0.57353901  0.74982333  1
+  Sm  Sm2  1  0.27346088  0.42646099  0.25017667  1
+  Sm  Sm3  1  0.72653912  0.92646099  0.24982333  1
+  Co  Co4  1  0.00000000  0.00000000  0.00000000  1
+  Co  Co5  1  0.00000000  0.50000000  0.50000000  1
+  Pt  Pt6  1  0.50000000  0.50000000  0.00000000  1
+  Pt  Pt7  1  0.50000000  0.00000000  0.50000000  1
+  O  O8  1  0.75816242  0.30677142  0.94626375  1
+  O  O9  1  0.62896869  0.80058441  0.94387474  1
+  O  O10  1  0.86261139  0.96151932  0.75135234  1
+  O  O11  1  0.13738861  0.46151932  0.74864766  1
+  O  O12  1  0.37103131  0.30058441  0.55612526  1
+  O  O13  1  0.24183758  0.80677142  0.55373625  1
+  O  O14  1  0.75816242  0.19322858  0.44626375  1
+  O  O15  1  0.62896869  0.69941559  0.44387474  1
+  O  O16  1  0.86261139  0.53848068  0.25135234  1
+  O  O17  1  0.13738861  0.03848068  0.24864766  1
+  O  O18  1  0.37103131  0.19941559  0.05612526  1
+  O  O19  1  0.24183758  0.69322858  0.05373625  1

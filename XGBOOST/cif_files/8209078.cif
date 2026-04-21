@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_TiNi(BiO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.42557300
+_cell_length_b   5.63201700
+_cell_length_c   9.44078123
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.75801652
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   TiNi(BiO3)2
+_chemical_formula_sum   'Ti2 Ni2 Bi4 O12'
+_cell_volume   237.00667815
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ti  Ti0  1  0.00000000  0.50000000  0.00000000  1
+  Ti  Ti1  1  0.00000000  0.00000000  0.50000000  1
+  Ni  Ni2  1  0.50000000  0.00000000  0.00000000  1
+  Ni  Ni3  1  0.50000000  0.50000000  0.50000000  1
+  Bi  Bi4  1  0.26035214  0.55204556  0.75071620  1
+  Bi  Bi5  1  0.73964786  0.05204556  0.74928380  1
+  Bi  Bi6  1  0.26035214  0.94795444  0.25071620  1
+  Bi  Bi7  1  0.73964786  0.44795444  0.24928380  1
+  O  O8  1  0.65696472  0.30654915  0.95457152  1
+  O  O9  1  0.76295356  0.79341557  0.95214509  1
+  O  O10  1  0.84938955  0.47365624  0.75421145  1
+  O  O11  1  0.15061045  0.97365624  0.74578855  1
+  O  O12  1  0.23704644  0.29341557  0.54785491  1
+  O  O13  1  0.34303528  0.80654915  0.54542848  1
+  O  O14  1  0.65696472  0.19345085  0.45457152  1
+  O  O15  1  0.76295356  0.70658443  0.45214509  1
+  O  O16  1  0.84938955  0.02634376  0.25421145  1
+  O  O17  1  0.15061045  0.52634376  0.24578855  1
+  O  O18  1  0.23704644  0.20658443  0.04785491  1
+  O  O19  1  0.34303528  0.69345085  0.04542848  1

@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Ba2ReAuO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.79588705
+_cell_length_b   5.89765574
+_cell_length_c   5.90077078
+_cell_angle_alpha   95.97026470
+_cell_angle_beta   117.59352020
+_cell_angle_gamma   114.15189696
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2ReAuO6
+_chemical_formula_sum   'Ba2 Re1 Au1 O6'
+_cell_volume   151.98632839
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.00090455  0.25302635  0.25278056  1
+  Ba  Ba1  1  0.99909545  0.74697365  0.74721944  1
+  Re  Re2  1  0.50000000  0.00000000  0.50000000  1
+  Au  Au3  1  0.50000000  0.50000000  0.00000000  1
+  O  O4  1  0.46188901  0.14205804  0.22150159  1
+  O  O5  1  0.43348627  0.68333702  0.28028151  1
+  O  O6  1  0.07751823  0.83458520  0.34010393  1
+  O  O7  1  0.92248177  0.16541480  0.65989607  1
+  O  O8  1  0.56651373  0.31666298  0.71971849  1
+  O  O9  1  0.53811099  0.85794196  0.77849841  1

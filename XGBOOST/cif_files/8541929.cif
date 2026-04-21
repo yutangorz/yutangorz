@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_GaAsO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   4.88550100
+_cell_length_b   5.20250200
+_cell_length_c   9.77744900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   GaAsO3
+_chemical_formula_sum   'Ga4 As4 O12'
+_cell_volume   248.51174659
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ga  Ga0  1  0.50000000  0.75000000  0.14596877  1
+  Ga  Ga1  1  0.50000000  0.25000000  0.35403123  1
+  Ga  Ga2  1  0.50000000  0.75000000  0.64596877  1
+  Ga  Ga3  1  0.50000000  0.25000000  0.85403123  1
+  As  As4  1  0.00000000  0.25000000  0.08769591  1
+  As  As5  1  0.00000000  0.75000000  0.41230409  1
+  As  As6  1  0.00000000  0.25000000  0.58769591  1
+  As  As7  1  0.00000000  0.75000000  0.91230409  1
+  O  O8  1  0.22240114  0.91310633  0.04286519  1
+  O  O9  1  0.77759886  0.58689367  0.04286519  1
+  O  O10  1  0.34092942  0.50000000  0.25000000  1
+  O  O11  1  0.65907058  0.00000000  0.25000000  1
+  O  O12  1  0.22240114  0.08689367  0.45713481  1
+  O  O13  1  0.77759886  0.41310633  0.45713481  1
+  O  O14  1  0.22240114  0.58689367  0.54286519  1
+  O  O15  1  0.77759886  0.91310633  0.54286519  1
+  O  O16  1  0.34092942  0.00000000  0.75000000  1
+  O  O17  1  0.65907058  0.50000000  0.75000000  1
+  O  O18  1  0.22240114  0.41310633  0.95713481  1
+  O  O19  1  0.77759886  0.08689367  0.95713481  1

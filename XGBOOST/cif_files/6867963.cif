@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Na2AlTcO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.30561369
+_cell_length_b   5.30786040
+_cell_length_c   7.51366701
+_cell_angle_alpha   90.00821674
+_cell_angle_beta   90.00408777
+_cell_angle_gamma   90.03168514
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Na2AlTcO6
+_chemical_formula_sum   'Na4 Al2 Tc2 O12'
+_cell_volume   211.59577386
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Na  Na0  1  0.49989767  0.49997351  0.24995252  1
+  Na  Na1  1  0.99978617  0.99970783  0.24998580  1
+  Na  Na2  1  0.00021383  0.00029217  0.75001420  1
+  Na  Na3  1  0.50010233  0.50002649  0.75004748  1
+  Al  Al4  1  0.00000000  0.50000000  0.00000000  1
+  Al  Al5  1  0.50000000  0.00000000  0.50000000  1
+  Tc  Tc6  1  0.50000000  0.00000000  0.00000000  1
+  Tc  Tc7  1  0.00000000  0.50000000  0.50000000  1
+  O  O8  1  0.74817537  0.74719576  0.00039661  1
+  O  O9  1  0.75322765  0.24819619  0.00070937  1
+  O  O10  1  0.00085076  0.49996970  0.24972760  1
+  O  O11  1  0.49880861  0.99975311  0.25026928  1
+  O  O12  1  0.74432068  0.25357450  0.49923027  1
+  O  O13  1  0.75392200  0.75458824  0.49973735  1
+  O  O14  1  0.24607800  0.24541176  0.50026265  1
+  O  O15  1  0.25567932  0.74642550  0.50076973  1
+  O  O16  1  0.50119139  0.00024689  0.74973072  1
+  O  O17  1  0.99914924  0.50003030  0.75027240  1
+  O  O18  1  0.24677235  0.75180381  0.99929063  1
+  O  O19  1  0.25182463  0.25280424  0.99960339  1

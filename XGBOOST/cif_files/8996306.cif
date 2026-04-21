@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ce2TiNiO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.50292918
+_cell_length_b   5.58760617
+_cell_length_c   9.55211798
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.12920195
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ce2TiNiO6
+_chemical_formula_sum   'Ce4 Ti2 Ni2 O12'
+_cell_volume   240.21300988
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.75991230  0.04407736  0.75078402  1
+  Ce  Ce1  1  0.24008770  0.54407736  0.74921598  1
+  Ce  Ce2  1  0.75991230  0.45592264  0.25078402  1
+  Ce  Ce3  1  0.24008770  0.95592264  0.24921598  1
+  Ti  Ti4  1  0.50000000  0.00000000  0.00000000  1
+  Ti  Ti5  1  0.50000000  0.50000000  0.50000000  1
+  Ni  Ni6  1  0.00000000  0.50000000  0.00000000  1
+  Ni  Ni7  1  0.00000000  0.00000000  0.50000000  1
+  O  O8  1  0.17593590  0.79408300  0.95913084  1
+  O  O9  1  0.25241713  0.28402090  0.95758456  1
+  O  O10  1  0.33315592  0.98264855  0.75497743  1
+  O  O11  1  0.66684408  0.48264855  0.74502257  1
+  O  O12  1  0.74758287  0.78402090  0.54241544  1
+  O  O13  1  0.82406410  0.29408300  0.54086916  1
+  O  O14  1  0.17593590  0.70591700  0.45913084  1
+  O  O15  1  0.25241713  0.21597910  0.45758456  1
+  O  O16  1  0.33315592  0.51735145  0.25497743  1
+  O  O17  1  0.66684408  0.01735145  0.24502257  1
+  O  O18  1  0.74758287  0.71597910  0.04241544  1
+  O  O19  1  0.82406410  0.20591700  0.04086916  1

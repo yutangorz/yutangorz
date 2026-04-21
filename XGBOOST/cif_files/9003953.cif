@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_YbNi(BiO3)2
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.45712328
+_cell_length_b   5.94502325
+_cell_length_c   8.00419535
+_cell_angle_alpha   91.92717646
+_cell_angle_beta   90.15685156
+_cell_angle_gamma   92.49311218
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   YbNi(BiO3)2
+_chemical_formula_sum   'Yb2 Ni2 Bi4 O12'
+_cell_volume   259.28307582
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Yb  Yb0  1  0.00000000  0.50000000  0.00000000  1
+  Yb  Yb1  1  0.50000000  0.00000000  0.50000000  1
+  Ni  Ni2  1  0.50000000  0.00000000  0.00000000  1
+  Ni  Ni3  1  0.00000000  0.50000000  0.50000000  1
+  Bi  Bi4  1  0.01021740  0.05099518  0.22316624  1
+  Bi  Bi5  1  0.49130092  0.55073479  0.28556438  1
+  Bi  Bi6  1  0.50869908  0.44926521  0.71443562  1
+  Bi  Bi7  1  0.98978260  0.94900482  0.77683376  1
+  O  O8  1  0.17079194  0.84989716  0.02398746  1
+  O  O9  1  0.33267745  0.32360783  0.10339021  1
+  O  O10  1  0.62356265  0.89009238  0.22483257  1
+  O  O11  1  0.83999589  0.42359815  0.26683218  1
+  O  O12  1  0.19915737  0.75138573  0.38448061  1
+  O  O13  1  0.31918704  0.32670674  0.46345458  1
+  O  O14  1  0.68081296  0.67329326  0.53654542  1
+  O  O15  1  0.80084263  0.24861427  0.61551939  1
+  O  O16  1  0.16000411  0.57640185  0.73316782  1
+  O  O17  1  0.37643735  0.10990762  0.77516743  1
+  O  O18  1  0.66732255  0.67639217  0.89660979  1
+  O  O19  1  0.82920806  0.15010284  0.97601254  1

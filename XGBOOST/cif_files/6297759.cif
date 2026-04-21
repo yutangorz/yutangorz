@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Cs2NaBiF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.26338881
+_cell_length_b   6.26622719
+_cell_length_c   8.86375217
+_cell_angle_alpha   90.01298405
+_cell_angle_beta   90.00167967
+_cell_angle_gamma   90.00796817
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Cs2NaBiF6
+_chemical_formula_sum   'Cs4 Na2 Bi2 F12'
+_cell_volume   347.88291298
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Cs  Cs0  1  0.49988194  0.50002744  0.24986710  1
+  Cs  Cs1  1  0.99987211  0.99967218  0.25002956  1
+  Cs  Cs2  1  0.00012789  0.00032782  0.74997044  1
+  Cs  Cs3  1  0.50011806  0.49997256  0.75013290  1
+  Na  Na4  1  0.00000000  0.50000000  0.00000000  1
+  Na  Na5  1  0.50000000  0.00000000  0.50000000  1
+  Bi  Bi6  1  0.50000000  0.00000000  0.00000000  1
+  Bi  Bi7  1  0.00000000  0.50000000  0.50000000  1
+  F  F8  1  0.75098199  0.74477101  0.00035764  1
+  F  F9  1  0.75561359  0.25068433  0.00066563  1
+  F  F10  1  0.00072390  0.49991000  0.24692929  1
+  F  F11  1  0.49893118  0.99992051  0.25306891  1
+  F  F12  1  0.74224698  0.25084576  0.49928293  1
+  F  F13  1  0.75087347  0.75682502  0.49976692  1
+  F  F14  1  0.24912653  0.24317498  0.50023308  1
+  F  F15  1  0.25775302  0.74915424  0.50071707  1
+  F  F16  1  0.50106882  0.00007949  0.74693109  1
+  F  F17  1  0.99927610  0.50009000  0.75307071  1
+  F  F18  1  0.24438641  0.74931567  0.99933437  1
+  F  F19  1  0.24901801  0.25522899  0.99964236  1

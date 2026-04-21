@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_K2ZnFeF6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.61544028
+_cell_length_b   5.90342788
+_cell_length_c   9.65539871
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.24430463
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   K2ZnFeF6
+_chemical_formula_sum   'K4 Zn2 Fe2 F12'
+_cell_volume   261.40883943
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  K  K0  1  0.75351349  0.49398721  0.75109567  1
+  K  K1  1  0.24648651  0.99398721  0.74890433  1
+  K  K2  1  0.75351349  0.00601279  0.25109567  1
+  K  K3  1  0.24648651  0.50601279  0.24890433  1
+  Zn  Zn4  1  0.00000000  0.00000000  0.00000000  1
+  Zn  Zn5  1  0.00000000  0.50000000  0.50000000  1
+  Fe  Fe6  1  0.50000000  0.50000000  0.00000000  1
+  Fe  Fe7  1  0.50000000  0.00000000  0.50000000  1
+  F  F8  1  0.25159985  0.22985084  0.98710700  1
+  F  F9  1  0.21838321  0.74140109  0.98621930  1
+  F  F10  1  0.27968821  0.50293117  0.75324264  1
+  F  F11  1  0.72031179  0.00293117  0.74675736  1
+  F  F12  1  0.78161679  0.24140109  0.51378070  1
+  F  F13  1  0.74840015  0.72985084  0.51289300  1
+  F  F14  1  0.25159985  0.27014916  0.48710700  1
+  F  F15  1  0.21838321  0.75859891  0.48621930  1
+  F  F16  1  0.27968821  0.99706883  0.25324264  1
+  F  F17  1  0.72031179  0.49706883  0.24675736  1
+  F  F18  1  0.78161679  0.25859891  0.01378070  1
+  F  F19  1  0.74840015  0.77014916  0.01289300  1

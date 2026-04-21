@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Mn2GaSbO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.22676528
+_cell_length_b   5.38925457
+_cell_length_c   9.21602275
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.16582245
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Mn2GaSbO6
+_chemical_formula_sum   'Mn4 Ga2 Sb2 O12'
+_cell_volume   214.79739000
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mn  Mn0  1  0.76621059  0.94641795  0.75185169  1
+  Mn  Mn1  1  0.23378941  0.44641795  0.74814831  1
+  Mn  Mn2  1  0.76621059  0.55358205  0.25185169  1
+  Mn  Mn3  1  0.23378941  0.05358205  0.24814831  1
+  Ga  Ga4  1  0.00000000  0.50000000  0.00000000  1
+  Ga  Ga5  1  0.00000000  0.00000000  0.50000000  1
+  Sb  Sb6  1  0.50000000  0.00000000  0.00000000  1
+  Sb  Sb7  1  0.50000000  0.50000000  0.50000000  1
+  O  O8  1  0.12502189  0.19388075  0.93836580  1
+  O  O9  1  0.24466486  0.69240138  0.93328153  1
+  O  O10  1  0.37385104  0.05566869  0.75169301  1
+  O  O11  1  0.62614896  0.55566869  0.74830699  1
+  O  O12  1  0.75533514  0.19240138  0.56671847  1
+  O  O13  1  0.87497811  0.69388075  0.56163420  1
+  O  O14  1  0.12502189  0.30611925  0.43836580  1
+  O  O15  1  0.24466486  0.80759862  0.43328153  1
+  O  O16  1  0.37385104  0.44433131  0.25169301  1
+  O  O17  1  0.62614896  0.94433131  0.24830699  1
+  O  O18  1  0.75533514  0.30759862  0.06671847  1
+  O  O19  1  0.87497811  0.80611925  0.06163420  1

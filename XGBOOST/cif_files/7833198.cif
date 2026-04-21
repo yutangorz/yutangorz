@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Ba2TaBiS6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   12.34535726
+_cell_length_b   7.13318140
+_cell_length_c   7.36459176
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   124.88998851
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Ba2TaBiS6
+_chemical_formula_sum   'Ba4 Ta2 Bi2 S12'
+_cell_volume   531.96470673
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ba  Ba0  1  0.74816678  0.50000000  0.73587360  1
+  Ba  Ba1  1  0.75183322  0.00000000  0.26412640  1
+  Ba  Ba2  1  0.24816678  0.00000000  0.73587360  1
+  Ba  Ba3  1  0.25183322  0.50000000  0.26412640  1
+  Ta  Ta4  1  0.50000000  0.00000000  0.50000000  1
+  Ta  Ta5  1  0.00000000  0.50000000  0.50000000  1
+  Bi  Bi6  1  0.00000000  0.00000000  0.00000000  1
+  Bi  Bi7  1  0.50000000  0.50000000  0.00000000  1
+  S  S8  1  0.23181341  0.50000000  0.82048960  1
+  S  S9  1  0.94886971  0.25960516  0.67938293  1
+  S  S10  1  0.44886971  0.24039484  0.67938293  1
+  S  S11  1  0.05113029  0.25960516  0.32061707  1
+  S  S12  1  0.55113029  0.24039484  0.32061707  1
+  S  S13  1  0.26818659  0.00000000  0.17951040  1
+  S  S14  1  0.73181341  0.00000000  0.82048960  1
+  S  S15  1  0.44886971  0.75960516  0.67938293  1
+  S  S16  1  0.94886971  0.74039484  0.67938293  1
+  S  S17  1  0.55113029  0.75960516  0.32061707  1
+  S  S18  1  0.05113029  0.74039484  0.32061707  1
+  S  S19  1  0.76818659  0.50000000  0.17951040  1

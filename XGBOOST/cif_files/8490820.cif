@@ -1,0 +1,36 @@
+# generated using pymatgen
+data_Eu2CoTeO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.48547600
+_cell_length_b   5.50645974
+_cell_length_c   5.53413035
+_cell_angle_alpha   89.78287609
+_cell_angle_beta   119.69906016
+_cell_angle_gamma   119.72492854
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Eu2CoTeO6
+_chemical_formula_sum   'Eu2 Co1 Te1 O6'
+_cell_volume   119.43899584
+_cell_formula_units_Z   1
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Eu  Eu0  1  0.50821273  0.26035757  0.75930061  1
+  Eu  Eu1  1  0.49178727  0.73964243  0.24069939  1
+  Co  Co2  1  0.00000000  0.50000000  0.50000000  1
+  Te  Te3  1  0.00000000  0.00000000  0.00000000  1
+  O  O4  1  0.00755843  0.71373082  0.80727402  1
+  O  O5  1  0.51530094  0.71322052  0.80571034  1
+  O  O6  1  0.91749747  0.15766204  0.67674392  1
+  O  O7  1  0.08250253  0.84233796  0.32325608  1
+  O  O8  1  0.48469906  0.28677948  0.19428966  1
+  O  O9  1  0.99244157  0.28626918  0.19272598  1

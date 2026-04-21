@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_CeCrO3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   5.51620485
+_cell_length_b   5.58288937
+_cell_length_c   7.81596082
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   CeCrO3
+_chemical_formula_sum   'Ce4 Cr4 O12'
+_cell_volume   240.70315426
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Ce  Ce0  1  0.99095618  0.04134997  0.25000000  1
+  Ce  Ce1  1  0.49095618  0.45865003  0.75000000  1
+  Ce  Ce2  1  0.50904382  0.54134997  0.25000000  1
+  Ce  Ce3  1  0.00904382  0.95865003  0.75000000  1
+  Cr  Cr4  1  0.50000000  0.00000000  0.00000000  1
+  Cr  Cr5  1  0.50000000  0.00000000  0.50000000  1
+  Cr  Cr6  1  0.00000000  0.50000000  0.00000000  1
+  Cr  Cr7  1  0.00000000  0.50000000  0.50000000  1
+  O  O8  1  0.57719344  0.01649725  0.75000000  1
+  O  O9  1  0.21226594  0.21254628  0.54146847  1
+  O  O10  1  0.21226594  0.21254628  0.95853153  1
+  O  O11  1  0.71226594  0.28745372  0.04146847  1
+  O  O12  1  0.71226594  0.28745372  0.45853153  1
+  O  O13  1  0.07719344  0.48350275  0.25000000  1
+  O  O14  1  0.92280656  0.51649725  0.75000000  1
+  O  O15  1  0.28773406  0.71254628  0.54146847  1
+  O  O16  1  0.28773406  0.71254628  0.95853153  1
+  O  O17  1  0.78773406  0.78745372  0.04146847  1
+  O  O18  1  0.78773406  0.78745372  0.45853153  1
+  O  O19  1  0.42280656  0.98350275  0.25000000  1

@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_MgInCl3
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   6.99151800
+_cell_length_b   7.02609000
+_cell_length_c   10.00270900
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   90.00000000
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   MgInCl3
+_chemical_formula_sum   'Mg4 In4 Cl12'
+_cell_volume   491.36342135
+_cell_formula_units_Z   4
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Mg  Mg0  1  0.00000000  0.00000000  0.00000000  1
+  Mg  Mg1  1  0.00000000  0.00000000  0.50000000  1
+  Mg  Mg2  1  0.50000000  0.50000000  0.00000000  1
+  Mg  Mg3  1  0.50000000  0.50000000  0.50000000  1
+  In  In4  1  0.00462196  0.46314202  0.25000000  1
+  In  In5  1  0.49537804  0.96314202  0.25000000  1
+  In  In6  1  0.50462196  0.03685798  0.75000000  1
+  In  In7  1  0.99537804  0.53685798  0.75000000  1
+  Cl  Cl8  1  0.04480064  0.99901973  0.75000000  1
+  Cl  Cl9  1  0.21738534  0.71769256  0.02140770  1
+  Cl  Cl10  1  0.21738534  0.71769256  0.47859230  1
+  Cl  Cl11  1  0.28261466  0.21769256  0.02140770  1
+  Cl  Cl12  1  0.28261466  0.21769256  0.47859230  1
+  Cl  Cl13  1  0.45519936  0.49901973  0.75000000  1
+  Cl  Cl14  1  0.54480064  0.50098027  0.25000000  1
+  Cl  Cl15  1  0.71738534  0.78230744  0.52140770  1
+  Cl  Cl16  1  0.71738534  0.78230744  0.97859230  1
+  Cl  Cl17  1  0.78261466  0.28230744  0.52140770  1
+  Cl  Cl18  1  0.78261466  0.28230744  0.97859230  1
+  Cl  Cl19  1  0.95519936  0.00098027  0.25000000  1

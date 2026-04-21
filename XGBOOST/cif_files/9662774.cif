@@ -1,0 +1,46 @@
+# generated using pymatgen
+data_Sr2ZnTeO6
+_symmetry_space_group_name_H-M   'P 1'
+_cell_length_a   9.73000040
+_cell_length_b   5.61088454
+_cell_length_c   5.68953753
+_cell_angle_alpha   90.00000000
+_cell_angle_beta   125.55045607
+_cell_angle_gamma   90.00000000
+_symmetry_Int_Tables_number   1
+_chemical_formula_structural   Sr2ZnTeO6
+_chemical_formula_sum   'Sr4 Zn2 Te2 O12'
+_cell_volume   252.71681318
+_cell_formula_units_Z   2
+loop_
+ _symmetry_equiv_pos_site_id
+ _symmetry_equiv_pos_as_xyz
+  1  'x, y, z'
+loop_
+ _atom_site_type_symbol
+ _atom_site_label
+ _atom_site_symmetry_multiplicity
+ _atom_site_fract_x
+ _atom_site_fract_y
+ _atom_site_fract_z
+ _atom_site_occupancy
+  Sr  Sr0  1  0.24954258  0.50000000  0.75318368  1
+  Sr  Sr1  1  0.75045742  0.50000000  0.24681632  1
+  Sr  Sr2  1  0.74954258  0.00000000  0.75318368  1
+  Sr  Sr3  1  0.25045742  0.00000000  0.24681632  1
+  Zn  Zn4  1  0.00000000  0.00000000  0.50000000  1
+  Zn  Zn5  1  0.50000000  0.50000000  0.50000000  1
+  Te  Te6  1  0.00000000  0.50000000  0.00000000  1
+  Te  Te7  1  0.50000000  0.00000000  0.00000000  1
+  O  O8  1  0.03421711  0.25736087  0.79548197  1
+  O  O9  1  0.03421711  0.74263913  0.79548197  1
+  O  O10  1  0.25892423  0.00000000  0.69481724  1
+  O  O11  1  0.74107577  0.00000000  0.30518276  1
+  O  O12  1  0.96578289  0.25736087  0.20451803  1
+  O  O13  1  0.96578289  0.74263913  0.20451803  1
+  O  O14  1  0.53421711  0.75736087  0.79548197  1
+  O  O15  1  0.53421711  0.24263913  0.79548197  1
+  O  O16  1  0.75892423  0.50000000  0.69481724  1
+  O  O17  1  0.24107577  0.50000000  0.30518276  1
+  O  O18  1  0.46578289  0.75736087  0.20451803  1
+  O  O19  1  0.46578289  0.24263913  0.20451803  1
