@@ -1,0 +1,20 @@
+project_root: ../..
+verify_frozen_inputs: true
+frozen_manifest: 07_DFT_VALIDATION/workflows/association_identifiability/ANALYSIS_DATA_FREEZE.csv
+inputs:
+  element_fixed: 07_DFT_VALIDATION/workflows/association_screening/ELEMENT_RESPONSE_INPUT.csv
+  element_legacy_delta: 07_DFT_VALIDATION/workflows/association_screening/LEGACY_ELEMENT_DESCRIPTOR_DELTA.csv
+  element_matrix: 07_DFT_VALIDATION/workflows/substitution_qualification/FINAL_ELEMENT_SUBSTITUTION_MATRIX.csv
+  element_long: 07_DFT_VALIDATION/workflows/substitution_qualification/ALL_ACCEPTED_PAIRS_LONG.csv
+  structure: 07_DFT_VALIDATION/workflows/geometry_qualification/UNIFIED_440_RESULT_SET.csv
+  cross_scale: 07_DFT_VALIDATION/workflows/association_identifiability/CROSS_SCALE_IMPORTANCE_EVIDENCE.csv
+  run004_element: 07_DFT_VALIDATION/workflows/association_identifiability/ELEMENT_IMPORTANCE_FINAL.csv
+  run004_global: 07_DFT_VALIDATION/workflows/association_identifiability/GLOBAL_L_THETA_MATERIAL_RESULTS.csv
+  run004_local_length: 07_DFT_VALIDATION/workflows/association_identifiability/LOCAL_BOND_LENGTH_IMPORTANCE.csv
+  run004_local_angle: 07_DFT_VALIDATION/workflows/association_identifiability/LOCAL_BOND_ANGLE_IMPORTANCE.csv
+output_dir: outputs/07_DFT_VALIDATION/association_methods
+seed: 20261030
+bootstrap_draws: 500
+error_sigma_eV: [0.000002, 0.0001, 0.001]
+error_correlation: [0.0, 0.8]
+ridge_alphas: [0.01, 0.1, 1.0, 10.0, 100.0]

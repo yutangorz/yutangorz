@@ -1,0 +1,38 @@
+[
+  {
+    "path": "code/ablation.py",
+    "sha256": "20f990ef17232bfe4a812f547008f0f9aef5fe0b5cf73dab8eb63fecf4651e74"
+  },
+  {
+    "path": "config.json",
+    "sha256": "beb06a9f3fa43cffb90484140b0639046bfee18236724ca5afb6ceecdb4a2b76"
+  },
+  {
+    "path": "inputs/concepts_7176.csv",
+    "sha256": "f3367b3173c10c59ef70ec0cbbddeaab5da5ce04a50c702b955e84e9f43202c3"
+  },
+  {
+    "path": "inputs/INPUT_AUDIT.json",
+    "sha256": "33015175fd4b64ae25c4fdbed103981392bdce78a1ac2db02e96a3bae82f1b97"
+  },
+  {
+    "path": "inputs/label_crosscheck.csv",
+    "sha256": "76b064e7752799edbdaeb43770a42d4c9c4f92f72a1e17618071b879bd2914ae"
+  },
+  {
+    "path": "inputs/model_input_7176.csv",
+    "sha256": "8fc24c95a8d8150a622ff07020d4c9005b13bcf77288b5cde8f382f1756f4499"
+  },
+  {
+    "path": "inputs/prior_formula_manifest.csv",
+    "sha256": "c2f81e8a67606f7ae695b26a6e8be1d16aba6da016e87d33edeb07f3c1e2066a"
+  },
+  {
+    "path": "inputs/source_labels_7176.csv",
+    "sha256": "2f01aaead024169f1b9de4d9ce0847ccb4a1c3741de7702116c36dceafc23997"
+  },
+  {
+    "path": "PROTOCOL_FROZEN.json",
+    "sha256": "0daabec367a3b80c412e619b2e58c85a0240f2cdd7a568ef4ced450c6e33e232"
+  }
+]

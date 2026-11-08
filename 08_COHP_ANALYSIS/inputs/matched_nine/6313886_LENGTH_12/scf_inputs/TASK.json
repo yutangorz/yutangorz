@@ -1,0 +1,48 @@
+{
+  "task_id": "COHP_A06_6313886_LENGTH_12",
+  "state": "6313886_LENGTH_12",
+  "type": "LOBSTER_REUSE_EXISTING_WAVE",
+  "node": "node02",
+  "threads": 48,
+  "MPI_ranks": 1,
+  "status": "HOLD",
+  "binary": "07_DFT_VALIDATION/inputs/FGM/nature_perovskite_revision/batches/cohp_a06_run073_tasks_20261030/SOFTWARE_REFERENCE/lobster-5.1.1",
+  "binary_sha256": "4ad178e33e94f7cfba96ec5f5fe946b1675b14b42561dd981491f3a3dea62e7a",
+  "lobsterin_sha256": "e057b8874b8803995a54cb04474f45d7e895c218bc8c5c7b73e57d7c6f87dad7",
+  "frozen_files": {
+    "POSCAR": {
+      "path": "07_DFT_VALIDATION/inputs/FGM/nature_perovskite_revision/batches/structure_pilot_first90_run038_20261028/6313886/6313886_LENGTH_12/POSCAR",
+      "sha256": "45675a15ce4f8404b62aeb8f563dcfc1483e580695d9d1c0a09fddffcacaad74"
+    },
+    "INCAR": {
+      "path": "07_DFT_VALIDATION/inputs/FGM/nature_perovskite_revision/batches/structure_pilot_first90_run038_20261028/6313886/6313886_LENGTH_12/INCAR",
+      "sha256": "1e515c0e7dae5ab541e2c2f2da72b86983e81a3bce325bebc47ef92473cdd5a3"
+    },
+    "KPOINTS": {
+      "path": "07_DFT_VALIDATION/inputs/FGM/nature_perovskite_revision/batches/structure_pilot_first90_run038_20261028/6313886/6313886_LENGTH_12/KPOINTS",
+      "sha256": "2515b5456f547772c565a3c3fecd5286d2de0eaedc841948edbd763b4681d734"
+    },
+    "POTCAR": {
+      "path": "07_DFT_VALIDATION/inputs/FGM/nature_perovskite_revision/batches/structure_pilot_first90_run038_20261028/6313886/6313886_LENGTH_12/POTCAR",
+      "sha256": "c1fdc1298192276882097a2764517c9abc2036f8b8f2f7ea6254b8c3fa2fa92c"
+    },
+    "WAVECAR": {
+      "path": "07_DFT_VALIDATION/inputs/FGM/nature_perovskite_revision/batches/structure_pilot_first90_run038_20261028/6313886/6313886_LENGTH_12/WAVECAR",
+      "sha256": "9f5075659037b2b8afdf0709f9057febb5d4454692f4bb9f5547c210357e5c0f"
+    },
+    "CHGCAR": {
+      "path": "07_DFT_VALIDATION/inputs/FGM/nature_perovskite_revision/batches/structure_pilot_first90_run038_20261028/6313886/6313886_LENGTH_12/CHGCAR",
+      "sha256": "d5e0ae88d9c6b71591d9c4dd0363810c8bce4358b5b5418770ff3ea4677678cf"
+    }
+  },
+  "output_directory": "07_DFT_VALIDATION/inputs/FGM/nature_perovskite_revision/batches/cohp_a06_run073_tasks_20261030/RESULTS/COHP_A06_6313886_LENGTH_12",
+  "dependencies": [],
+  "dependency_evidence": "source SCF independently accepted; no new upstream SCF/band",
+  "memory": "HOLD_peak_not_measured_scheduler_memory_not_certified",
+  "window": [
+    -47,
+    17
+  ],
+  "basis_orbitals": 192,
+  "NBANDS": 360
+}

@@ -1,0 +1,71 @@
+{
+  "id": "SUB20v1_8550885_A_RA_baseline",
+  "mode": "soc",
+  "material": "8550885",
+  "state": "A_RA_baseline",
+  "nsites": 40,
+  "actual_parameters": {
+    "LSORBIT": true,
+    "NSW": 0,
+    "NBANDS": 408,
+    "ENCUT": 520.0,
+    "EDIFF": 1e-07,
+    "NELM": 150,
+    "ISIF": 2,
+    "ISMEAR": 0,
+    "SIGMA": 0.05,
+    "GGA": "Pe",
+    "LASPH": true,
+    "LREAL": false,
+    "ISYM": -1,
+    "LNONCOLLINEAR": true,
+    "IBRION": -1,
+    "NELECT": 320
+  },
+  "mesh": [
+    6,
+    6,
+    2
+  ],
+  "potcar_sha256": "79c2c5c9cf721f6a617cf83da66b34f92450cf9053896c0aec9d09603499e6de",
+  "potcar_source_private": "07_DFT_VALIDATION/inputs/FGM/DFT_val/8550885/8550885/2_scf/POTCAR",
+  "potcar_recipe": null,
+  "potcar_components": null,
+  "expected_PAW_titles": [
+    "PAW_PBE Ta_pv 07Sep2000",
+    "PAW_PBE Ag 02Apr2005",
+    "PAW_PBE O 08Apr2002"
+  ],
+  "expected_PAW_ZVAL": [
+    11.0,
+    11.0,
+    6.0
+  ],
+  "expected_PAW_ENMAX": [
+    223.667,
+    249.844,
+    400.0
+  ],
+  "binary": "licensed_software/vasp/bin/vasp_ncl",
+  "binary_sha256": "95c4498fb376e8ea006039e640051eb9223b4279f5289da5fb16b668ce974c6e",
+  "assigned_node": "node03",
+  "input_only_parameters": {
+    "IVDW": 0
+  },
+  "parent_run": "source_ref_86d5a6b65685",
+  "interpretation": "fixed RA neutral PBE+SOC closed-shell formal-valence hypothesis; no relaxed stability/magnetic-ground-state proof",
+  "delivery_hashes": {
+    "INCAR": "9af24aef4fe0a21480dc89b2d1ebcc3c7e045d7d1ccb69bcdcc4c9b121e587fd",
+    "KPOINTS": "8f7c67b93bc2be99417ff83c7fb30ce904e2c938560ff4fd0c8ca7ffc6274f5b",
+    "occupation_rounding.py": "bcdc4444554c75278e8045e872a0fec566cb77b66f010c3d0bef5cb288844a0a",
+    "paw_record_guard.py": "c39e884b1c54bce5562b8ade26190f80fce9e6bd093160f0a79a9b0e3a82572b",
+    "POSCAR": "aa65938d6240f578b29764dc43099c4f49ad3704bd44ad2c24b21fb40693dd1d",
+    "run_task.py": "b2baff3c0708bcca40666da96a94b6a1f11eb6cf43642aede62093d184eae6d3",
+    "scf_rounding.py": "d306c282fcfe4ad25f2ad616a421cae3a7bc481034398f26bde90b287638443e",
+    "soc_input_guard.py": "c99287bb7799f5544cf8497914e2b3c9c0ddd6cff9a454cab1a05c90c5a444be",
+    "spectrum_policy.py": "2dcabaa8e3686479638465f7530afe5bb03612f216ab4c72ba2ad35ac776d35e",
+    "submit_node03.slurm": "ba450debcae3701335a81d09da869993c7d1f006d0e976ccb435fa0ad5257401",
+    "validate_substitution.py": "489aa7fd08853c8b29fabbcabccfe590f207ec1a4293aee41edb6532aaef340a",
+    "weight_rounding.py": "669c1b1f5d8cf9ef949bc281a1ff2d441ff210a778d3c69bad1e20af1019a5bc"
+  }
+}

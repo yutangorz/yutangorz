@@ -1,0 +1,14 @@
+{
+  "request": "验收并确认最终的元素替换结果矩阵",
+  "scope": "current10Wardclusters2slots;preservehistorical20andVersionA",
+  "formal_assignment_if_accepted": {
+    "Ward5": "9836170->9136236",
+    "Ward6": "8638126->9137206"
+  },
+  "authority_basis": "current final-matrix confirmation request together with prior explicit calculation approvals for these same-cluster candidates",
+  "Ward6_display_rule": "Use conservative same-alkali Cs->Rb if qualified;otherwise already-designed Cs->Tl if qualified;report both when valid;never select by response magnitude or model agreement",
+  "not_accepted_remains_NA": true,
+  "no_newDFT": true,
+  "protocols_separate": true,
+  "publication_claims_not_finalized": true
+}

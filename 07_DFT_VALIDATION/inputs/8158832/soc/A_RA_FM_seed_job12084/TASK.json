@@ -1,0 +1,115 @@
+{
+  "id": "SPINPILOTv1_8158832_A_RA_FM_seed",
+  "mode": "soc",
+  "material": "8158832",
+  "state": "A_RA_FM_seed",
+  "pilot_seed": "FM_seed",
+  "nsites": 10,
+  "mesh": [
+    8,
+    6,
+    5
+  ],
+  "actual_parameters": {
+    "LSORBIT": true,
+    "LNONCOLLINEAR": true,
+    "NSW": 0,
+    "NBANDS": 120,
+    "ENCUT": 520.0,
+    "EDIFF": 1e-07,
+    "NELM": 150,
+    "ISIF": 2,
+    "ISMEAR": 0,
+    "SIGMA": 0.05,
+    "GGA": "Pe",
+    "LASPH": true,
+    "LREAL": false,
+    "ISYM": -1,
+    "IBRION": -1,
+    "LORBIT": 11,
+    "NELECT": 86
+  },
+  "initial_MAGMOM_flat": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "assigned_node": "node02",
+  "authorization_id": "user-spinpilot6-run081-20261023",
+  "input_only_parameters": {
+    "IVDW": 0
+  },
+  "potcar_sha256": "84ee0456e2b575f0104e38c6b869a181ff2f2c5ea11df1105a710f24d055eca9",
+  "expected_PAW_titles": [
+    "PAW_PBE Rb_sv 06Sep2000",
+    "PAW_PBE Ga_d 06Jul2010",
+    "PAW_PBE F 08Apr2002"
+  ],
+  "expected_PAW_ZVAL": [
+    9.0,
+    13.0,
+    7.0
+  ],
+  "expected_PAW_ENMAX": [
+    220.112,
+    282.691,
+    400.0
+  ],
+  "potcar_source_private": "07_DFT_VALIDATION/inputs/FGM/DFT_val/8158832/8158832/2_scf/POTCAR",
+  "PAW_source_components": [
+    "07_DFT_VALIDATION/inputs/FGM/DFT_val/8158832/8158832/2_scf/POTCAR",
+    "licensed_software/paw/PBE/Al/POTCAR"
+  ],
+  "PAW_component_sha256": [
+    "84ee0456e2b575f0104e38c6b869a181ff2f2c5ea11df1105a710f24d055eca9",
+    "17880443556af62b473fe41b62a467bd001ad55d2cabe504a3f22e34d4e9db96"
+  ],
+  "PAW_replacement_block": 1,
+  "binary": "licensed_software/vasp/bin/vasp_ncl",
+  "binary_sha256": "95c4498fb376e8ea006039e640051eb9223b4279f5289da5fb16b668ce974c6e",
+  "paired_geometry_SHA": "a8f1e9d8b0ea97d050b5c1ef1331fb8482d63101bf35ac128ba74abd7081bc3b",
+  "parent_review": "source_ref_3bf8911098a7",
+  "scope": "one of three spin-seeded fixed-RA PBE+SOC diagnostics; no stability or magnetic-ground-state claim",
+  "delivery_hashes": {
+    "INCAR": "4360128e4f8b7193c67c59fe6d5435805f2b6fed23a83600a05e368ef0c5bb72",
+    "KPOINTS": "687775a568210c92693364875e89e561d6974332f32910a39bcefb3f1ce53e0e",
+    "occupation_rounding.py": "bcdc4444554c75278e8045e872a0fec566cb77b66f010c3d0bef5cb288844a0a",
+    "paw_record_guard.py": "c39e884b1c54bce5562b8ade26190f80fce9e6bd093160f0a79a9b0e3a82572b",
+    "POSCAR": "a8f1e9d8b0ea97d050b5c1ef1331fb8482d63101bf35ac128ba74abd7081bc3b",
+    "run_task.py": "12adfd596f07faa82e5a4c361a3ff3348977f5593c1e7f032f8803696144071c",
+    "scf_rounding.py": "d306c282fcfe4ad25f2ad616a421cae3a7bc481034398f26bde90b287638443e",
+    "soc_input_guard.py": "3de1f9bc47d48664b59dac0b8c8654210608d600bbc974ca525fee1cb97c834c",
+    "spectrum_policy.py": "2dcabaa8e3686479638465f7530afe5bb03612f216ab4c72ba2ad35ac776d35e",
+    "submit_node02.slurm": "0842a1836a29a02fe12e9da14ef097ec249f4233324fcf2756d1801a7a30d391",
+    "validate_magnetic_pilot.py": "6f92bbff0f72468b612beaa01a4d4fd64c42f6441cb86cb138a833f591dd800b",
+    "validate_substitution.py": "489aa7fd08853c8b29fabbcabccfe590f207ec1a4293aee41edb6532aaef340a",
+    "weight_rounding.py": "669c1b1f5d8cf9ef949bc281a1ff2d441ff210a778d3c69bad1e20af1019a5bc"
+  }
+}

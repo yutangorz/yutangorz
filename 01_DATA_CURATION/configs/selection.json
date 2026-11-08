@@ -1,0 +1,23 @@
+{
+  "run": "source_ref_d550cdc279bd",
+  "parent": "source_ref_1b646f1a707b",
+  "purpose": "Recovered original preprocessing selection replay; no previous run edited",
+  "source_rows_claim": 72747,
+  "workers": 8,
+  "threshold_model": "probability > 0.5",
+  "gap": "positive labels before classifier; >=0.5 afterwards",
+  "stability": "delete delta_e >0 OR stability >0.1",
+  "historical_exception": null,
+  "comparison": {
+    "rtol": 1e-08,
+    "atol": 1e-08
+  },
+  "adoption": "Conditional on measured verification, separately for membership/core8/features156",
+  "frozen_utc": "2026-10-18T06:30:28.097154+00:00",
+  "change_reason": "The original idxmin representative depends on archived checkpoint row order and export precision. Independently validate all 12767 candidate IDs first, then explicitly preserve original checkpoint order/core values. No final-cohort whitelist.",
+  "composition_completeness_gate": "All retained 72 Magpie properties finite; reconstructed adapter, historical cause not established",
+  "memoization": "per Structure and (i,j), original distances preserved; 12-sample equivalence pilot",
+  "cache_policy": "full frozen run011 feature calculation; warning records recomputed",
+  "checkpoint_assisted": true,
+  "independent_raw_to_final_generator_recovered": false
+}

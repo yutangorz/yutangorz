@@ -1,0 +1,48 @@
+{
+  "task_id": "COHP_A06_PARENT",
+  "state": "PARENT",
+  "type": "LOBSTER_REUSE_EXISTING_WAVE",
+  "node": "mgr",
+  "threads": 40,
+  "MPI_ranks": 1,
+  "status": "HOLD",
+  "binary": "07_DFT_VALIDATION/inputs/FGM/nature_perovskite_revision/batches/cohp_a06_run073_tasks_20261030/SOFTWARE_REFERENCE/lobster-5.1.1",
+  "binary_sha256": "4ad178e33e94f7cfba96ec5f5fe946b1675b14b42561dd981491f3a3dea62e7a",
+  "lobsterin_sha256": "e057b8874b8803995a54cb04474f45d7e895c218bc8c5c7b73e57d7c6f87dad7",
+  "frozen_files": {
+    "POSCAR": {
+      "path": "07_DFT_VALIDATION/inputs/FGM/nature_perovskite_revision/batches/structure_baseline13_mgr_run026_20261028/6313886/BASELINE/POSCAR",
+      "sha256": "5874b0ea22fd5d664f0ed71e99dea4b3b9607e82703ff19753d301cb2ef4687b"
+    },
+    "INCAR": {
+      "path": "07_DFT_VALIDATION/inputs/FGM/nature_perovskite_revision/batches/structure_baseline13_mgr_run026_20261028/6313886/BASELINE/INCAR",
+      "sha256": "8824c5576328e39bbc6c8051b558ceafe26b5ef077a0069ad94790983c177a88"
+    },
+    "KPOINTS": {
+      "path": "07_DFT_VALIDATION/inputs/FGM/nature_perovskite_revision/batches/structure_baseline13_mgr_run026_20261028/6313886/BASELINE/KPOINTS",
+      "sha256": "2515b5456f547772c565a3c3fecd5286d2de0eaedc841948edbd763b4681d734"
+    },
+    "POTCAR": {
+      "path": "07_DFT_VALIDATION/inputs/FGM/nature_perovskite_revision/batches/structure_baseline13_mgr_run026_20261028/6313886/BASELINE/POTCAR",
+      "sha256": "c1fdc1298192276882097a2764517c9abc2036f8b8f2f7ea6254b8c3fa2fa92c"
+    },
+    "WAVECAR": {
+      "path": "07_DFT_VALIDATION/inputs/FGM/nature_perovskite_revision/batches/structure_baseline13_mgr_run026_20261028/6313886/BASELINE/WAVECAR",
+      "sha256": "a859a5ee7563351a3b25d0201f788e8d540a81824d64fc2f7311fe3f320cff0b"
+    },
+    "CHGCAR": {
+      "path": "07_DFT_VALIDATION/inputs/FGM/nature_perovskite_revision/batches/structure_baseline13_mgr_run026_20261028/6313886/BASELINE/CHGCAR",
+      "sha256": "96c89695d88339fc29a960e5bfc7adf5c07b561272c5b3e90891dcab8f6b9bac"
+    }
+  },
+  "output_directory": "07_DFT_VALIDATION/inputs/FGM/nature_perovskite_revision/batches/cohp_a06_run073_tasks_20261030/RESULTS/COHP_A06_PARENT",
+  "dependencies": [],
+  "dependency_evidence": "source SCF independently accepted; no new upstream SCF/band",
+  "memory": "HOLD_peak_not_measured_scheduler_memory_not_certified",
+  "window": [
+    -47,
+    17
+  ],
+  "basis_orbitals": 192,
+  "NBANDS": 360
+}

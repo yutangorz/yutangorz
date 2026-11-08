@@ -1,0 +1,159 @@
+{
+  "id": "CURRENTBv2_43143_B_Zn_Ni_PBE_ED6",
+  "material": "43143",
+  "state": "B_RA_NEW_FINITE_REFERENCE",
+  "mode": "pbe_collinear_lowcost_v1",
+  "validator_module": "validate_nonsoc",
+  "nsites": 5,
+  "symbols_per_site": [
+    "Ni",
+    "Ag",
+    "F",
+    "F",
+    "F"
+  ],
+  "mesh": [
+    6,
+    6,
+    6
+  ],
+  "actual_parameters": {
+    "EDIFF": 1e-06,
+    "ENCUT": 520.0,
+    "GGA": "PE",
+    "GGA_COMPAT": false,
+    "ISPIN": 2,
+    "LSORBIT": false,
+    "LNONCOLLINEAR": false,
+    "LDAU": false,
+    "ISMEAR": 0,
+    "SIGMA": 0.05,
+    "NBANDS": 48,
+    "NELECT": 42,
+    "LMAXMIX": 4,
+    "NELM": 150,
+    "NSW": 0,
+    "IBRION": -1,
+    "ISIF": 2,
+    "ICHARG": 2,
+    "LREAL": false,
+    "LASPH": true,
+    "ISYM": -1,
+    "IVDW": 0
+  },
+  "MPI": 48,
+  "NCORE": 4,
+  "exclusive": true,
+  "wall_hours": 3,
+  "assigned_node": "node01",
+  "authorization_id": "AUTHOR_NI43143_B_SRI9136236_AB_RUN480_20261027",
+  "requires_task_id": "WARDSLOTv1_43143_A_RA_COL_PBE_ED6",
+  "slurm_dependency_type": null,
+  "binary": "licensed_software/vasp/bin/vasp_std",
+  "binary_sha256": "ac059f813ee4847ccfd40c92d1a94175fd5924e528dafa3cdf86bd5497d530eb",
+  "PAW_blocks": [
+    {
+      "exists": true,
+      "path": "licensed_software/paw/PBE/Ni/POTCAR",
+      "sha256": "0534bc51ca8003dfef23f56753fef9fdd3e22eac8d719fccacb59f3e6b7a69c7",
+      "title": [
+        "PAW_PBE Ni 02Aug2007"
+      ],
+      "ZVAL": [
+        "10.000"
+      ],
+      "ENMAX": [
+        "269.532"
+      ],
+      "end_newline": true
+    },
+    {
+      "exists": true,
+      "path": "licensed_software/paw/PBE/Ag/POTCAR",
+      "sha256": "6550cfa3543261e132c169e1b98a529204624d72be14e2da2e0242bcb74a174d",
+      "title": [
+        "PAW_PBE Ag 02Apr2005"
+      ],
+      "ZVAL": [
+        "11.000"
+      ],
+      "ENMAX": [
+        "249.844"
+      ],
+      "end_newline": true
+    },
+    {
+      "exists": true,
+      "path": "licensed_software/paw/PBE/F/POTCAR",
+      "sha256": "53c630871ac675939349fc2b976745ee17808dedc90b5bdde026bc81f0faf456",
+      "title": [
+        "PAW_PBE F 08Apr2002"
+      ],
+      "ZVAL": [
+        "7.000"
+      ],
+      "ENMAX": [
+        "400.000"
+      ],
+      "end_newline": true
+    }
+  ],
+  "expected_PAW_titles": [
+    "PAW_PBE Ni 02Aug2007",
+    "PAW_PBE Ag 02Apr2005",
+    "PAW_PBE F 08Apr2002"
+  ],
+  "expected_PAW_ZVAL": [
+    10.0,
+    11.0,
+    7.0
+  ],
+  "expected_PAW_ENMAX": [
+    269.532,
+    249.844,
+    400.0
+  ],
+  "potcar_sha256": "4bb3c29c43989363dcebc2f91df40a4357f6ede14ce5cc2bddd537ec1287aa58",
+  "source_structure_SHA": "d36fc67b489a8aaf171dce845377cf748455fecce9cb0e659c67d1f8b289501d",
+  "source_structure_path": "07_DFT_VALIDATION/data/material_selection/structures/43143.vasp",
+  "zero_based_replaced_sites": [
+    0
+  ],
+  "substitution": "Zn->Ni",
+  "historical_Ward_cluster": 10,
+  "SESR_candidate_id": "WARDSESR_c34ef64be543f79dcef7",
+  "SESR_score_status": "PARTIAL_SCORE_ONLY",
+  "limitations": [
+    "single mesh/cutoff nonSOC fixed geometry finite reference",
+    "Ni2+d8 single collinear seed1muB;not groundstate;metal risk",
+    "no automatic retries or scanning"
+  ],
+  "initial_MAGMOM_scalar": [
+    1.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "reuse_parent_path": "07_DFT_VALIDATION/inputs/FGM/nature_perovskite_revision/batches/current20_three_pairs_run474_20261027/43143/A",
+  "reuse_parent_qc": "07_DFT_VALIDATION/inputs/FGM/nature_perovskite_revision/audits/current20_three_qc_run477_20261027/results/QC_12258.json",
+  "reuse_parent_hashes": {
+    "OUTCAR": "baec481105d048b11f8dbcf886582cc5ed75e6fe8d52896214d032b3c9368c27",
+    "vasprun.xml": "6bd0c8f15d560c4adb2241585b6cca54c7aebd2944d6d60900154a1f45b90ea9"
+  },
+  "delivery_hashes": {
+    "INCAR": "e64024e75db4fa5b147a0a53b2e01f81e1fdade8616501856bb07ff14a747a16",
+    "input_guard.py": "926d267d6a295883a6cd4eb6b2f9671c9c7d4772b209e7740f68404f8f8dcb31",
+    "KPOINTS": "546ddb499cc56975919f612ec76b7dbfd51b2248873cd7328ea742b91c1f4493",
+    "occupation_rounding.py": "8a212d53338cee702d3acd74c61c392bf252654899ce3062d8a722bc16e7fbea",
+    "paw_record_guard.py": "e0a0827aadadb69a0a824ad0a534a14cb8d0f78948011615cc46e974ab6d4855",
+    "POSCAR": "a756b3016ddb55267c78ea172027772546652b32df87c05bc710d29c8dbb9cec",
+    "runner.py": "a782f8072a544d4072cf321da42ce22e815ef32327624968256a90d597f57afd",
+    "scf_rounding.py": "d306c282fcfe4ad25f2ad616a421cae3a7bc481034398f26bde90b287638443e",
+    "submit_node01.slurm": "324f82438bea635c139524df47320f03118eba35f9c74cfd3d569f9f3b6b1bf0",
+    "validate_nm.py": "b129ad64b1a31974e9d754e85773ee5a0631b5b8fb768035d86329480c357be0",
+    "validate_nonsoc.py": "300c2e6fc7adedcbd24458f6e924143e7d033b55cb3aa60dd64449027a78fc24",
+    "weight_rounding.py": "669c1b1f5d8cf9ef949bc281a1ff2d441ff210a778d3c69bad1e20af1019a5bc",
+    "xml_tools_frozen.py": "47cbceb209d653f11dc3c909f33e88178cea29b349fff4c8c5211a26305c4f94"
+  }
+}

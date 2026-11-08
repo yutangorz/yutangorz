@@ -1,0 +1,20 @@
+{
+  "PAW": [
+    "Cs_sv",
+    "Li_sv",
+    "Rh",
+    "Cl"
+  ],
+  "recommended_basis": [
+    "Cs 5p 5s 6s ",
+    "Li 1s 2s 2p ",
+    "Rh 4d 5p 5s ",
+    "Cl 3p 3s "
+  ],
+  "n_orbitals": 192,
+  "actual_NBANDS": 360,
+  "band_count_gate": true,
+  "source": "pymatgen BASIS_PBE_54_standard recommendation plus LOBSTER5.1.1 manual pp9-10; runtime embedded basis support pending",
+  "manual_sha": "a6a913592905cdcb85a40fbd4254e9ac85957329862d6500871170ea3375f12f",
+  "window_status": "PENDING_ACTUAL_SPECTRAL_COVERAGE"
+}

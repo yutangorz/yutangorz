@@ -1,0 +1,16 @@
+{
+  "path": "unavailable_inputs/source_c1d67470e7c4/POTCAR",
+  "sha256": "c1fdc1298192276882097a2764517c9abc2036f8b8f2f7ea6254b8c3fa2fa92c",
+  "TITEL": [
+    "PAW_PBE Cs_sv 08Apr2002",
+    "PAW_PBE Li_sv 10Sep2004",
+    "PAW_PBE Rh 04Feb2005",
+    "PAW_PBE Cl 06Sep2000"
+  ],
+  "ZVAL": [
+    9.0,
+    3.0,
+    9.0,
+    7.0
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "PROTOCOL_STATUS": "DRAFT_AWAITING_AUTHOR_APPROVAL",
+  "EXPERIMENT_STATUS": "READY_AWAITING_EXECUTION_APPROVAL",
+  "EXECUTION_AUTHORIZED": false,
+  "SCIENTIFIC_CLOSEOUT_APPROVED": false,
+  "created_as_new_protocol": "2026-10-26 Asia/Shanghai; not recovered historical taskbook",
+  "features": [
+    "period",
+    "electronegativity",
+    "covalent_radius",
+    "valence_electrons",
+    "ionization_energy",
+    "electron_affinity",
+    "atomic_volume",
+    "bond_length",
+    "bond_angle"
+  ],
+  "parents": 38,
+  "cases": 76,
+  "groups": [
+    "A",
+    "B"
+  ],
+  "generator_seeds": [
+    307,
+    419
+  ],
+  "selection_repeats": [
+    101,
+    211,
+    503,
+    607,
+    809
+  ],
+  "fit_rows": 64,
+  "fitter": "unchanged frozen refined.weighted_local",
+  "alpha": 1,
+  "kernel_width": 2.25,
+  "anchor": false,
+  "fit_intercept": true,
+  "ET_model_path": "06_EXTERNAL_TRANSFER/data/external_response/property_model.joblib",
+  "ET_model_sha256": "1e3c7c3370b5fcc41b25db1eb20ff483c877c190d23d3c83b2035e3fd21784c6",
+  "teacher_target": "frozen ET delta_f(x)=f(x)-f(exact structural anchor),eV",
+  "Gaussian_rule": "official pinned lime0.2.0.1 private __data_inverse only;512 raw rows,first overwritten with exact anchor; no explain_instance local fit",
+  "Gaussian_seed": "int(first8hex(SHA256(run022|ID)),16) mod (2**31-1)",
+  "selection_rule": "default_rng(int(first16hex(SHA256(GBA_v1|ID|generator_seed|repeat|A_or_B)),16));64 without replacement; A index1..511,B original fit144",
+  "budget": {
+    "new_ET_rows": 19456,
+    "new_ET_batch_calls": 38,
+    "Ridge_fit_attempts": 760,
+    "feature_extractions_total": 38,
+    "feature_extractions_preparation_completed": 38,
+    "feature_extractions_future_remaining": 0,
+    "new_crystals": 0,
+    "model_retraining_GPU_DFT": 0
+  },
+  "statistics": {
+    "primary": "all48 heldout mother-level B-minus-A MAE",
+    "unit": "38 mothers; 2 generator seeds and5 selection replicates averaged within mother",
+    "bootstrap": "paired percentile10000 seed20261025; common resampled-mother matrix for all scopes",
+    "primary_CI": 0.95,
+    "multiplicity": "one prespecified primary, no multiplicity correction for it; geometry/chemical/other95% exploratory, no superiority claim from selected secondary",
+    "failure_policy": "all38 and planned fits remain; any failed/missing primary case => no confirmatory CI, primary incomplete; any complete-case secondary explicitly exploratory",
+    "relative_effect": "1-mean(B_MAE)/mean(A_MAE),CI from same paired resamples; denominator<=1e-12 =>NA",
+    "tie_policy": "exact delta sign; no outcome-derived tolerance"
+  },
+  "stop_policy": [
+    "critical SHA/identity/leakage mismatch",
+    "missing exact anchor",
+    "budget exhausted or extra oracle retry requested",
+    "nonfinite ET output or unexpected shape",
+    "execution approval missing"
+  ],
+  "no_optional_fits": [
+    "Bq",
+    "Block",
+    "native path ablation",
+    "ALIGNN"
+  ],
+  "future_output_root": "06_EXTERNAL_TRANSFER/workflows/common_ridge",
+  "next_action": "author approve exact protocol+immutable manifest+execution budget; this bundle has no authorization"
+}

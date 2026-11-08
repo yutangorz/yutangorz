@@ -1,0 +1,229 @@
+{
+  "features": [
+    "period",
+    "electronegativity",
+    "covalent_radius",
+    "valence_electrons",
+    "ionization_energy",
+    "electron_affinity",
+    "atomic_volume",
+    "bond_length",
+    "bond_angle"
+  ],
+  "display_order": [
+    "valence_electrons",
+    "electron_affinity",
+    "ionization_energy",
+    "atomic_volume",
+    "electronegativity",
+    "covalent_radius",
+    "period",
+    "bond_length",
+    "bond_angle"
+  ],
+  "sets": {
+    "atomic7": [
+      "period",
+      "electronegativity",
+      "covalent_radius",
+      "valence_electrons",
+      "ionization_energy",
+      "electron_affinity",
+      "atomic_volume"
+    ],
+    "atomic7_distance": [
+      "period",
+      "electronegativity",
+      "covalent_radius",
+      "valence_electrons",
+      "ionization_energy",
+      "electron_affinity",
+      "atomic_volume",
+      "bond_length"
+    ],
+    "atomic7_angle": [
+      "period",
+      "electronegativity",
+      "covalent_radius",
+      "valence_electrons",
+      "ionization_energy",
+      "electron_affinity",
+      "atomic_volume",
+      "bond_angle"
+    ],
+    "combined9": [
+      "period",
+      "electronegativity",
+      "covalent_radius",
+      "valence_electrons",
+      "ionization_energy",
+      "electron_affinity",
+      "atomic_volume",
+      "bond_length",
+      "bond_angle"
+    ]
+  },
+  "model_seeds": [
+    20261019,
+    20261101,
+    20261102
+  ],
+  "seed_rule": "base_seed+outer_fold",
+  "primary_seed": 20261019,
+  "correlation_threshold": 0.7,
+  "groups": [
+    {
+      "fold": 0,
+      "indices": [
+        0,
+        2,
+        6,
+        7
+      ],
+      "features": [
+        "period",
+        "covalent_radius",
+        "atomic_volume",
+        "bond_length"
+      ],
+      "selection": "training-only |Spearman|>=0.7 connected component"
+    },
+    {
+      "fold": 0,
+      "indices": [
+        1,
+        4
+      ],
+      "features": [
+        "electronegativity",
+        "ionization_energy"
+      ],
+      "selection": "training-only |Spearman|>=0.7 connected component"
+    },
+    {
+      "fold": 1,
+      "indices": [
+        0,
+        2,
+        6,
+        7
+      ],
+      "features": [
+        "period",
+        "covalent_radius",
+        "atomic_volume",
+        "bond_length"
+      ],
+      "selection": "training-only |Spearman|>=0.7 connected component"
+    },
+    {
+      "fold": 1,
+      "indices": [
+        1,
+        4
+      ],
+      "features": [
+        "electronegativity",
+        "ionization_energy"
+      ],
+      "selection": "training-only |Spearman|>=0.7 connected component"
+    },
+    {
+      "fold": 2,
+      "indices": [
+        0,
+        2,
+        6,
+        7
+      ],
+      "features": [
+        "period",
+        "covalent_radius",
+        "atomic_volume",
+        "bond_length"
+      ],
+      "selection": "training-only |Spearman|>=0.7 connected component"
+    },
+    {
+      "fold": 2,
+      "indices": [
+        1,
+        4
+      ],
+      "features": [
+        "electronegativity",
+        "ionization_energy"
+      ],
+      "selection": "training-only |Spearman|>=0.7 connected component"
+    },
+    {
+      "fold": 3,
+      "indices": [
+        0,
+        2,
+        6,
+        7
+      ],
+      "features": [
+        "period",
+        "covalent_radius",
+        "atomic_volume",
+        "bond_length"
+      ],
+      "selection": "training-only |Spearman|>=0.7 connected component"
+    },
+    {
+      "fold": 3,
+      "indices": [
+        1,
+        4
+      ],
+      "features": [
+        "electronegativity",
+        "ionization_energy"
+      ],
+      "selection": "training-only |Spearman|>=0.7 connected component"
+    },
+    {
+      "fold": 4,
+      "indices": [
+        0,
+        2,
+        6,
+        7
+      ],
+      "features": [
+        "period",
+        "covalent_radius",
+        "atomic_volume",
+        "bond_length"
+      ],
+      "selection": "training-only |Spearman|>=0.7 connected component"
+    },
+    {
+      "fold": 4,
+      "indices": [
+        1,
+        4
+      ],
+      "features": [
+        "electronegativity",
+        "ionization_energy"
+      ],
+      "selection": "training-only |Spearman|>=0.7 connected component"
+    }
+  ],
+  "ET_parameters": {
+    "n_estimators": 250,
+    "max_features": 1.0,
+    "min_samples_leaf": 1,
+    "n_jobs": 2
+  },
+  "protocol": "Hold existing ET selected hyperparameters fixed for all removals; fit each model anew on frozen fold train; no retuning or test-dependent group selection",
+  "extra_fits": "Only ET full replay/singles/training-correlation groups for required f; XGB SHAP missing 1438 holdouts for required d",
+  "uncertainty": "2000 formula-cluster paired bootstrap conditional on fixed OOF models, plus 3 fitting seeds; no multiplicity-adjusted discovery",
+  "bootstrap_seed": 20261101,
+  "bootstrap_repeats": 2000,
+  "new_extraction": false,
+  "no_DFT": true
+}

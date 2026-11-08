@@ -1,0 +1,195 @@
+{
+  "id": "WARD6v1_9137206_B_Rb_RA_NM_PBE_ED6",
+  "material": "9137206",
+  "state": "B_Rb_RA_NM_CURRENT_WARD6",
+  "mode": "pbe_nm_lowcost_v1",
+  "validator_module": "validate_nm",
+  "nsites": 30,
+  "symbols_per_site": [
+    "Rb",
+    "Rb",
+    "Rb",
+    "Rb",
+    "Rb",
+    "Rb",
+    "Ga",
+    "Ga",
+    "Ga",
+    "Ag",
+    "Ag",
+    "Ag",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl",
+    "Cl"
+  ],
+  "mesh": [
+    4,
+    4,
+    2
+  ],
+  "actual_parameters": {
+    "EDIFF": 1e-06,
+    "ENCUT": 520.0,
+    "GGA": "Pe",
+    "GGA_COMPAT": false,
+    "ISPIN": 1,
+    "LSORBIT": false,
+    "LNONCOLLINEAR": false,
+    "LDAU": false,
+    "ISMEAR": 0,
+    "SIGMA": 0.05,
+    "NBANDS": 180,
+    "NELECT": 252,
+    "LMAXMIX": 4,
+    "NELM": 150,
+    "NSW": 0,
+    "IBRION": -1,
+    "ISIF": 2,
+    "ICHARG": 2,
+    "LREAL": false,
+    "LASPH": true,
+    "ISYM": -1,
+    "IVDW": 0
+  },
+  "MPI": 48,
+  "NCORE": 4,
+  "exclusive": true,
+  "wall_hours": 3,
+  "assigned_node": "node02",
+  "authorization_id": "AUTHOR_NEXT_WARD6_TRIPLE_RUN487_20261027",
+  "requires_task_id": "WARD6v1_9137206_A_RA_NM_PBE_ED6",
+  "slurm_dependency_type": "afterany",
+  "binary": "licensed_software/vasp/bin/vasp_std",
+  "binary_sha256": "ac059f813ee4847ccfd40c92d1a94175fd5924e528dafa3cdf86bd5497d530eb",
+  "PAW_blocks": [
+    {
+      "exists": true,
+      "path": "licensed_software/paw/PBE/Rb_sv/POTCAR",
+      "sha256": "06c38fe1ec7709d96d3959f5f2c66fec330a93b52b042a8fb2dfe6a3a3fb06c1",
+      "title": [
+        "PAW_PBE Rb_sv 06Sep2000"
+      ],
+      "ZVAL": [
+        "9.000"
+      ],
+      "ENMAX": [
+        "220.112"
+      ],
+      "end_newline": true
+    },
+    {
+      "exists": true,
+      "path": "licensed_software/paw/PBE/Ga_d/POTCAR",
+      "sha256": "a60ddf36e14f00ea098d9e3914b3745f1b7105e68786148f49ae384e44b4226c",
+      "title": [
+        "PAW_PBE Ga_d 06Jul2010"
+      ],
+      "ZVAL": [
+        "13.000"
+      ],
+      "ENMAX": [
+        "282.691"
+      ],
+      "end_newline": true
+    },
+    {
+      "exists": true,
+      "path": "licensed_software/paw/PBE/Ag/POTCAR",
+      "sha256": "6550cfa3543261e132c169e1b98a529204624d72be14e2da2e0242bcb74a174d",
+      "title": [
+        "PAW_PBE Ag 02Apr2005"
+      ],
+      "ZVAL": [
+        "11.000"
+      ],
+      "ENMAX": [
+        "249.844"
+      ],
+      "end_newline": true
+    },
+    {
+      "exists": true,
+      "path": "licensed_software/paw/PBE/Cl/POTCAR",
+      "sha256": "9f1b6e6ed4247ac726a768b330d26d7667cc3c95a39ff49c1d064c2d9dcce931",
+      "title": [
+        "PAW_PBE Cl 06Sep2000"
+      ],
+      "ZVAL": [
+        "7.000"
+      ],
+      "ENMAX": [
+        "262.472"
+      ],
+      "end_newline": true
+    }
+  ],
+  "expected_PAW_titles": [
+    "PAW_PBE Rb_sv 06Sep2000",
+    "PAW_PBE Ga_d 06Jul2010",
+    "PAW_PBE Ag 02Apr2005",
+    "PAW_PBE Cl 06Sep2000"
+  ],
+  "expected_PAW_ZVAL": [
+    9.0,
+    13.0,
+    11.0,
+    7.0
+  ],
+  "expected_PAW_ENMAX": [
+    220.112,
+    282.691,
+    249.844,
+    262.472
+  ],
+  "potcar_sha256": "84328a1f465351daa29da47a23a1e19911c0b8d50f2163a2a330b483175c25e7",
+  "source_structure_SHA": "edd1d197645e035dcd5d53493e30fee9c5a6dc269b69f7d1a113abaf0f3371fa",
+  "source_structure_path": "07_DFT_VALIDATION/data/material_selection/structures/9137206.vasp",
+  "zero_based_replaced_sites": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "substitution": "Cs->Rb",
+  "historical_Ward_cluster": 6,
+  "SESR_candidate_id": "WARDSESR_b5b7818e796c149b88c3",
+  "SESR_score_status": "PARTIAL_SCORE_ONLY",
+  "limitations": [
+    "PBE nonSOC/NM fixed geometry;single mesh/cutoff finite reference",
+    "Tl1+ closed6s2 formal hypothesis;nonSOC excludes quantitative SOC-sensitive claims",
+    "neither phase stability nor finite gap guaranteed",
+    "no auto retries;two substitution responses share one parent;one parent coverage slot only"
+  ],
+  "delivery_hashes": {
+    "INCAR": "d78812150bfa650880c4f6cf5f3f499ef8d899e2163669a855f801c03932941e",
+    "input_guard.py": "eeaf6225cd4a2f6f407ac900638763dd5a2937612ba582871e01f70704a5f0c4",
+    "KPOINTS": "abd78ea4bd842c6c734649414e3c26cdb3d8bca6ad32570e2922c06dd3074911",
+    "occupation_rounding.py": "8a212d53338cee702d3acd74c61c392bf252654899ce3062d8a722bc16e7fbea",
+    "paw_record_guard.py": "e0a0827aadadb69a0a824ad0a534a14cb8d0f78948011615cc46e974ab6d4855",
+    "POSCAR": "af901960dde9b81ef8a0aea76e178a6861d6d947efc763e75c718e1d7563d93e",
+    "runner.py": "a782f8072a544d4072cf321da42ce22e815ef32327624968256a90d597f57afd",
+    "scf_rounding.py": "d306c282fcfe4ad25f2ad616a421cae3a7bc481034398f26bde90b287638443e",
+    "submit_node02.slurm": "9c88e92b8ccdaa567f454211064a69db23329bc1a8cedb72ae5bf8f09120d42b",
+    "validate_nm.py": "b129ad64b1a31974e9d754e85773ee5a0631b5b8fb768035d86329480c357be0",
+    "validate_nonsoc.py": "300c2e6fc7adedcbd24458f6e924143e7d033b55cb3aa60dd64449027a78fc24",
+    "weight_rounding.py": "669c1b1f5d8cf9ef949bc281a1ff2d441ff210a778d3c69bad1e20af1019a5bc",
+    "xml_tools_frozen.py": "47cbceb209d653f11dc3c909f33e88178cea29b349fff4c8c5211a26305c4f94"
+  }
+}

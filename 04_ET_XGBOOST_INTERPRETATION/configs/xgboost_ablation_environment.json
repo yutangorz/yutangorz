@@ -1,0 +1,13 @@
+{
+  "executable": "/JCTC_SOFTWARE/python_environment/python.exe",
+  "python": "3.12.3 | packaged by conda-forge | (main, Apr 15 2024, 18:20:11) [MSC v.1938 64 bit (AMD64)]",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scipy": "1.14.1",
+    "scikit-learn": "1.8.0",
+    "xgboost": "3.0.0",
+    "joblib": "1.4.2",
+    "pytest": "7.4.4"
+  }
+}

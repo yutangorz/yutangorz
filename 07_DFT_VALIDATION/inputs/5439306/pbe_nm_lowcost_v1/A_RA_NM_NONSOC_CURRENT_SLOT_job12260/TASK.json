@@ -1,0 +1,204 @@
+{
+  "id": "WARDSLOTv1_5439306_A_RA_NM_PBE_ED6",
+  "material": "5439306",
+  "state": "A_RA_NM_NONSOC_CURRENT_SLOT",
+  "mode": "pbe_nm_lowcost_v1",
+  "validator_module": "validate_nm",
+  "nsites": 40,
+  "symbols_per_site": [
+    "K",
+    "K",
+    "K",
+    "K",
+    "Rb",
+    "Rb",
+    "Rb",
+    "Rb",
+    "Rb",
+    "Rb",
+    "Rb",
+    "Rb",
+    "Y",
+    "Y",
+    "Y",
+    "Y",
+    "Br",
+    "Br",
+    "Br",
+    "Br",
+    "Br",
+    "Br",
+    "Br",
+    "Br",
+    "Br",
+    "Br",
+    "Br",
+    "Br",
+    "Br",
+    "Br",
+    "Br",
+    "Br",
+    "Br",
+    "Br",
+    "Br",
+    "Br",
+    "Br",
+    "Br",
+    "Br",
+    "Br"
+  ],
+  "mesh": [
+    2,
+    2,
+    2
+  ],
+  "actual_parameters": {
+    "EDIFF": 1e-06,
+    "ENCUT": 520.0,
+    "GGA": "PE",
+    "GGA_COMPAT": false,
+    "ISPIN": 1,
+    "LSORBIT": false,
+    "LNONCOLLINEAR": false,
+    "LDAU": false,
+    "ISMEAR": 0,
+    "SIGMA": 0.05,
+    "NBANDS": 192,
+    "NELECT": 320,
+    "LMAXMIX": 4,
+    "NELM": 150,
+    "NSW": 0,
+    "IBRION": -1,
+    "ISIF": 2,
+    "ICHARG": 2,
+    "LREAL": false,
+    "LASPH": true,
+    "ISYM": -1,
+    "IVDW": 0
+  },
+  "MPI": 48,
+  "NCORE": 4,
+  "exclusive": true,
+  "wall_hours": 3,
+  "assigned_node": "node02",
+  "authorization_id": "AUTHOR_CURRENT20_REPLACEMENT_THREE_PAIRS_RUN474_20261027",
+  "requires_task_id": null,
+  "slurm_dependency_type": null,
+  "parent_guard": "SCF_and_identity_check;gap_unresolved_may_launch_B;physical_failure_blocks",
+  "binary": "licensed_software/vasp/bin/vasp_std",
+  "binary_sha256": "ac059f813ee4847ccfd40c92d1a94175fd5924e528dafa3cdf86bd5497d530eb",
+  "PAW_blocks": [
+    {
+      "exists": true,
+      "path": "licensed_software/paw/PBE/K_sv/POTCAR",
+      "sha256": "bf8373ef592e31d27efa2dcc68371be6d6a25ce4db6c2ffaf9e92c44050ba21a",
+      "title": [
+        "PAW_PBE K_sv 06Sep2000"
+      ],
+      "ZVAL": [
+        "9.000"
+      ],
+      "ENMAX": [
+        "259.264"
+      ],
+      "end_newline": true
+    },
+    {
+      "exists": true,
+      "path": "licensed_software/paw/PBE/Rb_sv/POTCAR",
+      "sha256": "06c38fe1ec7709d96d3959f5f2c66fec330a93b52b042a8fb2dfe6a3a3fb06c1",
+      "title": [
+        "PAW_PBE Rb_sv 06Sep2000"
+      ],
+      "ZVAL": [
+        "9.000"
+      ],
+      "ENMAX": [
+        "220.112"
+      ],
+      "end_newline": true
+    },
+    {
+      "exists": true,
+      "path": "licensed_software/paw/PBE/Y_sv/POTCAR",
+      "sha256": "5e7f7496c6fa99024fec326bcd60dcee8ff7e886f9613d31da35c685a538a036",
+      "title": [
+        "PAW_PBE Y_sv 25May2007"
+      ],
+      "ZVAL": [
+        "11.000"
+      ],
+      "ENMAX": [
+        "202.626"
+      ],
+      "end_newline": true
+    },
+    {
+      "exists": true,
+      "path": "licensed_software/paw/PBE/Br/POTCAR",
+      "sha256": "96a73d2954943bbee26f4990d676cc6c3bf44b8dd2c75cd4b3b825d8403f0103",
+      "title": [
+        "PAW_PBE Br 06Sep2000"
+      ],
+      "ZVAL": [
+        "7.000"
+      ],
+      "ENMAX": [
+        "216.285"
+      ],
+      "end_newline": true
+    }
+  ],
+  "expected_PAW_titles": [
+    "PAW_PBE K_sv 06Sep2000",
+    "PAW_PBE Rb_sv 06Sep2000",
+    "PAW_PBE Y_sv 25May2007",
+    "PAW_PBE Br 06Sep2000"
+  ],
+  "expected_PAW_ZVAL": [
+    9.0,
+    9.0,
+    11.0,
+    7.0
+  ],
+  "expected_PAW_ENMAX": [
+    259.264,
+    220.112,
+    202.626,
+    216.285
+  ],
+  "potcar_sha256": "d267080e7b0101a2798ea17d4e5de193565ed7a0edd21dda48f4a5f57d097598",
+  "source_structure_SHA": "196b4650c4f1d0ad0ccc11678e1a226d88f3e28fa1e46aaecc45c6aaadc6b4e8",
+  "source_structure_path": "07_DFT_VALIDATION/data/material_selection/structures/5439306.vasp",
+  "SESR_candidate_id": "WARDSESR_c41e85f4bed92813818d",
+  "SESR_score_recomputed": false,
+  "zero_based_replaced_sites": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "substitution": "K->Rb",
+  "historical_Ward_cluster": 1,
+  "delivery_hashes": {
+    "INCAR": "14ab0428acf822b42f53c4563b129aba514e339bfc7241ec2da53ac856921406",
+    "input_guard.py": "ea7a852dd487a893f804543811ef6554c41e0d0a5215ebb0fa2c2c06606860fc",
+    "KPOINTS": "6515dbc5c167b763d330991493e74011f5bde358d6eb946a08e345f7d31b6b66",
+    "occupation_rounding.py": "bcdc4444554c75278e8045e872a0fec566cb77b66f010c3d0bef5cb288844a0a",
+    "paw_record_guard.py": "c39e884b1c54bce5562b8ade26190f80fce9e6bd093160f0a79a9b0e3a82572b",
+    "POSCAR": "196b4650c4f1d0ad0ccc11678e1a226d88f3e28fa1e46aaecc45c6aaadc6b4e8",
+    "runner.py": "37ddb788c0eb0942225fa78c6aee539ac42e397a86d74bd584df64d7449f57de",
+    "scf_rounding.py": "d306c282fcfe4ad25f2ad616a421cae3a7bc481034398f26bde90b287638443e",
+    "submit_node02.slurm": "067d3293c357515e35e5e0bfa1f8a153a2cdae71b2b76f760e624a4fd6617c6d",
+    "validate_nm.py": "b129ad64b1a31974e9d754e85773ee5a0631b5b8fb768035d86329480c357be0",
+    "validate_nonsoc.py": "c75034ef708c9d02b83cdf0329b903985543f85b756767ac8ef18310f0ab3a52",
+    "weight_rounding.py": "669c1b1f5d8cf9ef949bc281a1ff2d441ff210a778d3c69bad1e20af1019a5bc",
+    "xml_tools_frozen.py": "489aa7fd08853c8b29fabbcabccfe590f207ec1a4293aee41edb6532aaef340a"
+  },
+  "limitations": [
+    "fixed geometry/singlemesh/cutoff finite reference",
+    "nonSOC scalarPBE;magnetic groundstate and stability not established",
+    "current20 replacements require final qualified pair before effective slot count increases",
+    "no old/SOC/relaxed endpoint splicing"
+  ]
+}

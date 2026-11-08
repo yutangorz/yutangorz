@@ -1,0 +1,11 @@
+basisSet pbeVaspFit2015
+basisfunctions Cs 5p 5s 6s
+basisfunctions Li 1s 2s 2p
+basisfunctions Rh 4d 5p 5s
+basisfunctions Cl 3p 3s
+COHPstartEnergy -47
+COHPendEnergy 17
+COHPSteps 12800
+gaussianSmearingWidth 0.05
+cohpbetween atom 13 atom 19 orbitalWise
+cohpbetween atom 13 atom 18 orbitalWise

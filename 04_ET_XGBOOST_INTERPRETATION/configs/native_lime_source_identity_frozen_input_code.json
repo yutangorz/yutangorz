@@ -1,0 +1,66 @@
+[
+  {
+    "path": "config.json",
+    "sha256": "255b8eba843879674bc4b9eb01270fb5886a93c542c39810271bf3e915ea0154"
+  },
+  {
+    "path": "ENVIRONMENT.json",
+    "sha256": "5b6f559734408ba27de63eb81871f1a7dd137e1ed925a2c1b87319b011cb52cf"
+  },
+  {
+    "path": "code/compute_lime.py",
+    "sha256": "977217e319056444883ff426fd3848316e29d78f571145e6e2dfded6676ddcde"
+  },
+  {
+    "path": "code/prepare_and_audit.py",
+    "sha256": "673600af3d6f25afdaf3d1928848757f965805470c739e4e7320b903e562b7d7"
+  },
+  {
+    "path": "inputs/SOURCE_MANIFEST.json",
+    "sha256": "6fe0369928686cc0e6242a8fd342335cb266fa2a10d00ae507929dc742bf41b1"
+  },
+  {
+    "path": "unavailable_inputs/source_2681c69a8dcc/config.json",
+    "sha256": "4427ee059996d6fa4badeb4a3b56d1cc24f1056b11b71266a0562e4a5ab77417"
+  },
+  {
+    "path": "unavailable_inputs/source_d121a15ffd5a/ENVIRONMENT.json",
+    "sha256": "b2ad29760ef302f88795fc11fa6a867ff78dded5ce9acf890613e27a867404b7"
+  },
+  {
+    "path": "03_DESCRIPTOR_EXTRACTION/data/model_input_7176.csv",
+    "sha256": "8fc24c95a8d8150a622ff07020d4c9005b13bcf77288b5cde8f382f1756f4499"
+  },
+  {
+    "path": "03_DESCRIPTOR_EXTRACTION/data/outer_fold_manifest.csv",
+    "sha256": "a3d96280ac5981aac9cef701401a54e01ed98f1d5aaf9278086e8d010a28fabd"
+  },
+  {
+    "path": "05_CRISP_X/models/property_model.joblib",
+    "sha256": "1e3c7c3370b5fcc41b25db1eb20ff483c877c190d23d3c83b2035e3fd21784c6"
+  },
+  {
+    "path": "unavailable_inputs/source_049031a766ab/QUERY_COST_SUMMARY.json",
+    "sha256": "2dbd417f827d0840319a88139e4bc4fec7ca036cffab04d2e2bc5438ca885d51"
+  },
+  {
+    "path": "unavailable_inputs/source_0619e7b965da/paths.py",
+    "sha256": "64ac4a8ccc67abce9561ac48be1b3ec2912221e42c5e24a668d5b5abe953a485"
+  },
+  {
+    "path": "unavailable_inputs/source_b6c284083e0f/compare.py",
+    "sha256": "a08abd6a1ff896120a29115ddb4ddb83dd000314a049239b0856b55ce0047cef"
+  },
+  {
+    "path": "unavailable_inputs/source_37c7431dc322/importance.py",
+    "sha256": "7e0d8f6d53b99c48a01cc74fea271f33e6a975ea3adfe693b89c158d1dc826c3"
+  },
+  {
+    "path": "unavailable_inputs/source_65d159820199/extraction.py",
+    "sha256": "f8f62aea9a8f27a74a471bed042ea1d6b212f60c23e1bcef5940152ad73c15e1"
+  },
+  {
+    "path": "unavailable_inputs/source_95da7f79c8c5/RANK_ALIGNMENT_REPORT_CN.md",
+    "sha256": "c8162cb0d5b6da30b297d63fb3eb3ff1879229f164f650b611d5ead3568004cb"
+  }
+]

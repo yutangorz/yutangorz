@@ -1,0 +1,83 @@
+{
+  "id": "SUB20v1_6353933_A_RA_Rmesh6",
+  "mode": "soc",
+  "material": "6353933",
+  "state": "A_RA_Rmesh6",
+  "nsites": 40,
+  "actual_parameters": {
+    "LSORBIT": true,
+    "NSW": 0,
+    "NBANDS": 420,
+    "ENCUT": 520,
+    "EDIFF": 1e-07,
+    "NELM": 150,
+    "ISIF": 2,
+    "ISMEAR": 0,
+    "SIGMA": 0.05,
+    "GGA": "Pe",
+    "LASPH": true,
+    "LREAL": false,
+    "ISYM": -1,
+    "LNONCOLLINEAR": true,
+    "IBRION": -1,
+    "NELECT": 336
+  },
+  "mesh": [
+    6,
+    6,
+    6
+  ],
+  "potcar_sha256": "30989c9f5aa12e7bd8cb67c2c7a1c941fb63fcee3b4e402c2c1c721da126bb84",
+  "potcar_source_private": "07_DFT_VALIDATION/inputs/FGM/DFT_val/6353933/6353933/2_scf/POTCAR",
+  "potcar_recipe": null,
+  "potcar_components": null,
+  "expected_PAW_titles": [
+    "PAW_PBE Tl_d 06Sep2000",
+    "PAW_PBE Ag 02Apr2005",
+    "PAW_PBE As 22Sep2009",
+    "PAW_PBE Br 06Sep2000"
+  ],
+  "expected_PAW_ZVAL": [
+    13.0,
+    11.0,
+    5.0,
+    7.0
+  ],
+  "expected_PAW_ENMAX": [
+    237.053,
+    249.844,
+    208.702,
+    216.285
+  ],
+  "binary": "licensed_software/vasp/bin/vasp_ncl",
+  "binary_sha256": "95c4498fb376e8ea006039e640051eb9223b4279f5289da5fb16b668ce974c6e",
+  "assigned_node": "node02",
+  "input_only_parameters": {
+    "IVDW": 0
+  },
+  "parent_run": "source_ref_86d5a6b65685",
+  "interpretation": "fixed RA neutral PBE+SOC closed-shell formal-valence hypothesis; no relaxed stability/magnetic-ground-state proof",
+  "delivery_hashes": {
+    "INCAR": "b366aea812dcbdceba31a86b6bc72ed1777813cbe1471fb256a392ba310b2bc4",
+    "KPOINTS": "918ae533cb979448b85398c9934e85dada6cd9f9a0417f2a6bcb77c666f867d4",
+    "occupation_rounding.py": "bcdc4444554c75278e8045e872a0fec566cb77b66f010c3d0bef5cb288844a0a",
+    "paw_record_guard.py": "c39e884b1c54bce5562b8ade26190f80fce9e6bd093160f0a79a9b0e3a82572b",
+    "POSCAR": "feef355da20a67e76207038072a78924bd11a95551f4d1deada7fccb55abbb45",
+    "run_task.py": "254ce7bbcba0964eca0aaf5329b78f7aa8b21cf1310ff2f4d47814aa4fb950ea",
+    "scf_rounding.py": "d306c282fcfe4ad25f2ad616a421cae3a7bc481034398f26bde90b287638443e",
+    "soc_input_guard.py": "c99287bb7799f5544cf8497914e2b3c9c0ddd6cff9a454cab1a05c90c5a444be",
+    "spectrum_policy.py": "2dcabaa8e3686479638465f7530afe5bb03612f216ab4c72ba2ad35ac776d35e",
+    "submit_node02.slurm": "0842a1836a29a02fe12e9da14ef097ec249f4233324fcf2756d1801a7a30d391",
+    "validate_substitution.py": "489aa7fd08853c8b29fabbcabccfe590f207ec1a4293aee41edb6532aaef340a",
+    "weight_rounding.py": "669c1b1f5d8cf9ef949bc281a1ff2d441ff210a778d3c69bad1e20af1019a5bc"
+  },
+  "authorization_id": "user-allnodes-topup4-run115-20261023",
+  "scope": "623 cutoff2;635 even-mesh6 repair pair2;826 NM mesh9 pair2 and B sigma0.025 spectral diagnostic1; no production/metal/ground-state claim",
+  "baseline_independent_QC_job": "12044",
+  "external_baseline_gate": {
+    "job_id": "12044",
+    "path": "07_DFT_VALIDATION/inputs/FGM/nature_perovskite_revision/batches/substitution_run046_20261022/6353933/A_baseline",
+    "task": "SUB20v1_6353933_A_RA_baseline",
+    "validation_sha256": "98ae4df5749cd468097447dfcc55424e50721695926d49bd74ac2d8afac2cd2c"
+  }
+}

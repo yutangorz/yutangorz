@@ -1,0 +1,44 @@
+{
+  "features": [
+    "period",
+    "electronegativity",
+    "covalent_radius",
+    "valence_electrons",
+    "ionization_energy",
+    "electron_affinity",
+    "atomic_volume",
+    "bond_length",
+    "bond_angle"
+  ],
+  "atomic": [
+    "period",
+    "electronegativity",
+    "covalent_radius",
+    "valence_electrons",
+    "ionization_energy",
+    "electron_affinity",
+    "atomic_volume"
+  ],
+  "structural": [
+    "bond_length",
+    "bond_angle"
+  ],
+  "aggregation": "site-count-weighted elemental table means; equal-site periodic first-shell geometric means",
+  "atomic_units": "unchanged supplied-table coordinates; covalent radius in source pm; other transformations/units require source verification",
+  "structural_units": {
+    "bond_length": "angstrom",
+    "bond_angle": "degree"
+  },
+  "atomic_volume_definition": "mean of supplied elemental Atomic Volume column; never crystal V/N",
+  "missing": "fixed per-column median across supplied element table, including unused elements; record per-feature missing fraction",
+  "medians": {
+    "period": 5.0,
+    "electronegativity": 1.67,
+    "covalent_radius": 150.0,
+    "valence_electrons": 4.0,
+    "ionization_energy": 1.77,
+    "electron_affinity": 0.72,
+    "atomic_volume": 2.4
+  },
+  "shell_ratio": 1.2
+}

@@ -1,0 +1,30 @@
+{
+  "parent_run": "source_ref_f3df91a98793",
+  "model": "frozen fold0 ExtraTrees from run019",
+  "no_retraining": true,
+  "no_DFT": true,
+  "no_plotting": true,
+  "fit_samples": 512,
+  "validation_samples": 128,
+  "num_features": 9,
+  "feature_selection": "none",
+  "discretize_continuous": false,
+  "sample_around_instance": true,
+  "sampling_method": "gaussian",
+  "kernel_width": 2.25,
+  "surrogate": "LIME default Ridge alpha1, fit_intercept=True",
+  "weight_definition": "signed coefficient eV per one frozen-training population SD; not point SHAP contribution",
+  "seed_rule": "int(first8hex(SHA256(\"run022|ID\")),16) mod (2**31-1); validation seed+1",
+  "high_fidelity_predefined": {
+    "validation_weighted_r2_min": 0.8,
+    "absolute_anchor_error_eV_max": 0.05
+  },
+  "bootstrap": {
+    "repeats": 2000,
+    "seed": 20261022,
+    "unit": "heldout formula groups; material-weighted mean within cluster-resampled data",
+    "fixed_model": true
+  },
+  "inference_identity_tolerance_eV": 1e-12,
+  "note": "Protocol fixed before new LIME scores or ranking. High-fidelity subset descriptive, not full-population correction."
+}

@@ -1,0 +1,78 @@
+{
+  "id": "SUB20v1_7907750_A_RA_Rmesh8",
+  "mode": "soc",
+  "material": "7907750",
+  "state": "A_RA_Rmesh8",
+  "nsites": 5,
+  "actual_parameters": {
+    "LSORBIT": true,
+    "NSW": 0,
+    "NBANDS": 72,
+    "ENCUT": 520,
+    "EDIFF": 1e-07,
+    "NELM": 150,
+    "ISIF": 2,
+    "ISMEAR": 0,
+    "SIGMA": 0.05,
+    "GGA": "Pe",
+    "LASPH": true,
+    "LREAL": false,
+    "ISYM": -1,
+    "LNONCOLLINEAR": true,
+    "IBRION": -1,
+    "NELECT": 40
+  },
+  "mesh": [
+    8,
+    8,
+    8
+  ],
+  "potcar_sha256": "4f8ec4eb3e4a47c03b521feb20f30a727aaeb1ade001d29f5481e2d47e57e71a",
+  "potcar_source_private": "07_DFT_VALIDATION/inputs/FGM/DFT_val/7907750/7907750/2_scf/POTCAR",
+  "potcar_recipe": null,
+  "potcar_components": null,
+  "expected_PAW_titles": [
+    "PAW_PBE Cs_sv 08Apr2002",
+    "PAW_PBE Ba_sv 06Sep2000",
+    "PAW_PBE I 08Apr2002"
+  ],
+  "expected_PAW_ZVAL": [
+    9.0,
+    10.0,
+    7.0
+  ],
+  "expected_PAW_ENMAX": [
+    220.318,
+    187.181,
+    175.647
+  ],
+  "binary": "licensed_software/vasp/bin/vasp_ncl",
+  "binary_sha256": "95c4498fb376e8ea006039e640051eb9223b4279f5289da5fb16b668ce974c6e",
+  "assigned_node": "node03",
+  "input_only_parameters": {
+    "IVDW": 0
+  },
+  "parent_run": "source_ref_d2bf3b6e5b07",
+  "interpretation": "fixed RA neutral PBE+SOC closed-shell formal-valence hypothesis; no relaxed stability/magnetic-ground-state proof",
+  "delivery_hashes": {
+    "INCAR": "f7e37b45a9ff1a373faaf42d1e8be94ee2966365b4fdbb1a5f5a15b8d9bbb609",
+    "KPOINTS": "f2226f73bb75c2dd15b11758f1fede6a00859c91880aaa178be7f45bc2fc2bcb",
+    "occupation_rounding.py": "bcdc4444554c75278e8045e872a0fec566cb77b66f010c3d0bef5cb288844a0a",
+    "paw_record_guard.py": "c39e884b1c54bce5562b8ade26190f80fce9e6bd093160f0a79a9b0e3a82572b",
+    "POSCAR": "ad89bc5858c250b29b2785a229c89c0fdc0adbf798eac8d721889092a1bc20dd",
+    "run_task.py": "57fae672631861d0306e5181fb683d9f947b893cd31cb23667249c197748fe07",
+    "scf_rounding.py": "d306c282fcfe4ad25f2ad616a421cae3a7bc481034398f26bde90b287638443e",
+    "soc_input_guard.py": "c99287bb7799f5544cf8497914e2b3c9c0ddd6cff9a454cab1a05c90c5a444be",
+    "spectrum_policy.py": "2dcabaa8e3686479638465f7530afe5bb03612f216ab4c72ba2ad35ac776d35e",
+    "submit_node03.slurm": "ba450debcae3701335a81d09da869993c7d1f006d0e976ccb435fa0ad5257401",
+    "validate_substitution.py": "489aa7fd08853c8b29fabbcabccfe590f207ec1a4293aee41edb6532aaef340a",
+    "weight_rounding.py": "669c1b1f5d8cf9ef949bc281a1ff2d441ff210a778d3c69bad1e20af1019a5bc"
+  },
+  "authorization_id": "user-node03six-run089-20261023",
+  "baseline_independent_QC": {
+    "run": "source_ref_3a87c8b2eec8",
+    "job_id": "12055",
+    "gap_eV": 3.352986,
+    "TASK_sha256": "af1753985ea15f9f695310f20a2fe07bc9ed3328f258a4caa7adf96a637a9d25"
+  }
+}

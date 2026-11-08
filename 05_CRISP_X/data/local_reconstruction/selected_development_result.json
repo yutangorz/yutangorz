@@ -1,0 +1,9 @@
+{
+  "path": "05_CRISP_X/workflows/confirmation_design/results/SELECTED_CONFIGURATION.json",
+  "sha256": "574cf7049267b0b542a647f8b45dbdc9cd229b5138ee38181f34f5df6ebecde0",
+  "selected": {
+    "name": "block_b64_g40",
+    "budget": 64,
+    "geometry_quota": 40
+  }
+}

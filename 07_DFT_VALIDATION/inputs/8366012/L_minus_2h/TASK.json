@@ -1,0 +1,55 @@
+{
+  "id": "8366012_L_minus_2h",
+  "mode": "soc",
+  "material": "8366012",
+  "state": "L_minus_2h",
+  "nsites": 15,
+  "actual_parameters": {
+    "LSORBIT": true,
+    "NSW": 0,
+    "NELECT": 132,
+    "NBANDS": 168,
+    "ENCUT": 520,
+    "EDIFF": 1e-07,
+    "NELM": 150,
+    "ISIF": 2,
+    "ISMEAR": 0,
+    "SIGMA": 0.05,
+    "GGA": "PE",
+    "LASPH": true,
+    "LREAL": false,
+    "ISYM": -1,
+    "LNONCOLLINEAR": true,
+    "IBRION": -1
+  },
+  "mesh": [
+    5,
+    5,
+    4
+  ],
+  "potcar_sha256": "d073386375a9daea8211c0cf934cbad9a0c80fe57fcd03e382420aee676946c8",
+  "potcar_source_private": "07_DFT_VALIDATION/inputs/FGM/nature_perovskite_revision_20261020_convergence_run009/tasks/baseline_Lplus/POTCAR",
+  "binary": "licensed_software/vasp/bin/vasp_ncl",
+  "binary_sha256": "95c4498fb376e8ea006039e640051eb9223b4279f5289da5fb16b668ce974c6e",
+  "delivery_hashes": {
+    "INCAR": "e392c8c38822d93450277c6de7a1d417fec8b45244c6fb03d3ad91b121231c3d",
+    "KPOINTS": "ecbb3d389cecd0c8cd0a2d7df3df7bebcc8821d709353b7f86dcc004ef676f31",
+    "POSCAR": "31ecd69ba545641c9342e3edfff65803fa43715a060ca8ac644fa9a016de84fd",
+    "run_task.py": "a7c4d87cefd5ab727b175b5a03d434eab127eedfb81ff1bbaae2395bb48906b2",
+    "scf_rounding.py": "d306c282fcfe4ad25f2ad616a421cae3a7bc481034398f26bde90b287638443e",
+    "soc_input_guard.py": "c99287bb7799f5544cf8497914e2b3c9c0ddd6cff9a454cab1a05c90c5a444be",
+    "submit_node01.slurm": "29067395ee7973c8db9e8dada269f325c9bdfea70a0c95e372ad7357285efbd7",
+    "validate_production.py": "733ba9538abba5cec57e7e10de5538b496eacfa5ccab794cd9f52b9576355e15",
+    "weight_rounding.py": "669c1b1f5d8cf9ef949bc281a1ff2d441ff210a778d3c69bad1e20af1019a5bc"
+  },
+  "interpretation": "frozen-ion local Cl7-Pb3-Cl9 angle plus0.5deg, not an independent global descriptor intervention",
+  "input_only_parameters": {
+    "IVDW": 0
+  },
+  "parameter_provenance_note": "VASP5.4.4 omits IVDW=0 from XML. Verify explicit immutable INCAR IVDW=0 separately; XML LUSE_VDW=False verifies nonlocal vdW disabled. Do not claim XML IVDW certification.",
+  "assigned_node": "node01",
+  "independent_of_running_jobs": [
+    "12029",
+    "12031"
+  ]
+}

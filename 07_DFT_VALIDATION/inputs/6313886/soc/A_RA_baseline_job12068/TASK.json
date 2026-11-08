@@ -1,0 +1,77 @@
+{
+  "id": "SUB20v1_6313886_A_RA_baseline",
+  "mode": "soc",
+  "material": "6313886",
+  "state": "A_RA_baseline",
+  "nsites": 40,
+  "actual_parameters": {
+    "LSORBIT": true,
+    "NSW": 0,
+    "NBANDS": 360,
+    "ENCUT": 520.0,
+    "EDIFF": 1e-07,
+    "NELM": 150,
+    "ISIF": 2,
+    "ISMEAR": 0,
+    "SIGMA": 0.05,
+    "GGA": "Pe",
+    "LASPH": true,
+    "LREAL": false,
+    "ISYM": -1,
+    "LNONCOLLINEAR": true,
+    "IBRION": -1,
+    "NELECT": 288
+  },
+  "mesh": [
+    4,
+    4,
+    4
+  ],
+  "potcar_sha256": "c1fdc1298192276882097a2764517c9abc2036f8b8f2f7ea6254b8c3fa2fa92c",
+  "potcar_source_private": null,
+  "potcar_recipe": "both fresh parent/reference and replacement use standard9e Rh/Ir; replace original Rh_pv semicore dataset with complete record bytes, unchanged common PAWs",
+  "potcar_components": [
+    "07_DFT_VALIDATION/inputs/FGM/DFT_val/6313886/6313886/2_scf/POTCAR",
+    "licensed_software/paw/PBE/Rh/POTCAR"
+  ],
+  "expected_PAW_titles": [
+    "PAW_PBE Cs_sv 08Apr2002",
+    "PAW_PBE Li_sv 10Sep2004",
+    "PAW_PBE Rh 04Feb2005",
+    "PAW_PBE Cl 06Sep2000"
+  ],
+  "expected_PAW_ZVAL": [
+    9.0,
+    3.0,
+    9.0,
+    7.0
+  ],
+  "expected_PAW_ENMAX": [
+    220.318,
+    499.034,
+    228.996,
+    262.472
+  ],
+  "binary": "licensed_software/vasp/bin/vasp_ncl",
+  "binary_sha256": "95c4498fb376e8ea006039e640051eb9223b4279f5289da5fb16b668ce974c6e",
+  "assigned_node": "node02",
+  "input_only_parameters": {
+    "IVDW": 0
+  },
+  "parent_run": "source_ref_691f620eb03d",
+  "interpretation": "fixed RA neutral PBE+SOC closed-shell formal-valence hypothesis; no relaxed stability/magnetic-ground-state proof",
+  "delivery_hashes": {
+    "INCAR": "a1b805870de2b8caba901d66155fd59abeb8cd0079990bd7806fd268fbf23c50",
+    "KPOINTS": "0f25640d8bc3e5560a775a1e4886234dccd9a20cfbc71868653a50d8c4abedc8",
+    "occupation_rounding.py": "bcdc4444554c75278e8045e872a0fec566cb77b66f010c3d0bef5cb288844a0a",
+    "paw_record_guard.py": "c39e884b1c54bce5562b8ade26190f80fce9e6bd093160f0a79a9b0e3a82572b",
+    "POSCAR": "5874b0ea22fd5d664f0ed71e99dea4b3b9607e82703ff19753d301cb2ef4687b",
+    "run_task.py": "b2baff3c0708bcca40666da96a94b6a1f11eb6cf43642aede62093d184eae6d3",
+    "scf_rounding.py": "d306c282fcfe4ad25f2ad616a421cae3a7bc481034398f26bde90b287638443e",
+    "soc_input_guard.py": "c99287bb7799f5544cf8497914e2b3c9c0ddd6cff9a454cab1a05c90c5a444be",
+    "spectrum_policy.py": "2dcabaa8e3686479638465f7530afe5bb03612f216ab4c72ba2ad35ac776d35e",
+    "submit_node02.slurm": "0842a1836a29a02fe12e9da14ef097ec249f4233324fcf2756d1801a7a30d391",
+    "validate_substitution.py": "489aa7fd08853c8b29fabbcabccfe590f207ec1a4293aee41edb6532aaef340a",
+    "weight_rounding.py": "669c1b1f5d8cf9ef949bc281a1ff2d441ff210a778d3c69bad1e20af1019a5bc"
+  }
+}

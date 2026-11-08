@@ -1,0 +1,12 @@
+{
+  "run": "source_ref_0559cf812fd1",
+  "date": "2026-10-30",
+  "seed": 20261030,
+  "bootstrap_draws": 2000,
+  "bootstrap_unit": "formula_group within historical Ward cluster",
+  "source_ET": "frozen fold0 ExtraTrees heldout TreeSHAP",
+  "cluster_definition": "replayed historical profile15 zero-target Ward",
+  "small_cluster_interval_rule": "n>=30 and formula_groups>=20",
+  "no_cross_cluster_weighting": true,
+  "no_new_DFT_or_model_inference": true
+}

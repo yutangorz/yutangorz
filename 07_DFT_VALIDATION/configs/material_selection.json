@@ -1,0 +1,17 @@
+{
+  "parent": "new clustering stage; prior feature/XGB stages untouched",
+  "mode": "faithful_historical_replay",
+  "original_directory": "external_inputs/desktop/Yut/DFT_VAL",
+  "structure_source": "07_DFT_VALIDATION/data/material_selection/structures",
+  "n_structures": 7176,
+  "n_clusters": 10,
+  "selection": "original nearest centroid then global maximin second point; original cluster order",
+  "features": "source15 composition/lattice features including historical zero band_gap; not canonical9",
+  "distance": "native pdist(X), squareform, native pdist(distance-row profiles), Ward; original actual semantics",
+  "storage_adapter": "float64 memmaps, identical native arithmetic; validated on small matrix",
+  "source_order": "captured original os.listdir order, matches all20 archived indices; exact order injected in loader",
+  "expected_targets": "initial20 and final20 labels/sizes/weights are comparison references, never fitting constraints",
+  "DFT_not_run": true,
+  "corrections_not_applied": true,
+  "next_run": "source_ref_a034dbc122b7"
+}

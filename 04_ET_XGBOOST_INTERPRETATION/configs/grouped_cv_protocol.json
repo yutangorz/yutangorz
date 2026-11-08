@@ -1,0 +1,8 @@
+{
+  "frozen_at": "2026-10-19T12:45:56.223353+08:00",
+  "protocol": "before any fitting or scores in run011",
+  "target_reframing": "independent property model, not surrogate fidelity",
+  "primary_comparison": "combined9 minus atomic7 paired nested OOF errors",
+  "baseline_prior_results_not_used_as_blind_test": true,
+  "all_features_and_labels_used_in_nested_cv": true
+}

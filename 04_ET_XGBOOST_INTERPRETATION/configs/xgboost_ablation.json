@@ -1,0 +1,33 @@
+{
+  "parent_stage": "source_ref_31356dc6e5ad",
+  "source_baseline": "source_ref_3ad0e1961f28",
+  "target": "original database band_gap_eV; not ALIGNN output",
+  "model_parameters": {
+    "n_estimators": 400,
+    "learning_rate": 0.04,
+    "max_depth": 6,
+    "reg_lambda": 5.0,
+    "min_child_weight": 3,
+    "subsample": 0.9,
+    "colsample_bytree": 1.0,
+    "tree_method": "hist",
+    "objective": "reg:squarederror",
+    "random_state": 20261019,
+    "n_jobs": 2
+  },
+  "folds": 5,
+  "split": "reuse existing formula-group outer folds, no retuning",
+  "ablations": "full9;9 individual removals; atomic7 and structural2 group removals; fold-training-only absolute Pearson>=.8 connected components (size>=2)",
+  "correlation_threshold": 0.8,
+  "seed": 20261031,
+  "bootstrap_repeats": 2000,
+  "model_random_seed_rule": "20261019+outer_fold, same for all removals within fold; reproduces run011 selected xgb6 baseline",
+  "group_pooling": "full7176 OOF effect only if identical removed set evaluated all5folds; otherwise report as fold-specific",
+  "group_definition": "connected component can include indirectly connected variables; not all pairs must exceed threshold",
+  "effect": "MAE_removed_model - MAE_full_model, paired same heldout rows; signed, negative values retained",
+  "uncertainty": "formula cluster bootstrap with fixed fold models; descriptive pointwise95% intervals, no multiplicity-adjusted discovery claim",
+  "no_hyperparameter_search": true,
+  "no_feature_selection_on_test_labels": true,
+  "DFT_deferred": true,
+  "negative_control": "one fold0 model fit on training-label permutation, same heldout original targets"
+}

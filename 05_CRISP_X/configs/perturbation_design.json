@@ -1,0 +1,33 @@
+{
+  "parent_run": "source_ref_aafcef92ea85",
+  "seed": 20261023,
+  "seeds": [
+    101,
+    211
+  ],
+  "new_parent_n": 24,
+  "physical_amplitudes": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "primary_budget": 64,
+  "primary_ridge": 0.001,
+  "primary_model": "frozen_ET",
+  "primary_comparison": "audited v0.5 vs path_mean, identical query rows and heldout cases",
+  "path_mean_reference": "for centered metrics use primary64-query training path means, fixed across diagnostic methods; never use heldout labels to center",
+  "incremental_gate": "primary path-response incremental value supported only if parent-cluster bootstrap95 lower bound of MAE gain>0 AND relative MAE reduction>=10% separately on all and geometry; reporting all and within-path metrics mandatory",
+  "unknown_path_protocol": "remove all rows of each chemical path from fitting; return NaN and report zero coverage, no extrapolation claim",
+  "negative_controls": [
+    "shuffle fitting labels globally against unchanged heldout truth",
+    "shuffle labels within chemical paths against unchanged truth; pooled R2 may remain high, centered fidelity must be examined",
+    "constant zero-response model must return zero",
+    "label-permuted fitted model must have changed explanations, not necessarily poor faithfulness to its own predictions"
+  ],
+  "other_models": "XGBoost same fixed fold0 family parameters fromrun011; label-permuted ET negative model",
+  "ood": "largest amplitude1.0 heldout from fit; separate12parents x3 directional modes x3 amplitudes x2 signs; not external materials generalization",
+  "invariance": "first8 metadata-selected parents, rotation/translation/site permutation/supercell; concepts and frozen predictions compared",
+  "failure_boundary": "no DFT, no charge-neutrality/stability certification, no nine independent causal contributions, no publication novelty proof",
+  "self_audit": "one developer audit after results; not independent peer-review consensus",
+  "no_hyperparameter_selection_this_run": true
+}

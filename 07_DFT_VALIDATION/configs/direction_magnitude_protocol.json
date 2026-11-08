@@ -1,0 +1,25 @@
+{
+  "task": "saved-response decomposition, direction first then amplitude; no prediction/training/DFT/plotting",
+  "primary_DFT_scope": "original371/17; common local box124/10 and outside247 kept unchanged; no selection by outcomes",
+  "bootstrap": {
+    "B": 5000,
+    "seed": 20261105,
+    "unit": "whole parent within each stated stratum; point weights and equal-parent weights reported separately",
+    "display_gate": "at least3 contributing parents; undefined draws stayNA; finite-draw counts reported; no bootstrap p-values"
+  },
+  "zero_policy": "exact saved float0 is separate ternary state; never recode near-zero as0; binary truth excludes exact truezero only; zero prediction on nonzero truth counted as directional miss",
+  "baselines": "full371 majority sign fixed for all strata; subset in-sample best constant reported with optimism caveat; LOPO majority learned from other parents inside same stratum, ties prefer negative, one-parent prediction NA",
+  "thresholds_meV": [
+    0.5,
+    1.0,
+    2.0,
+    5.0
+  ],
+  "threshold_policy": "all four cumulative >= thresholds and disjoint bins; primary amplitude-ratio support>=1meV; thresholds are sensitivity choices not DFT error bounds",
+  "amplitude_scopes": "all, direction-concordant, and discordant; distance/angle; box in/out; exact same original node qualification",
+  "slope_definition": "predicted response on observedDFT response, with intercept and through origin; magnitude slope similarly; diagnostic only, never applied calibration",
+  "ratio_policy": "abs(pred)/abs(DFT) only on saved absDFT>=threshold; no unthresholded nearzero ratio",
+  "claims": "overall and strict-domain claims separated; no50percent chance test; compare paired majority/LOPO advantage and BA-.5 with parentCI; threshold and leave-parent sensitivity all disclosed; no threshold selection for claims",
+  "multiplicity": "one primary in-box direction contrast plus whole371 descriptive; other strata/thresholds exploratory pointwise CIs, no selected-significance claim",
+  "script_sha256": "3dacc9181933139d2917219206e3502720448521ab695623c2761f6fba51189d"
+}

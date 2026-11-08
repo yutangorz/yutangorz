@@ -1,0 +1,15 @@
+{
+  "python": "3.12.3 | packaged by conda-forge | (main, Apr 15 2024, 18:20:11) [MSC v.1938 64 bit (AMD64)]",
+  "executable": "/JCTC_SOFTWARE/python_environment/python.exe",
+  "platform": "win32",
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scipy": "1.14.1",
+    "scikit-learn": "1.8.0",
+    "xgboost": "3.0.0",
+    "joblib": "1.4.2",
+    "pymatgen": "2025.3.10"
+  },
+  "thread_env": "OMP_NUM_THREADS=MKL_NUM_THREADS=OPENBLAS_NUM_THREADS=2; PYTHONDONTWRITEBYTECODE=1"
+}

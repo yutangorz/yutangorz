@@ -1,0 +1,10 @@
+{
+  "numpy": "1.26.4",
+  "pandas": "2.2.2",
+  "scipy": "1.14.1",
+  "pymatgen": "2025.3.10",
+  "matminer": "0.9.3",
+  "xgboost": "3.0.0",
+  "spglib": "2.5.0",
+  "scikit-learn": "1.8.0"
+}

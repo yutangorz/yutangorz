@@ -1,0 +1,174 @@
+{
+  "id": "SCLXv1_1230247_A_RA_NM_PBE_ED6",
+  "material": "1230247",
+  "state": "A_RA_NM_NONSOC_EXTENSION",
+  "mode": "pbe_nm_lowcost_v1",
+  "new_protocol": true,
+  "scope": "INDEPENDENT_SAME_CLUSTER_EXTENSION;not original7750830 or original20 coverage",
+  "historical_Ward_cluster": 7,
+  "nsites": 20,
+  "assigned_node": "node02",
+  "authorization_id": "USER_SAME_CLUSTER_1230247_PARALLEL_RUN455_20261027",
+  "independent_endpoint": true,
+  "requires_task_id": null,
+  "slurm_dependency": null,
+  "MPI": 48,
+  "exclusive": true,
+  "wall_hours": 3,
+  "binary": "licensed_software/vasp/bin/vasp_std",
+  "binary_sha256": "ac059f813ee4847ccfd40c92d1a94175fd5924e528dafa3cdf86bd5497d530eb",
+  "actual_parameters": {
+    "EDIFF": 1e-06,
+    "ENCUT": 520.0,
+    "GGA": "PE",
+    "GGA_COMPAT": false,
+    "ISPIN": 1,
+    "LSORBIT": false,
+    "LNONCOLLINEAR": false,
+    "LDAU": false,
+    "ISMEAR": 0,
+    "SIGMA": 0.05,
+    "NBANDS": 96,
+    "NELECT": 160,
+    "LMAXMIX": 4,
+    "NELM": 150,
+    "NSW": 0,
+    "IBRION": -1,
+    "ISIF": 2,
+    "ICHARG": 2,
+    "LREAL": false,
+    "LASPH": true,
+    "ISYM": -1,
+    "IVDW": 0
+  },
+  "mesh": [
+    3,
+    4,
+    5
+  ],
+  "symbols_per_site": [
+    "Ba",
+    "Ba",
+    "Ba",
+    "Ba",
+    "Ca",
+    "Ca",
+    "W",
+    "W",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O",
+    "O"
+  ],
+  "PAW_blocks": [
+    {
+      "exists": true,
+      "path": "licensed_software/paw/PBE/Ba_sv/POTCAR",
+      "sha256": "db99e82e473f9273fc04f241d4a23dc413358649e2d1724098d22351b75b003b",
+      "title": [
+        "PAW_PBE Ba_sv 06Sep2000"
+      ],
+      "ZVAL": [
+        "10.000"
+      ],
+      "ENMAX": [
+        "187.181"
+      ],
+      "end_newline": true
+    },
+    {
+      "exists": true,
+      "path": "licensed_software/paw/PBE/Ca_sv/POTCAR",
+      "sha256": "a47365830e737f14e0e6c5cf1ed81b94e081eecf0a33df105380881bc9da05d5",
+      "title": [
+        "PAW_PBE Ca_sv 06Sep2000"
+      ],
+      "ZVAL": [
+        "10.000"
+      ],
+      "ENMAX": [
+        "266.622"
+      ],
+      "end_newline": true
+    },
+    {
+      "exists": true,
+      "path": "licensed_software/paw/PBE/W_sv/POTCAR",
+      "sha256": "931c2d770f65867ef30f3db3421922900fc0890ebac5c3e12f63b6a2064023d7",
+      "title": [
+        "PAW_PBE W_sv 04Sep2015"
+      ],
+      "ZVAL": [
+        "14.000"
+      ],
+      "ENMAX": [
+        "223.057"
+      ],
+      "end_newline": true
+    },
+    {
+      "exists": true,
+      "path": "licensed_software/paw/PBE/O/POTCAR",
+      "sha256": "818f92134a0a090dccd8ba1447fa70422a3b330e708bb4f08108d8ae51209ddf",
+      "title": [
+        "PAW_PBE O 08Apr2002"
+      ],
+      "ZVAL": [
+        "6.000"
+      ],
+      "ENMAX": [
+        "400.000"
+      ],
+      "end_newline": true
+    }
+  ],
+  "expected_PAW_titles": [
+    "PAW_PBE Ba_sv 06Sep2000",
+    "PAW_PBE Ca_sv 06Sep2000",
+    "PAW_PBE W_sv 04Sep2015",
+    "PAW_PBE O 08Apr2002"
+  ],
+  "expected_PAW_ZVAL": [
+    10.0,
+    10.0,
+    14.0,
+    6.0
+  ],
+  "expected_PAW_ENMAX": [
+    187.181,
+    266.622,
+    223.057,
+    400.0
+  ],
+  "potcar_sha256": "22e3fd5ac4f5b8f52078953829310e72aca0c2ad83bba09f7f4f105b88748046",
+  "SESR_candidate_id": "SESR1_c7cd9a03f2f74f2e0e07",
+  "parent_source_SHA": "e272674f557f64b18586916d247d02da9d3e0e7381e09f62d018e12887ea33cd",
+  "candidate_source_SHA": "af54e17e4a2ebfd25c460a9486024a5f6da91dc277c443e942f805104517ccc4",
+  "delivery_hashes": {
+    "INCAR": "441586c2111bd4b2da992d5c6106b385f1b5a40e64f26221c018d5ab969cf8b8",
+    "input_guard.py": "a2d5ac71fa390e9af47fb394f9bba722bbb297f0c20d6dbd81ba0b728f4a0fc1",
+    "KPOINTS": "f2a4ac7884263f943590baa6a2419998dd14f45aac94cf0865735d589913c695",
+    "occupation_rounding.py": "bcdc4444554c75278e8045e872a0fec566cb77b66f010c3d0bef5cb288844a0a",
+    "paw_record_guard.py": "c39e884b1c54bce5562b8ade26190f80fce9e6bd093160f0a79a9b0e3a82572b",
+    "POSCAR": "e272674f557f64b18586916d247d02da9d3e0e7381e09f62d018e12887ea33cd",
+    "run_nm.py": "e887c928f289afe8735958c3a70710f40a42b86e62063f3b0ff7043a0e15c860",
+    "scf_rounding.py": "d306c282fcfe4ad25f2ad616a421cae3a7bc481034398f26bde90b287638443e",
+    "submit_node02.slurm": "50fb8e81510df932fe19bbfa989f92f08736e56795a7e8cf0034dfcab97ab8f0",
+    "validate_nm.py": "b0d611f200eeb78f0513ecedbb934093c015a3e70f9caebf47b4d40860ccc14c",
+    "weight_rounding.py": "669c1b1f5d8cf9ef949bc281a1ff2d441ff210a778d3c69bad1e20af1019a5bc",
+    "xml_tools_frozen.py": "489aa7fd08853c8b29fabbcabccfe590f207ec1a4293aee41edb6532aaef340a"
+  },
+  "limitations": [
+    "single frozen kmesh/cutoff finite reference",
+    "no SOC/magnetic ground-state/relaxed stability proof",
+    "A/B independent launch but final pair requires both independently accepted; no old-protocol splicing"
+  ]
+}

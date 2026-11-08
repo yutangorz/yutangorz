@@ -1,0 +1,19 @@
+{
+  "authorization": "User: directly predict actual existing DFT-perturbed node structures with CRISP-X, compare to corresponding DFT. Historical candidate overlap is not a requirement.",
+  "method": "run019 block_b64_g40; ridge .001; budget64 geometryquota40; identical generator and predictor",
+  "seeds": [
+    307,
+    419
+  ],
+  "seed_aggregation": "arithmetic mean of both fixed seeds if both finite; never select better seed; seed-specific coverage retained",
+  "inputs": "all440 actual DFT POSCARs, exact SHA; existing verified nine-descriptor coordinates reused; composition and feature provenance checked",
+  "local_training": "only ET queries on independent frozen-generator local pools; no DFT labels; no global ET/ALIGNN/XGB training; no tuning",
+  "baseline_absolute": "frozen ET(parent) + CRISP-X predicted DeltaEg; not DFT-anchored",
+  "primary_response": "CRISP-X predicted DeltaEg versus DFT saved DeltaEg; also independent absolute-gap comparison",
+  "main_scope": "371 formal non-shell-switch nodes /17 parents; all440 retained incl diagnostics/switches",
+  "out_of_box": "retain finite output and flag; report in-box sensitivity separately; no target-based exclusion",
+  "uncertainty": "2000 parent-cluster bootstrap seed20261104; numerical DFT error bounds unresolved",
+  "resume_from": "12 completed parent response sets reused unchanged; finite-mask comparison retains missing values",
+  "script_sha256": "3bd8befbcabddc6e514aebd3935926e6a59c2dd0650a44301d28197b6f958fd4",
+  "prohibited": "no VASP/LOBSTER/SLURM; no final plotting; no DFT labels in local model fitting"
+}

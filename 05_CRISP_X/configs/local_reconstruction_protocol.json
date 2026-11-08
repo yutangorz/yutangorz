@@ -1,0 +1,7 @@
+{
+  "time": "2026-10-19T17:57:36.936710",
+  "correction": "主模型九特征及确认响应已完成，辅助XGBoost float32加和残差2.861e-6eV超过统一1e-6数值门槛。run019仅对辅助XGBoost声明1e-5容差，主模型保持1e-6；缓存结果逐文件复用，不重新选参数或母体。",
+  "primary_gates_unchanged": true,
+  "secondary_tolerance_posthoc": true,
+  "no_new_material_or_hyperparameter_selection": true
+}

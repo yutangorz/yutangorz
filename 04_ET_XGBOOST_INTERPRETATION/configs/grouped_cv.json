@@ -1,0 +1,103 @@
+{
+  "parent_run": "source_ref_0559cf812fd1",
+  "feature_definition_parent": "source_ref_8b9cc81498cb",
+  "seed": 20261019,
+  "feature_sets": {
+    "atomic7": [
+      "period",
+      "electronegativity",
+      "covalent_radius",
+      "valence_electrons",
+      "ionization_energy",
+      "electron_affinity",
+      "atomic_volume"
+    ],
+    "atomic7_distance": [
+      "period",
+      "electronegativity",
+      "covalent_radius",
+      "valence_electrons",
+      "ionization_energy",
+      "electron_affinity",
+      "atomic_volume",
+      "bond_length"
+    ],
+    "atomic7_angle": [
+      "period",
+      "electronegativity",
+      "covalent_radius",
+      "valence_electrons",
+      "ionization_energy",
+      "electron_affinity",
+      "atomic_volume",
+      "bond_angle"
+    ],
+    "combined9": [
+      "period",
+      "electronegativity",
+      "covalent_radius",
+      "valence_electrons",
+      "ionization_energy",
+      "electron_affinity",
+      "atomic_volume",
+      "bond_length",
+      "bond_angle"
+    ]
+  },
+  "candidates": [
+    {
+      "id": "mean",
+      "family": "mean",
+      "params": {}
+    },
+    {
+      "id": "ridge1",
+      "family": "ridge",
+      "params": {
+        "alpha": 1.0
+      }
+    },
+    {
+      "id": "ridge100",
+      "family": "ridge",
+      "params": {
+        "alpha": 100.0
+      }
+    },
+    {
+      "id": "et1",
+      "family": "extra_trees",
+      "params": {
+        "min_samples_leaf": 1
+      }
+    },
+    {
+      "id": "et3",
+      "family": "extra_trees",
+      "params": {
+        "min_samples_leaf": 3
+      }
+    },
+    {
+      "id": "xgb3",
+      "family": "xgboost",
+      "params": {
+        "max_depth": 3
+      }
+    },
+    {
+      "id": "xgb6",
+      "family": "xgboost",
+      "params": {
+        "max_depth": 6
+      }
+    }
+  ],
+  "outer_folds": 5,
+  "inner_folds": 3,
+  "bootstrap_repeats": 2000,
+  "training_target": "original database band_gap_eV, ID-aligned",
+  "success_criterion": "Exploratory operational criterion: selected pipeline AND ExtraTrees AND XGBoost each have positive lower endpoint of paired formula-cluster bootstrap 95% MAE improvement and positive improvement in >=4/5 outer folds. Not a universal threshold or causal proof.",
+  "no_external_blind_test_claim": true,
+  "retain_all_results_even_if_no_gain": true
+}

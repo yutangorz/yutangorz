@@ -1,0 +1,24 @@
+{
+  "analysis_id": "cross_method_conditioned_attribution_run009",
+  "reason_for_run_number": "source_ref_d682d2262121",
+  "date": "2026-10-30",
+  "model": "frozen fold0 ExtraTrees database-gap model",
+  "attribution": "existing run021 tree_path_dependent SHAP contrasts plus run019 parent SHAP; no new model fitting or 1462-material explanations",
+  "features": [
+    "period",
+    "electronegativity",
+    "covalent_radius",
+    "valence_electrons",
+    "ionization_energy",
+    "electron_affinity",
+    "atomic_volume",
+    "bond_length",
+    "bond_angle"
+  ],
+  "primary_bootstrap_unit": "24 parent material IDs; both seeds and points nested",
+  "bootstrap_draws": 2000,
+  "bootstrap_seed": 20261030,
+  "figure_backend": "Python matplotlib",
+  "scope": "existing 2304 CRISP-X physical perturbation contrasts; path qualification remains frozen",
+  "forbidden": "No ET refit; no new DFT/LOBSTER/SLURM; no changes to frozen inputs/results"
+}

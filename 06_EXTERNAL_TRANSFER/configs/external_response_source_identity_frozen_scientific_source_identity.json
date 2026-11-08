@@ -1,0 +1,127 @@
+[
+  {
+    "source": "05_CRISP_X/src/audited_paths.py",
+    "copy": "frozen_code/audited_paths.py",
+    "sha256": "615120d29a40c4191e0d54d4f67c3be6a7964a5670e97b0ee0cc54e6aa0bb2d6"
+  },
+  {
+    "source": "05_CRISP_X/src/local_reconstruction/finalize_closure.py",
+    "copy": "frozen_code/finalize_closure.py",
+    "sha256": "f6f129c3048eb90d30df99ae90951e567352ce53fd2bced37a59a57972a9227b"
+  },
+  {
+    "source": "05_CRISP_X/src/local_reconstruction/prepare.py",
+    "copy": "frozen_code/prepare.py",
+    "sha256": "909fd6018441393a0ff89a183a7516770d156adb04eb3aa34ecfae8628af4ad9"
+  },
+  {
+    "source": "05_CRISP_X/src/refined.py",
+    "copy": "frozen_code/refined.py",
+    "sha256": "0fe4763c36299097dcb907a2da28977a1a5e419e76c4cd56a5f85e15c4c8915a"
+  },
+  {
+    "source": "05_CRISP_X/src/local_reconstruction/resume_secondary.py",
+    "copy": "frozen_code/resume_secondary.py",
+    "sha256": "b1f5dda9719b735806b01873479616bf25bba9b4f4cc8b44387cedeb800148a6"
+  },
+  {
+    "source": "05_CRISP_X/src/study.py",
+    "copy": "frozen_code/study.py",
+    "sha256": "94c86d1d0328476f542d137855ccf9e7b19ac7a009c3959485dd939ac7a19c1a"
+  },
+  {
+    "source": "05_CRISP_X/src/study_closure.py",
+    "copy": "frozen_code/study_closure.py",
+    "sha256": "fb8c1e1a47f53a88efd00b309a9f9de8c48ac02fc3e1423ef99ea5124b00a0d9"
+  },
+  {
+    "source": "05_CRISP_X/src/common/data.py",
+    "copy": "frozen_code/common/data.py",
+    "sha256": "4d432ec4208202c9b255cd615db40d7bb6b0d59cdc6c05cffdcfd81e3010d6d2"
+  },
+  {
+    "source": "05_CRISP_X/src/common/evaluation.py",
+    "copy": "frozen_code/common/evaluation.py",
+    "sha256": "7f5355aac283f7fbe9ad1a7b31a86f85fd2d72f8d611be97a2f1b960b71a4414"
+  },
+  {
+    "source": "05_CRISP_X/src/common/oracle.py",
+    "copy": "frozen_code/common/oracle.py",
+    "sha256": "a411bdc518092fd2a63787a98af5d86306077272c1325e025708c3bbebcccdf4"
+  },
+  {
+    "source": "05_CRISP_X/src/common/__init__.py",
+    "copy": "frozen_code/common/__init__.py",
+    "sha256": "db4c5759a75f24daa9402077017d365efe4c6c52cee88ad83a6091aaaf366927"
+  },
+  {
+    "source": "05_CRISP_X/src/crispx/core.py",
+    "copy": "frozen_code/crispx/core.py",
+    "sha256": "9cfeeed3c1f5dff69257ab32fb2d313408b04f608c8c5204a11d7550a8cd279a"
+  },
+  {
+    "source": "05_CRISP_X/src/crispx/path_model.py",
+    "copy": "frozen_code/crispx/path_model.py",
+    "sha256": "fa16d765635e51462e85fb5ef8ec700e1d9769e27c633c48162eacc0e5bfce68"
+  },
+  {
+    "source": "05_CRISP_X/src/crispx/perturb.py",
+    "copy": "frozen_code/crispx/perturb.py",
+    "sha256": "b067a3e7c1f8a5c0acd258733fad862b50bfadbeb5f4950ad22e79f05b523be3"
+  },
+  {
+    "source": "05_CRISP_X/src/crispx/run.py",
+    "copy": "frozen_code/crispx/run.py",
+    "sha256": "354cc9c0360ae33e6fcfab41fe8f52f59a8c67eed86b719334191c78e43cba46"
+  },
+  {
+    "source": "05_CRISP_X/src/crispx/__init__.py",
+    "copy": "frozen_code/crispx/__init__.py",
+    "sha256": "551c703a8cfe6f1cdd3cc72fb3ff341380d1265024d0b9da5d311212ffa232ff"
+  },
+  {
+    "source": "05_CRISP_X/src/crispx_closure/paths.py",
+    "copy": "frozen_code/crispx_closure/paths.py",
+    "sha256": "64ac4a8ccc67abce9561ac48be1b3ec2912221e42c5e24a668d5b5abe953a485"
+  },
+  {
+    "source": "05_CRISP_X/src/crispx_closure/__init__.py",
+    "copy": "frozen_code/crispx_closure/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "05_CRISP_X/src/lime_baseline/compare.py",
+    "copy": "frozen_code/lime_baseline/compare.py",
+    "sha256": "a08abd6a1ff896120a29115ddb4ddb83dd000314a049239b0856b55ce0047cef"
+  },
+  {
+    "source": "05_CRISP_X/src/lime_baseline/__init__.py",
+    "copy": "frozen_code/lime_baseline/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "05_CRISP_X/src/shap_baseline/importance.py",
+    "copy": "frozen_code/shap_baseline/importance.py",
+    "sha256": "7e0d8f6d53b99c48a01cc74fea271f33e6a975ea3adfe693b89c158d1dc826c3"
+  },
+  {
+    "source": "05_CRISP_X/src/shap_baseline/__init__.py",
+    "copy": "frozen_code/shap_baseline/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "03_DESCRIPTOR_EXTRACTION/src/shared_features/extraction.py",
+    "copy": "frozen_code/shared_features/extraction.py",
+    "sha256": "f8f62aea9a8f27a74a471bed042ea1d6b212f60c23e1bcef5940152ad73c15e1"
+  },
+  {
+    "source": "03_DESCRIPTOR_EXTRACTION/src/shared_features/__init__.py",
+    "copy": "frozen_code/shared_features/__init__.py",
+    "sha256": "88c5d434dfa0d9b5aa5fc363ae98e1ee89dfc35a4547e472ba6cf0baaf67e551"
+  },
+  {
+    "source": "05_CRISP_X/src/local_reconstruction/tests/test_closure.py",
+    "copy": "frozen_code/tests/test_closure.py",
+    "sha256": "aad7c228a9ea5f94f64578000d9eca073ed00fad57edeb78b889c2766f77ab77"
+  }
+]

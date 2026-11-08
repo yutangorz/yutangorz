@@ -1,0 +1,74 @@
+{
+  "id": "SUB20v1_6235374_A_RA_finer",
+  "mode": "soc",
+  "material": "6235374",
+  "state": "A_RA_finer",
+  "nsites": 10,
+  "actual_parameters": {
+    "LSORBIT": true,
+    "NSW": 0,
+    "NBANDS": 108,
+    "ENCUT": 520.0,
+    "EDIFF": 1e-07,
+    "NELM": 150,
+    "ISIF": 2,
+    "ISMEAR": 0,
+    "SIGMA": 0.05,
+    "GGA": "Pe",
+    "LASPH": true,
+    "LREAL": false,
+    "ISYM": -1,
+    "LNONCOLLINEAR": true,
+    "IBRION": -1,
+    "NELECT": 68
+  },
+  "mesh": [
+    11,
+    9,
+    9
+  ],
+  "potcar_sha256": "75ed7152f956673e2f82dd69ad63a6926fd0ac4d7a187009baacfc156a3d903c",
+  "potcar_source_private": "07_DFT_VALIDATION/inputs/FGM/DFT_val/6235374/6235374/2_scf/POTCAR",
+  "potcar_recipe": null,
+  "potcar_components": null,
+  "expected_PAW_titles": [
+    "PAW_PBE Cs_sv 08Apr2002",
+    "PAW_PBE Rb_sv 06Sep2000",
+    "PAW_PBE I 08Apr2002",
+    "PAW_PBE O 08Apr2002"
+  ],
+  "expected_PAW_ZVAL": [
+    9.0,
+    9.0,
+    7.0,
+    6.0
+  ],
+  "expected_PAW_ENMAX": [
+    220.318,
+    220.112,
+    175.647,
+    400.0
+  ],
+  "binary": "licensed_software/vasp/bin/vasp_ncl",
+  "binary_sha256": "95c4498fb376e8ea006039e640051eb9223b4279f5289da5fb16b668ce974c6e",
+  "assigned_node": "node01",
+  "input_only_parameters": {
+    "IVDW": 0
+  },
+  "parent_run": "source_ref_691f620eb03d",
+  "interpretation": "fixed RA neutral PBE+SOC closed-shell formal-valence hypothesis; no relaxed stability/magnetic-ground-state proof",
+  "delivery_hashes": {
+    "INCAR": "7e8c954e4d7509a06d5420870fb4865e1a27a0d2343447e0c617cd803e2ff542",
+    "KPOINTS": "e602eb7c192802927402caff07c8bed6fb471fe53d8ef520036e79d6e585061d",
+    "occupation_rounding.py": "bcdc4444554c75278e8045e872a0fec566cb77b66f010c3d0bef5cb288844a0a",
+    "paw_record_guard.py": "c39e884b1c54bce5562b8ade26190f80fce9e6bd093160f0a79a9b0e3a82572b",
+    "POSCAR": "f3580ad75bc836c686ddfeed22a45c1ad18900e1193863b4e3103dcda924da1b",
+    "run_task.py": "b2baff3c0708bcca40666da96a94b6a1f11eb6cf43642aede62093d184eae6d3",
+    "scf_rounding.py": "d306c282fcfe4ad25f2ad616a421cae3a7bc481034398f26bde90b287638443e",
+    "soc_input_guard.py": "c99287bb7799f5544cf8497914e2b3c9c0ddd6cff9a454cab1a05c90c5a444be",
+    "spectrum_policy.py": "2dcabaa8e3686479638465f7530afe5bb03612f216ab4c72ba2ad35ac776d35e",
+    "submit_node01.slurm": "29067395ee7973c8db9e8dada269f325c9bdfea70a0c95e372ad7357285efbd7",
+    "validate_substitution.py": "489aa7fd08853c8b29fabbcabccfe590f207ec1a4293aee41edb6532aaef340a",
+    "weight_rounding.py": "669c1b1f5d8cf9ef949bc281a1ff2d441ff210a778d3c69bad1e20af1019a5bc"
+  }
+}

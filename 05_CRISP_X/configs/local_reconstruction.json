@@ -1,0 +1,36 @@
+{
+  "phase": "confirmation",
+  "parent_run": "source_ref_f539abfd1761",
+  "seed": 20261029,
+  "seeds": [
+    307,
+    419
+  ],
+  "candidates": [
+    {
+      "name": "block_b64_g40",
+      "budget": 64,
+      "geometry_quota": 40
+    }
+  ],
+  "development_source": "05_CRISP_X/workflows/perturbation_design",
+  "confirmation_parent_count": 24,
+  "importance": "explicit TreeSHAP tree_path_dependent; per-ID values and mean absolute SHAP over all1462 fold0 heldouts",
+  "importance_scope": "model-relative allocation under training-tree-count convention, not causal/true conditional; no new attribution algorithm claimed",
+  "response_scope": "seen chemical paths and bounded structure-generated perturbations; no DFT or stability certification",
+  "frozen_gates": {
+    "shap_additivity_eV": 1e-06,
+    "synthetic_exact_game_eV": 1e-06,
+    "response_coverage": 0.95,
+    "response_gain_parent_bootstrap_lower_gt": 0.0,
+    "minimum_relative_mae_gain": 0.1,
+    "geometry_target_mae_eV": 0.03,
+    "geometry_target_r2": 0.7,
+    "geometry_target_is_aspirational": true
+  },
+  "no_confirmation_tuning": true,
+  "independent_review": false,
+  "bootstrap_repeats": 2000,
+  "secondary_XGBoost_float32_tolerance_eV": 1e-05,
+  "execution_mode": "resume unchanged saved primary/response results; finish only secondary checks"
+}
