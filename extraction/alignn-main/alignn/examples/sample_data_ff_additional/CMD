@@ -1,2 +1,0 @@
-train_alignn.py --root_dir DataDir/ --config config.json --output_dir temp --target_key energy --additional_output_key dos --stresswise_key stresses
-
