@@ -1,0 +1,28 @@
+{
+  "n": 1462,
+  "formula_groups": 933,
+  "IDs_exact": true,
+  "features_binary_exact": true,
+  "formula_groups_exact": true,
+  "prediction_max_difference_eV": 8.881784197001252e-16,
+  "prediction_tolerance_eV": 1e-12,
+  "SHAP_summary_max_difference_eV": 4.440892098500626e-16,
+  "SHAP_additivity_max_residual_eV": 1.4210854715202004e-13,
+  "SHAP_reused": true,
+  "SHAP_interventional_scope": "24 confirmation mothers x2 backgrounds of32; not all1462",
+  "features_computational_order": [
+    "period",
+    "electronegativity",
+    "covalent_radius",
+    "valence_electrons",
+    "ionization_energy",
+    "electron_affinity",
+    "atomic_volume",
+    "bond_length",
+    "bond_angle"
+  ],
+  "user_feature_list_is_display_order_only": true,
+  "model_sha256": "1e3c7c3370b5fcc41b25db1eb20ff483c877c190d23d3c83b2035e3fd21784c6",
+  "old_LIME_scope": "run019/021 24 mothers x2 seeds for response, not1462 independent per-material LIME fits",
+  "passed": true
+}

@@ -1,0 +1,22 @@
+{
+  "source_files_verified": 123,
+  "model_sha_equal": true,
+  "n_physical_points": 2304,
+  "n_parent_materials": 24,
+  "n_parent_seed_pools": 48,
+  "geometry_points": 1152,
+  "chemical_points": 1152,
+  "qualified_geometry_paths": 48,
+  "chemical_affine_points": 86,
+  "chemical_joint_points": 1058,
+  "chemical_abstain_points": 8,
+  "max_source_prediction_difference_eV": 1.3322676295501878e-15,
+  "max_contrast_additivity_residual_eV": 1.6336931807359178e-13,
+  "max_perturbed_reconstruction_residual_eV": 1.262323578998803e-13,
+  "max_parent_to_perturbed_descriptor_change": 30.79692666164857,
+  "bootstrap_draws": 2000,
+  "bootstrap_unit": "parent material ID",
+  "new_tree_explanations": 0,
+  "new_model_fits": 0,
+  "new_DFT": 0
+}

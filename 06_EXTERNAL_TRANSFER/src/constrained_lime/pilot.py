@@ -49,7 +49,7 @@ def main():
     parents=pd.read_csv(_repo_path('06_EXTERNAL_TRANSFER/data/external_response/PILOT38.csv'))
     for n,r in enumerate(parents.itertuples(),1):
         ID=r.external_id
-        s=Structure.from_file(SOURCE/r.local_cif)
+        s=Structure.from_file((_repo_path('06_EXTERNAL_TRANSFER/data/external_response/cif')/(r.external_id+'.cif')))
         x0,q=ex.extract(s);assert np.allclose(x0,np.array([getattr(r,f) for f in FEATURES]),atol=1e-10)
         for seed in cfg['seeds']:
             tick=time.perf_counter();folder=_repo_path('outputs/06_EXTERNAL_TRANSFER/constrained_lime/physical_pools')/f'{ID}_{seed}';folder.mkdir()

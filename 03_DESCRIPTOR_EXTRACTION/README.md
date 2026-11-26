@@ -14,3 +14,5 @@ Source files:
 
 - [src/shared_features/__init__.py](src/shared_features/__init__.py)
 - [src/shared_features/extraction.py](src/shared_features/extraction.py)
+
+Author-owned material is MIT-licensed; third-party terms remain applicable. See the root [licence and source notes](../DATA_AND_LICENSE_AUDIT.md).

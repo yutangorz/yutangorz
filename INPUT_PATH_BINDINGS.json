@@ -1,0 +1,16 @@
+{
+  "scope": "fixed-input read locations; separate from scientific execution authorization",
+  "aliases": {
+    "06_EXTERNAL_TRANSFER/data/external_response/property_model.joblib": "05_CRISP_X/models/property_model.joblib"
+  },
+  "read_aliases": {
+    "outputs/06_EXTERNAL_TRANSFER/constrained_lime/physical_pools": "06_EXTERNAL_TRANSFER/data/frozen_pools",
+    "06_EXTERNAL_TRANSFER/workflows/common_ridge/training5714.npy": "06_EXTERNAL_TRANSFER/data/common_ridge/training5714.npy",
+    "06_EXTERNAL_TRANSFER/workflows/common_ridge/training_SD.npy": "06_EXTERNAL_TRANSFER/data/common_ridge/training_SD.npy",
+    "06_EXTERNAL_TRANSFER/workflows/common_ridge/EXACT_ANCHORS38.npz": "06_EXTERNAL_TRANSFER/data/common_ridge/EXACT_ANCHORS38.npz",
+    "06_EXTERNAL_TRANSFER/workflows/gaussian_sampling/GAUSSIAN_CANDIDATE_SHA256.csv": "06_EXTERNAL_TRANSFER/data/common_ridge/GAUSSIAN_CANDIDATE_SHA256.csv",
+    "outputs/05_CRISP_X/local_reconstruction/response_predictions.csv": "05_CRISP_X/data/final_response/response_predictions.csv",
+    "outputs/05_CRISP_X/local_reconstruction/query_and_path_design.csv": "05_CRISP_X/data/final_response/query_and_path_design.csv",
+    "outputs/05_CRISP_X/local_reconstruction/shap_baseline/per_material_nine_attributions.csv": "05_CRISP_X/data/final_response/shap_baseline/per_material_nine_attributions.csv"
+  }
+}

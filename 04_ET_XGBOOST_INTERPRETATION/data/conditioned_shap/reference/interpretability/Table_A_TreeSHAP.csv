@@ -1,0 +1,10 @@
+﻿feature,category,mean_abs_SHAP_eV,share,rank,low95_eV,high95_eV,bootstrap_rank_low,bootstrap_rank_high,convention,n_materials,formula_groups,status,feature_name
+valence_electrons,atomic,0.7543953771078122,0.3789626713179749,1,0.7249315647571017,0.7843665628536036,1.0,1.0,TreeSHAP tree_path_dependent; fixed fold0 ExtraTrees,1462,933,reused verified existing TreeSHAP,价电子数
+electron_affinity,atomic,0.501171811581845,0.2517584469226965,2,0.4821746179186557,0.5198339379726783,2.0,2.0,TreeSHAP tree_path_dependent; fixed fold0 ExtraTrees,1462,933,reused verified existing TreeSHAP,电子亲和能
+ionization_energy,atomic,0.1730160298050805,0.0869128030544564,3,0.1605168175625495,0.1856009613364188,3.0,3.0,TreeSHAP tree_path_dependent; fixed fold0 ExtraTrees,1462,933,reused verified existing TreeSHAP,电离能
+atomic_volume,atomic,0.1424558123742216,0.0715611956810707,4,0.1347986143380144,0.1511943631989203,4.0,4.0,TreeSHAP tree_path_dependent; fixed fold0 ExtraTrees,1462,933,reused verified existing TreeSHAP,元素Atomic Volume
+electronegativity,atomic,0.1278751323123458,0.0642367427038203,5,0.119949127649868,0.1364335113189687,5.0,5.0,TreeSHAP tree_path_dependent; fixed fold0 ExtraTrees,1462,933,reused verified existing TreeSHAP,电负性
+covalent_radius,atomic,0.0908644301529176,0.0456448014177241,6,0.0860454692401599,0.0958754315937935,6.0,6.0,TreeSHAP tree_path_dependent; fixed fold0 ExtraTrees,1462,933,reused verified existing TreeSHAP,共价半径
+period,atomic,0.0810921570539858,0.0407358016666682,7,0.0751486726077719,0.0877288084995617,7.0,7.0,TreeSHAP tree_path_dependent; fixed fold0 ExtraTrees,1462,933,reused verified existing TreeSHAP,周期
+bond_length,structural,0.0672159787784071,0.0337652478343291,8,0.0625669913502733,0.072429638958217,8.0,8.0,TreeSHAP tree_path_dependent; fixed fold0 ExtraTrees,1462,933,reused verified existing TreeSHAP,周期壳层距离L
+bond_angle,structural,0.0525984601797091,0.0264222894012592,9,0.0488126320791997,0.0571029257064772,9.0,9.0,TreeSHAP tree_path_dependent; fixed fold0 ExtraTrees,1462,933,reused verified existing TreeSHAP,周期壳层角度Theta

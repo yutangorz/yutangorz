@@ -1,0 +1,18 @@
+{
+  "n": 1462,
+  "formula_groups": 933,
+  "max_additivity_residual_eV": 1.4210854715202006e-13,
+  "model_permuted_attribution_rms_change_eV": 0.38162197390695474,
+  "property_prediction": {
+    "n": 1462,
+    "covered_n": 1462,
+    "coverage": 1.0,
+    "mae_eV": 0.4149144733242135,
+    "rmse_eV": 0.6302274499603921,
+    "r2": 0.8472891037215496
+  },
+  "seconds": 9.539300399948843,
+  "seconds_scope": "secondary-resume only; primary computation recorded in run018 execution logs",
+  "reference": "tree_path_dependent uses training tree counts; not true conditional/causal",
+  "bootstrap": "resample heldout formula groups with fixed model; no model-fitting uncertainty"
+}

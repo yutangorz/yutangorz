@@ -1,0 +1,12 @@
+{
+  "status": "COMPLETE",
+  "candidate_materials": 38,
+  "planned_cases": 76,
+  "planned_holdout_responses": 3648,
+  "actual_complete_cases": 76,
+  "seconds": 125.76557059999323,
+  "frozen_model_sha256": "1e3c7c3370b5fcc41b25db1eb20ff483c877c190d23d3c83b2035e3fd21784c6",
+  "target": "fixed ET perturbation response",
+  "new_property_model_training": false,
+  "challenge_executed": false
+}

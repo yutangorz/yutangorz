@@ -31,3 +31,5 @@ Source files:
 - [src/shap_baseline/importance.py](src/shap_baseline/importance.py)
 - [src/study.py](src/study.py)
 - [src/study_closure.py](src/study_closure.py)
+
+Author-owned material is MIT-licensed; third-party terms remain applicable. See the root [licence and source notes](../DATA_AND_LICENSE_AUDIT.md).

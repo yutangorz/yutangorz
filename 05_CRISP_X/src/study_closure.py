@@ -241,7 +241,8 @@ def main():
                 events=json.loads((folder/f'events_{seed}.json').read_text(encoding='utf-8'))
                 idx=np.load(folder/f'indices_{seed}.npz');fitidx,testidx=idx['fit'],idx['test']
             else:
-                s=Structure.from_file(parent.path);assert sha(parent.path)==parent.structure_sha256
+                parent_file=_repo_path('03_DESCRIPTOR_EXTRACTION/data/structures')/(str(parent.ID)+'.vasp')
+                s=Structure.from_file(parent_file);assert sha(parent_file)==parent.structure_sha256
                 extracted,_=extractor.extract(s);assert np.allclose(extracted,x0,atol=1e-10)
                 t=time.perf_counter();ss,x,events,fitidx,testidx,amps,rejected=make_pool(s,extractor,seed)
                 folder=out/'physical_pools'/f'{ID}_{seed}';folder.mkdir()

@@ -1,0 +1,10 @@
+Figure_or_module,Entry,Saved_input_or_result,Scope
+01/PVK,01_DATA_CURATION/src/selection/select_materials.py,01_DATA_CURATION/src/selection/model_PVK.json,candidate screening; p>0.5; 47 structural/XRD inputs
+02/ALIGNN,02_ALIGNN_TRAINING/src/training/train.py,02_ALIGNN_TRAINING/data/historical_training,implementation reconstruction; unique version/logs missing
+03/descriptors,03_DESCRIPTOR_EXTRACTION/src,03_DESCRIPTOR_EXTRACTION/data/model_input_7176.csv,predefined nine descriptors; Atomic Volume is elemental-table property
+04/Fig7c,04_ET_XGBOOST_INTERPRETATION/src/conditioned_shap/analyze.py,04_ET_XGBOOST_INTERPRETATION/data/conditioned_shap/final,saved ET allocation changes; not independent causal validation
+04/LIME,04_ET_XGBOOST_INTERPRETATION/src/native_lime/compute_lime.py,04_ET_XGBOOST_INTERPRETATION/data/native_lime,historical gates retained; runtime not certified
+05/CRISP-X,05_CRISP_X/src/study_closure.py,05_CRISP_X/data/final_response,fixed ET structural response; not direct ALIGNN attribution
+06/external,06_EXTERNAL_TRANSFER/src/common_ridge/refined.py,06_EXTERNAL_TRANSFER/data/common_ridge/final,"J38 response reconstruction, distinct from DFT/experimental accuracy"
+07/DFT,07_DFT_VALIDATION/README.md,07_DFT_VALIDATION,existing protocol-resolved evidence only; no new review
+08/COHP,08_COHP_ANALYSIS/README.md,08_COHP_ANALYSIS,original/matched series separate; no new review

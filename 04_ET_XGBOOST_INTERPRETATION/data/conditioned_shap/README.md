@@ -1,0 +1,7 @@
+# Conditioned ET attribution: Fig. 7(c)
+
+final/CRISP_X_CONDITIONED_TREESHAP.csv contains the parent-weighted mean absolute change in fixed-ET TreeSHAP allocation. The geometry and chemical_nonabstain scopes contain 1152 and 1144 points, respectively, from 24 parents and two seeds. All 2304 points, including eight chemical abstentions, remain in reference/per_response_nine_contrasts.csv. The analysis concerns the same ET on changed input support, not a second model or independent causal validation.
+
+The contrast-producing methods are in ../../src/conditioned_shap/original_producer/study_rank.py and rank_core.py. Scientific workspace source identities and original input hashes are mapped by reference/INPUT_SOURCE_SHA256.csv and provenance/HISTORICAL_INPUT_SOURCE_SHA256.csv. The public analysis consumer is ../../src/conditioned_shap/analyze.py; it reads these reference inputs and writes new summaries without evaluating new TreeSHAP explanations. Original production wrappers require their declared source-workspace inputs and guards; they do not replace the included reference results or certify an independently tested end-to-end replay.
+
+Workspace wrapper interfaces: `prepare_rank.py --source-workspace <source-workspace> --run <new-workspace>` and `finalize_rank.py --run <workspace> --delivery <new-delivery-directory>`. Preparation requires the declared source code/tests and source data; it is separate from inspecting the saved results. The wrappers write no project-management logs.

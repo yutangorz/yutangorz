@@ -49,15 +49,16 @@ def csvout(df: pd.DataFrame, name: str) -> None:
     df.to_csv(OUT/name, index=False, float_format='%.17g')
 
 def main() -> None:
-    manifest = read(_repo_path('04_ET_XGBOOST_INTERPRETATION/workflows/conditioned_shap/INPUT_SOURCE_SHA256.csv'))
+    OUT.mkdir(parents=True, exist_ok=False)  # new summaries only; archived data are immutable
+    manifest = read(_repo_path('04_ET_XGBOOST_INTERPRETATION/data/conditioned_shap/reference/INPUT_SOURCE_SHA256.csv'))
     for row in manifest.itertuples(index=False):
         p = ROOT/row.path
         if not p.is_file() or digest(p) != row.sha256 or p.stat().st_size != row.bytes:
             raise SystemExit(f'Source changed: {row.path}')
-    source = read(_repo_path('05_CRISP_X/workflows/attribution_validation/results/aligned_comparison/per_response_nine_contrasts.csv'), dtype={'ID':str})
+    source = read(_repo_path('04_ET_XGBOOST_INTERPRETATION/data/conditioned_shap/reference/per_response_nine_contrasts.csv'), dtype={'ID':str})
     delta = source[source.method == 'SHAP_contrast'].copy()
-    parent = read(_repo_path('outputs/05_CRISP_X/local_reconstruction/shap_baseline/per_material_nine_attributions.csv'), dtype={'ID':str})
-    pools = json.loads((_repo_path('05_CRISP_X/workflows/attribution_validation/inputs/pool_manifest.json')).read_text(encoding='utf-8'))
+    parent = read(_repo_path('04_ET_XGBOOST_INTERPRETATION/data/conditioned_shap/reference/parent_shap/per_material_nine_attributions.csv'), dtype={'ID':str})
+    pools = json.loads((_repo_path('04_ET_XGBOOST_INTERPRETATION/data/conditioned_shap/reference/pool_manifest.json')).read_text(encoding='utf-8'))
     assert len(delta) == 2304 and len(pools) == 48 and delta[['ID','seed','candidate']].duplicated().sum() == 0
     assert delta.kind.value_counts().to_dict() == {'geometry':1152,'chemical':1152}
     assert delta.ID.nunique() == 24 and delta[['ID','seed']].drop_duplicates().shape[0] == 48
@@ -65,7 +66,7 @@ def main() -> None:
     poolrows = []
     for entry in pools:
         ident, seed = str(entry['ID']), int(entry['seed'])
-        directory = _repo_path('05_CRISP_X/workflows/attribution_validation/inputs/pools')/f'{ident}_{seed}'
+        directory = _repo_path('04_ET_XGBOOST_INTERPRETATION/data/conditioned_shap/reference/pools')/f'{ident}_{seed}'
         pool = read(directory/'pool.csv')
         with np.load(directory/'indices.npz') as index:
             selected = index['test']
@@ -83,7 +84,7 @@ def main() -> None:
     parent_cols = ['ID','formula_group','prediction_eV','base_eV']+F+['SHAP_'+f for f in F]
     p = parent[parent_cols].rename(columns={'prediction_eV':'parent_prediction_eV','base_eV':'shap_reference_eV',**{f:'parent_input_'+f for f in F},**{'SHAP_'+f:'parent_phi_'+f for f in F}})
     d = d.merge(p, on='ID', validate='many_to_one')
-    response = read(_repo_path('outputs/05_CRISP_X/local_reconstruction/response_predictions.csv'), dtype={'ID':str})
+    response = read(_repo_path('04_ET_XGBOOST_INTERPRETATION/data/conditioned_shap/reference/local_response/response_predictions.csv'), dtype={'ID':str})
     response = response[(response.model=='frozen_ET')&(response.method=='block_b64_g40')]
     d = d.merge(response[['ID','seed','candidate','reason','prediction']], on=['ID','seed','candidate'], validate='one_to_one')
     assert len(d) == 2304 and set(d.reason) == {'supported','joint_path_mean_only_no_geometry_slope','unknown_path'}
@@ -104,7 +105,7 @@ def main() -> None:
     d['perturbed_reconstruction_eV'] = d.shap_reference_eV+d[['perturbed_phi_'+f for f in F]].sum(axis=1)
     max_perturbed = float(np.max(abs(d.perturbed_prediction_eV-d.perturbed_reconstruction_eV)))
     assert max_perturbed < 1e-9
-    q = read(_repo_path('outputs/05_CRISP_X/local_reconstruction/query_and_path_design.csv'), dtype={'ID':str})
+    q = read(_repo_path('04_ET_XGBOOST_INTERPRETATION/data/conditioned_shap/reference/local_response/query_and_path_design.csv'), dtype={'ID':str})
     q = q[(q.model=='frozen_ET')&(q.path=='geometry_only')]
     assert len(q) == 48 and q.separate_geometry_slopes_qualified.astype(bool).all()
     d['geometry_separate_LTheta_qualified'] = d.kind.eq('geometry') & d[['ID','seed']].apply(tuple,axis=1).isin(set(q[['ID','seed']].itertuples(index=False,name=None)))
@@ -194,19 +195,19 @@ def main() -> None:
             pathrows.append({'material_id':ident,'seed':seed,'kind':kind,'path':path,'descriptor':f,'n_points':len(g),'mean_abs_delta_phi_eV':g['delta_phi_'+f].abs().mean(),'mean_signed_delta_phi_eV':g['delta_phi_'+f].mean(),'chemical_status':','.join(sorted(g.chemical_status.unique())),'geometry_separate_slopes_qualified':bool(g.geometry_separate_LTheta_qualified.all())})
     csvout(pd.DataFrame(pathrows),'PATH_CONTRIBUTIONS.csv')
 
-    element = read(_repo_path('07_DFT_VALIDATION/workflows/association_methods/ELEMENT_IMPORTANCE_RESULTS.csv'))
+    element = read(_repo_path('04_ET_XGBOOST_INTERPRETATION/data/conditioned_shap/reference/dft_association_archive/ELEMENT_IMPORTANCE_RESULTS.csv'))
     element = element[element.protocol_group=='FORMAL_FIXED_13'].set_index('descriptor')
-    stability = read(_repo_path('07_DFT_VALIDATION/workflows/association_methods/ELEMENT_IMPORTANCE_STABILITY.csv'))
-    corr = read(_repo_path('07_DFT_VALIDATION/workflows/association_methods/ELEMENT_CORRELATION_MATRIX.csv')).set_index('descriptor')
-    global_result = read(_repo_path('07_DFT_VALIDATION/workflows/association_methods/GLOBAL_IMPORTANCE_RESULTS.csv')).set_index('descriptor')
-    global_detail = read(_repo_path('07_DFT_VALIDATION/workflows/association_methods/GLOBAL_MATERIAL_SENSITIVITY.csv'))
+    stability = read(_repo_path('04_ET_XGBOOST_INTERPRETATION/data/conditioned_shap/reference/dft_association_archive/ELEMENT_IMPORTANCE_STABILITY.csv'))
+    corr = read(_repo_path('04_ET_XGBOOST_INTERPRETATION/data/conditioned_shap/reference/dft_association_archive/ELEMENT_CORRELATION_MATRIX.csv')).set_index('descriptor')
+    global_result = read(_repo_path('04_ET_XGBOOST_INTERPRETATION/data/conditioned_shap/reference/dft_association_archive/GLOBAL_IMPORTANCE_RESULTS.csv')).set_index('descriptor')
+    global_detail = read(_repo_path('04_ET_XGBOOST_INTERPRETATION/data/conditioned_shap/reference/dft_association_archive/GLOBAL_MATERIAL_SENSITIVITY.csv'))
     csvout(global_detail,'DFT_GLOBAL_MATERIAL_DETAIL.csv')
-    local_length = read(_repo_path('07_DFT_VALIDATION/workflows/association_methods/LOCAL_LENGTH_IMPORTANCE.csv'))
-    local_angle = read(_repo_path('07_DFT_VALIDATION/workflows/association_methods/LOCAL_ANGLE_IMPORTANCE.csv'))
+    local_length = read(_repo_path('04_ET_XGBOOST_INTERPRETATION/data/conditioned_shap/reference/dft_association_archive/LOCAL_LENGTH_IMPORTANCE.csv'))
+    local_angle = read(_repo_path('04_ET_XGBOOST_INTERPRETATION/data/conditioned_shap/reference/dft_association_archive/LOCAL_ANGLE_IMPORTANCE.csv'))
     csvout(pd.concat([local_length,local_angle],ignore_index=True),'DFT_LOCAL_PATH_SUMMARY.csv')
     csvout(corr.reset_index(),'DFT_ATOMIC_CORRELATION_MATRIX.csv')
-    et = read(_repo_path('feature_interpretability_audit/tables/Table_A_TreeSHAP.csv')).set_index('feature')
-    lime = read(_repo_path('feature_interpretability_audit/tables/Table_B_LIME.csv')).set_index('feature')
+    et = read(_repo_path('04_ET_XGBOOST_INTERPRETATION/data/conditioned_shap/reference/interpretability/Table_A_TreeSHAP.csv')).set_index('feature')
+    lime = read(_repo_path('04_ET_XGBOOST_INTERPRETATION/data/conditioned_shap/reference/interpretability/Table_B_LIME.csv')).set_index('feature')
     dft_rows=[]
     element_rank = element.spearman_rho.abs().rank(ascending=False,method='min')
     for f in F:
@@ -272,7 +273,7 @@ def main() -> None:
     # Original attribution allocation correlations are a diagnostic for shared feature support.
     phicorr=parent[['SHAP_'+f for f in F]].corr(method='spearman')
     phicorr.index=F;phicorr.columns=F;phicorr.to_csv(_repo_path('04_ET_XGBOOST_INTERPRETATION/workflows/conditioned_shap/ET_ATTRIBUTION_CORRELATIONS.csv'))
-    qa={'source_files_verified':len(manifest),'model_sha_equal':digest(_repo_path('05_CRISP_X/models/property_model.joblib'))==digest(_repo_path('05_CRISP_X/models/property_model.joblib')),
+    qa={'source_files_verified':len(manifest),'model_sha_equal':digest(_repo_path('05_CRISP_X/models/property_model.joblib'))=='1e3c7c3370b5fcc41b25db1eb20ff483c877c190d23d3c83b2035e3fd21784c6',
         'n_physical_points':len(d),'n_parent_materials':d.ID.nunique(),'n_parent_seed_pools':d[['ID','seed']].drop_duplicates().shape[0],
         'geometry_points':int((d.kind=='geometry').sum()),'chemical_points':int((d.kind=='chemical').sum()),
         'qualified_geometry_paths':len(q),'chemical_affine_points':int((d.chemical_status=='AFFINE_SUPPORT').sum()),

@@ -26,7 +26,7 @@ Use each module's src/, configs/, data/, models/ or inputs/ according to its REA
 
 The seven elemental properties are period, electronegativity, covalent radius, valence electrons, ionization energy, electron affinity and atomic volume, averaged by atom fraction. L and Θ are material-level means over periodic local environments, not selected local bonds/angles. Local DFT perturbations can change both means.
 
-See [environment notes](DEPENDENCIES_AND_ENVIRONMENT.md) and [saved versions](environments/SAVED_ENVIRONMENT_VERSIONS.csv). No single universal environment is certified. repository_paths.py resolves repository-relative locations; JCTC_INPUT_ROOT can supply separately obtained/decompressed inputs and JCTC_OUTPUT_ROOT can redirect output storage. No private absolute path is required by the location helper.
+See [environment notes](DEPENDENCIES_AND_ENVIRONMENT.md) and [saved versions](environments/SAVED_ENVIRONMENT_VERSIONS.csv). No single universal environment is certified. repository_paths.py resolves repository-relative locations; JCTC_INPUT_ROOT can supply separately obtained/decompressed inputs and JCTC_OUTPUT_ROOT can redirect output storage. No private absolute path is required by the location helper. JCTC_WORKSPACE_ROOT selects a fresh prepared workspace; input_path resolves archived reads separately from generated outputs. See [input preparation](09_REPRODUCTION_CHECKS/INPUT_PREPARATION.md).
 
 ## Checked operations
 
@@ -38,7 +38,7 @@ python 09_REPRODUCTION_CHECKS/verify_saved_metrics.py
 python 09_REPRODUCTION_CHECKS/prepare_data.py --output ../jctc_inputs_new --dry-run
 ```
 
-To decompress included large source data, remove --dry-run and choose a nonexistent directory outside this repository, then set JCTC_INPUT_ROOT to that directory. This only copies/decompresses inputs. Scientific stages require their own declared input schemas, configurations and generated upstream tables. Original source/receipt/authorization checks remain in force. Missing prerequisites are listed in [reproducibility notes](REPRODUCIBILITY_QA.md), not bypassed. Do not import entry scripts merely to inspect them; some have top-level computation. Do not load untrusted pickle/joblib files.
+To decompress included large source data, remove --dry-run and choose a nonexistent directory outside this repository, then set JCTC_INPUT_ROOT to that directory. This only copies/decompresses inputs. Scientific stages require their own declared input schemas, configurations and generated upstream tables. The inputs include 24 OQMD and 38 JARVIS parent structures, conditioned attribution references and the fixed intermediate arrays and perturbation pools. Original source/receipt/authorization checks remain in force. Missing prerequisites are listed in [reproducibility notes](REPRODUCIBILITY_QA.md), not bypassed. Do not import entry scripts merely to inspect them; some have top-level computation. Do not load untrusted pickle/joblib files.
 
 ## Interpretation and independent evidence
 
@@ -48,4 +48,8 @@ DFT evidence is protocol- and sample-specific. All 371 formal nodes/17 parents a
 
 ## Data, rights and citation
 
-OQMD data require attribution under CC BY 4.0. CGCNN elemental/upstream material uses the retained MIT notice; ALIGNN/JARVIS software notices are in Third_Party_Notices/. VASP, PAW and LOBSTER software are obtained separately. JARVIS structure/array and PVK classifier redistribution is withheld pending rights review; no replacement model was trained. The authors' code/model/data license grant awaits author choice. See [data and licence notes](DATA_AND_LICENSE_AUDIT.md). Cite the paper and the relevant OQMD, CGCNN, ALIGNN, ExtraTrees, XGBoost, SHAP, LIME, JARVIS, VASP and LOBSTER primary sources using the verified manuscript bibliography.
+OQMD data require attribution under CC BY 4.0. CGCNN elemental/upstream material uses the retained MIT notice; ALIGNN/JARVIS software notices are in Third_Party_Notices/. VASP, PAW and LOBSTER software are obtained separately. The JARVIS evaluation structures and arrays, PVK classifier, fixed regression models and saved interpretation results are included with source and identity information. See [data and licence notes](DATA_AND_LICENSE_AUDIT.md). Cite the paper and the relevant OQMD, CGCNN, ALIGNN, ExtraTrees, XGBoost, SHAP, LIME, JARVIS, VASP and LOBSTER primary sources using the verified manuscript bibliography.
+
+## Licence
+
+This project is licensed under the MIT License, except for third-party materials, which remain subject to their respective licenses and terms of use. See the [LICENSE](LICENSE) and [DATA_AND_LICENSE_AUDIT.md](DATA_AND_LICENSE_AUDIT.md) files for details.

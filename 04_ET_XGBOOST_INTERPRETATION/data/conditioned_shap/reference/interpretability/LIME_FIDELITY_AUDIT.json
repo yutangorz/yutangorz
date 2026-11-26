@@ -1,0 +1,13 @@
+{
+  "threshold_fixed_before_LIME": {
+    "validation_weighted_r2_min": 0.8,
+    "absolute_anchor_error_eV_max": 0.05
+  },
+  "high_fidelity_n": 1,
+  "low_fidelity_n": 1461,
+  "fraction_high": 0.0006839945280437756,
+  "subset_formula_groups": 1,
+  "spearman_subset_vs_all": 0.049999999999999996,
+  "note": "selection changes population; small subset not representative",
+  "subset_CI_status": "not_estimable_single_group; run024 degenerate resamples preserved only as diagnostic history"
+}

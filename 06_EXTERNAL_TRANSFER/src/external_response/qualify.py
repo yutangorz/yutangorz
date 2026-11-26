@@ -37,8 +37,8 @@ def main():
         row={'external_id':r.external_id,'passed':False}
         try:
             with warnings.catch_warnings(record=True) as ws:
-                s=Structure.from_file(RUN/r.local_cif)
-            assert sha(RUN/r.local_cif)==r.structure_sha256
+                s=Structure.from_file((_repo_path('06_EXTERNAL_TRANSFER/data/external_response/cif')/(r.external_id+'.cif')))
+            assert sha((_repo_path('06_EXTERNAL_TRANSFER/data/external_response/cif')/(r.external_id+'.cif')))==r.structure_sha256
             x,q=ex.extract(s);reference=np.array([getattr(r,f) for f in FEATURES])
             feature_match=bool(np.allclose(x,reference,atol=1e-10)) # original confirmation rule, including its rtol
             assert feature_match,'frozen feature mapping mismatch'

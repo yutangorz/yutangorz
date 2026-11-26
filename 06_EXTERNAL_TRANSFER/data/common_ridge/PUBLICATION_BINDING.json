@@ -1,0 +1,7 @@
+{
+  "scope": "candidate file locations and manifest identities; not scientific execution authorization",
+  "gaussian_manifest_sha256": "92c5dfb82fbeb728c49c92e4faa1e69cb79bf4595bad5823ffded9a86fc1005c",
+  "historical_manifest_sha256": "47f5db6ff9c673065326893cf2f2fb990fc348c0992cfb5400a6310095fafab5",
+  "same_candidate_bytes": true,
+  "authorizes_scientific_execution": false
+}

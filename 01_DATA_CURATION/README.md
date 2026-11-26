@@ -6,7 +6,7 @@ Main source: [src/selection/select_materials.py](src/selection/select_materials.
 
 Inputs/configuration: data/raw (packed OQMD source), data/checkpoints, data/final; configs/selection.json. Generated scientific products belong under the configured outputs/01_DATA_CURATION/ scientific protocol directory; no output is produced by opening or reading this README.
 
-Prerequisites/limits: PVK classifier model redistribution rights are unresolved; its weight file is withheld. The independent initial-analysis historical entrypoint is incomplete.
+Prerequisites/limits: The PVK classification model uses 47 ordered structural/XRD features and a strict p>0.5 screening threshold. Classifier weights are in src/selection/model_PVK.json; input feature order, model SHA and MIT licence are recorded in data/selection/PVK_MODEL_IDENTITY.json. The independent initial-analysis historical entrypoint is incomplete.
 
 To check the repository without executing science, run `python 09_REPRODUCTION_CHECKS/verify_repository.py` and `python 09_REPRODUCTION_CHECKS/verify_saved_metrics.py` from the repository root. Read the named source and adjacent configuration before starting its scientific calculation. No scientific command is described as already executed here. CLI-required workspaces/configuration or licensed upstream outputs must be supplied explicitly. Original source-hash/authorization guards may reject modified or incomplete inputs and are not weakened.
 
@@ -24,3 +24,5 @@ Source files:
 - [src/selection/step2.py](src/selection/step2.py)
 - [src/selection/step2_redundant.py](src/selection/step2_redundant.py)
 - [src/selection/step3.py](src/selection/step3.py)
+
+Author-owned material is MIT-licensed; third-party terms remain applicable. See the root [licence and source notes](../DATA_AND_LICENSE_AUDIT.md).

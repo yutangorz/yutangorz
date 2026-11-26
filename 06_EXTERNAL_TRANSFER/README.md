@@ -6,7 +6,7 @@ Main source: [src/sampling_control/production_factory.py](src/sampling_control/p
 
 Inputs/configuration: configs/; data/external_response/PILOT38.csv; data/common_ridge. Generated scientific products belong under the configured outputs/06_EXTERNAL_TRANSFER/ scientific protocol directory; no output is produced by opening or reading this README.
 
-Prerequisites/limits: JARVIS external structures/derived arrays are withheld for rights review. Local reconstruction fidelity is against fixed ET, not independent DFT band gap accuracy. Original authorization/receipt requirements are retained.
+Prerequisites/limits: The external evaluation dataset includes 38 selected JARVIS parent structures, descriptor data, 76 perturbation cases, fixed arrays/anchors and saved evaluation results. The database version, material IDs and hashes are recorded in selection/build_manifest.py and PILOT38.csv; source-derived content retains the database terms. Local reconstruction fidelity is against fixed ET, not independent DFT band gap accuracy. Original authorization/receipt requirements are retained.
 
 To check the repository without executing science, run `python 09_REPRODUCTION_CHECKS/verify_repository.py` and `python 09_REPRODUCTION_CHECKS/verify_saved_metrics.py` from the repository root. Read the named source and adjacent configuration before starting its scientific calculation. No scientific command is described as already executed here. CLI-required workspaces/configuration or licensed upstream outputs must be supplied explicitly. Original source-hash/authorization guards may reject modified or incomplete inputs and are not weakened.
 
@@ -37,3 +37,5 @@ Source files:
 - [src/selection/select_master.py](src/selection/select_master.py)
 - [src/selection/select_splits.py](src/selection/select_splits.py)
 - [src/selection/validate_delivery.py](src/selection/validate_delivery.py)
+
+Author-owned material is MIT-licensed; third-party terms remain applicable. See the root [licence and source notes](../DATA_AND_LICENSE_AUDIT.md).

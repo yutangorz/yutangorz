@@ -1,0 +1,1417 @@
+ID,seed,model,configuration,path,selected_candidate_indices,n,numerical_rank,condition,prediction_mode,response_qualified,separate_geometry_slopes_qualified,intercept_at_origin,distance_coefficient,angle_coefficient
+9128381,307,frozen_ET,block_b64_g40,Ba->Cs,"[153, 35, 173]",3,2,2.1225887135263304,affine,True,False,0.5145188978745044,0.24811005775218234,-0.2699232912793264
+9128381,307,frozen_ET,block_b64_g40,Ba->Ra,"[139, 21, 133]",3,2,12.981777588837376,affine,True,False,0.15032090520833044,0.6378286421795709,-0.437599207257689
+9128381,307,frozen_ET,block_b64_g40,Ba->Rb,"[95, 11]",2,1,,joint_path_mean_only,False,False,0.6743780000000013,0.0,0.0
+9128381,307,frozen_ET,block_b64_g40,Ba->Sr,"[143, 17]",2,1,,joint_path_mean_only,False,False,0.38070399999999105,0.0,0.0
+9128381,307,frozen_ET,block_b64_g40,I->Br,"[167, 29]",2,1,,joint_path_mean_only,False,False,0.0012040000000077544,0.0,0.0
+9128381,307,frozen_ET,block_b64_g40,I->Po,"[151, 3]",2,1,,joint_path_mean_only,False,False,0.2333280000000022,0.0,0.0
+9128381,307,frozen_ET,block_b64_g40,I->Se,"[147, 23]",2,1,,joint_path_mean_only,False,False,0.18831200000000403,0.0,0.0
+9128381,307,frozen_ET,block_b64_g40,I->Te,"[135, 19]",2,1,,joint_path_mean_only,False,False,0.09446600000000327,0.0,0.0
+9128381,307,frozen_ET,block_b64_g40,Na->Ca,"[161, 13]",2,1,,joint_path_mean_only,False,False,-0.42544399999999727,0.0,0.0
+9128381,307,frozen_ET,block_b64_g40,Na->Li,"[163, 99]",2,1,,joint_path_mean_only,False,False,0.022132000000011587,0.0,0.0
+9128381,307,frozen_ET,block_b64_g40,O->F,"[91, 93]",2,1,,joint_path_mean_only,False,False,-0.7429999999999946,0.0,0.0
+9128381,307,frozen_ET,block_b64_g40,geometry_only,"[172, 130, 166, 138, 160, 144, 150, 152, 142, 132, 162, 156, 70, 90, 134, 74, 140, 128, 82, 68, 164, 154, 158, 88, 174, 66, 76, 0, 146, 86, 84, 168, 78, 94, 136, 148, 102, 80, 110, 40]",40,2,12.694295169222968,affine,True,True,0.0,0.4214729281240562,-0.3367872464885772
+9128381,307,XGBoost,block_b64_g40,Ba->Cs,"[153, 35, 173]",3,2,2.1225887135263304,affine,True,False,0.7645156618800021,-0.038808036180698856,-0.29831362209976503
+9128381,307,XGBoost,block_b64_g40,Ba->Ra,"[139, 21, 133]",3,2,12.981777588837376,affine,True,False,0.04755992140088606,-0.1934545050222097,-0.0310490981077186
+9128381,307,XGBoost,block_b64_g40,Ba->Rb,"[95, 11]",2,1,,joint_path_mean_only,False,False,0.8487279415130615,0.0,0.0
+9128381,307,XGBoost,block_b64_g40,Ba->Sr,"[143, 17]",2,1,,joint_path_mean_only,False,False,0.26977312564849854,0.0,0.0
+9128381,307,XGBoost,block_b64_g40,I->Br,"[167, 29]",2,1,,joint_path_mean_only,False,False,-0.15592896938323975,0.0,0.0
+9128381,307,XGBoost,block_b64_g40,I->Po,"[151, 3]",2,1,,joint_path_mean_only,False,False,0.6635984182357788,0.0,0.0
+9128381,307,XGBoost,block_b64_g40,I->Se,"[147, 23]",2,1,,joint_path_mean_only,False,False,0.564803957939148,0.0,0.0
+9128381,307,XGBoost,block_b64_g40,I->Te,"[135, 19]",2,1,,joint_path_mean_only,False,False,0.6228737831115723,0.0,0.0
+9128381,307,XGBoost,block_b64_g40,Na->Ca,"[161, 13]",2,1,,joint_path_mean_only,False,False,-0.8624009490013123,0.0,0.0
+9128381,307,XGBoost,block_b64_g40,Na->Li,"[163, 99]",2,1,,joint_path_mean_only,False,False,-0.0069484710693359375,0.0,0.0
+9128381,307,XGBoost,block_b64_g40,O->F,"[91, 93]",2,1,,joint_path_mean_only,False,False,-0.351093053817749,0.0,0.0
+9128381,307,XGBoost,block_b64_g40,geometry_only,"[172, 130, 166, 138, 160, 144, 150, 152, 142, 132, 162, 156, 70, 90, 134, 74, 140, 128, 82, 68, 164, 154, 158, 88, 174, 66, 76, 0, 146, 86, 84, 168, 78, 94, 136, 148, 102, 80, 110, 40]",40,2,12.694295169222968,affine,True,True,0.0,-0.05796913853759044,-0.1843205116800522
+9128381,419,frozen_ET,block_b64_g40,Ba->Cs,"[143, 5, 151]",3,2,4.98103570234978,affine,True,False,0.5188160321252481,0.14525522687277242,-0.16296264345071235
+9128381,419,frozen_ET,block_b64_g40,Ba->Ra,"[109, 33, 15]",3,2,6.293292976160849,affine,True,False,0.22176426308531125,1.4204080821035407,0.010599432165199665
+9128381,419,frozen_ET,block_b64_g40,Ba->Rb,"[149, 39]",2,1,,joint_path_mean_only,False,False,0.7469540000000023,0.0,0.0
+9128381,419,frozen_ET,block_b64_g40,Ba->Sr,"[141, 13]",2,1,,joint_path_mean_only,False,False,0.37354799999999133,0.0,0.0
+9128381,419,frozen_ET,block_b64_g40,I->Br,"[67, 17]",2,1,,joint_path_mean_only,False,False,-0.014909999999990653,0.0,0.0
+9128381,419,frozen_ET,block_b64_g40,I->Po,"[133, 171]",2,1,,joint_path_mean_only,False,False,0.4169160000000032,0.0,0.0
+9128381,419,frozen_ET,block_b64_g40,I->Se,"[139, 3]",2,1,,joint_path_mean_only,False,False,0.23860600000000454,0.0,0.0
+9128381,419,frozen_ET,block_b64_g40,I->Te,"[65, 29]",2,1,,joint_path_mean_only,False,False,0.14776800000000412,0.0,0.0
+9128381,419,frozen_ET,block_b64_g40,Na->Ca,"[137, 45]",2,1,,joint_path_mean_only,False,False,-0.3970959999999968,0.0,0.0
+9128381,419,frozen_ET,block_b64_g40,Na->Li,"[71, 37]",2,1,,joint_path_mean_only,False,False,-0.03466799999998926,0.0,0.0
+9128381,419,frozen_ET,block_b64_g40,O->F,"[159, 21]",2,1,,joint_path_mean_only,False,False,-0.7362139999999943,0.0,0.0
+9128381,419,frozen_ET,block_b64_g40,geometry_only,"[132, 164, 130, 168, 170, 128, 142, 154, 146, 84, 166, 136, 160, 134, 72, 156, 140, 100, 162, 94, 78, 76, 64, 98, 110, 138, 68, 158, 44, 90, 152, 172, 82, 80, 150, 66, 92, 106, 4, 148]",40,2,15.459751834326898,affine,True,True,0.0,0.2878482812084483,-0.29668468015321986
+9128381,419,XGBoost,block_b64_g40,Ba->Cs,"[143, 5, 151]",3,2,4.98103570234978,affine,True,False,0.7691428497146099,-0.18804748805698868,-0.16274331191292196
+9128381,419,XGBoost,block_b64_g40,Ba->Ra,"[109, 33, 15]",3,2,6.293292976160849,affine,True,False,0.06914090314067489,0.33408062693650276,0.06215186901901683
+9128381,419,XGBoost,block_b64_g40,Ba->Rb,"[149, 39]",2,1,,joint_path_mean_only,False,False,0.9080106019973755,0.0,0.0
+9128381,419,XGBoost,block_b64_g40,Ba->Sr,"[141, 13]",2,1,,joint_path_mean_only,False,False,0.23592674732208252,0.0,0.0
+9128381,419,XGBoost,block_b64_g40,I->Br,"[67, 17]",2,1,,joint_path_mean_only,False,False,-0.1755915880203247,0.0,0.0
+9128381,419,XGBoost,block_b64_g40,I->Po,"[133, 171]",2,1,,joint_path_mean_only,False,False,0.8599419593811035,0.0,0.0
+9128381,419,XGBoost,block_b64_g40,I->Se,"[139, 3]",2,1,,joint_path_mean_only,False,False,0.6374549865722656,0.0,0.0
+9128381,419,XGBoost,block_b64_g40,I->Te,"[65, 29]",2,1,,joint_path_mean_only,False,False,0.5556638240814209,0.0,0.0
+9128381,419,XGBoost,block_b64_g40,Na->Ca,"[137, 45]",2,1,,joint_path_mean_only,False,False,-0.8577204346656799,0.0,0.0
+9128381,419,XGBoost,block_b64_g40,Na->Li,"[71, 37]",2,1,,joint_path_mean_only,False,False,-0.05957615375518799,0.0,0.0
+9128381,419,XGBoost,block_b64_g40,O->F,"[159, 21]",2,1,,joint_path_mean_only,False,False,-0.3672165870666504,0.0,0.0
+9128381,419,XGBoost,block_b64_g40,geometry_only,"[132, 164, 130, 168, 170, 128, 142, 154, 146, 84, 166, 136, 160, 134, 72, 156, 140, 100, 162, 94, 78, 76, 64, 98, 110, 138, 68, 158, 44, 90, 152, 172, 82, 80, 150, 66, 92, 106, 4, 148]",40,2,15.459751834326898,affine,True,True,0.0,-0.01950170542427629,-0.19580418393715657
+5440551,307,frozen_ET,block_b64_g40,Cl->Br,"[173, 89]",2,1,,joint_path_mean_only,False,False,-0.6906979999999985,0.0,0.0
+5440551,307,frozen_ET,block_b64_g40,Cl->S,"[175, 95]",2,1,,joint_path_mean_only,False,False,-0.979162000000001,0.0,0.0
+5440551,307,frozen_ET,block_b64_g40,Cl->Se,"[65, 171]",2,1,,joint_path_mean_only,False,False,-1.519946,0.0,0.0
+5440551,307,frozen_ET,block_b64_g40,K->Ca,"[153, 33]",2,1,,joint_path_mean_only,False,False,-0.27907000000000126,0.0,0.0
+5440551,307,frozen_ET,block_b64_g40,K->Rb,"[133, 21]",2,1,,joint_path_mean_only,False,False,-0.07428799999999391,0.0,0.0
+5440551,307,frozen_ET,block_b64_g40,K->Sr,"[23, 139]",2,1,,joint_path_mean_only,False,False,-0.8996299999999997,0.0,0.0
+5440551,307,frozen_ET,block_b64_g40,Na->Ca,"[145, 71]",2,1,,joint_path_mean_only,False,False,-1.4832219999999965,0.0,0.0
+5440551,307,frozen_ET,block_b64_g40,Na->Li,"[141, 147]",2,1,,joint_path_mean_only,False,False,-0.13497800000000337,0.0,0.0
+5440551,307,frozen_ET,block_b64_g40,Sb->As,[135],1,0,,joint_path_mean_only,False,False,-0.07966800000000829,0.0,0.0
+5440551,307,frozen_ET,block_b64_g40,Sb->Bi,[155],1,0,,joint_path_mean_only,False,False,0.09611199999999975,0.0,0.0
+5440551,307,frozen_ET,block_b64_g40,Sb->Ge,[167],1,0,,joint_path_mean_only,False,False,-0.5235439999999971,0.0,0.0
+5440551,307,frozen_ET,block_b64_g40,Sb->Pb,[157],1,0,,joint_path_mean_only,False,False,0.050316000000000916,0.0,0.0
+5440551,307,frozen_ET,block_b64_g40,Sb->Po,[91],1,0,,joint_path_mean_only,False,False,-1.0969599999999975,0.0,0.0
+5440551,307,frozen_ET,block_b64_g40,Sb->Se,[131],1,0,,joint_path_mean_only,False,False,-0.9248639999999995,0.0,0.0
+5440551,307,frozen_ET,block_b64_g40,Sb->Sn,[137],1,0,,joint_path_mean_only,False,False,-0.8901879999999944,0.0,0.0
+5440551,307,frozen_ET,block_b64_g40,Sb->Te,[163],1,0,,joint_path_mean_only,False,False,-1.1602079999999984,0.0,0.0
+5440551,307,frozen_ET,block_b64_g40,geometry_only,"[130, 132, 156, 164, 144, 138, 128, 160, 150, 158, 140, 162, 134, 174, 68, 148, 166, 142, 172, 136, 86, 146, 168, 154, 152, 76, 74, 70, 66, 170, 88, 84, 40, 90, 78, 82, 42, 94, 0, 80]",40,2,1.8449385939540923,affine,True,True,0.0,0.24832924944554938,1.98547180899516
+5440551,307,XGBoost,block_b64_g40,Cl->Br,"[173, 89]",2,1,,joint_path_mean_only,False,False,-1.055271029472351,0.0,0.0
+5440551,307,XGBoost,block_b64_g40,Cl->S,"[175, 95]",2,1,,joint_path_mean_only,False,False,-0.9461580514907837,0.0,0.0
+5440551,307,XGBoost,block_b64_g40,Cl->Se,"[65, 171]",2,1,,joint_path_mean_only,False,False,-1.4768856167793274,0.0,0.0
+5440551,307,XGBoost,block_b64_g40,K->Ca,"[153, 33]",2,1,,joint_path_mean_only,False,False,0.007481217384338379,0.0,0.0
+5440551,307,XGBoost,block_b64_g40,K->Rb,"[133, 21]",2,1,,joint_path_mean_only,False,False,-0.04340255260467529,0.0,0.0
+5440551,307,XGBoost,block_b64_g40,K->Sr,"[23, 139]",2,1,,joint_path_mean_only,False,False,-1.1689046621322632,0.0,0.0
+5440551,307,XGBoost,block_b64_g40,Na->Ca,"[145, 71]",2,1,,joint_path_mean_only,False,False,-1.2063121795654297,0.0,0.0
+5440551,307,XGBoost,block_b64_g40,Na->Li,"[141, 147]",2,1,,joint_path_mean_only,False,False,-0.10125279426574707,0.0,0.0
+5440551,307,XGBoost,block_b64_g40,Sb->As,[135],1,0,,joint_path_mean_only,False,False,-0.08267951011657715,0.0,0.0
+5440551,307,XGBoost,block_b64_g40,Sb->Bi,[155],1,0,,joint_path_mean_only,False,False,-0.3449583053588867,0.0,0.0
+5440551,307,XGBoost,block_b64_g40,Sb->Ge,[167],1,0,,joint_path_mean_only,False,False,0.2758774757385254,0.0,0.0
+5440551,307,XGBoost,block_b64_g40,Sb->Pb,[157],1,0,,joint_path_mean_only,False,False,0.23340606689453125,0.0,0.0
+5440551,307,XGBoost,block_b64_g40,Sb->Po,[91],1,0,,joint_path_mean_only,False,False,-1.192234754562378,0.0,0.0
+5440551,307,XGBoost,block_b64_g40,Sb->Se,[131],1,0,,joint_path_mean_only,False,False,-1.0214035511016846,0.0,0.0
+5440551,307,XGBoost,block_b64_g40,Sb->Sn,[137],1,0,,joint_path_mean_only,False,False,0.15638136863708496,0.0,0.0
+5440551,307,XGBoost,block_b64_g40,Sb->Te,[163],1,0,,joint_path_mean_only,False,False,-1.1253931522369385,0.0,0.0
+5440551,307,XGBoost,block_b64_g40,geometry_only,"[130, 132, 156, 164, 144, 138, 128, 160, 150, 158, 140, 162, 134, 174, 68, 148, 166, 142, 172, 136, 86, 146, 168, 154, 152, 76, 74, 70, 66, 170, 88, 84, 40, 90, 78, 82, 42, 94, 0, 80]",40,2,1.8449385939540923,affine,True,True,0.0,0.3943328741691092,3.7786258097901073
+5440551,419,frozen_ET,block_b64_g40,Cl->Br,"[135, 11]",2,1,,joint_path_mean_only,False,False,-0.6477419999999996,0.0,0.0
+5440551,419,frozen_ET,block_b64_g40,Cl->S,"[173, 175]",2,1,,joint_path_mean_only,False,False,-0.9830980000000011,0.0,0.0
+5440551,419,frozen_ET,block_b64_g40,Cl->Se,"[145, 167]",2,1,,joint_path_mean_only,False,False,-1.523648,0.0,0.0
+5440551,419,frozen_ET,block_b64_g40,K->Ca,"[143, 151]",2,1,,joint_path_mean_only,False,False,-0.2980960000000008,0.0,0.0
+5440551,419,frozen_ET,block_b64_g40,K->Rb,"[5, 25]",2,1,,joint_path_mean_only,False,False,-0.060393999999993175,0.0,0.0
+5440551,419,frozen_ET,block_b64_g40,K->Sr,"[89, 15]",2,1,,joint_path_mean_only,False,False,-0.8797339999999998,0.0,0.0
+5440551,419,frozen_ET,block_b64_g40,Na->Ca,"[131, 27]",2,1,,joint_path_mean_only,False,False,-1.3899779999999957,0.0,0.0
+5440551,419,frozen_ET,block_b64_g40,Na->Li,"[169, 155]",2,1,,joint_path_mean_only,False,False,-0.1419480000000044,0.0,0.0
+5440551,419,frozen_ET,block_b64_g40,Sb->As,[101],1,0,,joint_path_mean_only,False,False,-0.07831600000000671,0.0,0.0
+5440551,419,frozen_ET,block_b64_g40,Sb->Bi,[129],1,0,,joint_path_mean_only,False,False,0.10463200000000006,0.0,0.0
+5440551,419,frozen_ET,block_b64_g40,Sb->Ge,[163],1,0,,joint_path_mean_only,False,False,-0.8847919999999951,0.0,0.0
+5440551,419,frozen_ET,block_b64_g40,Sb->Pb,[137],1,0,,joint_path_mean_only,False,False,-0.24763599999999553,0.0,0.0
+5440551,419,frozen_ET,block_b64_g40,Sb->Po,[159],1,0,,joint_path_mean_only,False,False,-1.0312319999999975,0.0,0.0
+5440551,419,frozen_ET,block_b64_g40,Sb->Se,[171],1,0,,joint_path_mean_only,False,False,-0.8612639999999985,0.0,0.0
+5440551,419,frozen_ET,block_b64_g40,Sb->Sn,[43],1,0,,joint_path_mean_only,False,False,-0.6529159999999963,0.0,0.0
+5440551,419,frozen_ET,block_b64_g40,Sb->Te,[93],1,0,,joint_path_mean_only,False,False,-1.0095879999999982,0.0,0.0
+5440551,419,frozen_ET,block_b64_g40,geometry_only,"[132, 146, 142, 128, 130, 164, 168, 154, 160, 140, 158, 162, 156, 148, 170, 152, 84, 136, 174, 144, 134, 138, 72, 150, 100, 44, 166, 172, 110, 76, 68, 64, 82, 4, 78, 90, 18, 104, 98, 80]",40,2,1.4205288747075675,affine,True,True,0.0,0.33501939866190744,1.8563319355218015
+5440551,419,XGBoost,block_b64_g40,Cl->Br,"[135, 11]",2,1,,joint_path_mean_only,False,False,-1.084130883216858,0.0,0.0
+5440551,419,XGBoost,block_b64_g40,Cl->S,"[173, 175]",2,1,,joint_path_mean_only,False,False,-0.9415355920791626,0.0,0.0
+5440551,419,XGBoost,block_b64_g40,Cl->Se,"[145, 167]",2,1,,joint_path_mean_only,False,False,-1.481629729270935,0.0,0.0
+5440551,419,XGBoost,block_b64_g40,K->Ca,"[143, 151]",2,1,,joint_path_mean_only,False,False,0.01936805248260498,0.0,0.0
+5440551,419,XGBoost,block_b64_g40,K->Rb,"[5, 25]",2,1,,joint_path_mean_only,False,False,-0.06679463386535645,0.0,0.0
+5440551,419,XGBoost,block_b64_g40,K->Sr,"[89, 15]",2,1,,joint_path_mean_only,False,False,-1.1857693195343018,0.0,0.0
+5440551,419,XGBoost,block_b64_g40,Na->Ca,"[131, 27]",2,1,,joint_path_mean_only,False,False,-1.2776948809623718,0.0,0.0
+5440551,419,XGBoost,block_b64_g40,Na->Li,"[169, 155]",2,1,,joint_path_mean_only,False,False,-0.1421433687210083,0.0,0.0
+5440551,419,XGBoost,block_b64_g40,Sb->As,[101],1,0,,joint_path_mean_only,False,False,-0.07527589797973633,0.0,0.0
+5440551,419,XGBoost,block_b64_g40,Sb->Bi,[129],1,0,,joint_path_mean_only,False,False,-0.3449583053588867,0.0,0.0
+5440551,419,XGBoost,block_b64_g40,Sb->Ge,[163],1,0,,joint_path_mean_only,False,False,0.21962594985961914,0.0,0.0
+5440551,419,XGBoost,block_b64_g40,Sb->Pb,[137],1,0,,joint_path_mean_only,False,False,0.13763809204101562,0.0,0.0
+5440551,419,XGBoost,block_b64_g40,Sb->Po,[159],1,0,,joint_path_mean_only,False,False,-1.1300363540649414,0.0,0.0
+5440551,419,XGBoost,block_b64_g40,Sb->Se,[171],1,0,,joint_path_mean_only,False,False,-1.0610558986663818,0.0,0.0
+5440551,419,XGBoost,block_b64_g40,Sb->Sn,[43],1,0,,joint_path_mean_only,False,False,0.17348337173461914,0.0,0.0
+5440551,419,XGBoost,block_b64_g40,Sb->Te,[93],1,0,,joint_path_mean_only,False,False,-1.0814478397369385,0.0,0.0
+5440551,419,XGBoost,block_b64_g40,geometry_only,"[132, 146, 142, 128, 130, 164, 168, 154, 160, 140, 158, 162, 156, 148, 170, 152, 84, 136, 174, 144, 134, 138, 72, 150, 100, 44, 166, 172, 110, 76, 68, 64, 82, 4, 78, 90, 18, 104, 98, 80]",40,2,1.4205288747075675,affine,True,True,0.0,0.6334811121311468,3.577128666458603
+8284434,307,frozen_ET,block_b64_g40,F->O,"[175, 95]",2,1,,joint_path_mean_only,False,False,-0.1045999999999988,0.0,0.0
+8284434,307,frozen_ET,block_b64_g40,Fe->Co,"[65, 171]",2,1,,joint_path_mean_only,False,False,0.023152000000002726,0.0,0.0
+8284434,307,frozen_ET,block_b64_g40,Fe->Rh,"[139, 23]",2,1,,joint_path_mean_only,False,False,0.3704880000000057,0.0,0.0
+8284434,307,frozen_ET,block_b64_g40,Fe->Ru,"[149, 133]",2,1,,joint_path_mean_only,False,False,0.435508000000004,0.0,0.0
+8284434,307,frozen_ET,block_b64_g40,Fe->Tc,"[153, 173]",2,1,,joint_path_mean_only,False,False,0.42466400000000526,0.0,0.0
+8284434,307,frozen_ET,block_b64_g40,Rb->Ba,"[163, 99]",2,1,,joint_path_mean_only,False,False,0.025014000000000647,0.0,0.0
+8284434,307,frozen_ET,block_b64_g40,Rb->Ca,"[29, 169]",2,1,,joint_path_mean_only,False,False,0.1632439999999996,0.0,0.0
+8284434,307,frozen_ET,block_b64_g40,Rb->Cs,"[131, 19]",2,1,,joint_path_mean_only,False,False,0.10716800000000071,0.0,0.0
+8284434,307,frozen_ET,block_b64_g40,Rb->K,"[141, 71]",2,1,,joint_path_mean_only,False,False,-0.12584200000000156,0.0,0.0
+8284434,307,frozen_ET,block_b64_g40,Rb->Sr,"[135, 83]",2,1,,joint_path_mean_only,False,False,0.08911800000000014,0.0,0.0
+8284434,307,frozen_ET,block_b64_g40,Tl->In,"[161, 105]",2,1,,joint_path_mean_only,False,False,0.008336000000000343,0.0,0.0
+8284434,307,frozen_ET,block_b64_g40,Tl->Pb,[91],1,0,,joint_path_mean_only,False,False,0.18878000000000217,0.0,0.0
+8284434,307,frozen_ET,block_b64_g40,Tl->Sn,[155],1,0,,joint_path_mean_only,False,False,0.5522480000000023,0.0,0.0
+8284434,307,frozen_ET,block_b64_g40,geometry_only,"[130, 132, 156, 144, 140, 150, 138, 160, 128, 134, 174, 68, 142, 158, 162, 166, 172, 152, 86, 164, 154, 146, 76, 74, 136, 148, 168, 70, 40, 78, 90, 66, 170, 88, 82, 84, 42, 80, 0, 72]",40,2,7.187968548897069,affine,True,True,0.0,-0.15382701190378206,-0.4771462545368382
+8284434,307,XGBoost,block_b64_g40,F->O,"[175, 95]",2,1,,joint_path_mean_only,False,False,0.11753273010253906,0.0,0.0
+8284434,307,XGBoost,block_b64_g40,Fe->Co,"[65, 171]",2,1,,joint_path_mean_only,False,False,0.336398184299469,0.0,0.0
+8284434,307,XGBoost,block_b64_g40,Fe->Rh,"[139, 23]",2,1,,joint_path_mean_only,False,False,0.6039029359817505,0.0,0.0
+8284434,307,XGBoost,block_b64_g40,Fe->Ru,"[149, 133]",2,1,,joint_path_mean_only,False,False,0.7027155160903931,0.0,0.0
+8284434,307,XGBoost,block_b64_g40,Fe->Tc,"[153, 173]",2,1,,joint_path_mean_only,False,False,0.6776506900787354,0.0,0.0
+8284434,307,XGBoost,block_b64_g40,Rb->Ba,"[163, 99]",2,1,,joint_path_mean_only,False,False,0.10901772975921631,0.0,0.0
+8284434,307,XGBoost,block_b64_g40,Rb->Ca,"[29, 169]",2,1,,joint_path_mean_only,False,False,0.6266382336616516,0.0,0.0
+8284434,307,XGBoost,block_b64_g40,Rb->Cs,"[131, 19]",2,1,,joint_path_mean_only,False,False,0.2470179796218872,0.0,0.0
+8284434,307,XGBoost,block_b64_g40,Rb->K,"[141, 71]",2,1,,joint_path_mean_only,False,False,0.16745728254318237,0.0,0.0
+8284434,307,XGBoost,block_b64_g40,Rb->Sr,"[135, 83]",2,1,,joint_path_mean_only,False,False,0.5123597383499146,0.0,0.0
+8284434,307,XGBoost,block_b64_g40,Tl->In,"[161, 105]",2,1,,joint_path_mean_only,False,False,0.12459635734558105,0.0,0.0
+8284434,307,XGBoost,block_b64_g40,Tl->Pb,[91],1,0,,joint_path_mean_only,False,False,0.41382861137390137,0.0,0.0
+8284434,307,XGBoost,block_b64_g40,Tl->Sn,[155],1,0,,joint_path_mean_only,False,False,1.2905523777008057,0.0,0.0
+8284434,307,XGBoost,block_b64_g40,geometry_only,"[130, 132, 156, 144, 140, 150, 138, 160, 128, 134, 174, 68, 142, 158, 162, 166, 172, 152, 86, 164, 154, 146, 76, 74, 136, 148, 168, 70, 40, 78, 90, 66, 170, 88, 82, 84, 42, 80, 0, 72]",40,2,7.187968548897069,affine,True,True,0.0,-0.1804054828770801,-27.627250973581365
+8284434,419,frozen_ET,block_b64_g40,F->O,"[173, 175]",2,1,,joint_path_mean_only,False,False,-0.09815599999999869,0.0,0.0
+8284434,419,frozen_ET,block_b64_g40,Fe->Co,"[135, 167]",2,1,,joint_path_mean_only,False,False,0.03843800000000219,0.0,0.0
+8284434,419,frozen_ET,block_b64_g40,Fe->Rh,"[157, 15]",2,1,,joint_path_mean_only,False,False,0.34950000000000725,0.0,0.0
+8284434,419,frozen_ET,block_b64_g40,Fe->Ru,"[95, 103]",2,1,,joint_path_mean_only,False,False,0.4464340000000038,0.0,0.0
+8284434,419,frozen_ET,block_b64_g40,Fe->Tc,"[143, 151]",2,1,,joint_path_mean_only,False,False,0.42088800000000526,0.0,0.0
+8284434,419,frozen_ET,block_b64_g40,Rb->Ba,"[43, 71]",2,1,,joint_path_mean_only,False,False,-0.005453999999999182,0.0,0.0
+8284434,419,frozen_ET,block_b64_g40,Rb->Ca,"[163, 77]",2,1,,joint_path_mean_only,False,False,0.18243599999999993,0.0,0.0
+8284434,419,frozen_ET,block_b64_g40,Rb->Cs,"[171, 69]",2,1,,joint_path_mean_only,False,False,0.13602600000000076,0.0,0.0
+8284434,419,frozen_ET,block_b64_g40,Rb->K,"[131, 155]",2,1,,joint_path_mean_only,False,False,-0.06977200000000194,0.0,0.0
+8284434,419,frozen_ET,block_b64_g40,Rb->Sr,"[97, 101]",2,1,,joint_path_mean_only,False,False,0.082758,0.0,0.0
+8284434,419,frozen_ET,block_b64_g40,Tl->In,"[93, 79]",2,1,,joint_path_mean_only,False,False,0.026610000000001133,0.0,0.0
+8284434,419,frozen_ET,block_b64_g40,Tl->Pb,[153],1,0,,joint_path_mean_only,False,False,0.221808000000002,0.0,0.0
+8284434,419,frozen_ET,block_b64_g40,Tl->Sn,[137],1,0,,joint_path_mean_only,False,False,0.5586720000000018,0.0,0.0
+8284434,419,frozen_ET,block_b64_g40,geometry_only,"[132, 130, 128, 142, 146, 164, 154, 168, 140, 170, 84, 152, 160, 166, 162, 134, 72, 150, 156, 100, 174, 136, 44, 138, 110, 158, 68, 76, 64, 144, 148, 172, 82, 90, 4, 18, 106, 16, 98, 88]",40,2,5.721883527077622,affine,True,True,0.0,-0.34355536604652087,-0.4380536933136289
+8284434,419,XGBoost,block_b64_g40,F->O,"[173, 175]",2,1,,joint_path_mean_only,False,False,0.17134463787078857,0.0,0.0
+8284434,419,XGBoost,block_b64_g40,Fe->Co,"[135, 167]",2,1,,joint_path_mean_only,False,False,0.5014457106590271,0.0,0.0
+8284434,419,XGBoost,block_b64_g40,Fe->Rh,"[157, 15]",2,1,,joint_path_mean_only,False,False,0.5403790473937988,0.0,0.0
+8284434,419,XGBoost,block_b64_g40,Fe->Ru,"[95, 103]",2,1,,joint_path_mean_only,False,False,0.47262877225875854,0.0,0.0
+8284434,419,XGBoost,block_b64_g40,Fe->Tc,"[143, 151]",2,1,,joint_path_mean_only,False,False,0.6449874639511108,0.0,0.0
+8284434,419,XGBoost,block_b64_g40,Rb->Ba,"[43, 71]",2,1,,joint_path_mean_only,False,False,-0.05542182922363281,0.0,0.0
+8284434,419,XGBoost,block_b64_g40,Rb->Ca,"[163, 77]",2,1,,joint_path_mean_only,False,False,0.6641395688056946,0.0,0.0
+8284434,419,XGBoost,block_b64_g40,Rb->Cs,"[171, 69]",2,1,,joint_path_mean_only,False,False,0.4290310740470886,0.0,0.0
+8284434,419,XGBoost,block_b64_g40,Rb->K,"[131, 155]",2,1,,joint_path_mean_only,False,False,0.3181328773498535,0.0,0.0
+8284434,419,XGBoost,block_b64_g40,Rb->Sr,"[97, 101]",2,1,,joint_path_mean_only,False,False,0.2333974838256836,0.0,0.0
+8284434,419,XGBoost,block_b64_g40,Tl->In,"[93, 79]",2,1,,joint_path_mean_only,False,False,-0.013869225978851318,0.0,0.0
+8284434,419,XGBoost,block_b64_g40,Tl->Pb,[153],1,0,,joint_path_mean_only,False,False,0.6528608798980713,0.0,0.0
+8284434,419,XGBoost,block_b64_g40,Tl->Sn,[137],1,0,,joint_path_mean_only,False,False,1.28489089012146,0.0,0.0
+8284434,419,XGBoost,block_b64_g40,geometry_only,"[132, 130, 128, 142, 146, 164, 154, 168, 140, 170, 84, 152, 160, 166, 162, 134, 72, 150, 156, 100, 174, 136, 44, 138, 110, 158, 68, 76, 64, 144, 148, 172, 82, 90, 4, 18, 106, 16, 98, 88]",40,2,5.721883527077622,affine,True,True,0.0,-1.2015991210004715,-27.026092878911964
+8280775,307,frozen_ET,block_b64_g40,Cl->Br,"[143, 17]",2,1,,joint_path_mean_only,False,False,-0.18652800000000203,0.0,0.0
+8280775,307,frozen_ET,block_b64_g40,Cl->S,"[175, 11]",2,1,,joint_path_mean_only,False,False,0.5124319999999971,0.0,0.0
+8280775,307,frozen_ET,block_b64_g40,Cl->Se,"[65, 171]",2,1,,joint_path_mean_only,False,False,0.11777199999999688,0.0,0.0
+8280775,307,frozen_ET,block_b64_g40,Cs->Ba,"[149, 133]",2,1,,joint_path_mean_only,False,False,-0.201164000000002,0.0,0.0
+8280775,307,frozen_ET,block_b64_g40,Cs->Ra,"[73, 139]",2,1,,joint_path_mean_only,False,False,-0.20216800000000223,0.0,0.0
+8280775,307,frozen_ET,block_b64_g40,Cs->Sr,"[153, 173]",2,1,,joint_path_mean_only,False,False,-0.1657120000000023,0.0,0.0
+8280775,307,frozen_ET,block_b64_g40,Rb->Ba,"[135, 83]",2,1,,joint_path_mean_only,False,False,-0.009744000000001085,0.0,0.0
+8280775,307,frozen_ET,block_b64_g40,Rb->Ca,[145],1,0,,joint_path_mean_only,False,False,0.0850079999999982,0.0,0.0
+8280775,307,frozen_ET,block_b64_g40,Rb->K,[141],1,0,,joint_path_mean_only,False,False,-0.016432000000000446,0.0,0.0
+8280775,307,frozen_ET,block_b64_g40,Rb->Sr,[29],1,0,,joint_path_mean_only,False,False,0.05947199999999819,0.0,0.0
+8280775,307,frozen_ET,block_b64_g40,Ru->Co,[137],1,0,,joint_path_mean_only,False,False,-0.1611200000000017,0.0,0.0
+8280775,307,frozen_ET,block_b64_g40,Ru->Fe,[69],1,0,,joint_path_mean_only,False,False,-0.6725080000000003,0.0,0.0
+8280775,307,frozen_ET,block_b64_g40,Ru->Ir,[91],1,0,,joint_path_mean_only,False,False,0.5643280000000086,0.0,0.0
+8280775,307,frozen_ET,block_b64_g40,Ru->Os,[13],1,0,,joint_path_mean_only,False,False,0.14473600000000286,0.0,0.0
+8280775,307,frozen_ET,block_b64_g40,Ru->Re,[161],1,0,,joint_path_mean_only,False,False,-0.12122800000000211,0.0,0.0
+8280775,307,frozen_ET,block_b64_g40,Ru->Rh,[165],1,0,,joint_path_mean_only,False,False,0.40685599999999944,0.0,0.0
+8280775,307,frozen_ET,block_b64_g40,Ru->Tc,[163],1,0,,joint_path_mean_only,False,False,-0.21469599999999933,0.0,0.0
+8280775,307,frozen_ET,block_b64_g40,geometry_only,"[130, 132, 144, 156, 138, 160, 140, 128, 68, 134, 174, 150, 166, 142, 158, 164, 162, 86, 172, 76, 154, 146, 70, 152, 40, 90, 66, 170, 74, 168, 148, 136, 0, 94, 42, 84, 82, 80, 88, 72]",40,2,10.532151667619022,affine,True,True,0.0,0.0669012366378601,-1.0976400906701882
+8280775,307,XGBoost,block_b64_g40,Cl->Br,"[143, 17]",2,1,,joint_path_mean_only,False,False,-0.00616455078125,0.0,0.0
+8280775,307,XGBoost,block_b64_g40,Cl->S,"[175, 11]",2,1,,joint_path_mean_only,False,False,0.43839240074157715,0.0,0.0
+8280775,307,XGBoost,block_b64_g40,Cl->Se,"[65, 171]",2,1,,joint_path_mean_only,False,False,0.17023760080337524,0.0,0.0
+8280775,307,XGBoost,block_b64_g40,Cs->Ba,"[149, 133]",2,1,,joint_path_mean_only,False,False,-0.10554701089859009,0.0,0.0
+8280775,307,XGBoost,block_b64_g40,Cs->Ra,"[73, 139]",2,1,,joint_path_mean_only,False,False,-0.04006463289260864,0.0,0.0
+8280775,307,XGBoost,block_b64_g40,Cs->Sr,"[153, 173]",2,1,,joint_path_mean_only,False,False,0.19187647104263306,0.0,0.0
+8280775,307,XGBoost,block_b64_g40,Rb->Ba,"[135, 83]",2,1,,joint_path_mean_only,False,False,0.23629921674728394,0.0,0.0
+8280775,307,XGBoost,block_b64_g40,Rb->Ca,[145],1,0,,joint_path_mean_only,False,False,0.3900179862976074,0.0,0.0
+8280775,307,XGBoost,block_b64_g40,Rb->K,[141],1,0,,joint_path_mean_only,False,False,0.21958589553833008,0.0,0.0
+8280775,307,XGBoost,block_b64_g40,Rb->Sr,[29],1,0,,joint_path_mean_only,False,False,0.1374218463897705,0.0,0.0
+8280775,307,XGBoost,block_b64_g40,Ru->Co,[137],1,0,,joint_path_mean_only,False,False,0.16429996490478516,0.0,0.0
+8280775,307,XGBoost,block_b64_g40,Ru->Fe,[69],1,0,,joint_path_mean_only,False,False,-0.4320375323295593,0.0,0.0
+8280775,307,XGBoost,block_b64_g40,Ru->Ir,[91],1,0,,joint_path_mean_only,False,False,0.44642651081085205,0.0,0.0
+8280775,307,XGBoost,block_b64_g40,Ru->Os,[13],1,0,,joint_path_mean_only,False,False,0.21583247184753418,0.0,0.0
+8280775,307,XGBoost,block_b64_g40,Ru->Re,[161],1,0,,joint_path_mean_only,False,False,0.21125566959381104,0.0,0.0
+8280775,307,XGBoost,block_b64_g40,Ru->Rh,[165],1,0,,joint_path_mean_only,False,False,0.4927966594696045,0.0,0.0
+8280775,307,XGBoost,block_b64_g40,Ru->Tc,[163],1,0,,joint_path_mean_only,False,False,0.3448222875595093,0.0,0.0
+8280775,307,XGBoost,block_b64_g40,geometry_only,"[130, 132, 144, 156, 138, 160, 140, 128, 68, 134, 174, 150, 166, 142, 158, 164, 162, 86, 172, 76, 154, 146, 70, 152, 40, 90, 66, 170, 74, 168, 148, 136, 0, 94, 42, 84, 82, 80, 88, 72]",40,2,10.532151667619022,affine,True,True,0.0,0.025317305455017078,-13.984174048289917
+8280775,419,frozen_ET,block_b64_g40,Cl->Br,"[135, 11]",2,1,,joint_path_mean_only,False,False,-0.20804400000000178,0.0,0.0
+8280775,419,frozen_ET,block_b64_g40,Cl->S,"[175, 39]",2,1,,joint_path_mean_only,False,False,0.5124319999999971,0.0,0.0
+8280775,419,frozen_ET,block_b64_g40,Cl->Se,"[173, 167]",2,1,,joint_path_mean_only,False,False,0.11395599999999673,0.0,0.0
+8280775,419,frozen_ET,block_b64_g40,Cs->Ba,"[95, 103]",2,1,,joint_path_mean_only,False,False,-0.21514800000000223,0.0,0.0
+8280775,419,frozen_ET,block_b64_g40,Cs->Ra,"[89, 15]",2,1,,joint_path_mean_only,False,False,-0.12468400000000224,0.0,0.0
+8280775,419,frozen_ET,block_b64_g40,Cs->Sr,"[143, 151]",2,1,,joint_path_mean_only,False,False,-0.22870600000000174,0.0,0.0
+8280775,419,frozen_ET,block_b64_g40,Rb->Ba,"[97, 83]",2,1,,joint_path_mean_only,False,False,-0.01005000000000067,0.0,0.0
+8280775,419,frozen_ET,block_b64_g40,Rb->Ca,[131],1,0,,joint_path_mean_only,False,False,0.21784799999999893,0.0,0.0
+8280775,419,frozen_ET,block_b64_g40,Rb->K,[157],1,0,,joint_path_mean_only,False,False,0.0026559999999995476,0.0,0.0
+8280775,419,frozen_ET,block_b64_g40,Rb->Sr,[163],1,0,,joint_path_mean_only,False,False,0.025023999999997715,0.0,0.0
+8280775,419,frozen_ET,block_b64_g40,Ru->Co,[133],1,0,,joint_path_mean_only,False,False,-0.14161600000000218,0.0,0.0
+8280775,419,frozen_ET,block_b64_g40,Ru->Fe,[171],1,0,,joint_path_mean_only,False,False,-0.48926000000000003,0.0,0.0
+8280775,419,frozen_ET,block_b64_g40,Ru->Ir,[153],1,0,,joint_path_mean_only,False,False,0.5975840000000074,0.0,0.0
+8280775,419,frozen_ET,block_b64_g40,Ru->Os,[129],1,0,,joint_path_mean_only,False,False,0.2516480000000041,0.0,0.0
+8280775,419,frozen_ET,block_b64_g40,Ru->Re,[137],1,0,,joint_path_mean_only,False,False,-0.22238800000000136,0.0,0.0
+8280775,419,frozen_ET,block_b64_g40,Ru->Rh,[93],1,0,,joint_path_mean_only,False,False,0.35534800000000244,0.0,0.0
+8280775,419,frozen_ET,block_b64_g40,Ru->Tc,[43],1,0,,joint_path_mean_only,False,False,-0.22816800000000015,0.0,0.0
+8280775,419,frozen_ET,block_b64_g40,geometry_only,"[132, 164, 128, 130, 142, 146, 154, 140, 84, 168, 170, 160, 156, 162, 134, 158, 100, 44, 174, 72, 110, 152, 150, 138, 76, 144, 166, 136, 68, 148, 172, 82, 64, 4, 18, 90, 96, 102, 66, 78]",40,2,8.763221077488753,affine,True,True,0.0,0.019553400866363542,-0.8025085777041921
+8280775,419,XGBoost,block_b64_g40,Cl->Br,"[135, 11]",2,1,,joint_path_mean_only,False,False,-0.07323706150054932,0.0,0.0
+8280775,419,XGBoost,block_b64_g40,Cl->S,"[175, 39]",2,1,,joint_path_mean_only,False,False,0.43839240074157715,0.0,0.0
+8280775,419,XGBoost,block_b64_g40,Cl->Se,"[173, 167]",2,1,,joint_path_mean_only,False,False,0.18361502885818481,0.0,0.0
+8280775,419,XGBoost,block_b64_g40,Cs->Ba,"[95, 103]",2,1,,joint_path_mean_only,False,False,-0.16885048151016235,0.0,0.0
+8280775,419,XGBoost,block_b64_g40,Cs->Ra,"[89, 15]",2,1,,joint_path_mean_only,False,False,-0.0612143874168396,0.0,0.0
+8280775,419,XGBoost,block_b64_g40,Cs->Sr,"[143, 151]",2,1,,joint_path_mean_only,False,False,0.1227918267250061,0.0,0.0
+8280775,419,XGBoost,block_b64_g40,Rb->Ba,"[97, 83]",2,1,,joint_path_mean_only,False,False,0.0693710446357727,0.0,0.0
+8280775,419,XGBoost,block_b64_g40,Rb->Ca,[131],1,0,,joint_path_mean_only,False,False,0.5990961790084839,0.0,0.0
+8280775,419,XGBoost,block_b64_g40,Rb->K,[157],1,0,,joint_path_mean_only,False,False,0.2847234010696411,0.0,0.0
+8280775,419,XGBoost,block_b64_g40,Rb->Sr,[163],1,0,,joint_path_mean_only,False,False,0.32466065883636475,0.0,0.0
+8280775,419,XGBoost,block_b64_g40,Ru->Co,[133],1,0,,joint_path_mean_only,False,False,-0.05574166774749756,0.0,0.0
+8280775,419,XGBoost,block_b64_g40,Ru->Fe,[171],1,0,,joint_path_mean_only,False,False,-0.13824677467346191,0.0,0.0
+8280775,419,XGBoost,block_b64_g40,Ru->Ir,[153],1,0,,joint_path_mean_only,False,False,0.6264544725418091,0.0,0.0
+8280775,419,XGBoost,block_b64_g40,Ru->Os,[129],1,0,,joint_path_mean_only,False,False,0.45172417163848877,0.0,0.0
+8280775,419,XGBoost,block_b64_g40,Ru->Re,[137],1,0,,joint_path_mean_only,False,False,0.13319504261016846,0.0,0.0
+8280775,419,XGBoost,block_b64_g40,Ru->Rh,[93],1,0,,joint_path_mean_only,False,False,0.3206831216812134,0.0,0.0
+8280775,419,XGBoost,block_b64_g40,Ru->Tc,[43],1,0,,joint_path_mean_only,False,False,0.09472489356994629,0.0,0.0
+8280775,419,XGBoost,block_b64_g40,geometry_only,"[132, 164, 128, 130, 142, 146, 154, 140, 84, 168, 170, 160, 156, 162, 134, 158, 100, 44, 174, 72, 110, 152, 150, 138, 76, 144, 166, 136, 68, 148, 172, 82, 64, 4, 18, 90, 96, 102, 66, 78]",40,2,8.763221077488753,affine,True,True,0.0,-0.26364641899989466,-13.609944612615969
+5452021,307,frozen_ET,block_b64_g40,Cs->Ba,"[153, 173, 149]",3,2,355.0783119909148,affine,True,False,-0.7142791321496615,0.3169686182057642,-0.009784621882473844
+5452021,307,frozen_ET,block_b64_g40,Cs->Ra,"[139, 73, 21]",3,2,151.47211039282104,affine,True,False,-1.5194256669419146,-0.0767612980732366,0.00449953662991606
+5452021,307,frozen_ET,block_b64_g40,Cs->Rb,"[175, 65]",2,1,,joint_path_mean_only,False,False,-0.20364399999999927,0.0,0.0
+5452021,307,frozen_ET,block_b64_g40,Cs->Sr,"[143, 17]",2,1,,joint_path_mean_only,False,False,-0.9225780000000054,0.0,0.0
+5452021,307,frozen_ET,block_b64_g40,F->O,"[141, 71]",2,1,,joint_path_mean_only,False,False,-1.8089979999999988,0.0,0.0
+5452021,307,frozen_ET,block_b64_g40,Sc->Ti,"[43, 29]",2,1,,joint_path_mean_only,False,False,-3.498430000000001,0.0,0.0
+5452021,307,frozen_ET,block_b64_g40,Sc->Y,"[135, 83]",2,1,,joint_path_mean_only,False,False,0.2865160000000029,0.0,0.0
+5452021,307,frozen_ET,block_b64_g40,Sc->Zr,"[137, 85]",2,1,,joint_path_mean_only,False,False,-2.146758,0.0,0.0
+5452021,307,frozen_ET,block_b64_g40,Tl->In,"[163, 99]",2,1,,joint_path_mean_only,False,False,-0.568814000000003,0.0,0.0
+5452021,307,frozen_ET,block_b64_g40,Tl->Pb,"[91, 93]",2,1,,joint_path_mean_only,False,False,-3.0809879999999965,0.0,0.0
+5452021,307,frozen_ET,block_b64_g40,Tl->Sn,"[161, 155]",2,1,,joint_path_mean_only,False,False,-2.0076799999999997,0.0,0.0
+5452021,307,frozen_ET,block_b64_g40,geometry_only,"[130, 132, 144, 156, 140, 138, 128, 160, 150, 134, 174, 142, 68, 166, 158, 164, 86, 162, 172, 154, 76, 146, 74, 148, 170, 90, 152, 40, 70, 168, 94, 88, 66, 82, 80, 84, 0, 42, 136, 72]",40,2,7.590276080561677,affine,True,True,0.0,0.5563213292470661,-0.9896814466323791
+5452021,307,XGBoost,block_b64_g40,Cs->Ba,"[153, 173, 149]",3,2,355.0783119909148,affine,True,False,-0.3078446975949253,1.4169252262489949,-0.08493665972124843
+5452021,307,XGBoost,block_b64_g40,Cs->Ra,"[139, 73, 21]",3,2,151.47211039282104,affine,True,False,-0.9871006130872451,-3.2081470943760304,-0.07358380997503833
+5452021,307,XGBoost,block_b64_g40,Cs->Rb,"[175, 65]",2,1,,joint_path_mean_only,False,False,0.0010039806365966797,0.0,0.0
+5452021,307,XGBoost,block_b64_g40,Cs->Sr,"[143, 17]",2,1,,joint_path_mean_only,False,False,-0.36552417278289795,0.0,0.0
+5452021,307,XGBoost,block_b64_g40,F->O,"[141, 71]",2,1,,joint_path_mean_only,False,False,-0.9808239936828613,0.0,0.0
+5452021,307,XGBoost,block_b64_g40,Sc->Ti,"[43, 29]",2,1,,joint_path_mean_only,False,False,-2.2762954235076904,0.0,0.0
+5452021,307,XGBoost,block_b64_g40,Sc->Y,"[135, 83]",2,1,,joint_path_mean_only,False,False,0.015620589256286621,0.0,0.0
+5452021,307,XGBoost,block_b64_g40,Sc->Zr,"[137, 85]",2,1,,joint_path_mean_only,False,False,-1.8047833442687988,0.0,0.0
+5452021,307,XGBoost,block_b64_g40,Tl->In,"[163, 99]",2,1,,joint_path_mean_only,False,False,-0.44643306732177734,0.0,0.0
+5452021,307,XGBoost,block_b64_g40,Tl->Pb,"[91, 93]",2,1,,joint_path_mean_only,False,False,-2.382254123687744,0.0,0.0
+5452021,307,XGBoost,block_b64_g40,Tl->Sn,"[161, 155]",2,1,,joint_path_mean_only,False,False,-1.892074465751648,0.0,0.0
+5452021,307,XGBoost,block_b64_g40,geometry_only,"[130, 132, 144, 156, 140, 138, 128, 160, 150, 134, 174, 142, 68, 166, 158, 164, 86, 162, 172, 154, 76, 146, 74, 148, 170, 90, 152, 40, 70, 168, 94, 88, 66, 82, 80, 84, 0, 42, 136, 72]",40,2,7.590276080561677,affine,True,True,0.0,0.3276174270856963,-10.682809079557012
+5452021,419,frozen_ET,block_b64_g40,Cs->Ba,"[143, 151, 73]",3,2,193.35620336019525,affine,True,False,-0.7250430775999718,0.19860823587769327,0.0031420396028955266
+5452021,419,frozen_ET,block_b64_g40,Cs->Ra,"[89, 15, 109]",3,2,72.67551224024534,affine,True,False,-1.5140560235624692,0.3047539222699979,0.010875074758423725
+5452021,419,frozen_ET,block_b64_g40,Cs->Rb,"[173, 175]",2,1,,joint_path_mean_only,False,False,-0.17955799999999966,0.0,0.0
+5452021,419,frozen_ET,block_b64_g40,Cs->Sr,"[135, 167]",2,1,,joint_path_mean_only,False,False,-0.9226660000000053,0.0,0.0
+5452021,419,frozen_ET,block_b64_g40,F->O,"[169, 155]",2,1,,joint_path_mean_only,False,False,-1.8054439999999987,0.0,0.0
+5452021,419,frozen_ET,block_b64_g40,Sc->Ti,"[131, 163]",2,1,,joint_path_mean_only,False,False,-3.2599419999999997,0.0,0.0
+5452021,419,frozen_ET,block_b64_g40,Sc->Y,"[65, 101]",2,1,,joint_path_mean_only,False,False,0.2843900000000028,0.0,0.0
+5452021,419,frozen_ET,block_b64_g40,Sc->Zr,"[133, 171]",2,1,,joint_path_mean_only,False,False,-2.089574,0.0,0.0
+5452021,419,frozen_ET,block_b64_g40,Tl->In,"[93, 79]",2,1,,joint_path_mean_only,False,False,-0.6117700000000039,0.0,0.0
+5452021,419,frozen_ET,block_b64_g40,Tl->Pb,"[129, 159]",2,1,,joint_path_mean_only,False,False,-2.990463999999996,0.0,0.0
+5452021,419,frozen_ET,block_b64_g40,Tl->Sn,"[137, 45]",2,1,,joint_path_mean_only,False,False,-2.031294,0.0,0.0
+5452021,419,frozen_ET,block_b64_g40,geometry_only,"[132, 130, 128, 142, 164, 146, 154, 168, 170, 140, 84, 134, 160, 162, 100, 152, 156, 72, 44, 158, 150, 166, 174, 110, 138, 68, 136, 76, 148, 144, 64, 172, 82, 4, 90, 18, 102, 106, 96, 16]",40,2,6.0126141498296715,affine,True,True,0.0,0.5462541623545185,-1.0627106378702267
+5452021,419,XGBoost,block_b64_g40,Cs->Ba,"[143, 151, 73]",3,2,193.35620336019525,affine,True,False,-0.38518472238095114,0.66143538210984,0.009238600396213504
+5452021,419,XGBoost,block_b64_g40,Cs->Ra,"[89, 15, 109]",3,2,72.67551224024534,affine,True,False,-0.9252211000678336,0.30010319137782954,0.008939642118337143
+5452021,419,XGBoost,block_b64_g40,Cs->Rb,"[173, 175]",2,1,,joint_path_mean_only,False,False,-0.00498044490814209,0.0,0.0
+5452021,419,XGBoost,block_b64_g40,Cs->Sr,"[135, 167]",2,1,,joint_path_mean_only,False,False,-0.07807254791259766,0.0,0.0
+5452021,419,XGBoost,block_b64_g40,F->O,"[169, 155]",2,1,,joint_path_mean_only,False,False,-1.003373384475708,0.0,0.0
+5452021,419,XGBoost,block_b64_g40,Sc->Ti,"[131, 163]",2,1,,joint_path_mean_only,False,False,-2.3013850450515747,0.0,0.0
+5452021,419,XGBoost,block_b64_g40,Sc->Y,"[65, 101]",2,1,,joint_path_mean_only,False,False,0.03245270252227783,0.0,0.0
+5452021,419,XGBoost,block_b64_g40,Sc->Zr,"[133, 171]",2,1,,joint_path_mean_only,False,False,-1.7712346315383911,0.0,0.0
+5452021,419,XGBoost,block_b64_g40,Tl->In,"[93, 79]",2,1,,joint_path_mean_only,False,False,-0.4918113946914673,0.0,0.0
+5452021,419,XGBoost,block_b64_g40,Tl->Pb,"[129, 159]",2,1,,joint_path_mean_only,False,False,-2.3872681856155396,0.0,0.0
+5452021,419,XGBoost,block_b64_g40,Tl->Sn,"[137, 45]",2,1,,joint_path_mean_only,False,False,-1.9387813806533813,0.0,0.0
+5452021,419,XGBoost,block_b64_g40,geometry_only,"[132, 130, 128, 142, 164, 146, 154, 168, 170, 140, 84, 134, 160, 162, 100, 152, 156, 72, 44, 158, 150, 166, 174, 110, 138, 68, 136, 76, 148, 144, 64, 172, 82, 4, 90, 18, 102, 106, 96, 16]",40,2,6.0126141498296715,affine,True,True,0.0,0.24304550630704597,-11.4461828550007
+6802760,307,frozen_ET,block_b64_g40,F->O,"[145, 89]",2,1,,joint_path_mean_only,False,False,-0.8485080000000034,0.0,0.0
+6802760,307,frozen_ET,block_b64_g40,Na->Ca,"[161, 153]",2,1,,joint_path_mean_only,False,False,-0.2815339999999953,0.0,0.0
+6802760,307,frozen_ET,block_b64_g40,Na->Li,"[23, 147]",2,1,,joint_path_mean_only,False,False,-0.32250600000000196,0.0,0.0
+6802760,307,frozen_ET,block_b64_g40,Sn->As,"[131, 29]",2,1,,joint_path_mean_only,False,False,0.3449760000000177,0.0,0.0
+6802760,307,frozen_ET,block_b64_g40,Sn->Bi,"[15, 17]",2,1,,joint_path_mean_only,False,False,0.3132499999999956,0.0,0.0
+6802760,307,frozen_ET,block_b64_g40,Sn->Ga,"[107, 103]",2,1,,joint_path_mean_only,False,False,0.7178320000000067,0.0,0.0
+6802760,307,frozen_ET,block_b64_g40,Sn->Ge,"[93, 39]",2,1,,joint_path_mean_only,False,False,0.10463799999999712,0.0,0.0
+6802760,307,frozen_ET,block_b64_g40,Sn->In,"[143, 69]",2,1,,joint_path_mean_only,False,False,0.597438000000007,0.0,0.0
+6802760,307,frozen_ET,block_b64_g40,Sn->Pb,"[157, 73]",2,1,,joint_path_mean_only,False,False,0.4356259999999976,0.0,0.0
+6802760,307,frozen_ET,block_b64_g40,Sn->Sb,"[101, 171]",2,1,,joint_path_mean_only,False,False,-0.15167199999999115,0.0,0.0
+6802760,307,frozen_ET,block_b64_g40,Tl->In,"[175, 3]",2,1,,joint_path_mean_only,False,False,-0.11197800000000258,0.0,0.0
+6802760,307,frozen_ET,block_b64_g40,Tl->Pb,"[169, 173]",2,1,,joint_path_mean_only,False,False,-1.4092600000000002,0.0,0.0
+6802760,307,frozen_ET,block_b64_g40,geometry_only,"[136, 132, 156, 170, 142, 164, 128, 168, 166, 160, 146, 172, 74, 140, 152, 144, 108, 64, 130, 134, 158, 138, 80, 174, 92, 162, 88, 150, 154, 76, 86, 110, 84, 68, 38, 90, 98, 78, 96, 100]",40,2,2.355867531001454,affine,True,True,0.0,-0.11371221371318899,0.131557928575978
+6802760,307,XGBoost,block_b64_g40,F->O,"[145, 89]",2,1,,joint_path_mean_only,False,False,0.5191047191619873,0.0,0.0
+6802760,307,XGBoost,block_b64_g40,Na->Ca,"[161, 153]",2,1,,joint_path_mean_only,False,False,0.1323096752166748,0.0,0.0
+6802760,307,XGBoost,block_b64_g40,Na->Li,"[23, 147]",2,1,,joint_path_mean_only,False,False,0.033248186111450195,0.0,0.0
+6802760,307,XGBoost,block_b64_g40,Sn->As,"[131, 29]",2,1,,joint_path_mean_only,False,False,0.810848593711853,0.0,0.0
+6802760,307,XGBoost,block_b64_g40,Sn->Bi,"[15, 17]",2,1,,joint_path_mean_only,False,False,-0.02235889434814453,0.0,0.0
+6802760,307,XGBoost,block_b64_g40,Sn->Ga,"[107, 103]",2,1,,joint_path_mean_only,False,False,1.7610158920288086,0.0,0.0
+6802760,307,XGBoost,block_b64_g40,Sn->Ge,"[93, 39]",2,1,,joint_path_mean_only,False,False,0.3636208772659302,0.0,0.0
+6802760,307,XGBoost,block_b64_g40,Sn->In,"[143, 69]",2,1,,joint_path_mean_only,False,False,1.4722349643707275,0.0,0.0
+6802760,307,XGBoost,block_b64_g40,Sn->Pb,"[157, 73]",2,1,,joint_path_mean_only,False,False,-0.02972865104675293,0.0,0.0
+6802760,307,XGBoost,block_b64_g40,Sn->Sb,"[101, 171]",2,1,,joint_path_mean_only,False,False,0.4491002559661865,0.0,0.0
+6802760,307,XGBoost,block_b64_g40,Tl->In,"[175, 3]",2,1,,joint_path_mean_only,False,False,-0.2634483575820923,0.0,0.0
+6802760,307,XGBoost,block_b64_g40,Tl->Pb,"[169, 173]",2,1,,joint_path_mean_only,False,False,-0.9543052911758423,0.0,0.0
+6802760,307,XGBoost,block_b64_g40,geometry_only,"[136, 132, 156, 170, 142, 164, 128, 168, 166, 160, 146, 172, 74, 140, 152, 144, 108, 64, 130, 134, 158, 138, 80, 174, 92, 162, 88, 150, 154, 76, 86, 110, 84, 68, 38, 90, 98, 78, 96, 100]",40,2,2.355867531001454,affine,True,True,0.0,0.251735663006487,0.6494079624446636
+6802760,419,frozen_ET,block_b64_g40,F->O,"[161, 145]",2,1,,joint_path_mean_only,False,False,-0.8502120000000033,0.0,0.0
+6802760,419,frozen_ET,block_b64_g40,Na->Ca,"[169, 9]",2,1,,joint_path_mean_only,False,False,-0.24986399999999453,0.0,0.0
+6802760,419,frozen_ET,block_b64_g40,Na->Li,"[163, 111]",2,1,,joint_path_mean_only,False,False,-0.30523600000000184,0.0,0.0
+6802760,419,frozen_ET,block_b64_g40,Sn->As,"[101, 91]",2,1,,joint_path_mean_only,False,False,0.36836200000001806,0.0,0.0
+6802760,419,frozen_ET,block_b64_g40,Sn->Bi,"[171, 175]",2,1,,joint_path_mean_only,False,False,0.3000739999999962,0.0,0.0
+6802760,419,frozen_ET,block_b64_g40,Sn->Ga,"[141, 129]",2,1,,joint_path_mean_only,False,False,0.6752860000000074,0.0,0.0
+6802760,419,frozen_ET,block_b64_g40,Sn->Ge,"[69, 151]",2,1,,joint_path_mean_only,False,False,0.09088599999999758,0.0,0.0
+6802760,419,frozen_ET,block_b64_g40,Sn->In,"[109, 37]",2,1,,joint_path_mean_only,False,False,0.5867340000000068,0.0,0.0
+6802760,419,frozen_ET,block_b64_g40,Sn->Pb,"[67, 25]",2,1,,joint_path_mean_only,False,False,0.4456379999999971,0.0,0.0
+6802760,419,frozen_ET,block_b64_g40,Sn->Sb,"[143, 93]",2,1,,joint_path_mean_only,False,False,-0.1623999999999921,0.0,0.0
+6802760,419,frozen_ET,block_b64_g40,Tl->In,"[147, 87]",2,1,,joint_path_mean_only,False,False,-0.10034600000000249,0.0,0.0
+6802760,419,frozen_ET,block_b64_g40,Tl->Pb,"[133, 81]",2,1,,joint_path_mean_only,False,False,-1.4149360000000002,0.0,0.0
+6802760,419,frozen_ET,block_b64_g40,geometry_only,"[158, 164, 128, 172, 174, 156, 148, 146, 90, 142, 162, 170, 78, 138, 160, 92, 134, 144, 130, 168, 86, 68, 136, 152, 140, 150, 132, 88, 94, 104, 66, 82, 80, 166, 102, 110, 106, 74, 40, 98]",40,2,1.9771355745769554,affine,True,True,0.0,-0.18080012586877722,0.020690143445193432
+6802760,419,XGBoost,block_b64_g40,F->O,"[161, 145]",2,1,,joint_path_mean_only,False,False,0.531531810760498,0.0,0.0
+6802760,419,XGBoost,block_b64_g40,Na->Ca,"[169, 9]",2,1,,joint_path_mean_only,False,False,0.13089323043823242,0.0,0.0
+6802760,419,XGBoost,block_b64_g40,Na->Li,"[163, 111]",2,1,,joint_path_mean_only,False,False,0.035791993141174316,0.0,0.0
+6802760,419,XGBoost,block_b64_g40,Sn->As,"[101, 91]",2,1,,joint_path_mean_only,False,False,0.8418394327163696,0.0,0.0
+6802760,419,XGBoost,block_b64_g40,Sn->Bi,"[171, 175]",2,1,,joint_path_mean_only,False,False,-0.06195652484893799,0.0,0.0
+6802760,419,XGBoost,block_b64_g40,Sn->Ga,"[141, 129]",2,1,,joint_path_mean_only,False,False,1.7525463104248047,0.0,0.0
+6802760,419,XGBoost,block_b64_g40,Sn->Ge,"[69, 151]",2,1,,joint_path_mean_only,False,False,0.37135112285614014,0.0,0.0
+6802760,419,XGBoost,block_b64_g40,Sn->In,"[109, 37]",2,1,,joint_path_mean_only,False,False,1.4667255878448486,0.0,0.0
+6802760,419,XGBoost,block_b64_g40,Sn->Pb,"[67, 25]",2,1,,joint_path_mean_only,False,False,-0.06575524806976318,0.0,0.0
+6802760,419,XGBoost,block_b64_g40,Sn->Sb,"[143, 93]",2,1,,joint_path_mean_only,False,False,0.40980279445648193,0.0,0.0
+6802760,419,XGBoost,block_b64_g40,Tl->In,"[147, 87]",2,1,,joint_path_mean_only,False,False,-0.21441388130187988,0.0,0.0
+6802760,419,XGBoost,block_b64_g40,Tl->Pb,"[133, 81]",2,1,,joint_path_mean_only,False,False,-0.9533370733261108,0.0,0.0
+6802760,419,XGBoost,block_b64_g40,geometry_only,"[158, 164, 128, 172, 174, 156, 148, 146, 90, 142, 162, 170, 78, 138, 160, 92, 134, 144, 130, 168, 86, 68, 136, 152, 140, 150, 132, 88, 94, 104, 66, 82, 80, 166, 102, 110, 106, 74, 40, 98]",40,2,1.9771355745769554,affine,True,True,0.0,0.02550394007779341,0.3504340235014044
+6449181,307,frozen_ET,block_b64_g40,Cs->Ba,"[65, 171]",2,1,,joint_path_mean_only,False,False,-0.2074099999999992,0.0,0.0
+6449181,307,frozen_ET,block_b64_g40,Cs->Ra,"[153, 173]",2,1,,joint_path_mean_only,False,False,0.15860200000000257,0.0,0.0
+6449181,307,frozen_ET,block_b64_g40,Cs->Sr,"[175, 95]",2,1,,joint_path_mean_only,False,False,0.27272600000000113,0.0,0.0
+6449181,307,frozen_ET,block_b64_g40,F->O,"[149, 133]",2,1,,joint_path_mean_only,False,False,0.16575800000000185,0.0,0.0
+6449181,307,frozen_ET,block_b64_g40,Rb->Ba,"[135, 83]",2,1,,joint_path_mean_only,False,False,-0.6959819999999974,0.0,0.0
+6449181,307,frozen_ET,block_b64_g40,Rb->Ca,"[141, 71]",2,1,,joint_path_mean_only,False,False,-0.21346999999999272,0.0,0.0
+6449181,307,frozen_ET,block_b64_g40,Rb->K,"[139, 23]",2,1,,joint_path_mean_only,False,False,0.18415200000000365,0.0,0.0
+6449181,307,frozen_ET,block_b64_g40,Rb->Sr,"[29, 169]",2,1,,joint_path_mean_only,False,False,-0.42402199999999646,0.0,0.0
+6449181,307,frozen_ET,block_b64_g40,V->Cr,"[163, 99]",2,1,,joint_path_mean_only,False,False,0.26297599999999544,0.0,0.0
+6449181,307,frozen_ET,block_b64_g40,V->Mo,"[91, 93]",2,1,,joint_path_mean_only,False,False,0.20163800000000087,0.0,0.0
+6449181,307,frozen_ET,block_b64_g40,V->Nb,"[155, 75]",2,1,,joint_path_mean_only,False,False,-0.234286000000003,0.0,0.0
+6449181,307,frozen_ET,block_b64_g40,V->Ti,[131],1,0,,joint_path_mean_only,False,False,4.002036000000004,0.0,0.0
+6449181,307,frozen_ET,block_b64_g40,V->Zr,[161],1,0,,joint_path_mean_only,False,False,1.802268000000001,0.0,0.0
+6449181,307,frozen_ET,block_b64_g40,geometry_only,"[130, 132, 144, 156, 138, 160, 128, 140, 134, 68, 164, 174, 142, 158, 150, 166, 162, 86, 172, 136, 154, 146, 76, 70, 152, 170, 90, 66, 40, 168, 74, 148, 94, 0, 84, 82, 42, 88, 80, 72]",40,2,6.864562883274205,affine,True,True,0.0,0.3491121240421348,-0.21218572530718924
+6449181,307,XGBoost,block_b64_g40,Cs->Ba,"[65, 171]",2,1,,joint_path_mean_only,False,False,-0.3005925416946411,0.0,0.0
+6449181,307,XGBoost,block_b64_g40,Cs->Ra,"[153, 173]",2,1,,joint_path_mean_only,False,False,-0.42554187774658203,0.0,0.0
+6449181,307,XGBoost,block_b64_g40,Cs->Sr,"[175, 95]",2,1,,joint_path_mean_only,False,False,0.10688984394073486,0.0,0.0
+6449181,307,XGBoost,block_b64_g40,F->O,"[149, 133]",2,1,,joint_path_mean_only,False,False,0.14868652820587158,0.0,0.0
+6449181,307,XGBoost,block_b64_g40,Rb->Ba,"[135, 83]",2,1,,joint_path_mean_only,False,False,-0.5418047904968262,0.0,0.0
+6449181,307,XGBoost,block_b64_g40,Rb->Ca,"[141, 71]",2,1,,joint_path_mean_only,False,False,-0.9462924599647522,0.0,0.0
+6449181,307,XGBoost,block_b64_g40,Rb->K,"[139, 23]",2,1,,joint_path_mean_only,False,False,0.12121462821960449,0.0,0.0
+6449181,307,XGBoost,block_b64_g40,Rb->Sr,"[29, 169]",2,1,,joint_path_mean_only,False,False,-0.9334245324134827,0.0,0.0
+6449181,307,XGBoost,block_b64_g40,V->Cr,"[163, 99]",2,1,,joint_path_mean_only,False,False,-0.3480464220046997,0.0,0.0
+6449181,307,XGBoost,block_b64_g40,V->Mo,"[91, 93]",2,1,,joint_path_mean_only,False,False,-0.48145461082458496,0.0,0.0
+6449181,307,XGBoost,block_b64_g40,V->Nb,"[155, 75]",2,1,,joint_path_mean_only,False,False,0.0608750581741333,0.0,0.0
+6449181,307,XGBoost,block_b64_g40,V->Ti,[131],1,0,,joint_path_mean_only,False,False,1.8169515132904053,0.0,0.0
+6449181,307,XGBoost,block_b64_g40,V->Zr,[161],1,0,,joint_path_mean_only,False,False,0.8073008060455322,0.0,0.0
+6449181,307,XGBoost,block_b64_g40,geometry_only,"[130, 132, 144, 156, 138, 160, 128, 140, 134, 68, 164, 174, 142, 158, 150, 166, 162, 86, 172, 136, 154, 146, 76, 70, 152, 170, 90, 66, 40, 168, 74, 148, 94, 0, 84, 82, 42, 88, 80, 72]",40,2,6.864562883274205,affine,True,True,0.0,0.31113413399322154,-11.796917772336453
+6449181,419,frozen_ET,block_b64_g40,Cs->Ba,"[135, 167]",2,1,,joint_path_mean_only,False,False,-0.17345399999999944,0.0,0.0
+6449181,419,frozen_ET,block_b64_g40,Cs->Ra,"[143, 151]",2,1,,joint_path_mean_only,False,False,0.1139440000000026,0.0,0.0
+6449181,419,frozen_ET,block_b64_g40,Cs->Sr,"[173, 175]",2,1,,joint_path_mean_only,False,False,0.3100400000000012,0.0,0.0
+6449181,419,frozen_ET,block_b64_g40,F->O,"[95, 103]",2,1,,joint_path_mean_only,False,False,0.16086200000000206,0.0,0.0
+6449181,419,frozen_ET,block_b64_g40,Rb->Ba,"[97, 101]",2,1,,joint_path_mean_only,False,False,-0.6993379999999975,0.0,0.0
+6449181,419,frozen_ET,block_b64_g40,Rb->Ca,"[131, 155]",2,1,,joint_path_mean_only,False,False,-0.18400799999999284,0.0,0.0
+6449181,419,frozen_ET,block_b64_g40,Rb->K,"[157, 15]",2,1,,joint_path_mean_only,False,False,0.10953400000000424,0.0,0.0
+6449181,419,frozen_ET,block_b64_g40,Rb->Sr,"[163, 85]",2,1,,joint_path_mean_only,False,False,-0.40127399999999647,0.0,0.0
+6449181,419,frozen_ET,block_b64_g40,V->Cr,"[43, 71]",2,1,,joint_path_mean_only,False,False,0.2071979999999949,0.0,0.0
+6449181,419,frozen_ET,block_b64_g40,V->Mo,"[153, 159]",2,1,,joint_path_mean_only,False,False,0.18188600000000132,0.0,0.0
+6449181,419,frozen_ET,block_b64_g40,V->Nb,"[137, 45]",2,1,,joint_path_mean_only,False,False,-0.2378580000000028,0.0,0.0
+6449181,419,frozen_ET,block_b64_g40,V->Ti,[171],1,0,,joint_path_mean_only,False,False,3.9805040000000043,0.0,0.0
+6449181,419,frozen_ET,block_b64_g40,V->Zr,[93],1,0,,joint_path_mean_only,False,False,1.838280000000001,0.0,0.0
+6449181,419,frozen_ET,block_b64_g40,geometry_only,"[132, 164, 128, 130, 142, 146, 154, 140, 84, 170, 168, 162, 156, 160, 158, 134, 174, 100, 44, 150, 152, 138, 72, 110, 144, 166, 76, 136, 148, 172, 68, 82, 64, 18, 4, 90, 96, 102, 66, 78]",40,2,5.808603015961886,affine,True,True,0.0,0.31017387587331796,-1.2668574560032175
+6449181,419,XGBoost,block_b64_g40,Cs->Ba,"[135, 167]",2,1,,joint_path_mean_only,False,False,-0.2945098876953125,0.0,0.0
+6449181,419,XGBoost,block_b64_g40,Cs->Ra,"[143, 151]",2,1,,joint_path_mean_only,False,False,-0.4385395050048828,0.0,0.0
+6449181,419,XGBoost,block_b64_g40,Cs->Sr,"[173, 175]",2,1,,joint_path_mean_only,False,False,0.10785305500030518,0.0,0.0
+6449181,419,XGBoost,block_b64_g40,F->O,"[95, 103]",2,1,,joint_path_mean_only,False,False,0.1680927276611328,0.0,0.0
+6449181,419,XGBoost,block_b64_g40,Rb->Ba,"[97, 101]",2,1,,joint_path_mean_only,False,False,-0.5446591377258301,0.0,0.0
+6449181,419,XGBoost,block_b64_g40,Rb->Ca,"[131, 155]",2,1,,joint_path_mean_only,False,False,-0.9410919547080994,0.0,0.0
+6449181,419,XGBoost,block_b64_g40,Rb->K,"[157, 15]",2,1,,joint_path_mean_only,False,False,0.20582878589630127,0.0,0.0
+6449181,419,XGBoost,block_b64_g40,Rb->Sr,"[163, 85]",2,1,,joint_path_mean_only,False,False,-0.9117346405982971,0.0,0.0
+6449181,419,XGBoost,block_b64_g40,V->Cr,"[43, 71]",2,1,,joint_path_mean_only,False,False,-0.41262197494506836,0.0,0.0
+6449181,419,XGBoost,block_b64_g40,V->Mo,"[153, 159]",2,1,,joint_path_mean_only,False,False,-0.47801530361175537,0.0,0.0
+6449181,419,XGBoost,block_b64_g40,V->Nb,"[137, 45]",2,1,,joint_path_mean_only,False,False,0.09425735473632812,0.0,0.0
+6449181,419,XGBoost,block_b64_g40,V->Ti,[171],1,0,,joint_path_mean_only,False,False,2.27622389793396,0.0,0.0
+6449181,419,XGBoost,block_b64_g40,V->Zr,[93],1,0,,joint_path_mean_only,False,False,0.9081356525421143,0.0,0.0
+6449181,419,XGBoost,block_b64_g40,geometry_only,"[132, 164, 128, 130, 142, 146, 154, 140, 84, 170, 168, 162, 156, 160, 158, 134, 174, 100, 44, 150, 152, 138, 72, 110, 144, 166, 76, 136, 148, 172, 68, 82, 64, 18, 4, 90, 96, 102, 66, 78]",40,2,5.808603015961886,affine,True,True,0.0,0.19085350947018603,-12.021845156279138
+6346982,307,frozen_ET,block_b64_g40,Br->Cl,"[65, 97]",2,1,,joint_path_mean_only,False,False,0.26652,0.0,0.0
+6346982,307,frozen_ET,block_b64_g40,Br->I,"[149, 33]",2,1,,joint_path_mean_only,False,False,0.28094800000000053,0.0,0.0
+6346982,307,frozen_ET,block_b64_g40,Br->S,"[175, 9]",2,1,,joint_path_mean_only,False,False,0.21122399999999997,0.0,0.0
+6346982,307,frozen_ET,block_b64_g40,Br->Se,"[77, 171]",2,1,,joint_path_mean_only,False,False,0.09207000000000165,0.0,0.0
+6346982,307,frozen_ET,block_b64_g40,Br->Te,"[143, 89]",2,1,,joint_path_mean_only,False,False,0.06565000000000187,0.0,0.0
+6346982,307,frozen_ET,block_b64_g40,Rb->Ba,[169],1,0,,joint_path_mean_only,False,False,0.3446840000000022,0.0,0.0
+6346982,307,frozen_ET,block_b64_g40,Rb->Ca,[73],1,0,,joint_path_mean_only,False,False,0.2821440000000033,0.0,0.0
+6346982,307,frozen_ET,block_b64_g40,Rb->Cs,[71],1,0,,joint_path_mean_only,False,False,-0.01574800000000076,0.0,0.0
+6346982,307,frozen_ET,block_b64_g40,Rb->K,[21],1,0,,joint_path_mean_only,False,False,-5.6000000002498496e-05,0.0,0.0
+6346982,307,frozen_ET,block_b64_g40,Rb->Sr,[147],1,0,,joint_path_mean_only,False,False,0.3006640000000025,0.0,0.0
+6346982,307,frozen_ET,block_b64_g40,Rh->Co,[135],1,0,,joint_path_mean_only,False,False,-0.16407999999999578,0.0,0.0
+6346982,307,frozen_ET,block_b64_g40,Rh->Fe,[29],1,0,,joint_path_mean_only,False,False,-0.2668079999999977,0.0,0.0
+6346982,307,frozen_ET,block_b64_g40,Rh->Ir,[163],1,0,,joint_path_mean_only,False,False,0.14174000000000353,0.0,0.0
+6346982,307,frozen_ET,block_b64_g40,Rh->Ni,[131],1,0,,joint_path_mean_only,False,False,0.2639119999999999,0.0,0.0
+6346982,307,frozen_ET,block_b64_g40,Rh->Os,[151],1,0,,joint_path_mean_only,False,False,0.13190000000000257,0.0,0.0
+6346982,307,frozen_ET,block_b64_g40,Rh->Pt,[161],1,0,,joint_path_mean_only,False,False,0.3450920000000004,0.0,0.0
+6346982,307,frozen_ET,block_b64_g40,Rh->Ru,[137],1,0,,joint_path_mean_only,False,False,0.08475600000000205,0.0,0.0
+6346982,307,frozen_ET,block_b64_g40,Tl->In,[155],1,0,,joint_path_mean_only,False,False,-0.20186399999999782,0.0,0.0
+6346982,307,frozen_ET,block_b64_g40,Tl->Pb,[91],1,0,,joint_path_mean_only,False,False,0.29805999999999955,0.0,0.0
+6346982,307,frozen_ET,block_b64_g40,geometry_only,"[148, 130, 156, 132, 138, 140, 150, 160, 162, 170, 128, 172, 142, 166, 144, 136, 74, 164, 134, 86, 146, 68, 152, 70, 66, 154, 90, 174, 168, 0, 98, 158, 84, 82, 76, 106, 108, 88, 78, 40]",40,2,18.99697799825014,affine,True,True,0.0,-0.21702707666018323,-0.006283502260542572
+6346982,307,XGBoost,block_b64_g40,Br->Cl,"[65, 97]",2,1,,joint_path_mean_only,False,False,0.5891487002372742,0.0,0.0
+6346982,307,XGBoost,block_b64_g40,Br->I,"[149, 33]",2,1,,joint_path_mean_only,False,False,0.3687131404876709,0.0,0.0
+6346982,307,XGBoost,block_b64_g40,Br->S,"[175, 9]",2,1,,joint_path_mean_only,False,False,-0.04173856973648071,0.0,0.0
+6346982,307,XGBoost,block_b64_g40,Br->Se,"[77, 171]",2,1,,joint_path_mean_only,False,False,0.2849389910697937,0.0,0.0
+6346982,307,XGBoost,block_b64_g40,Br->Te,"[143, 89]",2,1,,joint_path_mean_only,False,False,0.2589496970176697,0.0,0.0
+6346982,307,XGBoost,block_b64_g40,Rb->Ba,[169],1,0,,joint_path_mean_only,False,False,0.2204529047012329,0.0,0.0
+6346982,307,XGBoost,block_b64_g40,Rb->Ca,[73],1,0,,joint_path_mean_only,False,False,0.3181039094924927,0.0,0.0
+6346982,307,XGBoost,block_b64_g40,Rb->Cs,[71],1,0,,joint_path_mean_only,False,False,0.03932297229766846,0.0,0.0
+6346982,307,XGBoost,block_b64_g40,Rb->K,[21],1,0,,joint_path_mean_only,False,False,0.006342887878417969,0.0,0.0
+6346982,307,XGBoost,block_b64_g40,Rb->Sr,[147],1,0,,joint_path_mean_only,False,False,0.16197168827056885,0.0,0.0
+6346982,307,XGBoost,block_b64_g40,Rh->Co,[135],1,0,,joint_path_mean_only,False,False,-0.30681437253952026,0.0,0.0
+6346982,307,XGBoost,block_b64_g40,Rh->Fe,[29],1,0,,joint_path_mean_only,False,False,-0.46474581956863403,0.0,0.0
+6346982,307,XGBoost,block_b64_g40,Rh->Ir,[163],1,0,,joint_path_mean_only,False,False,0.07656097412109375,0.0,0.0
+6346982,307,XGBoost,block_b64_g40,Rh->Ni,[131],1,0,,joint_path_mean_only,False,False,0.11061131954193115,0.0,0.0
+6346982,307,XGBoost,block_b64_g40,Rh->Os,[151],1,0,,joint_path_mean_only,False,False,0.0004253387451171875,0.0,0.0
+6346982,307,XGBoost,block_b64_g40,Rh->Pt,[161],1,0,,joint_path_mean_only,False,False,0.10625243186950684,0.0,0.0
+6346982,307,XGBoost,block_b64_g40,Rh->Ru,[137],1,0,,joint_path_mean_only,False,False,-0.03990817070007324,0.0,0.0
+6346982,307,XGBoost,block_b64_g40,Tl->In,[155],1,0,,joint_path_mean_only,False,False,-0.33819758892059326,0.0,0.0
+6346982,307,XGBoost,block_b64_g40,Tl->Pb,[91],1,0,,joint_path_mean_only,False,False,0.185813307762146,0.0,0.0
+6346982,307,XGBoost,block_b64_g40,geometry_only,"[148, 130, 156, 132, 138, 140, 150, 160, 162, 170, 128, 172, 142, 166, 144, 136, 74, 164, 134, 86, 146, 68, 152, 70, 66, 154, 90, 174, 168, 0, 98, 158, 84, 82, 76, 106, 108, 88, 78, 40]",40,2,18.99697799825014,affine,True,True,0.0,0.44066387676486135,-0.16579242525532928
+6346982,419,frozen_ET,block_b64_g40,Br->Cl,"[173, 167]",2,1,,joint_path_mean_only,False,False,0.25164799999999976,0.0,0.0
+6346982,419,frozen_ET,block_b64_g40,Br->I,"[143, 103]",2,1,,joint_path_mean_only,False,False,0.29924800000000074,0.0,0.0
+6346982,419,frozen_ET,block_b64_g40,Br->S,"[39, 111]",2,1,,joint_path_mean_only,False,False,0.22212399999999966,0.0,0.0
+6346982,419,frozen_ET,block_b64_g40,Br->Se,"[13, 99]",2,1,,joint_path_mean_only,False,False,0.0894000000000017,0.0,0.0
+6346982,419,frozen_ET,block_b64_g40,Br->Te,[151],1,0,,joint_path_mean_only,False,False,0.08038800000000101,0.0,0.0
+6346982,419,frozen_ET,block_b64_g40,Rb->Ba,[131],1,0,,joint_path_mean_only,False,False,0.3421400000000021,0.0,0.0
+6346982,419,frozen_ET,block_b64_g40,Rb->Ca,[89],1,0,,joint_path_mean_only,False,False,0.2854720000000033,0.0,0.0
+6346982,419,frozen_ET,block_b64_g40,Rb->Cs,[169],1,0,,joint_path_mean_only,False,False,0.06453999999999982,0.0,0.0
+6346982,419,frozen_ET,block_b64_g40,Rb->K,[5],1,0,,joint_path_mean_only,False,False,0.02255999999999747,0.0,0.0
+6346982,419,frozen_ET,block_b64_g40,Rb->Sr,[157],1,0,,joint_path_mean_only,False,False,0.3258760000000025,0.0,0.0
+6346982,419,frozen_ET,block_b64_g40,Rh->Co,[101],1,0,,joint_path_mean_only,False,False,-0.1079399999999957,0.0,0.0
+6346982,419,frozen_ET,block_b64_g40,Rh->Fe,[163],1,0,,joint_path_mean_only,False,False,-0.15071599999999719,0.0,0.0
+6346982,419,frozen_ET,block_b64_g40,Rh->Ir,[93],1,0,,joint_path_mean_only,False,False,0.09836400000000411,0.0,0.0
+6346982,419,frozen_ET,block_b64_g40,Rh->Ni,[171],1,0,,joint_path_mean_only,False,False,0.21941199999999972,0.0,0.0
+6346982,419,frozen_ET,block_b64_g40,Rh->Os,[43],1,0,,joint_path_mean_only,False,False,0.10557600000000411,0.0,0.0
+6346982,419,frozen_ET,block_b64_g40,Rh->Pt,[37],1,0,,joint_path_mean_only,False,False,0.31461600000000245,0.0,0.0
+6346982,419,frozen_ET,block_b64_g40,Rh->Ru,[133],1,0,,joint_path_mean_only,False,False,0.08728000000000136,0.0,0.0
+6346982,419,frozen_ET,block_b64_g40,Tl->In,[137],1,0,,joint_path_mean_only,False,False,-0.1384959999999973,0.0,0.0
+6346982,419,frozen_ET,block_b64_g40,Tl->Pb,[165],1,0,,joint_path_mean_only,False,False,0.22885600000000017,0.0,0.0
+6346982,419,frozen_ET,block_b64_g40,Tl->Sn,[129],1,0,,joint_path_mean_only,False,False,0.2348159999999997,0.0,0.0
+6346982,419,frozen_ET,block_b64_g40,geometry_only,"[160, 132, 130, 128, 142, 168, 146, 154, 174, 158, 84, 170, 138, 156, 164, 100, 140, 68, 144, 150, 72, 134, 86, 148, 66, 152, 80, 82, 172, 166, 76, 70, 44, 96, 88, 110, 90, 94, 104, 64]",40,2,20.10448248989697,affine,True,True,0.0,-0.34690688746028353,0.0051916860620230525
+6346982,419,XGBoost,block_b64_g40,Br->Cl,"[173, 167]",2,1,,joint_path_mean_only,False,False,0.4896535873413086,0.0,0.0
+6346982,419,XGBoost,block_b64_g40,Br->I,"[143, 103]",2,1,,joint_path_mean_only,False,False,0.2952843904495239,0.0,0.0
+6346982,419,XGBoost,block_b64_g40,Br->S,"[39, 111]",2,1,,joint_path_mean_only,False,False,-0.060107648372650146,0.0,0.0
+6346982,419,XGBoost,block_b64_g40,Br->Se,"[13, 99]",2,1,,joint_path_mean_only,False,False,0.27681225538253784,0.0,0.0
+6346982,419,XGBoost,block_b64_g40,Br->Te,[151],1,0,,joint_path_mean_only,False,False,0.3705613613128662,0.0,0.0
+6346982,419,XGBoost,block_b64_g40,Rb->Ba,[131],1,0,,joint_path_mean_only,False,False,0.3263591527938843,0.0,0.0
+6346982,419,XGBoost,block_b64_g40,Rb->Ca,[89],1,0,,joint_path_mean_only,False,False,0.3337845802307129,0.0,0.0
+6346982,419,XGBoost,block_b64_g40,Rb->Cs,[169],1,0,,joint_path_mean_only,False,False,0.08753430843353271,0.0,0.0
+6346982,419,XGBoost,block_b64_g40,Rb->K,[5],1,0,,joint_path_mean_only,False,False,0.006342887878417969,0.0,0.0
+6346982,419,XGBoost,block_b64_g40,Rb->Sr,[157],1,0,,joint_path_mean_only,False,False,0.36556005477905273,0.0,0.0
+6346982,419,XGBoost,block_b64_g40,Rh->Co,[101],1,0,,joint_path_mean_only,False,False,-0.07783150672912598,0.0,0.0
+6346982,419,XGBoost,block_b64_g40,Rh->Fe,[163],1,0,,joint_path_mean_only,False,False,-0.466714084148407,0.0,0.0
+6346982,419,XGBoost,block_b64_g40,Rh->Ir,[93],1,0,,joint_path_mean_only,False,False,0.058354854583740234,0.0,0.0
+6346982,419,XGBoost,block_b64_g40,Rh->Ni,[171],1,0,,joint_path_mean_only,False,False,0.27837371826171875,0.0,0.0
+6346982,419,XGBoost,block_b64_g40,Rh->Os,[43],1,0,,joint_path_mean_only,False,False,-0.16407907009124756,0.0,0.0
+6346982,419,XGBoost,block_b64_g40,Rh->Pt,[37],1,0,,joint_path_mean_only,False,False,0.24600565433502197,0.0,0.0
+6346982,419,XGBoost,block_b64_g40,Rh->Ru,[133],1,0,,joint_path_mean_only,False,False,-0.2301267385482788,0.0,0.0
+6346982,419,XGBoost,block_b64_g40,Tl->In,[137],1,0,,joint_path_mean_only,False,False,-0.14525187015533447,0.0,0.0
+6346982,419,XGBoost,block_b64_g40,Tl->Pb,[165],1,0,,joint_path_mean_only,False,False,0.13018739223480225,0.0,0.0
+6346982,419,XGBoost,block_b64_g40,Tl->Sn,[129],1,0,,joint_path_mean_only,False,False,-0.09279382228851318,0.0,0.0
+6346982,419,XGBoost,block_b64_g40,geometry_only,"[160, 132, 130, 128, 142, 168, 146, 154, 174, 158, 84, 170, 138, 156, 164, 100, 140, 68, 144, 150, 72, 134, 86, 148, 66, 152, 80, 82, 172, 166, 76, 70, 44, 96, 88, 110, 90, 94, 104, 64]",40,2,20.10448248989697,affine,True,True,0.0,0.21544312076622343,-0.16000728578408585
+6207124,307,frozen_ET,block_b64_g40,Cs->Ba,"[153, 173]",2,1,,joint_path_mean_only,False,False,-1.216463999999984,0.0,0.0
+6207124,307,frozen_ET,block_b64_g40,Cs->Ra,"[149, 33]",2,1,,joint_path_mean_only,False,False,-1.6140959999999818,0.0,0.0
+6207124,307,frozen_ET,block_b64_g40,Cs->Rb,"[175, 95]",2,1,,joint_path_mean_only,False,False,0.19541400000000486,0.0,0.0
+6207124,307,frozen_ET,block_b64_g40,Cs->Sr,"[65, 171]",2,1,,joint_path_mean_only,False,False,-1.4534119999999842,0.0,0.0
+6207124,307,frozen_ET,block_b64_g40,F->O,"[139, 73]",2,1,,joint_path_mean_only,False,False,-1.786335999999984,0.0,0.0
+6207124,307,frozen_ET,block_b64_g40,Na->Ca,"[145, 71]",2,1,,joint_path_mean_only,False,False,-1.5401439999999822,0.0,0.0
+6207124,307,frozen_ET,block_b64_g40,Na->Li,"[141, 147]",2,1,,joint_path_mean_only,False,False,-0.0763039999999906,0.0,0.0
+6207124,307,frozen_ET,block_b64_g40,Sb->As,"[135, 83]",2,1,,joint_path_mean_only,False,False,0.5317000000000127,0.0,0.0
+6207124,307,frozen_ET,block_b64_g40,Sb->Bi,"[155, 75]",2,1,,joint_path_mean_only,False,False,0.41622600000001597,0.0,0.0
+6207124,307,frozen_ET,block_b64_g40,Sb->Ge,[167],1,0,,joint_path_mean_only,False,False,-0.0564319999999876,0.0,0.0
+6207124,307,frozen_ET,block_b64_g40,Sb->Pb,[161],1,0,,joint_path_mean_only,False,False,0.7509400000000372,0.0,0.0
+6207124,307,frozen_ET,block_b64_g40,Sb->Po,[91],1,0,,joint_path_mean_only,False,False,-1.6150879999999845,0.0,0.0
+6207124,307,frozen_ET,block_b64_g40,Sb->Se,[131],1,0,,joint_path_mean_only,False,False,-1.5386039999999843,0.0,0.0
+6207124,307,frozen_ET,block_b64_g40,Sb->Sn,[137],1,0,,joint_path_mean_only,False,False,-0.4230759999999876,0.0,0.0
+6207124,307,frozen_ET,block_b64_g40,Sb->Te,[163],1,0,,joint_path_mean_only,False,False,-1.6366479999999837,0.0,0.0
+6207124,307,frozen_ET,block_b64_g40,geometry_only,"[130, 144, 132, 138, 156, 150, 160, 128, 140, 172, 164, 134, 162, 158, 68, 166, 146, 174, 152, 142, 154, 168, 86, 170, 76, 148, 136, 74, 70, 88, 66, 40, 42, 84, 90, 0, 78, 72, 94, 80]",40,2,1.310475163584397,affine,True,True,0.0,0.06599199402132062,0.22899905928043648
+6207124,307,XGBoost,block_b64_g40,Cs->Ba,"[153, 173]",2,1,,joint_path_mean_only,False,False,-1.0905203819274902,0.0,0.0
+6207124,307,XGBoost,block_b64_g40,Cs->Ra,"[149, 33]",2,1,,joint_path_mean_only,False,False,-1.1829198598861694,0.0,0.0
+6207124,307,XGBoost,block_b64_g40,Cs->Rb,"[175, 95]",2,1,,joint_path_mean_only,False,False,0.034366607666015625,0.0,0.0
+6207124,307,XGBoost,block_b64_g40,Cs->Sr,"[65, 171]",2,1,,joint_path_mean_only,False,False,-1.1420074701309204,0.0,0.0
+6207124,307,XGBoost,block_b64_g40,F->O,"[139, 73]",2,1,,joint_path_mean_only,False,False,-1.1389132738113403,0.0,0.0
+6207124,307,XGBoost,block_b64_g40,Na->Ca,"[145, 71]",2,1,,joint_path_mean_only,False,False,-1.0041221380233765,0.0,0.0
+6207124,307,XGBoost,block_b64_g40,Na->Li,"[141, 147]",2,1,,joint_path_mean_only,False,False,-0.1294851303100586,0.0,0.0
+6207124,307,XGBoost,block_b64_g40,Sb->As,"[135, 83]",2,1,,joint_path_mean_only,False,False,0.07107043266296387,0.0,0.0
+6207124,307,XGBoost,block_b64_g40,Sb->Bi,"[155, 75]",2,1,,joint_path_mean_only,False,False,-0.16019439697265625,0.0,0.0
+6207124,307,XGBoost,block_b64_g40,Sb->Ge,[167],1,0,,joint_path_mean_only,False,False,0.037404537200927734,0.0,0.0
+6207124,307,XGBoost,block_b64_g40,Sb->Pb,[161],1,0,,joint_path_mean_only,False,False,0.3999757766723633,0.0,0.0
+6207124,307,XGBoost,block_b64_g40,Sb->Po,[91],1,0,,joint_path_mean_only,False,False,-0.8125882148742676,0.0,0.0
+6207124,307,XGBoost,block_b64_g40,Sb->Se,[131],1,0,,joint_path_mean_only,False,False,-1.1551129817962646,0.0,0.0
+6207124,307,XGBoost,block_b64_g40,Sb->Sn,[137],1,0,,joint_path_mean_only,False,False,-0.0888671875,0.0,0.0
+6207124,307,XGBoost,block_b64_g40,Sb->Te,[163],1,0,,joint_path_mean_only,False,False,-0.8746953010559082,0.0,0.0
+6207124,307,XGBoost,block_b64_g40,geometry_only,"[130, 144, 132, 138, 156, 150, 160, 128, 140, 172, 164, 134, 162, 158, 68, 166, 146, 174, 152, 142, 154, 168, 86, 170, 76, 148, 136, 74, 70, 88, 66, 40, 42, 84, 90, 0, 78, 72, 94, 80]",40,2,1.310475163584397,affine,True,True,0.0,0.5182505796553083,-0.3486313791687587
+6207124,419,frozen_ET,block_b64_g40,Cs->Ba,"[135, 11]",2,1,,joint_path_mean_only,False,False,-1.1620879999999838,0.0,0.0
+6207124,419,frozen_ET,block_b64_g40,Cs->Ra,"[143, 73]",2,1,,joint_path_mean_only,False,False,-1.6541539999999817,0.0,0.0
+6207124,419,frozen_ET,block_b64_g40,Cs->Rb,"[173, 175]",2,1,,joint_path_mean_only,False,False,0.18788800000000538,0.0,0.0
+6207124,419,frozen_ET,block_b64_g40,Cs->Sr,"[145, 167]",2,1,,joint_path_mean_only,False,False,-1.4641939999999845,0.0,0.0
+6207124,419,frozen_ET,block_b64_g40,F->O,[15],1,0,,joint_path_mean_only,False,False,-1.6343159999999837,0.0,0.0
+6207124,419,frozen_ET,block_b64_g40,Na->Ca,"[131, 27]",2,1,,joint_path_mean_only,False,False,-1.537621999999982,0.0,0.0
+6207124,419,frozen_ET,block_b64_g40,Na->Li,"[157, 155]",2,1,,joint_path_mean_only,False,False,-0.07227199999999012,0.0,0.0
+6207124,419,frozen_ET,block_b64_g40,Sb->As,"[97, 101]",2,1,,joint_path_mean_only,False,False,0.5271060000000163,0.0,0.0
+6207124,419,frozen_ET,block_b64_g40,Sb->Bi,"[129, 21]",2,1,,joint_path_mean_only,False,False,0.40273800000001625,0.0,0.0
+6207124,419,frozen_ET,block_b64_g40,Sb->Ge,"[163, 85]",2,1,,joint_path_mean_only,False,False,-0.1534879999999872,0.0,0.0
+6207124,419,frozen_ET,block_b64_g40,Sb->Pb,[137],1,0,,joint_path_mean_only,False,False,0.36172000000002225,0.0,0.0
+6207124,419,frozen_ET,block_b64_g40,Sb->Po,[159],1,0,,joint_path_mean_only,False,False,-1.6497399999999836,0.0,0.0
+6207124,419,frozen_ET,block_b64_g40,Sb->Se,[171],1,0,,joint_path_mean_only,False,False,-1.5567639999999843,0.0,0.0
+6207124,419,frozen_ET,block_b64_g40,Sb->Sn,[71],1,0,,joint_path_mean_only,False,False,-0.26089599999999136,0.0,0.0
+6207124,419,frozen_ET,block_b64_g40,Sb->Te,[93],1,0,,joint_path_mean_only,False,False,-1.6337599999999837,0.0,0.0
+6207124,419,frozen_ET,block_b64_g40,geometry_only,"[132, 142, 130, 128, 146, 164, 168, 158, 154, 140, 160, 156, 170, 134, 162, 152, 84, 174, 138, 144, 148, 110, 136, 72, 172, 100, 44, 166, 68, 150, 76, 90, 64, 78, 82, 4, 102, 98, 18, 80]",40,2,1.02843525592619,affine,True,True,0.0,0.04952701036970276,0.20721254326102198
+6207124,419,XGBoost,block_b64_g40,Cs->Ba,"[135, 11]",2,1,,joint_path_mean_only,False,False,-1.055134892463684,0.0,0.0
+6207124,419,XGBoost,block_b64_g40,Cs->Ra,"[143, 73]",2,1,,joint_path_mean_only,False,False,-1.2086890935897827,0.0,0.0
+6207124,419,XGBoost,block_b64_g40,Cs->Rb,"[173, 175]",2,1,,joint_path_mean_only,False,False,0.007067680358886719,0.0,0.0
+6207124,419,XGBoost,block_b64_g40,Cs->Sr,"[145, 167]",2,1,,joint_path_mean_only,False,False,-1.1917685270309448,0.0,0.0
+6207124,419,XGBoost,block_b64_g40,F->O,[15],1,0,,joint_path_mean_only,False,False,-1.1107392311096191,0.0,0.0
+6207124,419,XGBoost,block_b64_g40,Na->Ca,"[131, 27]",2,1,,joint_path_mean_only,False,False,-1.0408971309661865,0.0,0.0
+6207124,419,XGBoost,block_b64_g40,Na->Li,"[157, 155]",2,1,,joint_path_mean_only,False,False,-0.15850520133972168,0.0,0.0
+6207124,419,XGBoost,block_b64_g40,Sb->As,"[97, 101]",2,1,,joint_path_mean_only,False,False,0.09027814865112305,0.0,0.0
+6207124,419,XGBoost,block_b64_g40,Sb->Bi,"[129, 21]",2,1,,joint_path_mean_only,False,False,-0.21697258949279785,0.0,0.0
+6207124,419,XGBoost,block_b64_g40,Sb->Ge,"[163, 85]",2,1,,joint_path_mean_only,False,False,-0.02467179298400879,0.0,0.0
+6207124,419,XGBoost,block_b64_g40,Sb->Pb,[137],1,0,,joint_path_mean_only,False,False,0.27501487731933594,0.0,0.0
+6207124,419,XGBoost,block_b64_g40,Sb->Po,[159],1,0,,joint_path_mean_only,False,False,-0.7765114307403564,0.0,0.0
+6207124,419,XGBoost,block_b64_g40,Sb->Se,[171],1,0,,joint_path_mean_only,False,False,-1.1736609935760498,0.0,0.0
+6207124,419,XGBoost,block_b64_g40,Sb->Sn,[71],1,0,,joint_path_mean_only,False,False,-0.05285501480102539,0.0,0.0
+6207124,419,XGBoost,block_b64_g40,Sb->Te,[93],1,0,,joint_path_mean_only,False,False,-0.7881343364715576,0.0,0.0
+6207124,419,XGBoost,block_b64_g40,geometry_only,"[132, 142, 130, 128, 146, 164, 168, 158, 154, 140, 160, 156, 170, 134, 162, 152, 84, 174, 138, 144, 148, 110, 136, 72, 172, 100, 44, 166, 68, 150, 76, 90, 64, 78, 82, 4, 102, 98, 18, 80]",40,2,1.02843525592619,affine,True,True,0.0,0.4736361794814431,-0.37186547110029744
+5447341,307,frozen_ET,block_b64_g40,Co->Fe,"[175, 65, 9]",3,2,8.203036995163309,affine,True,False,0.5068782780094696,-0.34526300040449204,0.07562801174307796
+5447341,307,frozen_ET,block_b64_g40,Co->Ni,"[153, 173, 35]",3,2,9.791545004069318,affine,True,False,-0.10603146039392011,-0.38075631668220933,-0.835658653806839
+5447341,307,frozen_ET,block_b64_g40,Co->Rh,"[139, 141, 87]",3,2,12.349775527746203,affine,True,False,1.12846938597577,-1.0133017457821238,-0.2914140783643528
+5447341,307,frozen_ET,block_b64_g40,Co->Ru,"[149, 133, 21]",3,2,5.579010237080105,affine,True,False,0.9511101843413174,-1.20937572575948,0.20639414764257172
+5447341,307,frozen_ET,block_b64_g40,F->O,"[145, 71]",2,1,,joint_path_mean_only,False,False,0.4830839999999962,0.0,0.0
+5447341,307,frozen_ET,block_b64_g40,K->Ca,"[135, 83]",2,1,,joint_path_mean_only,False,False,1.2580459999999996,0.0,0.0
+5447341,307,frozen_ET,block_b64_g40,K->Rb,"[137, 131]",2,1,,joint_path_mean_only,False,False,0.11962799999999874,0.0,0.0
+5447341,307,frozen_ET,block_b64_g40,K->Sr,"[163, 99]",2,1,,joint_path_mean_only,False,False,1.3724140000000002,0.0,0.0
+5447341,307,frozen_ET,block_b64_g40,Na->Ca,"[91, 93]",2,1,,joint_path_mean_only,False,False,1.7931879999999991,0.0,0.0
+5447341,307,frozen_ET,block_b64_g40,Na->Li,"[161, 155]",2,1,,joint_path_mean_only,False,False,0.22482000000000313,0.0,0.0
+5447341,307,frozen_ET,block_b64_g40,geometry_only,"[130, 132, 156, 164, 144, 138, 128, 160, 150, 158, 140, 162, 134, 174, 68, 148, 166, 142, 172, 136, 86, 152, 146, 154, 168, 76, 74, 70, 66, 170, 88, 84, 40, 90, 78, 82, 42, 94, 0, 102]",40,2,1.2425492841097536,affine,True,True,0.0,0.03846571171443923,-4.93349871696442
+5447341,307,XGBoost,block_b64_g40,Co->Fe,"[175, 65, 9]",3,2,8.203036995163309,affine,True,False,-0.2187960958708156,-1.0290167091648956,-0.7788502878322698
+5447341,307,XGBoost,block_b64_g40,Co->Ni,"[153, 173, 35]",3,2,9.791545004069318,affine,True,False,-0.3659116877306103,-1.1291496887789305,-0.2435330070086402
+5447341,307,XGBoost,block_b64_g40,Co->Rh,"[139, 141, 87]",3,2,12.349775527746203,affine,True,False,-0.08541580878389927,-1.722811473875871,-0.4225898882040149
+5447341,307,XGBoost,block_b64_g40,Co->Ru,"[149, 133, 21]",3,2,5.579010237080105,affine,True,False,-0.02293707406871578,-2.042169341603723,0.3160586544529939
+5447341,307,XGBoost,block_b64_g40,F->O,"[145, 71]",2,1,,joint_path_mean_only,False,False,0.2596213221549988,0.0,0.0
+5447341,307,XGBoost,block_b64_g40,K->Ca,"[135, 83]",2,1,,joint_path_mean_only,False,False,0.2743806838989258,0.0,0.0
+5447341,307,XGBoost,block_b64_g40,K->Rb,"[137, 131]",2,1,,joint_path_mean_only,False,False,0.17101198434829712,0.0,0.0
+5447341,307,XGBoost,block_b64_g40,K->Sr,"[163, 99]",2,1,,joint_path_mean_only,False,False,0.2667858600616455,0.0,0.0
+5447341,307,XGBoost,block_b64_g40,Na->Ca,"[91, 93]",2,1,,joint_path_mean_only,False,False,-0.2448558211326599,0.0,0.0
+5447341,307,XGBoost,block_b64_g40,Na->Li,"[161, 155]",2,1,,joint_path_mean_only,False,False,0.09368878602981567,0.0,0.0
+5447341,307,XGBoost,block_b64_g40,geometry_only,"[130, 132, 156, 164, 144, 138, 128, 160, 150, 158, 140, 162, 134, 174, 68, 148, 166, 142, 172, 136, 86, 152, 146, 154, 168, 76, 74, 70, 66, 170, 88, 84, 40, 90, 78, 82, 42, 94, 0, 102]",40,2,1.2425492841097536,affine,True,True,0.0,-1.6692066237021126,-2.302892317112742
+5447341,419,frozen_ET,block_b64_g40,Co->Fe,"[173, 167, 39]",3,2,9.260414806617831,affine,True,False,0.5105332730407623,-0.27728172532716755,0.13976500791857327
+5447341,419,frozen_ET,block_b64_g40,Co->Ni,"[135, 11, 141]",3,2,9.640729924763464,affine,True,False,-0.14528787916678523,0.2173003756345012,-0.036135217580317694
+5447341,419,frozen_ET,block_b64_g40,Co->Rh,"[157, 155, 33]",3,2,8.918464354959493,affine,True,False,1.1437065288396417,-1.2128642034454526,-0.430040939715915
+5447341,419,frozen_ET,block_b64_g40,Co->Ru,"[143, 73, 147]",3,2,13.708464932150656,affine,True,False,0.927575964303904,-1.4532420812672378,0.16438939959180554
+5447341,419,frozen_ET,block_b64_g40,F->O,"[131, 27]",2,1,,joint_path_mean_only,False,False,0.5110139999999956,0.0,0.0
+5447341,419,frozen_ET,block_b64_g40,K->Ca,"[163, 97]",2,1,,joint_path_mean_only,False,False,1.273755999999999,0.0,0.0
+5447341,419,frozen_ET,block_b64_g40,K->Rb,"[171, 69]",2,1,,joint_path_mean_only,False,False,0.12764799999999832,0.0,0.0
+5447341,419,frozen_ET,block_b64_g40,K->Sr,"[93, 79]",2,1,,joint_path_mean_only,False,False,1.3696620000000002,0.0,0.0
+5447341,419,frozen_ET,block_b64_g40,Na->Ca,"[129, 159]",2,1,,joint_path_mean_only,False,False,1.7332199999999978,0.0,0.0
+5447341,419,frozen_ET,block_b64_g40,Na->Li,"[137, 37]",2,1,,joint_path_mean_only,False,False,0.16462600000000305,0.0,0.0
+5447341,419,frozen_ET,block_b64_g40,geometry_only,"[132, 130, 146, 128, 142, 168, 164, 154, 160, 162, 140, 158, 156, 152, 170, 148, 84, 136, 174, 144, 134, 138, 72, 150, 100, 166, 44, 172, 110, 76, 68, 64, 82, 4, 90, 78, 18, 104, 80, 98]",40,2,1.2427940415676493,affine,True,True,0.0,0.0762812128372149,-4.743339355103612
+5447341,419,XGBoost,block_b64_g40,Co->Fe,"[173, 167, 39]",3,2,9.260414806617831,affine,True,False,-0.16690592339605909,-0.7140086248331858,-0.13525385545308954
+5447341,419,XGBoost,block_b64_g40,Co->Ni,"[135, 11, 141]",3,2,9.640729924763464,affine,True,False,-0.4075579507542769,-0.679505110345316,-0.4275782337284699
+5447341,419,XGBoost,block_b64_g40,Co->Rh,"[157, 155, 33]",3,2,8.918464354959493,affine,True,False,0.013555212659853925,-1.358892103482503,1.7089388364908749
+5447341,419,XGBoost,block_b64_g40,Co->Ru,"[143, 73, 147]",3,2,13.708464932150656,affine,True,False,-0.0563484477404243,-1.103932038537449,-0.9965922245511648
+5447341,419,XGBoost,block_b64_g40,F->O,"[131, 27]",2,1,,joint_path_mean_only,False,False,0.2555314898490906,0.0,0.0
+5447341,419,XGBoost,block_b64_g40,K->Ca,"[163, 97]",2,1,,joint_path_mean_only,False,False,0.31087684631347656,0.0,0.0
+5447341,419,XGBoost,block_b64_g40,K->Rb,"[171, 69]",2,1,,joint_path_mean_only,False,False,0.14818882942199707,0.0,0.0
+5447341,419,XGBoost,block_b64_g40,K->Sr,"[93, 79]",2,1,,joint_path_mean_only,False,False,0.24847406148910522,0.0,0.0
+5447341,419,XGBoost,block_b64_g40,Na->Ca,"[129, 159]",2,1,,joint_path_mean_only,False,False,-0.3163905739784241,0.0,0.0
+5447341,419,XGBoost,block_b64_g40,Na->Li,"[137, 37]",2,1,,joint_path_mean_only,False,False,0.11535036563873291,0.0,0.0
+5447341,419,XGBoost,block_b64_g40,geometry_only,"[132, 130, 146, 128, 142, 168, 164, 154, 160, 162, 140, 158, 156, 152, 170, 148, 84, 136, 174, 144, 134, 138, 72, 150, 100, 166, 44, 172, 110, 76, 68, 64, 82, 4, 90, 78, 18, 104, 80, 98]",40,2,1.2427940415676493,affine,True,True,0.0,-1.4086497320234734,-2.401234326708533
+8991741,307,frozen_ET,block_b64_g40,Li->Be,"[145, 89]",2,1,,joint_path_mean_only,False,False,-0.5964520000000046,0.0,0.0
+8991741,307,frozen_ET,block_b64_g40,Li->Na,[147],1,0,,joint_path_mean_only,False,False,0.2718279999999935,0.0,0.0
+8991741,307,frozen_ET,block_b64_g40,O->F,[23],1,0,,joint_path_mean_only,False,False,0.3312039999999956,0.0,0.0
+8991741,307,frozen_ET,block_b64_g40,Sb->As,"[83, 103]",2,1,,joint_path_mean_only,False,False,0.6337999999999959,0.0,0.0
+8991741,307,frozen_ET,block_b64_g40,Sb->Bi,"[101, 31]",2,1,,joint_path_mean_only,False,False,0.3932299999999942,0.0,0.0
+8991741,307,frozen_ET,block_b64_g40,Sb->Ge,"[161, 153]",2,1,,joint_path_mean_only,False,False,0.7820539999999934,0.0,0.0
+8991741,307,frozen_ET,block_b64_g40,Sb->Pb,"[143, 69]",2,1,,joint_path_mean_only,False,False,-0.19474400000000647,0.0,0.0
+8991741,307,frozen_ET,block_b64_g40,Sb->Po,"[5, 171]",2,1,,joint_path_mean_only,False,False,-0.6577000000000051,0.0,0.0
+8991741,307,frozen_ET,block_b64_g40,Sb->Se,"[107, 25]",2,1,,joint_path_mean_only,False,False,-0.3713080000000051,0.0,0.0
+8991741,307,frozen_ET,block_b64_g40,Sb->Sn,[167],1,0,,joint_path_mean_only,False,False,-0.2087720000000033,0.0,0.0
+8991741,307,frozen_ET,block_b64_g40,Sb->Te,[105],1,0,,joint_path_mean_only,False,False,-0.6898800000000027,0.0,0.0
+8991741,307,frozen_ET,block_b64_g40,Tm->Ac,[169],1,0,,joint_path_mean_only,False,False,0.3451040000000014,0.0,0.0
+8991741,307,frozen_ET,block_b64_g40,Tm->Ce,[157],1,0,,joint_path_mean_only,False,False,0.721179999999999,0.0,0.0
+8991741,307,frozen_ET,block_b64_g40,Tm->Dy,[173],1,0,,joint_path_mean_only,False,False,0.5303640000000027,0.0,0.0
+8991741,307,frozen_ET,block_b64_g40,Tm->La,[159],1,0,,joint_path_mean_only,False,False,0.6765880000000082,0.0,0.0
+8991741,307,frozen_ET,block_b64_g40,Tm->Nd,[149],1,0,,joint_path_mean_only,False,False,0.625723999999996,0.0,0.0
+8991741,307,frozen_ET,block_b64_g40,Tm->Pr,[95],1,0,,joint_path_mean_only,False,False,0.6270560000000045,0.0,0.0
+8991741,307,frozen_ET,block_b64_g40,geometry_only,"[142, 132, 86, 136, 72, 152, 170, 162, 78, 172, 104, 80, 88, 100, 164, 138, 96, 146, 90, 140, 134, 12, 160, 156, 74, 130, 166, 128, 110, 22, 108, 158, 26, 150, 36, 6, 4, 34, 16, 76]",40,2,1.8329435274483867,affine,True,True,0.0,0.15124293853339804,0.2955311942090615
+8991741,307,XGBoost,block_b64_g40,Li->Be,"[145, 89]",2,1,,joint_path_mean_only,False,False,-0.5781221389770508,0.0,0.0
+8991741,307,XGBoost,block_b64_g40,Li->Na,[147],1,0,,joint_path_mean_only,False,False,0.34491705894470215,0.0,0.0
+8991741,307,XGBoost,block_b64_g40,O->F,[23],1,0,,joint_path_mean_only,False,False,0.6163482666015625,0.0,0.0
+8991741,307,XGBoost,block_b64_g40,Sb->As,"[83, 103]",2,1,,joint_path_mean_only,False,False,-0.05176377296447754,0.0,0.0
+8991741,307,XGBoost,block_b64_g40,Sb->Bi,"[101, 31]",2,1,,joint_path_mean_only,False,False,0.08909189701080322,0.0,0.0
+8991741,307,XGBoost,block_b64_g40,Sb->Ge,"[161, 153]",2,1,,joint_path_mean_only,False,False,0.11658954620361328,0.0,0.0
+8991741,307,XGBoost,block_b64_g40,Sb->Pb,"[143, 69]",2,1,,joint_path_mean_only,False,False,0.050302743911743164,0.0,0.0
+8991741,307,XGBoost,block_b64_g40,Sb->Po,"[5, 171]",2,1,,joint_path_mean_only,False,False,0.038475871086120605,0.0,0.0
+8991741,307,XGBoost,block_b64_g40,Sb->Se,"[107, 25]",2,1,,joint_path_mean_only,False,False,0.12774205207824707,0.0,0.0
+8991741,307,XGBoost,block_b64_g40,Sb->Sn,[167],1,0,,joint_path_mean_only,False,False,-0.04629039764404297,0.0,0.0
+8991741,307,XGBoost,block_b64_g40,Sb->Te,[105],1,0,,joint_path_mean_only,False,False,-0.22393345832824707,0.0,0.0
+8991741,307,XGBoost,block_b64_g40,Tm->Ac,[169],1,0,,joint_path_mean_only,False,False,0.4840121269226074,0.0,0.0
+8991741,307,XGBoost,block_b64_g40,Tm->Ce,[157],1,0,,joint_path_mean_only,False,False,0.5096435546875,0.0,0.0
+8991741,307,XGBoost,block_b64_g40,Tm->Dy,[173],1,0,,joint_path_mean_only,False,False,0.36908483505249023,0.0,0.0
+8991741,307,XGBoost,block_b64_g40,Tm->La,[159],1,0,,joint_path_mean_only,False,False,0.4689359664916992,0.0,0.0
+8991741,307,XGBoost,block_b64_g40,Tm->Nd,[149],1,0,,joint_path_mean_only,False,False,0.5722208023071289,0.0,0.0
+8991741,307,XGBoost,block_b64_g40,Tm->Pr,[95],1,0,,joint_path_mean_only,False,False,0.7472586631774902,0.0,0.0
+8991741,307,XGBoost,block_b64_g40,geometry_only,"[142, 132, 86, 136, 72, 152, 170, 162, 78, 172, 104, 80, 88, 100, 164, 138, 96, 146, 90, 140, 134, 12, 160, 156, 74, 130, 166, 128, 110, 22, 108, 158, 26, 150, 36, 6, 4, 34, 16, 76]",40,2,1.8329435274483867,affine,True,True,0.0,-0.6363754581361671,2.3628763956471066
+8991741,419,frozen_ET,block_b64_g40,Li->Be,"[161, 153]",2,1,,joint_path_mean_only,False,False,-0.6260000000000046,0.0,0.0
+8991741,419,frozen_ET,block_b64_g40,Li->Na,"[145, 111]",2,1,,joint_path_mean_only,False,False,0.3119919999999954,0.0,0.0
+8991741,419,frozen_ET,block_b64_g40,O->F,"[163, 39]",2,1,,joint_path_mean_only,False,False,0.3362399999999941,0.0,0.0
+8991741,419,frozen_ET,block_b64_g40,Sb->As,"[167, 13]",2,1,,joint_path_mean_only,False,False,0.6519279999999958,0.0,0.0
+8991741,419,frozen_ET,block_b64_g40,Sb->Bi,"[109, 155]",2,1,,joint_path_mean_only,False,False,0.3999839999999937,0.0,0.0
+8991741,419,frozen_ET,block_b64_g40,Sb->Ge,"[169, 9]",2,1,,joint_path_mean_only,False,False,0.6734519999999939,0.0,0.0
+8991741,419,frozen_ET,block_b64_g40,Sb->Pb,"[101, 91]",2,1,,joint_path_mean_only,False,False,-0.19582600000000627,0.0,0.0
+8991741,419,frozen_ET,block_b64_g40,Sb->Po,[99],1,0,,joint_path_mean_only,False,False,-0.619228000000005,0.0,0.0
+8991741,419,frozen_ET,block_b64_g40,Sb->Se,[129],1,0,,joint_path_mean_only,False,False,-0.35224800000000567,0.0,0.0
+8991741,419,frozen_ET,block_b64_g40,Sb->Sn,[151],1,0,,joint_path_mean_only,False,False,-0.24978799999999968,0.0,0.0
+8991741,419,frozen_ET,block_b64_g40,Sb->Te,[103],1,0,,joint_path_mean_only,False,False,-0.6623600000000027,0.0,0.0
+8991741,419,frozen_ET,block_b64_g40,Tm->Ac,[133],1,0,,joint_path_mean_only,False,False,0.45389600000000074,0.0,0.0
+8991741,419,frozen_ET,block_b64_g40,Tm->Ce,[25],1,0,,joint_path_mean_only,False,False,0.6653280000000064,0.0,0.0
+8991741,419,frozen_ET,block_b64_g40,Tm->Dy,[81],1,0,,joint_path_mean_only,False,False,0.6178160000000035,0.0,0.0
+8991741,419,frozen_ET,block_b64_g40,Tm->La,[139],1,0,,joint_path_mean_only,False,False,0.5774760000000057,0.0,0.0
+8991741,419,frozen_ET,block_b64_g40,Tm->Nd,[137],1,0,,joint_path_mean_only,False,False,0.602624,0.0,0.0
+8991741,419,frozen_ET,block_b64_g40,Tm->Pr,[171],1,0,,joint_path_mean_only,False,False,0.5906720000000028,0.0,0.0
+8991741,419,frozen_ET,block_b64_g40,geometry_only,"[174, 158, 172, 148, 128, 160, 110, 98, 164, 130, 88, 92, 106, 146, 132, 134, 30, 168, 22, 156, 138, 144, 162, 142, 136, 86, 104, 66, 102, 68, 154, 108, 70, 170, 140, 94, 90, 74, 72, 18]",40,2,1.454549849273303,affine,True,True,0.0,0.29877693085578066,0.28955129734214596
+8991741,419,XGBoost,block_b64_g40,Li->Be,"[161, 153]",2,1,,joint_path_mean_only,False,False,-0.6891320943832397,0.0,0.0
+8991741,419,XGBoost,block_b64_g40,Li->Na,"[145, 111]",2,1,,joint_path_mean_only,False,False,0.4020296335220337,0.0,0.0
+8991741,419,XGBoost,block_b64_g40,O->F,"[163, 39]",2,1,,joint_path_mean_only,False,False,0.5603539943695068,0.0,0.0
+8991741,419,XGBoost,block_b64_g40,Sb->As,"[167, 13]",2,1,,joint_path_mean_only,False,False,-0.05581462383270264,0.0,0.0
+8991741,419,XGBoost,block_b64_g40,Sb->Bi,"[109, 155]",2,1,,joint_path_mean_only,False,False,0.12325108051300049,0.0,0.0
+8991741,419,XGBoost,block_b64_g40,Sb->Ge,"[169, 9]",2,1,,joint_path_mean_only,False,False,0.004554390907287598,0.0,0.0
+8991741,419,XGBoost,block_b64_g40,Sb->Pb,"[101, 91]",2,1,,joint_path_mean_only,False,False,0.08840429782867432,0.0,0.0
+8991741,419,XGBoost,block_b64_g40,Sb->Po,[99],1,0,,joint_path_mean_only,False,False,0.10097289085388184,0.0,0.0
+8991741,419,XGBoost,block_b64_g40,Sb->Se,[129],1,0,,joint_path_mean_only,False,False,0.20196270942687988,0.0,0.0
+8991741,419,XGBoost,block_b64_g40,Sb->Sn,[151],1,0,,joint_path_mean_only,False,False,0.025774240493774414,0.0,0.0
+8991741,419,XGBoost,block_b64_g40,Sb->Te,[103],1,0,,joint_path_mean_only,False,False,-0.12160778045654297,0.0,0.0
+8991741,419,XGBoost,block_b64_g40,Tm->Ac,[133],1,0,,joint_path_mean_only,False,False,0.6899566650390625,0.0,0.0
+8991741,419,XGBoost,block_b64_g40,Tm->Ce,[25],1,0,,joint_path_mean_only,False,False,0.4219546318054199,0.0,0.0
+8991741,419,XGBoost,block_b64_g40,Tm->Dy,[81],1,0,,joint_path_mean_only,False,False,0.5209250450134277,0.0,0.0
+8991741,419,XGBoost,block_b64_g40,Tm->La,[139],1,0,,joint_path_mean_only,False,False,0.5247631072998047,0.0,0.0
+8991741,419,XGBoost,block_b64_g40,Tm->Nd,[137],1,0,,joint_path_mean_only,False,False,0.556520938873291,0.0,0.0
+8991741,419,XGBoost,block_b64_g40,Tm->Pr,[171],1,0,,joint_path_mean_only,False,False,0.5768213272094727,0.0,0.0
+8991741,419,XGBoost,block_b64_g40,geometry_only,"[174, 158, 172, 148, 128, 160, 110, 98, 164, 130, 88, 92, 106, 146, 132, 134, 30, 168, 22, 156, 138, 144, 162, 142, 136, 86, 104, 66, 102, 68, 154, 108, 70, 170, 140, 94, 90, 74, 72, 18]",40,2,1.454549849273303,affine,True,True,0.0,-0.6447008285685729,2.501116275630913
+5440846,307,frozen_ET,block_b64_g40,Cl->Br,"[153, 173]",2,1,,joint_path_mean_only,False,False,-0.281291999999999,0.0,0.0
+5440846,307,frozen_ET,block_b64_g40,Cl->S,"[175, 95]",2,1,,joint_path_mean_only,False,False,-0.5140940000000008,0.0,0.0
+5440846,307,frozen_ET,block_b64_g40,Cl->Se,"[65, 171]",2,1,,joint_path_mean_only,False,False,-0.7735519999999988,0.0,0.0
+5440846,307,frozen_ET,block_b64_g40,Cs->Ba,"[145, 71]",2,1,,joint_path_mean_only,False,False,1.5948399999999985,0.0,0.0
+5440846,307,frozen_ET,block_b64_g40,Cs->Ra,"[83, 7]",2,1,,joint_path_mean_only,False,False,0.6586820000000029,0.0,0.0
+5440846,307,frozen_ET,block_b64_g40,Cs->Rb,"[139, 73]",2,1,,joint_path_mean_only,False,False,-0.21343399999999946,0.0,0.0
+5440846,307,frozen_ET,block_b64_g40,Cs->Sr,"[141, 147]",2,1,,joint_path_mean_only,False,False,1.6909020000000006,0.0,0.0
+5440846,307,frozen_ET,block_b64_g40,In->Ga,"[135, 131]",2,1,,joint_path_mean_only,False,False,0.9138180000000122,0.0,0.0
+5440846,307,frozen_ET,block_b64_g40,In->Ge,"[137, 85]",2,1,,joint_path_mean_only,False,False,-0.8415879999999966,0.0,0.0
+5440846,307,frozen_ET,block_b64_g40,In->Pb,"[91, 93]",2,1,,joint_path_mean_only,False,False,0.13126399999999916,0.0,0.0
+5440846,307,frozen_ET,block_b64_g40,In->Sn,"[163, 99]",2,1,,joint_path_mean_only,False,False,-0.8469199999999982,0.0,0.0
+5440846,307,frozen_ET,block_b64_g40,In->Tl,"[161, 155]",2,1,,joint_path_mean_only,False,False,1.5836100000000095,0.0,0.0
+5440846,307,frozen_ET,block_b64_g40,geometry_only,"[130, 174, 166, 144, 138, 132, 156, 150, 160, 128, 140, 162, 134, 158, 68, 148, 164, 142, 154, 146, 86, 76, 172, 136, 74, 168, 70, 152, 66, 40, 88, 170, 42, 90, 82, 0, 94, 84, 78, 80]",40,2,1.7770423006000575,affine,True,True,0.0,3.358264584133498,-0.9096322543426331
+5440846,307,XGBoost,block_b64_g40,Cl->Br,"[153, 173]",2,1,,joint_path_mean_only,False,False,-0.7436950206756592,0.0,0.0
+5440846,307,XGBoost,block_b64_g40,Cl->S,"[175, 95]",2,1,,joint_path_mean_only,False,False,-1.2236383557319641,0.0,0.0
+5440846,307,XGBoost,block_b64_g40,Cl->Se,"[65, 171]",2,1,,joint_path_mean_only,False,False,-1.5399802923202515,0.0,0.0
+5440846,307,XGBoost,block_b64_g40,Cs->Ba,"[145, 71]",2,1,,joint_path_mean_only,False,False,0.9000333547592163,0.0,0.0
+5440846,307,XGBoost,block_b64_g40,Cs->Ra,"[83, 7]",2,1,,joint_path_mean_only,False,False,-0.4512345790863037,0.0,0.0
+5440846,307,XGBoost,block_b64_g40,Cs->Rb,"[139, 73]",2,1,,joint_path_mean_only,False,False,-0.11683762073516846,0.0,0.0
+5440846,307,XGBoost,block_b64_g40,Cs->Sr,"[141, 147]",2,1,,joint_path_mean_only,False,False,0.9456979036331177,0.0,0.0
+5440846,307,XGBoost,block_b64_g40,In->Ga,"[135, 131]",2,1,,joint_path_mean_only,False,False,0.26009082794189453,0.0,0.0
+5440846,307,XGBoost,block_b64_g40,In->Ge,"[137, 85]",2,1,,joint_path_mean_only,False,False,-1.5983862280845642,0.0,0.0
+5440846,307,XGBoost,block_b64_g40,In->Pb,"[91, 93]",2,1,,joint_path_mean_only,False,False,-0.6495151519775391,0.0,0.0
+5440846,307,XGBoost,block_b64_g40,In->Sn,"[163, 99]",2,1,,joint_path_mean_only,False,False,-1.5875238180160522,0.0,0.0
+5440846,307,XGBoost,block_b64_g40,In->Tl,"[161, 155]",2,1,,joint_path_mean_only,False,False,0.4683799743652344,0.0,0.0
+5440846,307,XGBoost,block_b64_g40,geometry_only,"[130, 174, 166, 144, 138, 132, 156, 150, 160, 128, 140, 162, 134, 158, 68, 148, 164, 142, 154, 146, 86, 76, 172, 136, 74, 168, 70, 152, 66, 40, 88, 170, 42, 90, 82, 0, 94, 84, 78, 80]",40,2,1.7770423006000575,affine,True,True,0.0,1.4566281777644436,-0.24717131449774157
+5440846,419,frozen_ET,block_b64_g40,Cl->Br,"[143, 151]",2,1,,joint_path_mean_only,False,False,-0.2638519999999992,0.0,0.0
+5440846,419,frozen_ET,block_b64_g40,Cl->S,"[173, 175]",2,1,,joint_path_mean_only,False,False,-0.5034660000000009,0.0,0.0
+5440846,419,frozen_ET,block_b64_g40,Cl->Se,"[135, 167]",2,1,,joint_path_mean_only,False,False,-0.7690379999999986,0.0,0.0
+5440846,419,frozen_ET,block_b64_g40,Cs->Ba,"[131, 27]",2,1,,joint_path_mean_only,False,False,1.5922579999999988,0.0,0.0
+5440846,419,frozen_ET,block_b64_g40,Cs->Ra,"[163, 97]",2,1,,joint_path_mean_only,False,False,0.6619860000000031,0.0,0.0
+5440846,419,frozen_ET,block_b64_g40,Cs->Rb,"[5, 25]",2,1,,joint_path_mean_only,False,False,-0.07597399999999932,0.0,0.0
+5440846,419,frozen_ET,block_b64_g40,Cs->Sr,"[157, 155]",2,1,,joint_path_mean_only,False,False,1.6990120000000002,0.0,0.0
+5440846,419,frozen_ET,block_b64_g40,In->Ga,"[171, 101]",2,1,,joint_path_mean_only,False,False,0.9583180000000113,0.0,0.0
+5440846,419,frozen_ET,block_b64_g40,In->Ge,"[133, 43]",2,1,,joint_path_mean_only,False,False,-0.8658719999999961,0.0,0.0
+5440846,419,frozen_ET,block_b64_g40,In->Pb,"[129, 159]",2,1,,joint_path_mean_only,False,False,0.15392800000000295,0.0,0.0
+5440846,419,frozen_ET,block_b64_g40,In->Sn,"[93, 79]",2,1,,joint_path_mean_only,False,False,-0.8695659999999978,0.0,0.0
+5440846,419,frozen_ET,block_b64_g40,In->Tl,"[137, 45]",2,1,,joint_path_mean_only,False,False,1.5140660000000097,0.0,0.0
+5440846,419,frozen_ET,block_b64_g40,geometry_only,"[132, 142, 162, 128, 164, 130, 146, 140, 168, 170, 160, 154, 156, 84, 174, 150, 158, 44, 138, 134, 172, 100, 110, 144, 148, 72, 166, 152, 136, 76, 68, 18, 64, 78, 82, 4, 90, 98, 96, 106]",40,2,1.4104946698101586,affine,True,True,0.0,3.5043111627669776,-1.2293016669032206
+5440846,419,XGBoost,block_b64_g40,Cl->Br,"[143, 151]",2,1,,joint_path_mean_only,False,False,-0.7427939176559448,0.0,0.0
+5440846,419,XGBoost,block_b64_g40,Cl->S,"[173, 175]",2,1,,joint_path_mean_only,False,False,-1.2421440482139587,0.0,0.0
+5440846,419,XGBoost,block_b64_g40,Cl->Se,"[135, 167]",2,1,,joint_path_mean_only,False,False,-1.529868483543396,0.0,0.0
+5440846,419,XGBoost,block_b64_g40,Cs->Ba,"[131, 27]",2,1,,joint_path_mean_only,False,False,0.9126061201095581,0.0,0.0
+5440846,419,XGBoost,block_b64_g40,Cs->Ra,"[163, 97]",2,1,,joint_path_mean_only,False,False,-0.45592665672302246,0.0,0.0
+5440846,419,XGBoost,block_b64_g40,Cs->Rb,"[5, 25]",2,1,,joint_path_mean_only,False,False,-0.029042601585388184,0.0,0.0
+5440846,419,XGBoost,block_b64_g40,Cs->Sr,"[157, 155]",2,1,,joint_path_mean_only,False,False,0.9495536088943481,0.0,0.0
+5440846,419,XGBoost,block_b64_g40,In->Ga,"[171, 101]",2,1,,joint_path_mean_only,False,False,0.29906702041625977,0.0,0.0
+5440846,419,XGBoost,block_b64_g40,In->Ge,"[133, 43]",2,1,,joint_path_mean_only,False,False,-1.5788992643356323,0.0,0.0
+5440846,419,XGBoost,block_b64_g40,In->Pb,"[129, 159]",2,1,,joint_path_mean_only,False,False,-0.6243982315063477,0.0,0.0
+5440846,419,XGBoost,block_b64_g40,In->Sn,"[93, 79]",2,1,,joint_path_mean_only,False,False,-1.594405174255371,0.0,0.0
+5440846,419,XGBoost,block_b64_g40,In->Tl,"[137, 45]",2,1,,joint_path_mean_only,False,False,0.4333510398864746,0.0,0.0
+5440846,419,XGBoost,block_b64_g40,geometry_only,"[132, 142, 162, 128, 164, 130, 146, 140, 168, 170, 160, 154, 156, 84, 174, 150, 158, 44, 138, 134, 172, 100, 110, 144, 148, 72, 166, 152, 136, 76, 68, 18, 64, 78, 82, 4, 90, 98, 96, 106]",40,2,1.4104946698101586,affine,True,True,0.0,1.4866880749838634,-0.3875461169508872
+8306743,307,frozen_ET,block_b64_g40,Cl->Br,"[143, 17]",2,1,,joint_path_mean_only,False,False,-0.3516560000000126,0.0,0.0
+8306743,307,frozen_ET,block_b64_g40,Cl->S,"[175, 11]",2,1,,joint_path_mean_only,False,False,-2.0750300000000146,0.0,0.0
+8306743,307,frozen_ET,block_b64_g40,Cl->Se,"[65, 171]",2,1,,joint_path_mean_only,False,False,-2.506556000000014,0.0,0.0
+8306743,307,frozen_ET,block_b64_g40,Pr->Ac,"[167, 169]",2,1,,joint_path_mean_only,False,False,-0.03922200000000742,0.0,0.0
+8306743,307,frozen_ET,block_b64_g40,Pr->Ce,"[149, 133]",2,1,,joint_path_mean_only,False,False,0.3226319999999947,0.0,0.0
+8306743,307,frozen_ET,block_b64_g40,Pr->Dy,"[141, 147]",2,1,,joint_path_mean_only,False,False,0.4518439999999986,0.0,0.0
+8306743,307,frozen_ET,block_b64_g40,Pr->La,"[153, 173]",2,1,,joint_path_mean_only,False,False,0.33371399999999785,0.0,0.0
+8306743,307,frozen_ET,block_b64_g40,Pr->Nd,[73],1,0,,joint_path_mean_only,False,False,0.2944319999999889,0.0,0.0
+8306743,307,frozen_ET,block_b64_g40,Pr->Tm,[145],1,0,,joint_path_mean_only,False,False,0.36363599999998275,0.0,0.0
+8306743,307,frozen_ET,block_b64_g40,Rb->Ba,[165],1,0,,joint_path_mean_only,False,False,-0.9997880000000112,0.0,0.0
+8306743,307,frozen_ET,block_b64_g40,Rb->Ca,[69],1,0,,joint_path_mean_only,False,False,-0.4823880000000069,0.0,0.0
+8306743,307,frozen_ET,block_b64_g40,Rb->Cs,[163],1,0,,joint_path_mean_only,False,False,0.44935599999998743,0.0,0.0
+8306743,307,frozen_ET,block_b64_g40,Rb->K,[135],1,0,,joint_path_mean_only,False,False,0.022591999999987067,0.0,0.0
+8306743,307,frozen_ET,block_b64_g40,Rb->Sr,[137],1,0,,joint_path_mean_only,False,False,-0.8653440000000105,0.0,0.0
+8306743,307,frozen_ET,block_b64_g40,Tl->In,[161],1,0,,joint_path_mean_only,False,False,-0.2091000000000096,0.0,0.0
+8306743,307,frozen_ET,block_b64_g40,Tl->Pb,[91],1,0,,joint_path_mean_only,False,False,0.10591199999998713,0.0,0.0
+8306743,307,frozen_ET,block_b64_g40,Tl->Sn,[13],1,0,,joint_path_mean_only,False,False,-0.1364160000000112,0.0,0.0
+8306743,307,frozen_ET,block_b64_g40,geometry_only,"[130, 132, 144, 164, 156, 138, 160, 128, 150, 140, 158, 162, 134, 142, 174, 68, 166, 148, 154, 146, 172, 86, 136, 76, 152, 168, 74, 170, 70, 66, 88, 90, 40, 94, 84, 42, 82, 80, 78, 0]",40,2,2.1057300613898384,affine,True,True,0.0,-0.1503037760678152,-4.64588300769833
+8306743,307,XGBoost,block_b64_g40,Cl->Br,"[143, 17]",2,1,,joint_path_mean_only,False,False,-1.0273311138153076,0.0,0.0
+8306743,307,XGBoost,block_b64_g40,Cl->S,"[175, 11]",2,1,,joint_path_mean_only,False,False,-2.1775907278060913,0.0,0.0
+8306743,307,XGBoost,block_b64_g40,Cl->Se,"[65, 171]",2,1,,joint_path_mean_only,False,False,-2.48393177986145,0.0,0.0
+8306743,307,XGBoost,block_b64_g40,Pr->Ac,"[167, 169]",2,1,,joint_path_mean_only,False,False,0.09514141082763672,0.0,0.0
+8306743,307,XGBoost,block_b64_g40,Pr->Ce,"[149, 133]",2,1,,joint_path_mean_only,False,False,0.1667790412902832,0.0,0.0
+8306743,307,XGBoost,block_b64_g40,Pr->Dy,"[141, 147]",2,1,,joint_path_mean_only,False,False,0.1727151870727539,0.0,0.0
+8306743,307,XGBoost,block_b64_g40,Pr->La,"[153, 173]",2,1,,joint_path_mean_only,False,False,0.18089079856872559,0.0,0.0
+8306743,307,XGBoost,block_b64_g40,Pr->Nd,[73],1,0,,joint_path_mean_only,False,False,0.13142061233520508,0.0,0.0
+8306743,307,XGBoost,block_b64_g40,Pr->Tm,[145],1,0,,joint_path_mean_only,False,False,0.10203313827514648,0.0,0.0
+8306743,307,XGBoost,block_b64_g40,Rb->Ba,[165],1,0,,joint_path_mean_only,False,False,-1.2029645442962646,0.0,0.0
+8306743,307,XGBoost,block_b64_g40,Rb->Ca,[69],1,0,,joint_path_mean_only,False,False,0.09914398193359375,0.0,0.0
+8306743,307,XGBoost,block_b64_g40,Rb->Cs,[163],1,0,,joint_path_mean_only,False,False,0.1649467945098877,0.0,0.0
+8306743,307,XGBoost,block_b64_g40,Rb->K,[135],1,0,,joint_path_mean_only,False,False,-0.010637283325195312,0.0,0.0
+8306743,307,XGBoost,block_b64_g40,Rb->Sr,[137],1,0,,joint_path_mean_only,False,False,-1.1673803329467773,0.0,0.0
+8306743,307,XGBoost,block_b64_g40,Tl->In,[161],1,0,,joint_path_mean_only,False,False,0.1495068073272705,0.0,0.0
+8306743,307,XGBoost,block_b64_g40,Tl->Pb,[91],1,0,,joint_path_mean_only,False,False,-0.17817330360412598,0.0,0.0
+8306743,307,XGBoost,block_b64_g40,Tl->Sn,[13],1,0,,joint_path_mean_only,False,False,-0.43666982650756836,0.0,0.0
+8306743,307,XGBoost,block_b64_g40,geometry_only,"[130, 132, 144, 164, 156, 138, 160, 128, 150, 140, 158, 162, 134, 142, 174, 68, 166, 148, 154, 146, 172, 86, 136, 76, 152, 168, 74, 170, 70, 66, 88, 90, 40, 94, 84, 42, 82, 80, 78, 0]",40,2,2.1057300613898384,affine,True,True,0.0,0.06889477110632312,-2.963292591081835
+8306743,419,frozen_ET,block_b64_g40,Cl->Br,"[135, 11]",2,1,,joint_path_mean_only,False,False,-0.2672840000000125,0.0,0.0
+8306743,419,frozen_ET,block_b64_g40,Cl->S,"[175, 39]",2,1,,joint_path_mean_only,False,False,-2.0763280000000144,0.0,0.0
+8306743,419,frozen_ET,block_b64_g40,Cl->Se,"[173, 167]",2,1,,joint_path_mean_only,False,False,-2.4951980000000136,0.0,0.0
+8306743,419,frozen_ET,block_b64_g40,Pr->Ac,"[163, 85]",2,1,,joint_path_mean_only,False,False,-0.046158000000006805,0.0,0.0
+8306743,419,frozen_ET,block_b64_g40,Pr->Ce,"[95, 103]",2,1,,joint_path_mean_only,False,False,0.3329459999999953,0.0,0.0
+8306743,419,frozen_ET,block_b64_g40,Pr->Dy,"[157, 155]",2,1,,joint_path_mean_only,False,False,0.4559799999999994,0.0,0.0
+8306743,419,frozen_ET,block_b64_g40,Pr->La,"[143, 151]",2,1,,joint_path_mean_only,False,False,0.33999199999999874,0.0,0.0
+8306743,419,frozen_ET,block_b64_g40,Pr->Nd,[89],1,0,,joint_path_mean_only,False,False,0.28662799999999233,0.0,0.0
+8306743,419,frozen_ET,block_b64_g40,Pr->Tm,[131],1,0,,joint_path_mean_only,False,False,0.34752799999998274,0.0,0.0
+8306743,419,frozen_ET,block_b64_g40,Rb->Ba,[93],1,0,,joint_path_mean_only,False,False,-1.0067680000000112,0.0,0.0
+8306743,419,frozen_ET,block_b64_g40,Rb->Ca,[171],1,0,,joint_path_mean_only,False,False,-0.46133600000000774,0.0,0.0
+8306743,419,frozen_ET,block_b64_g40,Rb->Cs,[43],1,0,,joint_path_mean_only,False,False,0.44698399999999516,0.0,0.0
+8306743,419,frozen_ET,block_b64_g40,Rb->K,[97],1,0,,joint_path_mean_only,False,False,0.023979999999986124,0.0,0.0
+8306743,419,frozen_ET,block_b64_g40,Rb->Sr,[133],1,0,,joint_path_mean_only,False,False,-0.8508760000000102,0.0,0.0
+8306743,419,frozen_ET,block_b64_g40,Tl->In,[137],1,0,,joint_path_mean_only,False,False,-0.18066000000000848,0.0,0.0
+8306743,419,frozen_ET,block_b64_g40,Tl->Pb,[159],1,0,,joint_path_mean_only,False,False,0.08561999999998537,0.0,0.0
+8306743,419,frozen_ET,block_b64_g40,Tl->Sn,[129],1,0,,joint_path_mean_only,False,False,-0.16680000000001138,0.0,0.0
+8306743,419,frozen_ET,block_b64_g40,geometry_only,"[132, 130, 128, 164, 142, 168, 146, 154, 162, 156, 140, 160, 158, 170, 84, 174, 152, 144, 148, 136, 134, 172, 100, 166, 72, 138, 44, 110, 76, 150, 68, 82, 64, 4, 78, 90, 96, 18, 80, 106]",40,2,1.6753731490040882,affine,True,True,0.0,-0.27795967567600965,-4.500877220251018
+8306743,419,XGBoost,block_b64_g40,Cl->Br,"[135, 11]",2,1,,joint_path_mean_only,False,False,-0.9370032548904419,0.0,0.0
+8306743,419,XGBoost,block_b64_g40,Cl->S,"[175, 39]",2,1,,joint_path_mean_only,False,False,-2.172652006149292,0.0,0.0
+8306743,419,XGBoost,block_b64_g40,Cl->Se,"[173, 167]",2,1,,joint_path_mean_only,False,False,-2.4601651430130005,0.0,0.0
+8306743,419,XGBoost,block_b64_g40,Pr->Ac,"[163, 85]",2,1,,joint_path_mean_only,False,False,0.06587958335876465,0.0,0.0
+8306743,419,XGBoost,block_b64_g40,Pr->Ce,"[95, 103]",2,1,,joint_path_mean_only,False,False,0.16466081142425537,0.0,0.0
+8306743,419,XGBoost,block_b64_g40,Pr->Dy,"[157, 155]",2,1,,joint_path_mean_only,False,False,0.19235289096832275,0.0,0.0
+8306743,419,XGBoost,block_b64_g40,Pr->La,"[143, 151]",2,1,,joint_path_mean_only,False,False,0.15761899948120117,0.0,0.0
+8306743,419,XGBoost,block_b64_g40,Pr->Nd,[89],1,0,,joint_path_mean_only,False,False,0.13137292861938477,0.0,0.0
+8306743,419,XGBoost,block_b64_g40,Pr->Tm,[131],1,0,,joint_path_mean_only,False,False,0.17183375358581543,0.0,0.0
+8306743,419,XGBoost,block_b64_g40,Rb->Ba,[93],1,0,,joint_path_mean_only,False,False,-1.182814359664917,0.0,0.0
+8306743,419,XGBoost,block_b64_g40,Rb->Ca,[171],1,0,,joint_path_mean_only,False,False,0.14922618865966797,0.0,0.0
+8306743,419,XGBoost,block_b64_g40,Rb->Cs,[43],1,0,,joint_path_mean_only,False,False,0.24967455863952637,0.0,0.0
+8306743,419,XGBoost,block_b64_g40,Rb->K,[97],1,0,,joint_path_mean_only,False,False,0.012513399124145508,0.0,0.0
+8306743,419,XGBoost,block_b64_g40,Rb->Sr,[133],1,0,,joint_path_mean_only,False,False,-1.1491079330444336,0.0,0.0
+8306743,419,XGBoost,block_b64_g40,Tl->In,[137],1,0,,joint_path_mean_only,False,False,-0.019543886184692383,0.0,0.0
+8306743,419,XGBoost,block_b64_g40,Tl->Pb,[159],1,0,,joint_path_mean_only,False,False,-0.1649637222290039,0.0,0.0
+8306743,419,XGBoost,block_b64_g40,Tl->Sn,[129],1,0,,joint_path_mean_only,False,False,-0.4461936950683594,0.0,0.0
+8306743,419,XGBoost,block_b64_g40,geometry_only,"[132, 130, 128, 164, 142, 168, 146, 154, 162, 156, 140, 160, 158, 170, 84, 174, 152, 144, 148, 136, 134, 172, 100, 166, 72, 138, 44, 110, 76, 150, 68, 82, 64, 4, 78, 90, 96, 18, 80, 106]",40,2,1.6753731490040882,affine,True,True,0.0,0.011392808361045314,-2.906044878520808
+5460329,307,frozen_ET,block_b64_g40,Cl->Br,"[143, 17]",2,1,,joint_path_mean_only,False,False,-0.8372180000000007,0.0,0.0
+5460329,307,frozen_ET,block_b64_g40,Cl->S,"[175, 11]",2,1,,joint_path_mean_only,False,False,-1.1607260000000024,0.0,0.0
+5460329,307,frozen_ET,block_b64_g40,Cl->Se,"[65, 171]",2,1,,joint_path_mean_only,False,False,-1.5958240000000012,0.0,0.0
+5460329,307,frozen_ET,block_b64_g40,Cs->Ba,"[73, 139]",2,1,,joint_path_mean_only,False,False,-0.22208600000000045,0.0,0.0
+5460329,307,frozen_ET,block_b64_g40,Cs->Ra,"[141, 147]",2,1,,joint_path_mean_only,False,False,-0.9172039999999979,0.0,0.0
+5460329,307,frozen_ET,block_b64_g40,Cs->Rb,"[153, 173]",2,1,,joint_path_mean_only,False,False,-0.11984800000000062,0.0,0.0
+5460329,307,frozen_ET,block_b64_g40,Cs->Sr,"[149, 133]",2,1,,joint_path_mean_only,False,False,-0.40030200000000105,0.0,0.0
+5460329,307,frozen_ET,block_b64_g40,Li->Be,[145],1,0,,joint_path_mean_only,False,False,-0.9234879999999985,0.0,0.0
+5460329,307,frozen_ET,block_b64_g40,Li->Na,[167],1,0,,joint_path_mean_only,False,False,0.013376000000000943,0.0,0.0
+5460329,307,frozen_ET,block_b64_g40,Sb->As,[69],1,0,,joint_path_mean_only,False,False,-0.27684000000000086,0.0,0.0
+5460329,307,frozen_ET,block_b64_g40,Sb->Bi,[13],1,0,,joint_path_mean_only,False,False,0.2568679999999972,0.0,0.0
+5460329,307,frozen_ET,block_b64_g40,Sb->Ge,[135],1,0,,joint_path_mean_only,False,False,-1.488235999999994,0.0,0.0
+5460329,307,frozen_ET,block_b64_g40,Sb->Pb,[161],1,0,,joint_path_mean_only,False,False,0.38014000000000436,0.0,0.0
+5460329,307,frozen_ET,block_b64_g40,Sb->Po,[91],1,0,,joint_path_mean_only,False,False,-1.2976119999999967,0.0,0.0
+5460329,307,frozen_ET,block_b64_g40,Sb->Se,[137],1,0,,joint_path_mean_only,False,False,-1.2120119999999959,0.0,0.0
+5460329,307,frozen_ET,block_b64_g40,Sb->Sn,[163],1,0,,joint_path_mean_only,False,False,-0.9809599999999943,0.0,0.0
+5460329,307,frozen_ET,block_b64_g40,Sb->Te,[165],1,0,,joint_path_mean_only,False,False,-1.2134879999999957,0.0,0.0
+5460329,307,frozen_ET,block_b64_g40,geometry_only,"[130, 132, 144, 164, 156, 138, 160, 128, 150, 140, 158, 162, 134, 142, 174, 68, 166, 148, 154, 146, 172, 86, 136, 76, 152, 168, 74, 170, 70, 66, 88, 90, 40, 94, 84, 42, 82, 80, 78, 0]",40,2,1.7685793975841702,affine,True,True,0.0,1.2175018192501823,2.6679449582917347
+5460329,307,XGBoost,block_b64_g40,Cl->Br,"[143, 17]",2,1,,joint_path_mean_only,False,False,-1.0086307525634766,0.0,0.0
+5460329,307,XGBoost,block_b64_g40,Cl->S,"[175, 11]",2,1,,joint_path_mean_only,False,False,-1.1711981296539307,0.0,0.0
+5460329,307,XGBoost,block_b64_g40,Cl->Se,"[65, 171]",2,1,,joint_path_mean_only,False,False,-1.5963707566261292,0.0,0.0
+5460329,307,XGBoost,block_b64_g40,Cs->Ba,"[73, 139]",2,1,,joint_path_mean_only,False,False,0.022141456604003906,0.0,0.0
+5460329,307,XGBoost,block_b64_g40,Cs->Ra,"[141, 147]",2,1,,joint_path_mean_only,False,False,-1.1252713203430176,0.0,0.0
+5460329,307,XGBoost,block_b64_g40,Cs->Rb,"[153, 173]",2,1,,joint_path_mean_only,False,False,-0.12119507789611816,0.0,0.0
+5460329,307,XGBoost,block_b64_g40,Cs->Sr,"[149, 133]",2,1,,joint_path_mean_only,False,False,0.06099057197570801,0.0,0.0
+5460329,307,XGBoost,block_b64_g40,Li->Be,[145],1,0,,joint_path_mean_only,False,False,-1.051790475845337,0.0,0.0
+5460329,307,XGBoost,block_b64_g40,Li->Na,[167],1,0,,joint_path_mean_only,False,False,0.018523216247558594,0.0,0.0
+5460329,307,XGBoost,block_b64_g40,Sb->As,[69],1,0,,joint_path_mean_only,False,False,-0.2675950527191162,0.0,0.0
+5460329,307,XGBoost,block_b64_g40,Sb->Bi,[13],1,0,,joint_path_mean_only,False,False,-0.30083250999450684,0.0,0.0
+5460329,307,XGBoost,block_b64_g40,Sb->Ge,[135],1,0,,joint_path_mean_only,False,False,0.11096644401550293,0.0,0.0
+5460329,307,XGBoost,block_b64_g40,Sb->Pb,[161],1,0,,joint_path_mean_only,False,False,0.48928117752075195,0.0,0.0
+5460329,307,XGBoost,block_b64_g40,Sb->Po,[91],1,0,,joint_path_mean_only,False,False,-1.2154829502105713,0.0,0.0
+5460329,307,XGBoost,block_b64_g40,Sb->Se,[137],1,0,,joint_path_mean_only,False,False,-1.265873908996582,0.0,0.0
+5460329,307,XGBoost,block_b64_g40,Sb->Sn,[163],1,0,,joint_path_mean_only,False,False,-0.21120166778564453,0.0,0.0
+5460329,307,XGBoost,block_b64_g40,Sb->Te,[165],1,0,,joint_path_mean_only,False,False,-1.2138071060180664,0.0,0.0
+5460329,307,XGBoost,block_b64_g40,geometry_only,"[130, 132, 144, 164, 156, 138, 160, 128, 150, 140, 158, 162, 134, 142, 174, 68, 166, 148, 154, 146, 172, 86, 136, 76, 152, 168, 74, 170, 70, 66, 88, 90, 40, 94, 84, 42, 82, 80, 78, 0]",40,2,1.7685793975841702,affine,True,True,0.0,0.548689926300972,2.0019046458448297
+5460329,419,frozen_ET,block_b64_g40,Cl->Br,"[135, 11]",2,1,,joint_path_mean_only,False,False,-0.787708000000001,0.0,0.0
+5460329,419,frozen_ET,block_b64_g40,Cl->S,"[175, 39]",2,1,,joint_path_mean_only,False,False,-1.1610360000000024,0.0,0.0
+5460329,419,frozen_ET,block_b64_g40,Cl->Se,"[173, 167]",2,1,,joint_path_mean_only,False,False,-1.5839440000000011,0.0,0.0
+5460329,419,frozen_ET,block_b64_g40,Cs->Ba,"[89, 15]",2,1,,joint_path_mean_only,False,False,-0.15579000000000054,0.0,0.0
+5460329,419,frozen_ET,block_b64_g40,Cs->Ra,"[157, 155]",2,1,,joint_path_mean_only,False,False,-0.935281999999998,0.0,0.0
+5460329,419,frozen_ET,block_b64_g40,Cs->Rb,"[143, 151]",2,1,,joint_path_mean_only,False,False,-0.08723000000000103,0.0,0.0
+5460329,419,frozen_ET,block_b64_g40,Cs->Sr,"[95, 103]",2,1,,joint_path_mean_only,False,False,-0.41103800000000135,0.0,0.0
+5460329,419,frozen_ET,block_b64_g40,Li->Be,[131],1,0,,joint_path_mean_only,False,False,-0.8570279999999983,0.0,0.0
+5460329,419,frozen_ET,block_b64_g40,Li->Na,[163],1,0,,joint_path_mean_only,False,False,-0.33405999999999825,0.0,0.0
+5460329,419,frozen_ET,block_b64_g40,Sb->As,[171],1,0,,joint_path_mean_only,False,False,-0.12783999999999773,0.0,0.0
+5460329,419,frozen_ET,block_b64_g40,Sb->Bi,[129],1,0,,joint_path_mean_only,False,False,-0.3455440000000003,0.0,0.0
+5460329,419,frozen_ET,block_b64_g40,Sb->Ge,[97],1,0,,joint_path_mean_only,False,False,-1.0206279999999919,0.0,0.0
+5460329,419,frozen_ET,block_b64_g40,Sb->Pb,[137],1,0,,joint_path_mean_only,False,False,0.02581600000000739,0.0,0.0
+5460329,419,frozen_ET,block_b64_g40,Sb->Po,[159],1,0,,joint_path_mean_only,False,False,-1.1030279999999961,0.0,0.0
+5460329,419,frozen_ET,block_b64_g40,Sb->Se,[133],1,0,,joint_path_mean_only,False,False,-1.1122119999999969,0.0,0.0
+5460329,419,frozen_ET,block_b64_g40,Sb->Sn,[43],1,0,,joint_path_mean_only,False,False,-0.5810159999999955,0.0,0.0
+5460329,419,frozen_ET,block_b64_g40,Sb->Te,[93],1,0,,joint_path_mean_only,False,False,-1.1206839999999958,0.0,0.0
+5460329,419,frozen_ET,block_b64_g40,geometry_only,"[132, 130, 128, 164, 142, 168, 146, 154, 162, 156, 140, 160, 158, 170, 84, 174, 152, 144, 148, 136, 134, 172, 100, 166, 72, 138, 44, 110, 76, 150, 68, 82, 64, 4, 78, 90, 96, 18, 80, 106]",40,2,1.391707427935218,affine,True,True,0.0,1.287770286029188,2.4297842114652033
+5460329,419,XGBoost,block_b64_g40,Cl->Br,"[135, 11]",2,1,,joint_path_mean_only,False,False,-1.0045827627182007,0.0,0.0
+5460329,419,XGBoost,block_b64_g40,Cl->S,"[175, 39]",2,1,,joint_path_mean_only,False,False,-1.1757447719573975,0.0,0.0
+5460329,419,XGBoost,block_b64_g40,Cl->Se,"[173, 167]",2,1,,joint_path_mean_only,False,False,-1.5863304138183594,0.0,0.0
+5460329,419,XGBoost,block_b64_g40,Cs->Ba,"[89, 15]",2,1,,joint_path_mean_only,False,False,0.021277427673339844,0.0,0.0
+5460329,419,XGBoost,block_b64_g40,Cs->Ra,"[157, 155]",2,1,,joint_path_mean_only,False,False,-1.1160094738006592,0.0,0.0
+5460329,419,XGBoost,block_b64_g40,Cs->Rb,"[143, 151]",2,1,,joint_path_mean_only,False,False,-0.07385814189910889,0.0,0.0
+5460329,419,XGBoost,block_b64_g40,Cs->Sr,"[95, 103]",2,1,,joint_path_mean_only,False,False,0.12403011322021484,0.0,0.0
+5460329,419,XGBoost,block_b64_g40,Li->Be,[131],1,0,,joint_path_mean_only,False,False,-1.0873427391052246,0.0,0.0
+5460329,419,XGBoost,block_b64_g40,Li->Na,[163],1,0,,joint_path_mean_only,False,False,-0.1391453742980957,0.0,0.0
+5460329,419,XGBoost,block_b64_g40,Sb->As,[171],1,0,,joint_path_mean_only,False,False,-0.17454195022583008,0.0,0.0
+5460329,419,XGBoost,block_b64_g40,Sb->Bi,[129],1,0,,joint_path_mean_only,False,False,-0.3158080577850342,0.0,0.0
+5460329,419,XGBoost,block_b64_g40,Sb->Ge,[97],1,0,,joint_path_mean_only,False,False,0.22495388984680176,0.0,0.0
+5460329,419,XGBoost,block_b64_g40,Sb->Pb,[137],1,0,,joint_path_mean_only,False,False,0.36995959281921387,0.0,0.0
+5460329,419,XGBoost,block_b64_g40,Sb->Po,[159],1,0,,joint_path_mean_only,False,False,-1.1369900703430176,0.0,0.0
+5460329,419,XGBoost,block_b64_g40,Sb->Se,[133],1,0,,joint_path_mean_only,False,False,-1.1301229000091553,0.0,0.0
+5460329,419,XGBoost,block_b64_g40,Sb->Sn,[43],1,0,,joint_path_mean_only,False,False,0.07760357856750488,0.0,0.0
+5460329,419,XGBoost,block_b64_g40,Sb->Te,[93],1,0,,joint_path_mean_only,False,False,-1.1369900703430176,0.0,0.0
+5460329,419,XGBoost,block_b64_g40,geometry_only,"[132, 130, 128, 164, 142, 168, 146, 154, 162, 156, 140, 160, 158, 170, 84, 174, 152, 144, 148, 136, 134, 172, 100, 166, 72, 138, 44, 110, 76, 150, 68, 82, 64, 4, 78, 90, 96, 18, 80, 106]",40,2,1.391707427935218,affine,True,True,0.0,0.621239945380266,1.9848182702597699
+6297661,307,frozen_ET,block_b64_g40,F->O,"[145, 89]",2,1,,joint_path_mean_only,False,False,-0.4159660000000005,0.0,0.0
+6297661,307,frozen_ET,block_b64_g40,Li->Be,"[23, 147]",2,1,,joint_path_mean_only,False,False,-0.8348380000000013,0.0,0.0
+6297661,307,frozen_ET,block_b64_g40,Li->Na,"[161, 153]",2,1,,joint_path_mean_only,False,False,-0.11628800000000084,0.0,0.0
+6297661,307,frozen_ET,block_b64_g40,Rh->Co,"[93, 25]",2,1,,joint_path_mean_only,False,False,-0.4783779999999985,0.0,0.0
+6297661,307,frozen_ET,block_b64_g40,Rh->Fe,"[107, 103]",2,1,,joint_path_mean_only,False,False,-0.7937079999999958,0.0,0.0
+6297661,307,frozen_ET,block_b64_g40,Rh->Ir,"[159, 109]",2,1,,joint_path_mean_only,False,False,0.0022839999999990646,0.0,0.0
+6297661,307,frozen_ET,block_b64_g40,Rh->Ni,"[131, 27]",2,1,,joint_path_mean_only,False,False,-0.34152000000000027,0.0,0.0
+6297661,307,frozen_ET,block_b64_g40,Rh->Os,"[101, 5]",2,1,,joint_path_mean_only,False,False,0.03790799999999872,0.0,0.0
+6297661,307,frozen_ET,block_b64_g40,Rh->Pt,"[157, 73]",2,1,,joint_path_mean_only,False,False,-0.2209360000000008,0.0,0.0
+6297661,307,frozen_ET,block_b64_g40,Rh->Ru,"[143, 69]",2,1,,joint_path_mean_only,False,False,0.02251400000000059,0.0,0.0
+6297661,307,frozen_ET,block_b64_g40,Tl->In,"[175, 17]",2,1,,joint_path_mean_only,False,False,-0.4538599999999996,0.0,0.0
+6297661,307,frozen_ET,block_b64_g40,Tl->Pb,[169],1,0,,joint_path_mean_only,False,False,0.769615999999999,0.0,0.0
+6297661,307,frozen_ET,block_b64_g40,Tl->Sn,[149],1,0,,joint_path_mean_only,False,False,-0.19358000000000186,0.0,0.0
+6297661,307,frozen_ET,block_b64_g40,geometry_only,"[136, 170, 132, 142, 156, 164, 144, 172, 128, 154, 140, 174, 146, 130, 150, 134, 152, 162, 80, 148, 138, 166, 158, 168, 96, 74, 78, 160, 110, 88, 108, 104, 8, 22, 102, 86, 38, 68, 0, 64]",40,2,1.7239605379297387,affine,True,True,0.0,-1.3281278817529907,0.7660186173868971
+6297661,307,XGBoost,block_b64_g40,F->O,"[145, 89]",2,1,,joint_path_mean_only,False,False,-0.6118545532226562,0.0,0.0
+6297661,307,XGBoost,block_b64_g40,Li->Be,"[23, 147]",2,1,,joint_path_mean_only,False,False,-0.4652078151702881,0.0,0.0
+6297661,307,XGBoost,block_b64_g40,Li->Na,"[161, 153]",2,1,,joint_path_mean_only,False,False,0.23865187168121338,0.0,0.0
+6297661,307,XGBoost,block_b64_g40,Rh->Co,"[93, 25]",2,1,,joint_path_mean_only,False,False,-0.06537514925003052,0.0,0.0
+6297661,307,XGBoost,block_b64_g40,Rh->Fe,"[107, 103]",2,1,,joint_path_mean_only,False,False,-0.2826036810874939,0.0,0.0
+6297661,307,XGBoost,block_b64_g40,Rh->Ir,"[159, 109]",2,1,,joint_path_mean_only,False,False,0.32246923446655273,0.0,0.0
+6297661,307,XGBoost,block_b64_g40,Rh->Ni,"[131, 27]",2,1,,joint_path_mean_only,False,False,-0.1549277901649475,0.0,0.0
+6297661,307,XGBoost,block_b64_g40,Rh->Os,"[101, 5]",2,1,,joint_path_mean_only,False,False,0.4349048137664795,0.0,0.0
+6297661,307,XGBoost,block_b64_g40,Rh->Pt,"[157, 73]",2,1,,joint_path_mean_only,False,False,-0.09903156757354736,0.0,0.0
+6297661,307,XGBoost,block_b64_g40,Rh->Ru,"[143, 69]",2,1,,joint_path_mean_only,False,False,-0.06890612840652466,0.0,0.0
+6297661,307,XGBoost,block_b64_g40,Tl->In,"[175, 17]",2,1,,joint_path_mean_only,False,False,-0.13467365503311157,0.0,0.0
+6297661,307,XGBoost,block_b64_g40,Tl->Pb,[169],1,0,,joint_path_mean_only,False,False,0.6120352745056152,0.0,0.0
+6297661,307,XGBoost,block_b64_g40,Tl->Sn,[149],1,0,,joint_path_mean_only,False,False,-0.6152932643890381,0.0,0.0
+6297661,307,XGBoost,block_b64_g40,geometry_only,"[136, 170, 132, 142, 156, 164, 144, 172, 128, 154, 140, 174, 146, 130, 150, 134, 152, 162, 80, 148, 138, 166, 158, 168, 96, 74, 78, 160, 110, 88, 108, 104, 8, 22, 102, 86, 38, 68, 0, 64]",40,2,1.7239605379297387,affine,True,True,0.0,-1.2649641218668677,1.266935404623424
+6297661,419,frozen_ET,block_b64_g40,F->O,"[161, 153]",2,1,,joint_path_mean_only,False,False,-0.44091200000000075,0.0,0.0
+6297661,419,frozen_ET,block_b64_g40,Li->Be,"[163, 111]",2,1,,joint_path_mean_only,False,False,-0.8181480000000012,0.0,0.0
+6297661,419,frozen_ET,block_b64_g40,Li->Na,"[169, 9]",2,1,,joint_path_mean_only,False,False,-0.11001800000000106,0.0,0.0
+6297661,419,frozen_ET,block_b64_g40,Rh->Co,"[151, 69]",2,1,,joint_path_mean_only,False,False,-0.5009299999999988,0.0,0.0
+6297661,419,frozen_ET,block_b64_g40,Rh->Fe,"[129, 167]",2,1,,joint_path_mean_only,False,False,-0.7786419999999951,0.0,0.0
+6297661,419,frozen_ET,block_b64_g40,Rh->Ir,"[143, 93]",2,1,,joint_path_mean_only,False,False,0.037925999999999016,0.0,0.0
+6297661,419,frozen_ET,block_b64_g40,Rh->Os,"[109, 37]",2,1,,joint_path_mean_only,False,False,0.03716599999999881,0.0,0.0
+6297661,419,frozen_ET,block_b64_g40,Rh->Pt,"[175, 25]",2,1,,joint_path_mean_only,False,False,-0.11446400000000057,0.0,0.0
+6297661,419,frozen_ET,block_b64_g40,Rh->Ru,"[101, 91]",2,1,,joint_path_mean_only,False,False,0.047176000000000995,0.0,0.0
+6297661,419,frozen_ET,block_b64_g40,Tl->In,"[171, 85]",2,1,,joint_path_mean_only,False,False,-0.45321799999999945,0.0,0.0
+6297661,419,frozen_ET,block_b64_g40,Tl->Pb,"[133, 81]",2,1,,joint_path_mean_only,False,False,0.5692079999999995,0.0,0.0
+6297661,419,frozen_ET,block_b64_g40,Tl->Sn,"[147, 87]",2,1,,joint_path_mean_only,False,False,0.03879399999999755,0.0,0.0
+6297661,419,frozen_ET,block_b64_g40,geometry_only,"[158, 164, 142, 172, 174, 168, 128, 154, 146, 136, 148, 152, 170, 140, 166, 104, 150, 92, 134, 160, 132, 162, 144, 68, 138, 106, 86, 130, 98, 90, 70, 102, 66, 110, 108, 78, 94, 64, 156, 74]",40,2,1.4376283271994872,affine,True,True,0.0,-1.615843089428517,0.7039046031218236
+6297661,419,XGBoost,block_b64_g40,F->O,"[161, 153]",2,1,,joint_path_mean_only,False,False,-0.5881262421607971,0.0,0.0
+6297661,419,XGBoost,block_b64_g40,Li->Be,"[163, 111]",2,1,,joint_path_mean_only,False,False,-0.4934813976287842,0.0,0.0
+6297661,419,XGBoost,block_b64_g40,Li->Na,"[169, 9]",2,1,,joint_path_mean_only,False,False,0.18571186065673828,0.0,0.0
+6297661,419,XGBoost,block_b64_g40,Rh->Co,"[151, 69]",2,1,,joint_path_mean_only,False,False,-0.1250995397567749,0.0,0.0
+6297661,419,XGBoost,block_b64_g40,Rh->Fe,"[129, 167]",2,1,,joint_path_mean_only,False,False,-0.2876970171928406,0.0,0.0
+6297661,419,XGBoost,block_b64_g40,Rh->Ir,"[143, 93]",2,1,,joint_path_mean_only,False,False,0.3912217617034912,0.0,0.0
+6297661,419,XGBoost,block_b64_g40,Rh->Os,"[109, 37]",2,1,,joint_path_mean_only,False,False,0.4409920573234558,0.0,0.0
+6297661,419,XGBoost,block_b64_g40,Rh->Pt,"[175, 25]",2,1,,joint_path_mean_only,False,False,-0.04099881649017334,0.0,0.0
+6297661,419,XGBoost,block_b64_g40,Rh->Ru,"[101, 91]",2,1,,joint_path_mean_only,False,False,-0.032215416431427,0.0,0.0
+6297661,419,XGBoost,block_b64_g40,Tl->In,"[171, 85]",2,1,,joint_path_mean_only,False,False,-0.1260334849357605,0.0,0.0
+6297661,419,XGBoost,block_b64_g40,Tl->Pb,"[133, 81]",2,1,,joint_path_mean_only,False,False,0.39937859773635864,0.0,0.0
+6297661,419,XGBoost,block_b64_g40,Tl->Sn,"[147, 87]",2,1,,joint_path_mean_only,False,False,-0.3930911421775818,0.0,0.0
+6297661,419,XGBoost,block_b64_g40,geometry_only,"[158, 164, 142, 172, 174, 168, 128, 154, 146, 136, 148, 152, 170, 140, 166, 104, 150, 92, 134, 160, 132, 162, 144, 68, 138, 106, 86, 130, 98, 90, 70, 102, 66, 110, 108, 78, 94, 64, 156, 74]",40,2,1.4376283271994872,affine,True,True,0.0,-1.2072417563803512,1.1345401911062882
+7734950,307,frozen_ET,block_b64_g40,Co->Fe,"[65, 175, 95]",3,2,154.39128922647745,affine,True,False,-0.40408056985356955,0.2192624425593577,0.004373183908388105
+7734950,307,frozen_ET,block_b64_g40,Co->Ni,"[143, 17, 171]",3,2,18.449491478243072,affine,True,False,0.3247467566690647,0.27248907886876583,0.02856186306303814
+7734950,307,frozen_ET,block_b64_g40,Co->Rh,"[139, 73]",2,1,,joint_path_mean_only,False,False,0.42541399999999285,0.0,0.0
+7734950,307,frozen_ET,block_b64_g40,Co->Ru,"[153, 173]",2,1,,joint_path_mean_only,False,False,0.08821199999999685,0.0,0.0
+7734950,307,frozen_ET,block_b64_g40,Cs->Ba,"[43, 29]",2,1,,joint_path_mean_only,False,False,-0.7844080000000059,0.0,0.0
+7734950,307,frozen_ET,block_b64_g40,Cs->Ra,"[135, 83]",2,1,,joint_path_mean_only,False,False,-0.6127160000000048,0.0,0.0
+7734950,307,frozen_ET,block_b64_g40,Cs->Sr,"[145, 71]",2,1,,joint_path_mean_only,False,False,-0.6885260000000062,0.0,0.0
+7734950,307,frozen_ET,block_b64_g40,Rb->Ba,"[91, 93]",2,1,,joint_path_mean_only,False,False,-0.6876280000000029,0.0,0.0
+7734950,307,frozen_ET,block_b64_g40,Rb->Ca,"[163, 159]",2,1,,joint_path_mean_only,False,False,-0.725960000000004,0.0,0.0
+7734950,307,frozen_ET,block_b64_g40,Rb->K,"[137, 85]",2,1,,joint_path_mean_only,False,False,-0.19722199999999768,0.0,0.0
+7734950,307,frozen_ET,block_b64_g40,Rb->Sr,"[161, 155]",2,1,,joint_path_mean_only,False,False,-0.6095920000000031,0.0,0.0
+7734950,307,frozen_ET,block_b64_g40,geometry_only,"[130, 156, 160, 150, 132, 152, 134, 88, 140, 138, 144, 68, 162, 166, 104, 76, 142, 174, 136, 128, 158, 86, 80, 168, 78, 154, 70, 146, 74, 172, 40, 42, 164, 90, 148, 94, 82, 0, 66, 102]",40,2,3.607615761794181,affine,True,True,0.0,0.4983260312013065,-0.006529370932085391
+7734950,307,XGBoost,block_b64_g40,Co->Fe,"[65, 175, 95]",3,2,154.39128922647745,affine,True,False,-0.41849788165852275,0.40148719156077584,0.011429834128680991
+7734950,307,XGBoost,block_b64_g40,Co->Ni,"[143, 17, 171]",3,2,18.449491478243072,affine,True,False,0.3029188327174391,0.2275031861318873,0.023905361606203605
+7734950,307,XGBoost,block_b64_g40,Co->Rh,"[139, 73]",2,1,,joint_path_mean_only,False,False,0.25780510902404785,0.0,0.0
+7734950,307,XGBoost,block_b64_g40,Co->Ru,"[153, 173]",2,1,,joint_path_mean_only,False,False,0.1598736047744751,0.0,0.0
+7734950,307,XGBoost,block_b64_g40,Cs->Ba,"[43, 29]",2,1,,joint_path_mean_only,False,False,-0.9292810559272766,0.0,0.0
+7734950,307,XGBoost,block_b64_g40,Cs->Ra,"[135, 83]",2,1,,joint_path_mean_only,False,False,-0.9692691564559937,0.0,0.0
+7734950,307,XGBoost,block_b64_g40,Cs->Sr,"[145, 71]",2,1,,joint_path_mean_only,False,False,-0.7573875784873962,0.0,0.0
+7734950,307,XGBoost,block_b64_g40,Rb->Ba,"[91, 93]",2,1,,joint_path_mean_only,False,False,-0.7492310404777527,0.0,0.0
+7734950,307,XGBoost,block_b64_g40,Rb->Ca,"[163, 159]",2,1,,joint_path_mean_only,False,False,-0.6944552659988403,0.0,0.0
+7734950,307,XGBoost,block_b64_g40,Rb->K,"[137, 85]",2,1,,joint_path_mean_only,False,False,-0.16652977466583252,0.0,0.0
+7734950,307,XGBoost,block_b64_g40,Rb->Sr,"[161, 155]",2,1,,joint_path_mean_only,False,False,-0.6770034432411194,0.0,0.0
+7734950,307,XGBoost,block_b64_g40,geometry_only,"[130, 156, 160, 150, 132, 152, 134, 88, 140, 138, 144, 68, 162, 166, 104, 76, 142, 174, 136, 128, 158, 86, 80, 168, 78, 154, 70, 146, 74, 172, 40, 42, 164, 90, 148, 94, 82, 0, 66, 102]",40,2,3.607615761794181,affine,True,True,0.0,0.35868589787133776,0.0712024686164985
+7734950,419,frozen_ET,block_b64_g40,Co->Fe,"[173, 175, 107]",3,2,15.828124122051745,affine,True,False,-0.4086924539860529,0.22869481729530614,-0.01981824752149718
+7734950,419,frozen_ET,block_b64_g40,Co->Ni,"[135, 167, 99]",3,2,76.51310227511665,affine,True,False,0.34123152318512945,0.4242836518026374,-0.02766020974541713
+7734950,419,frozen_ET,block_b64_g40,Co->Rh,"[89, 15]",2,1,,joint_path_mean_only,False,False,0.4361319999999924,0.0,0.0
+7734950,419,frozen_ET,block_b64_g40,Co->Ru,"[143, 151]",2,1,,joint_path_mean_only,False,False,0.07848599999999717,0.0,0.0
+7734950,419,frozen_ET,block_b64_g40,Cs->Ba,"[131, 163]",2,1,,joint_path_mean_only,False,False,-0.7875260000000063,0.0,0.0
+7734950,419,frozen_ET,block_b64_g40,Cs->Ra,"[65, 101]",2,1,,joint_path_mean_only,False,False,-0.6099020000000048,0.0,0.0
+7734950,419,frozen_ET,block_b64_g40,Cs->Sr,"[157, 155]",2,1,,joint_path_mean_only,False,False,-0.6954760000000062,0.0,0.0
+7734950,419,frozen_ET,block_b64_g40,Rb->Ba,"[129, 159]",2,1,,joint_path_mean_only,False,False,-0.682264000000003,0.0,0.0
+7734950,419,frozen_ET,block_b64_g40,Rb->Ca,"[93, 79]",2,1,,joint_path_mean_only,False,False,-0.7315320000000042,0.0,0.0
+7734950,419,frozen_ET,block_b64_g40,Rb->K,"[133, 171]",2,1,,joint_path_mean_only,False,False,-0.1260999999999981,0.0,0.0
+7734950,419,frozen_ET,block_b64_g40,Rb->Sr,"[137, 45]",2,1,,joint_path_mean_only,False,False,-0.6068340000000029,0.0,0.0
+7734950,419,frozen_ET,block_b64_g40,geometry_only,"[132, 130, 146, 128, 108, 168, 142, 84, 150, 164, 100, 140, 154, 102, 152, 110, 170, 162, 86, 44, 144, 64, 134, 72, 78, 160, 158, 68, 166, 96, 136, 76, 104, 18, 156, 4, 148, 106, 82, 174]",40,2,2.793832709787739,affine,True,True,0.0,0.4763898786563338,0.04183135328368799
+7734950,419,XGBoost,block_b64_g40,Co->Fe,"[173, 175, 107]",3,2,15.828124122051745,affine,True,False,-0.42357652113037686,0.22298544143116453,0.09784192726294555
+7734950,419,XGBoost,block_b64_g40,Co->Ni,"[135, 167, 99]",3,2,76.51310227511665,affine,True,False,0.27792181311850184,-0.18215128879174933,0.016410894557536342
+7734950,419,XGBoost,block_b64_g40,Co->Rh,"[89, 15]",2,1,,joint_path_mean_only,False,False,0.2672102451324463,0.0,0.0
+7734950,419,XGBoost,block_b64_g40,Co->Ru,"[143, 151]",2,1,,joint_path_mean_only,False,False,0.17053914070129395,0.0,0.0
+7734950,419,XGBoost,block_b64_g40,Cs->Ba,"[131, 163]",2,1,,joint_path_mean_only,False,False,-0.9163788557052612,0.0,0.0
+7734950,419,XGBoost,block_b64_g40,Cs->Ra,"[65, 101]",2,1,,joint_path_mean_only,False,False,-0.9628735184669495,0.0,0.0
+7734950,419,XGBoost,block_b64_g40,Cs->Sr,"[157, 155]",2,1,,joint_path_mean_only,False,False,-0.7720100283622742,0.0,0.0
+7734950,419,XGBoost,block_b64_g40,Rb->Ba,"[129, 159]",2,1,,joint_path_mean_only,False,False,-0.745030403137207,0.0,0.0
+7734950,419,XGBoost,block_b64_g40,Rb->Ca,"[93, 79]",2,1,,joint_path_mean_only,False,False,-0.6848767995834351,0.0,0.0
+7734950,419,XGBoost,block_b64_g40,Rb->K,"[133, 171]",2,1,,joint_path_mean_only,False,False,-0.11337006092071533,0.0,0.0
+7734950,419,XGBoost,block_b64_g40,Rb->Sr,"[137, 45]",2,1,,joint_path_mean_only,False,False,-0.6854016780853271,0.0,0.0
+7734950,419,XGBoost,block_b64_g40,geometry_only,"[132, 130, 146, 128, 108, 168, 142, 84, 150, 164, 100, 140, 154, 102, 152, 110, 170, 162, 86, 44, 144, 64, 134, 72, 78, 160, 158, 68, 166, 96, 136, 76, 104, 18, 156, 4, 148, 106, 82, 174]",40,2,2.793832709787739,affine,True,True,0.0,0.34383196981767417,0.11598602232265724
+5440726,307,frozen_ET,block_b64_g40,Ag->Au,"[33, 149]",2,1,,joint_path_mean_only,False,False,0.032862000000000224,0.0,0.0
+5440726,307,frozen_ET,block_b64_g40,Ag->Cu,"[65, 171]",2,1,,joint_path_mean_only,False,False,0.01490800000000092,0.0,0.0
+5440726,307,frozen_ET,block_b64_g40,Ag->Ni,"[175, 81]",2,1,,joint_path_mean_only,False,False,0.10661200000000115,0.0,0.0
+5440726,307,frozen_ET,block_b64_g40,Ag->Pd,"[17, 77]",2,1,,joint_path_mean_only,False,False,0.01965000000000061,0.0,0.0
+5440726,307,frozen_ET,block_b64_g40,Ag->Pt,"[153, 173]",2,1,,joint_path_mean_only,False,False,0.04031000000000057,0.0,0.0
+5440726,307,frozen_ET,block_b64_g40,Cl->Br,"[141, 147]",2,1,,joint_path_mean_only,False,False,-0.006922000000000261,0.0,0.0
+5440726,307,frozen_ET,block_b64_g40,Cl->S,[133],1,0,,joint_path_mean_only,False,False,0.5559240000000024,0.0,0.0
+5440726,307,frozen_ET,block_b64_g40,Cl->Se,[23],1,0,,joint_path_mean_only,False,False,0.6687920000000028,0.0,0.0
+5440726,307,frozen_ET,block_b64_g40,Sb->As,[167],1,0,,joint_path_mean_only,False,False,0.2973439999999986,0.0,0.0
+5440726,307,frozen_ET,block_b64_g40,Sb->Bi,[163],1,0,,joint_path_mean_only,False,False,0.08448400000000011,0.0,0.0
+5440726,307,frozen_ET,block_b64_g40,Sb->Ge,[145],1,0,,joint_path_mean_only,False,False,0.11376800000000131,0.0,0.0
+5440726,307,frozen_ET,block_b64_g40,Sb->Pb,[137],1,0,,joint_path_mean_only,False,False,0.06442800000000048,0.0,0.0
+5440726,307,frozen_ET,block_b64_g40,Sb->Po,[101],1,0,,joint_path_mean_only,False,False,-0.0462039999999998,0.0,0.0
+5440726,307,frozen_ET,block_b64_g40,Sb->Se,[83],1,0,,joint_path_mean_only,False,False,0.04960800000000043,0.0,0.0
+5440726,307,frozen_ET,block_b64_g40,Sb->Sn,[135],1,0,,joint_path_mean_only,False,False,0.002264000000000599,0.0,0.0
+5440726,307,frozen_ET,block_b64_g40,Sb->Te,[131],1,0,,joint_path_mean_only,False,False,-0.027619999999999312,0.0,0.0
+5440726,307,frozen_ET,block_b64_g40,Tl->In,[161],1,0,,joint_path_mean_only,False,False,0.26729999999999954,0.0,0.0
+5440726,307,frozen_ET,block_b64_g40,Tl->Pb,[91],1,0,,joint_path_mean_only,False,False,0.275888000000002,0.0,0.0
+5440726,307,frozen_ET,block_b64_g40,geometry_only,"[130, 132, 156, 164, 144, 138, 128, 160, 150, 158, 140, 162, 134, 174, 68, 148, 166, 142, 172, 136, 86, 146, 168, 154, 152, 76, 74, 70, 66, 170, 88, 84, 40, 90, 78, 82, 42, 94, 0, 80]",40,2,1.8299180632669025,affine,True,True,0.0,-0.008929180535679999,-0.2674671330736109
+5440726,307,XGBoost,block_b64_g40,Ag->Au,"[33, 149]",2,1,,joint_path_mean_only,False,False,0.17845267057418823,0.0,0.0
+5440726,307,XGBoost,block_b64_g40,Ag->Cu,"[65, 171]",2,1,,joint_path_mean_only,False,False,0.07004210352897644,0.0,0.0
+5440726,307,XGBoost,block_b64_g40,Ag->Ni,"[175, 81]",2,1,,joint_path_mean_only,False,False,0.028357595205307007,0.0,0.0
+5440726,307,XGBoost,block_b64_g40,Ag->Pd,"[17, 77]",2,1,,joint_path_mean_only,False,False,0.5446054339408875,0.0,0.0
+5440726,307,XGBoost,block_b64_g40,Ag->Pt,"[153, 173]",2,1,,joint_path_mean_only,False,False,0.2948487401008606,0.0,0.0
+5440726,307,XGBoost,block_b64_g40,Cl->Br,"[141, 147]",2,1,,joint_path_mean_only,False,False,-0.16475868225097656,0.0,0.0
+5440726,307,XGBoost,block_b64_g40,Cl->S,[133],1,0,,joint_path_mean_only,False,False,0.4969406723976135,0.0,0.0
+5440726,307,XGBoost,block_b64_g40,Cl->Se,[23],1,0,,joint_path_mean_only,False,False,0.33033663034439087,0.0,0.0
+5440726,307,XGBoost,block_b64_g40,Sb->As,[167],1,0,,joint_path_mean_only,False,False,0.2878665328025818,0.0,0.0
+5440726,307,XGBoost,block_b64_g40,Sb->Bi,[163],1,0,,joint_path_mean_only,False,False,0.28947120904922485,0.0,0.0
+5440726,307,XGBoost,block_b64_g40,Sb->Ge,[145],1,0,,joint_path_mean_only,False,False,-0.11314278841018677,0.0,0.0
+5440726,307,XGBoost,block_b64_g40,Sb->Pb,[137],1,0,,joint_path_mean_only,False,False,0.0885244607925415,0.0,0.0
+5440726,307,XGBoost,block_b64_g40,Sb->Po,[101],1,0,,joint_path_mean_only,False,False,0.01586848497390747,0.0,0.0
+5440726,307,XGBoost,block_b64_g40,Sb->Se,[83],1,0,,joint_path_mean_only,False,False,0.058158159255981445,0.0,0.0
+5440726,307,XGBoost,block_b64_g40,Sb->Sn,[135],1,0,,joint_path_mean_only,False,False,-0.04866749048233032,0.0,0.0
+5440726,307,XGBoost,block_b64_g40,Sb->Te,[131],1,0,,joint_path_mean_only,False,False,-0.009132623672485352,0.0,0.0
+5440726,307,XGBoost,block_b64_g40,Tl->In,[161],1,0,,joint_path_mean_only,False,False,0.3488510251045227,0.0,0.0
+5440726,307,XGBoost,block_b64_g40,Tl->Pb,[91],1,0,,joint_path_mean_only,False,False,0.38494783639907837,0.0,0.0
+5440726,307,XGBoost,block_b64_g40,geometry_only,"[130, 132, 156, 164, 144, 138, 128, 160, 150, 158, 140, 162, 134, 174, 68, 148, 166, 142, 172, 136, 86, 146, 168, 154, 152, 76, 74, 70, 66, 170, 88, 84, 40, 90, 78, 82, 42, 94, 0, 80]",40,2,1.8299180632669025,affine,True,True,0.0,-0.050172699337247925,-0.41153963030676344
+5440726,419,frozen_ET,block_b64_g40,Ag->Au,"[95, 73]",2,1,,joint_path_mean_only,False,False,0.03979200000000038,0.0,0.0
+5440726,419,frozen_ET,block_b64_g40,Ag->Cu,"[173, 167]",2,1,,joint_path_mean_only,False,False,0.02218400000000098,0.0,0.0
+5440726,419,frozen_ET,block_b64_g40,Ag->Ni,"[39, 149]",2,1,,joint_path_mean_only,False,False,0.1045440000000013,0.0,0.0
+5440726,419,frozen_ET,block_b64_g40,Ag->Pd,"[135, 81]",2,1,,joint_path_mean_only,False,False,0.020484000000000613,0.0,0.0
+5440726,419,frozen_ET,block_b64_g40,Ag->Pt,"[143, 151]",2,1,,joint_path_mean_only,False,False,0.027388000000000634,0.0,0.0
+5440726,419,frozen_ET,block_b64_g40,Cl->Br,"[169, 155]",2,1,,joint_path_mean_only,False,False,-0.00014400000000025504,0.0,0.0
+5440726,419,frozen_ET,block_b64_g40,Cl->Se,[89],1,0,,joint_path_mean_only,False,False,0.6558600000000027,0.0,0.0
+5440726,419,frozen_ET,block_b64_g40,Sb->As,[163],1,0,,joint_path_mean_only,False,False,0.3403039999999974,0.0,0.0
+5440726,419,frozen_ET,block_b64_g40,Sb->Bi,[93],1,0,,joint_path_mean_only,False,False,0.015572000000000141,0.0,0.0
+5440726,419,frozen_ET,block_b64_g40,Sb->Ge,[131],1,0,,joint_path_mean_only,False,False,0.12294400000000116,0.0,0.0
+5440726,419,frozen_ET,block_b64_g40,Sb->Pb,[71],1,0,,joint_path_mean_only,False,False,0.0540160000000004,0.0,0.0
+5440726,419,frozen_ET,block_b64_g40,Sb->Po,[79],1,0,,joint_path_mean_only,False,False,-0.04651599999999967,0.0,0.0
+5440726,419,frozen_ET,block_b64_g40,Sb->Se,[77],1,0,,joint_path_mean_only,False,False,0.06478000000000061,0.0,0.0
+5440726,419,frozen_ET,block_b64_g40,Sb->Sn,[101],1,0,,joint_path_mean_only,False,False,0.002020000000000244,0.0,0.0
+5440726,419,frozen_ET,block_b64_g40,Sb->Te,[171],1,0,,joint_path_mean_only,False,False,-0.024415999999999327,0.0,0.0
+5440726,419,frozen_ET,block_b64_g40,Tl->In,[45],1,0,,joint_path_mean_only,False,False,0.28129599999999966,0.0,0.0
+5440726,419,frozen_ET,block_b64_g40,Tl->Pb,[159],1,0,,joint_path_mean_only,False,False,0.2823600000000023,0.0,0.0
+5440726,419,frozen_ET,block_b64_g40,Tl->Sn,[129],1,0,,joint_path_mean_only,False,False,0.28942800000000146,0.0,0.0
+5440726,419,frozen_ET,block_b64_g40,geometry_only,"[132, 146, 142, 128, 130, 164, 168, 154, 160, 140, 158, 162, 156, 148, 170, 152, 84, 136, 174, 144, 134, 138, 72, 150, 100, 44, 166, 172, 110, 76, 68, 64, 82, 4, 78, 90, 18, 104, 80, 98]",40,2,1.4090973961140463,affine,True,True,0.0,-0.017563427023944436,-0.2823146126517057
+5440726,419,XGBoost,block_b64_g40,Ag->Au,"[95, 73]",2,1,,joint_path_mean_only,False,False,0.2137657105922699,0.0,0.0
+5440726,419,XGBoost,block_b64_g40,Ag->Cu,"[173, 167]",2,1,,joint_path_mean_only,False,False,0.10349449515342712,0.0,0.0
+5440726,419,XGBoost,block_b64_g40,Ag->Ni,"[39, 149]",2,1,,joint_path_mean_only,False,False,0.021069318056106567,0.0,0.0
+5440726,419,XGBoost,block_b64_g40,Ag->Pd,"[135, 81]",2,1,,joint_path_mean_only,False,False,0.6181471943855286,0.0,0.0
+5440726,419,XGBoost,block_b64_g40,Ag->Pt,"[143, 151]",2,1,,joint_path_mean_only,False,False,0.2030562162399292,0.0,0.0
+5440726,419,XGBoost,block_b64_g40,Cl->Br,"[169, 155]",2,1,,joint_path_mean_only,False,False,-0.14950186014175415,0.0,0.0
+5440726,419,XGBoost,block_b64_g40,Cl->Se,[89],1,0,,joint_path_mean_only,False,False,0.35752803087234497,0.0,0.0
+5440726,419,XGBoost,block_b64_g40,Sb->As,[163],1,0,,joint_path_mean_only,False,False,0.41825276613235474,0.0,0.0
+5440726,419,XGBoost,block_b64_g40,Sb->Bi,[93],1,0,,joint_path_mean_only,False,False,0.124977707862854,0.0,0.0
+5440726,419,XGBoost,block_b64_g40,Sb->Ge,[131],1,0,,joint_path_mean_only,False,False,-0.11211228370666504,0.0,0.0
+5440726,419,XGBoost,block_b64_g40,Sb->Pb,[71],1,0,,joint_path_mean_only,False,False,0.07627582550048828,0.0,0.0
+5440726,419,XGBoost,block_b64_g40,Sb->Po,[79],1,0,,joint_path_mean_only,False,False,-0.018500864505767822,0.0,0.0
+5440726,419,XGBoost,block_b64_g40,Sb->Se,[77],1,0,,joint_path_mean_only,False,False,0.058158159255981445,0.0,0.0
+5440726,419,XGBoost,block_b64_g40,Sb->Sn,[101],1,0,,joint_path_mean_only,False,False,-0.05879884958267212,0.0,0.0
+5440726,419,XGBoost,block_b64_g40,Sb->Te,[171],1,0,,joint_path_mean_only,False,False,0.0665665864944458,0.0,0.0
+5440726,419,XGBoost,block_b64_g40,Tl->In,[45],1,0,,joint_path_mean_only,False,False,0.2103075385093689,0.0,0.0
+5440726,419,XGBoost,block_b64_g40,Tl->Pb,[159],1,0,,joint_path_mean_only,False,False,0.3911357522010803,0.0,0.0
+5440726,419,XGBoost,block_b64_g40,Tl->Sn,[129],1,0,,joint_path_mean_only,False,False,0.39739149808883667,0.0,0.0
+5440726,419,XGBoost,block_b64_g40,geometry_only,"[132, 146, 142, 128, 130, 164, 168, 154, 160, 140, 158, 162, 156, 148, 170, 152, 84, 136, 174, 144, 134, 138, 72, 150, 100, 44, 166, 172, 110, 76, 68, 64, 82, 4, 78, 90, 18, 104, 80, 98]",40,2,1.4090973961140463,affine,True,True,0.0,0.11341278352819124,-0.2364737045860268
+1230247,307,frozen_ET,block_b64_g40,Ba->Cs,"[161, 153]",2,1,,joint_path_mean_only,False,False,-0.3945019999999979,0.0,0.0
+1230247,307,frozen_ET,block_b64_g40,Ba->Ra,"[107, 103]",2,1,,joint_path_mean_only,False,False,-0.5012479999999995,0.0,0.0
+1230247,307,frozen_ET,block_b64_g40,Ba->Rb,"[145, 89]",2,1,,joint_path_mean_only,False,False,-0.4092759999999993,0.0,0.0
+1230247,307,frozen_ET,block_b64_g40,Ba->Sr,"[23, 147]",2,1,,joint_path_mean_only,False,False,0.12234800000000279,0.0,0.0
+1230247,307,frozen_ET,block_b64_g40,Ca->K,"[131, 27]",2,1,,joint_path_mean_only,False,False,-0.18377000000000354,0.0,0.0
+1230247,307,frozen_ET,block_b64_g40,Ca->Na,"[93, 25]",2,1,,joint_path_mean_only,False,False,-0.39753200000000133,0.0,0.0
+1230247,307,frozen_ET,block_b64_g40,Ca->Sr,"[143, 69]",2,1,,joint_path_mean_only,False,False,-0.2859899999999964,0.0,0.0
+1230247,307,frozen_ET,block_b64_g40,O->F,"[101, 5]",2,1,,joint_path_mean_only,False,False,-1.1457400000000009,0.0,0.0
+1230247,307,frozen_ET,block_b64_g40,W->Mo,"[157, 73]",2,1,,joint_path_mean_only,False,False,-0.5177160000000025,0.0,0.0
+1230247,307,frozen_ET,block_b64_g40,W->Nb,"[171, 159]",2,1,,joint_path_mean_only,False,False,-0.056934000000000706,0.0,0.0
+1230247,307,frozen_ET,block_b64_g40,W->Re,"[169, 77]",2,1,,joint_path_mean_only,False,False,-0.8394400000000003,0.0,0.0
+1230247,307,frozen_ET,block_b64_g40,W->Ta,[149],1,0,,joint_path_mean_only,False,False,0.3056240000000008,0.0,0.0
+1230247,307,frozen_ET,block_b64_g40,W->Tc,[175],1,0,,joint_path_mean_only,False,False,-0.8573679999999997,0.0,0.0
+1230247,307,frozen_ET,block_b64_g40,geometry_only,"[174, 136, 132, 142, 164, 170, 128, 166, 144, 172, 156, 76, 140, 80, 146, 138, 162, 152, 130, 134, 158, 74, 104, 150, 78, 100, 22, 110, 168, 8, 0, 148, 72, 38, 108, 88, 64, 28, 32, 34]",40,2,3.397563107243211,affine,True,True,0.0,0.12789813214041618,0.3792778039849522
+1230247,307,XGBoost,block_b64_g40,Ba->Cs,"[161, 153]",2,1,,joint_path_mean_only,False,False,0.4806654453277588,0.0,0.0
+1230247,307,XGBoost,block_b64_g40,Ba->Ra,"[107, 103]",2,1,,joint_path_mean_only,False,False,-0.0830831527709961,0.0,0.0
+1230247,307,XGBoost,block_b64_g40,Ba->Rb,"[145, 89]",2,1,,joint_path_mean_only,False,False,0.5123536586761475,0.0,0.0
+1230247,307,XGBoost,block_b64_g40,Ba->Sr,"[23, 147]",2,1,,joint_path_mean_only,False,False,0.09308362007141113,0.0,0.0
+1230247,307,XGBoost,block_b64_g40,Ca->K,"[131, 27]",2,1,,joint_path_mean_only,False,False,0.34181106090545654,0.0,0.0
+1230247,307,XGBoost,block_b64_g40,Ca->Na,"[93, 25]",2,1,,joint_path_mean_only,False,False,-0.3130922317504883,0.0,0.0
+1230247,307,XGBoost,block_b64_g40,Ca->Sr,"[143, 69]",2,1,,joint_path_mean_only,False,False,0.049509525299072266,0.0,0.0
+1230247,307,XGBoost,block_b64_g40,O->F,"[101, 5]",2,1,,joint_path_mean_only,False,False,-1.1246070861816406,0.0,0.0
+1230247,307,XGBoost,block_b64_g40,W->Mo,"[157, 73]",2,1,,joint_path_mean_only,False,False,-0.23670709133148193,0.0,0.0
+1230247,307,XGBoost,block_b64_g40,W->Nb,"[171, 159]",2,1,,joint_path_mean_only,False,False,0.176041841506958,0.0,0.0
+1230247,307,XGBoost,block_b64_g40,W->Re,"[169, 77]",2,1,,joint_path_mean_only,False,False,-0.7985690236091614,0.0,0.0
+1230247,307,XGBoost,block_b64_g40,W->Ta,[149],1,0,,joint_path_mean_only,False,False,0.40529847145080566,0.0,0.0
+1230247,307,XGBoost,block_b64_g40,W->Tc,[175],1,0,,joint_path_mean_only,False,False,-0.8035763502120972,0.0,0.0
+1230247,307,XGBoost,block_b64_g40,geometry_only,"[174, 136, 132, 142, 164, 170, 128, 166, 144, 172, 156, 76, 140, 80, 146, 138, 162, 152, 130, 134, 158, 74, 104, 150, 78, 100, 22, 110, 168, 8, 0, 148, 72, 38, 108, 88, 64, 28, 32, 34]",40,2,3.397563107243211,affine,True,True,0.0,0.8723156599826564,-0.1336781579688625
+1230247,419,frozen_ET,block_b64_g40,Ba->Cs,"[169, 9]",2,1,,joint_path_mean_only,False,False,-0.3527839999999982,0.0,0.0
+1230247,419,frozen_ET,block_b64_g40,Ba->Ra,"[129, 167]",2,1,,joint_path_mean_only,False,False,-0.46695399999999876,0.0,0.0
+1230247,419,frozen_ET,block_b64_g40,Ba->Rb,"[161, 153]",2,1,,joint_path_mean_only,False,False,-0.3974599999999986,0.0,0.0
+1230247,419,frozen_ET,block_b64_g40,Ba->Sr,"[163, 111]",2,1,,joint_path_mean_only,False,False,0.09223600000000265,0.0,0.0
+1230247,419,frozen_ET,block_b64_g40,Ca->Na,"[151, 69]",2,1,,joint_path_mean_only,False,False,-0.3891400000000007,0.0,0.0
+1230247,419,frozen_ET,block_b64_g40,Ca->Sr,"[101, 91]",2,1,,joint_path_mean_only,False,False,-0.28100599999999654,0.0,0.0
+1230247,419,frozen_ET,block_b64_g40,O->F,"[155, 109]",2,1,,joint_path_mean_only,False,False,-1.1525760000000003,0.0,0.0
+1230247,419,frozen_ET,block_b64_g40,W->Mo,"[175, 25]",2,1,,joint_path_mean_only,False,False,-0.5734120000000029,0.0,0.0
+1230247,419,frozen_ET,block_b64_g40,W->Nb,"[143, 93]",2,1,,joint_path_mean_only,False,False,-0.04715799999999959,0.0,0.0
+1230247,419,frozen_ET,block_b64_g40,W->Re,"[133, 81]",2,1,,joint_path_mean_only,False,False,-0.8078079999999999,0.0,0.0
+1230247,419,frozen_ET,block_b64_g40,W->Ta,"[147, 87]",2,1,,joint_path_mean_only,False,False,0.23723600000000133,0.0,0.0
+1230247,419,frozen_ET,block_b64_g40,W->Tc,"[171, 85]",2,1,,joint_path_mean_only,False,False,-0.9563419999999991,0.0,0.0
+1230247,419,frozen_ET,block_b64_g40,geometry_only,"[168, 174, 164, 158, 166, 172, 162, 148, 146, 144, 128, 150, 154, 92, 134, 140, 136, 86, 160, 68, 102, 142, 170, 138, 152, 66, 104, 84, 90, 110, 106, 108, 72, 98, 94, 156, 70, 76, 16, 130]",40,2,3.2875415974159083,affine,True,True,0.0,0.44690462925073726,0.21594515745069637
+1230247,419,XGBoost,block_b64_g40,Ba->Cs,"[169, 9]",2,1,,joint_path_mean_only,False,False,0.505199670791626,0.0,0.0
+1230247,419,XGBoost,block_b64_g40,Ba->Ra,"[129, 167]",2,1,,joint_path_mean_only,False,False,-0.014442920684814453,0.0,0.0
+1230247,419,XGBoost,block_b64_g40,Ba->Rb,"[161, 153]",2,1,,joint_path_mean_only,False,False,0.4380265474319458,0.0,0.0
+1230247,419,XGBoost,block_b64_g40,Ba->Sr,"[163, 111]",2,1,,joint_path_mean_only,False,False,0.07134008407592773,0.0,0.0
+1230247,419,XGBoost,block_b64_g40,Ca->Na,"[151, 69]",2,1,,joint_path_mean_only,False,False,-0.29398953914642334,0.0,0.0
+1230247,419,XGBoost,block_b64_g40,Ca->Sr,"[101, 91]",2,1,,joint_path_mean_only,False,False,0.06362223625183105,0.0,0.0
+1230247,419,XGBoost,block_b64_g40,O->F,"[155, 109]",2,1,,joint_path_mean_only,False,False,-1.1011492013931274,0.0,0.0
+1230247,419,XGBoost,block_b64_g40,W->Mo,"[175, 25]",2,1,,joint_path_mean_only,False,False,-0.22527873516082764,0.0,0.0
+1230247,419,XGBoost,block_b64_g40,W->Nb,"[143, 93]",2,1,,joint_path_mean_only,False,False,0.059316396713256836,0.0,0.0
+1230247,419,XGBoost,block_b64_g40,W->Re,"[133, 81]",2,1,,joint_path_mean_only,False,False,-0.8138392567634583,0.0,0.0
+1230247,419,XGBoost,block_b64_g40,W->Ta,"[147, 87]",2,1,,joint_path_mean_only,False,False,0.4180361032485962,0.0,0.0
+1230247,419,XGBoost,block_b64_g40,W->Tc,"[171, 85]",2,1,,joint_path_mean_only,False,False,-0.7829550504684448,0.0,0.0
+1230247,419,XGBoost,block_b64_g40,geometry_only,"[168, 174, 164, 158, 166, 172, 162, 148, 146, 144, 128, 150, 154, 92, 134, 140, 136, 86, 160, 68, 102, 142, 170, 138, 152, 66, 104, 84, 90, 110, 106, 108, 72, 98, 94, 156, 70, 76, 16, 130]",40,2,3.2875415974159083,affine,True,True,0.0,0.8574711629766812,-0.16972925999250238
+6403338,307,frozen_ET,block_b64_g40,Cl->Br,"[153, 173]",2,1,,joint_path_mean_only,False,False,-0.26313999999999993,0.0,0.0
+6403338,307,frozen_ET,block_b64_g40,Cl->S,"[175, 95]",2,1,,joint_path_mean_only,False,False,0.6853119999999964,0.0,0.0
+6403338,307,frozen_ET,block_b64_g40,Cl->Se,"[65, 171]",2,1,,joint_path_mean_only,False,False,0.3226159999999981,0.0,0.0
+6403338,307,frozen_ET,block_b64_g40,Cs->Ba,"[141, 71]",2,1,,joint_path_mean_only,False,False,0.6794279999999991,0.0,0.0
+6403338,307,frozen_ET,block_b64_g40,Cs->Ra,"[167, 169]",2,1,,joint_path_mean_only,False,False,0.6190719999999978,0.0,0.0
+6403338,307,frozen_ET,block_b64_g40,Cs->Rb,"[149, 133]",2,1,,joint_path_mean_only,False,False,-0.08882999999999935,0.0,0.0
+6403338,307,frozen_ET,block_b64_g40,Cs->Sr,"[139, 23]",2,1,,joint_path_mean_only,False,False,0.6492379999999994,0.0,0.0
+6403338,307,frozen_ET,block_b64_g40,Fe->Co,"[135, 83]",2,1,,joint_path_mean_only,False,False,-0.06680799999999915,0.0,0.0
+6403338,307,frozen_ET,block_b64_g40,Fe->Rh,"[161, 105]",2,1,,joint_path_mean_only,False,False,0.38413600000000003,0.0,0.0
+6403338,307,frozen_ET,block_b64_g40,Fe->Ru,"[163, 99]",2,1,,joint_path_mean_only,False,False,0.15041999999999844,0.0,0.0
+6403338,307,frozen_ET,block_b64_g40,Fe->Tc,"[131, 19]",2,1,,joint_path_mean_only,False,False,0.09797799999999479,0.0,0.0
+6403338,307,frozen_ET,block_b64_g40,Li->Be,[155],1,0,,joint_path_mean_only,False,False,0.8675479999999983,0.0,0.0
+6403338,307,frozen_ET,block_b64_g40,Li->Na,[91],1,0,,joint_path_mean_only,False,False,0.010135999999999923,0.0,0.0
+6403338,307,frozen_ET,block_b64_g40,geometry_only,"[130, 132, 156, 164, 144, 138, 128, 160, 150, 158, 140, 162, 134, 174, 68, 148, 166, 142, 172, 136, 86, 152, 146, 154, 168, 76, 74, 70, 66, 170, 88, 84, 40, 90, 78, 82, 42, 94, 0, 80]",40,2,1.6877487314818163,affine,True,True,0.0,-0.022078607805349856,0.25724302798964827
+6403338,307,XGBoost,block_b64_g40,Cl->Br,"[153, 173]",2,1,,joint_path_mean_only,False,False,-0.2100200653076172,0.0,0.0
+6403338,307,XGBoost,block_b64_g40,Cl->S,"[175, 95]",2,1,,joint_path_mean_only,False,False,1.0775699019432068,0.0,0.0
+6403338,307,XGBoost,block_b64_g40,Cl->Se,"[65, 171]",2,1,,joint_path_mean_only,False,False,0.6735753417015076,0.0,0.0
+6403338,307,XGBoost,block_b64_g40,Cs->Ba,"[141, 71]",2,1,,joint_path_mean_only,False,False,0.5003563761711121,0.0,0.0
+6403338,307,XGBoost,block_b64_g40,Cs->Ra,"[167, 169]",2,1,,joint_path_mean_only,False,False,0.3277963399887085,0.0,0.0
+6403338,307,XGBoost,block_b64_g40,Cs->Rb,"[149, 133]",2,1,,joint_path_mean_only,False,False,0.13931885361671448,0.0,0.0
+6403338,307,XGBoost,block_b64_g40,Cs->Sr,"[139, 23]",2,1,,joint_path_mean_only,False,False,0.3398325443267822,0.0,0.0
+6403338,307,XGBoost,block_b64_g40,Fe->Co,"[135, 83]",2,1,,joint_path_mean_only,False,False,0.3075190782546997,0.0,0.0
+6403338,307,XGBoost,block_b64_g40,Fe->Rh,"[161, 105]",2,1,,joint_path_mean_only,False,False,0.6337457299232483,0.0,0.0
+6403338,307,XGBoost,block_b64_g40,Fe->Ru,"[163, 99]",2,1,,joint_path_mean_only,False,False,0.2824065685272217,0.0,0.0
+6403338,307,XGBoost,block_b64_g40,Fe->Tc,"[131, 19]",2,1,,joint_path_mean_only,False,False,0.7042485475540161,0.0,0.0
+6403338,307,XGBoost,block_b64_g40,Li->Be,[155],1,0,,joint_path_mean_only,False,False,0.4994685649871826,0.0,0.0
+6403338,307,XGBoost,block_b64_g40,Li->Na,[91],1,0,,joint_path_mean_only,False,False,0.08148545026779175,0.0,0.0
+6403338,307,XGBoost,block_b64_g40,geometry_only,"[130, 132, 156, 164, 144, 138, 128, 160, 150, 158, 140, 162, 134, 174, 68, 148, 166, 142, 172, 136, 86, 152, 146, 154, 168, 76, 74, 70, 66, 170, 88, 84, 40, 90, 78, 82, 42, 94, 0, 80]",40,2,1.6877487314818163,affine,True,True,0.0,0.09382877717847875,-1.9188635532580518
+6403338,419,frozen_ET,block_b64_g40,Cl->Br,"[143, 151]",2,1,,joint_path_mean_only,False,False,-0.26516599999999996,0.0,0.0
+6403338,419,frozen_ET,block_b64_g40,Cl->S,"[173, 175]",2,1,,joint_path_mean_only,False,False,0.6787959999999962,0.0,0.0
+6403338,419,frozen_ET,block_b64_g40,Cl->Se,"[135, 167]",2,1,,joint_path_mean_only,False,False,0.3384919999999981,0.0,0.0
+6403338,419,frozen_ET,block_b64_g40,Cs->Ba,"[131, 155]",2,1,,joint_path_mean_only,False,False,0.7756759999999986,0.0,0.0
+6403338,419,frozen_ET,block_b64_g40,Cs->Ra,"[163, 85]",2,1,,joint_path_mean_only,False,False,0.6196559999999981,0.0,0.0
+6403338,419,frozen_ET,block_b64_g40,Cs->Rb,"[95, 103]",2,1,,joint_path_mean_only,False,False,-0.10629799999999945,0.0,0.0
+6403338,419,frozen_ET,block_b64_g40,Cs->Sr,"[157, 15]",2,1,,joint_path_mean_only,False,False,0.7287439999999986,0.0,0.0
+6403338,419,frozen_ET,block_b64_g40,Fe->Co,"[97, 101]",2,1,,joint_path_mean_only,False,False,-0.05697399999999919,0.0,0.0
+6403338,419,frozen_ET,block_b64_g40,Fe->Rh,"[93, 79]",2,1,,joint_path_mean_only,False,False,0.3339139999999998,0.0,0.0
+6403338,419,frozen_ET,block_b64_g40,Fe->Ru,"[43, 71]",2,1,,joint_path_mean_only,False,False,0.13363399999999803,0.0,0.0
+6403338,419,frozen_ET,block_b64_g40,Fe->Tc,"[171, 69]",2,1,,joint_path_mean_only,False,False,0.16296399999999467,0.0,0.0
+6403338,419,frozen_ET,block_b64_g40,Li->Be,[137],1,0,,joint_path_mean_only,False,False,0.8636639999999985,0.0,0.0
+6403338,419,frozen_ET,block_b64_g40,Li->Na,[159],1,0,,joint_path_mean_only,False,False,0.056291999999999676,0.0,0.0
+6403338,419,frozen_ET,block_b64_g40,geometry_only,"[132, 146, 142, 128, 130, 164, 168, 154, 160, 162, 140, 156, 158, 152, 170, 148, 84, 136, 174, 144, 134, 138, 72, 150, 100, 44, 166, 172, 110, 76, 68, 64, 82, 4, 78, 90, 18, 104, 80, 98]",40,2,1.2888679786731787,affine,True,True,0.0,-0.030086152761084846,0.25493298078576054
+6403338,419,XGBoost,block_b64_g40,Cl->Br,"[143, 151]",2,1,,joint_path_mean_only,False,False,-0.19337788224220276,0.0,0.0
+6403338,419,XGBoost,block_b64_g40,Cl->S,"[173, 175]",2,1,,joint_path_mean_only,False,False,1.0918596386909485,0.0,0.0
+6403338,419,XGBoost,block_b64_g40,Cl->Se,"[135, 167]",2,1,,joint_path_mean_only,False,False,0.675258994102478,0.0,0.0
+6403338,419,XGBoost,block_b64_g40,Cs->Ba,"[131, 155]",2,1,,joint_path_mean_only,False,False,0.5531409978866577,0.0,0.0
+6403338,419,XGBoost,block_b64_g40,Cs->Ra,"[163, 85]",2,1,,joint_path_mean_only,False,False,0.31357669830322266,0.0,0.0
+6403338,419,XGBoost,block_b64_g40,Cs->Rb,"[95, 103]",2,1,,joint_path_mean_only,False,False,0.1446734070777893,0.0,0.0
+6403338,419,XGBoost,block_b64_g40,Cs->Sr,"[157, 15]",2,1,,joint_path_mean_only,False,False,0.5585566759109497,0.0,0.0
+6403338,419,XGBoost,block_b64_g40,Fe->Co,"[97, 101]",2,1,,joint_path_mean_only,False,False,0.29680734872817993,0.0,0.0
+6403338,419,XGBoost,block_b64_g40,Fe->Rh,"[93, 79]",2,1,,joint_path_mean_only,False,False,0.46737563610076904,0.0,0.0
+6403338,419,XGBoost,block_b64_g40,Fe->Ru,"[43, 71]",2,1,,joint_path_mean_only,False,False,0.293551504611969,0.0,0.0
+6403338,419,XGBoost,block_b64_g40,Fe->Tc,"[171, 69]",2,1,,joint_path_mean_only,False,False,0.8947552442550659,0.0,0.0
+6403338,419,XGBoost,block_b64_g40,Li->Be,[137],1,0,,joint_path_mean_only,False,False,0.4994685649871826,0.0,0.0
+6403338,419,XGBoost,block_b64_g40,Li->Na,[159],1,0,,joint_path_mean_only,False,False,0.34296298027038574,0.0,0.0
+6403338,419,XGBoost,block_b64_g40,geometry_only,"[132, 146, 142, 128, 130, 164, 168, 154, 160, 162, 140, 156, 158, 152, 170, 148, 84, 136, 174, 144, 134, 138, 72, 150, 100, 44, 166, 172, 110, 76, 68, 64, 82, 4, 78, 90, 18, 104, 80, 98]",40,2,1.2888679786731787,affine,True,True,0.0,-0.17315774641805004,-1.7025642521110491
+8991254,307,frozen_ET,block_b64_g40,Bi->Pb,"[161, 13]",2,1,,joint_path_mean_only,False,False,-0.04129800000000139,0.0,0.0
+8991254,307,frozen_ET,block_b64_g40,Bi->Po,"[107, 103]",2,1,,joint_path_mean_only,False,False,-0.6207500000000035,0.0,0.0
+8991254,307,frozen_ET,block_b64_g40,Bi->Sb,[147],1,0,,joint_path_mean_only,False,False,0.4114920000000031,0.0,0.0
+8991254,307,frozen_ET,block_b64_g40,Bi->Sn,"[145, 89]",2,1,,joint_path_mean_only,False,False,0.20011999999999786,0.0,0.0
+8991254,307,frozen_ET,block_b64_g40,Bi->Te,"[23, 153]",2,1,,joint_path_mean_only,False,False,-0.8808260000000023,0.0,0.0
+8991254,307,frozen_ET,block_b64_g40,Ca->K,"[131, 27]",2,1,,joint_path_mean_only,False,False,-0.43411399999999967,0.0,0.0
+8991254,307,frozen_ET,block_b64_g40,Ca->Na,"[93, 81]",2,1,,joint_path_mean_only,False,False,-0.18861399999999984,0.0,0.0
+8991254,307,frozen_ET,block_b64_g40,Ca->Sr,"[143, 69]",2,1,,joint_path_mean_only,False,False,-0.7570700000000006,0.0,0.0
+8991254,307,frozen_ET,block_b64_g40,La->Ac,"[173, 155]",2,1,,joint_path_mean_only,False,False,-0.5048500000000009,0.0,0.0
+8991254,307,frozen_ET,block_b64_g40,La->Ce,"[11, 101]",2,1,,joint_path_mean_only,False,False,-0.10685999999999973,0.0,0.0
+8991254,307,frozen_ET,block_b64_g40,La->Dy,[157],1,0,,joint_path_mean_only,False,False,-0.22096800000000139,0.0,0.0
+8991254,307,frozen_ET,block_b64_g40,La->Nd,[163],1,0,,joint_path_mean_only,False,False,-0.20016800000000012,0.0,0.0
+8991254,307,frozen_ET,block_b64_g40,La->Pr,[5],1,0,,joint_path_mean_only,False,False,-0.10543199999999997,0.0,0.0
+8991254,307,frozen_ET,block_b64_g40,La->Tm,[175],1,0,,joint_path_mean_only,False,False,-0.10806000000000004,0.0,0.0
+8991254,307,frozen_ET,block_b64_g40,O->F,[169],1,0,,joint_path_mean_only,False,False,-0.7953720000000013,0.0,0.0
+8991254,307,frozen_ET,block_b64_g40,geometry_only,"[136, 128, 170, 142, 132, 138, 162, 172, 144, 156, 152, 164, 80, 150, 110, 166, 140, 146, 174, 130, 74, 158, 22, 78, 8, 0, 104, 88, 90, 38, 168, 76, 40, 28, 32, 82, 98, 108, 72, 24]",40,2,3.2573392501500242,affine,True,True,0.0,-1.4143411259964753,1.3112434800585295
+8991254,307,XGBoost,block_b64_g40,Bi->Pb,"[161, 13]",2,1,,joint_path_mean_only,False,False,0.09230756759643555,0.0,0.0
+8991254,307,XGBoost,block_b64_g40,Bi->Po,"[107, 103]",2,1,,joint_path_mean_only,False,False,0.38480865955352783,0.0,0.0
+8991254,307,XGBoost,block_b64_g40,Bi->Sb,[147],1,0,,joint_path_mean_only,False,False,1.0559263229370117,0.0,0.0
+8991254,307,XGBoost,block_b64_g40,Bi->Sn,"[145, 89]",2,1,,joint_path_mean_only,False,False,0.42921018600463867,0.0,0.0
+8991254,307,XGBoost,block_b64_g40,Bi->Te,"[23, 153]",2,1,,joint_path_mean_only,False,False,0.2163146734237671,0.0,0.0
+8991254,307,XGBoost,block_b64_g40,Ca->K,"[131, 27]",2,1,,joint_path_mean_only,False,False,0.8291254043579102,0.0,0.0
+8991254,307,XGBoost,block_b64_g40,Ca->Na,"[93, 81]",2,1,,joint_path_mean_only,False,False,0.9754267930984497,0.0,0.0
+8991254,307,XGBoost,block_b64_g40,Ca->Sr,"[143, 69]",2,1,,joint_path_mean_only,False,False,-0.035329580307006836,0.0,0.0
+8991254,307,XGBoost,block_b64_g40,La->Ac,"[173, 155]",2,1,,joint_path_mean_only,False,False,0.060448288917541504,0.0,0.0
+8991254,307,XGBoost,block_b64_g40,La->Ce,"[11, 101]",2,1,,joint_path_mean_only,False,False,-0.0325695276260376,0.0,0.0
+8991254,307,XGBoost,block_b64_g40,La->Dy,[157],1,0,,joint_path_mean_only,False,False,-0.07325625419616699,0.0,0.0
+8991254,307,XGBoost,block_b64_g40,La->Nd,[163],1,0,,joint_path_mean_only,False,False,0.02871227264404297,0.0,0.0
+8991254,307,XGBoost,block_b64_g40,La->Pr,[5],1,0,,joint_path_mean_only,False,False,0.007779121398925781,0.0,0.0
+8991254,307,XGBoost,block_b64_g40,La->Tm,[175],1,0,,joint_path_mean_only,False,False,0.17242717742919922,0.0,0.0
+8991254,307,XGBoost,block_b64_g40,O->F,[169],1,0,,joint_path_mean_only,False,False,0.05619525909423828,0.0,0.0
+8991254,307,XGBoost,block_b64_g40,geometry_only,"[136, 128, 170, 142, 132, 138, 162, 172, 144, 156, 152, 164, 80, 150, 110, 166, 140, 146, 174, 130, 74, 158, 22, 78, 8, 0, 104, 88, 90, 38, 168, 76, 40, 28, 32, 82, 98, 108, 72, 24]",40,2,3.2573392501500242,affine,True,True,0.0,-0.8654102476058743,1.000142098879886
+8991254,419,frozen_ET,block_b64_g40,Bi->Pb,"[169, 19]",2,1,,joint_path_mean_only,False,False,-0.06651400000000063,0.0,0.0
+8991254,419,frozen_ET,block_b64_g40,Bi->Po,"[129, 141]",2,1,,joint_path_mean_only,False,False,-0.636208000000003,0.0,0.0
+8991254,419,frozen_ET,block_b64_g40,Bi->Sb,"[145, 111]",2,1,,joint_path_mean_only,False,False,0.38939800000000213,0.0,0.0
+8991254,419,frozen_ET,block_b64_g40,Bi->Sn,"[161, 153]",2,1,,joint_path_mean_only,False,False,0.1964639999999993,0.0,0.0
+8991254,419,frozen_ET,block_b64_g40,Bi->Te,"[163, 9]",2,1,,joint_path_mean_only,False,False,-0.8506300000000022,0.0,0.0
+8991254,419,frozen_ET,block_b64_g40,Ca->Na,"[69, 151]",2,1,,joint_path_mean_only,False,False,-0.2222579999999994,0.0,0.0
+8991254,419,frozen_ET,block_b64_g40,Ca->Sr,"[101, 91]",2,1,,joint_path_mean_only,False,False,-0.7592400000000004,0.0,0.0
+8991254,419,frozen_ET,block_b64_g40,La->Ac,"[81, 147]",2,1,,joint_path_mean_only,False,False,-0.5126679999999997,0.0,0.0
+8991254,419,frozen_ET,block_b64_g40,La->Ce,"[109, 37]",2,1,,joint_path_mean_only,False,False,-0.04695199999999988,0.0,0.0
+8991254,419,frozen_ET,block_b64_g40,La->Dy,"[171, 175]",2,1,,joint_path_mean_only,False,False,-0.07910599999999968,0.0,0.0
+8991254,419,frozen_ET,block_b64_g40,La->Nd,[67],1,0,,joint_path_mean_only,False,False,0.06935999999999964,0.0,0.0
+8991254,419,frozen_ET,block_b64_g40,La->Pr,[143],1,0,,joint_path_mean_only,False,False,-0.0822879999999997,0.0,0.0
+8991254,419,frozen_ET,block_b64_g40,La->Tm,[85],1,0,,joint_path_mean_only,False,False,0.19337599999999933,0.0,0.0
+8991254,419,frozen_ET,block_b64_g40,O->F,[133],1,0,,joint_path_mean_only,False,False,-0.7858720000000003,0.0,0.0
+8991254,419,frozen_ET,block_b64_g40,geometry_only,"[174, 152, 158, 128, 146, 172, 92, 164, 68, 148, 144, 168, 86, 142, 170, 140, 104, 154, 102, 110, 106, 136, 130, 66, 160, 98, 150, 138, 108, 90, 88, 70, 16, 94, 64, 132, 74, 162, 84, 72]",40,2,5.232598792624573,affine,True,True,0.0,-1.6249032425526622,1.1667749556351754
+8991254,419,XGBoost,block_b64_g40,Bi->Pb,"[169, 19]",2,1,,joint_path_mean_only,False,False,0.04174041748046875,0.0,0.0
+8991254,419,XGBoost,block_b64_g40,Bi->Po,"[129, 141]",2,1,,joint_path_mean_only,False,False,0.3856312036514282,0.0,0.0
+8991254,419,XGBoost,block_b64_g40,Bi->Sb,"[145, 111]",2,1,,joint_path_mean_only,False,False,1.0692218542099,0.0,0.0
+8991254,419,XGBoost,block_b64_g40,Bi->Sn,"[161, 153]",2,1,,joint_path_mean_only,False,False,0.37093281745910645,0.0,0.0
+8991254,419,XGBoost,block_b64_g40,Bi->Te,"[163, 9]",2,1,,joint_path_mean_only,False,False,0.21255266666412354,0.0,0.0
+8991254,419,XGBoost,block_b64_g40,Ca->Na,"[69, 151]",2,1,,joint_path_mean_only,False,False,0.9325031042098999,0.0,0.0
+8991254,419,XGBoost,block_b64_g40,Ca->Sr,"[101, 91]",2,1,,joint_path_mean_only,False,False,-0.016205787658691406,0.0,0.0
+8991254,419,XGBoost,block_b64_g40,La->Ac,"[81, 147]",2,1,,joint_path_mean_only,False,False,0.05763816833496094,0.0,0.0
+8991254,419,XGBoost,block_b64_g40,La->Ce,"[109, 37]",2,1,,joint_path_mean_only,False,False,-0.024959087371826172,0.0,0.0
+8991254,419,XGBoost,block_b64_g40,La->Dy,"[171, 175]",2,1,,joint_path_mean_only,False,False,-0.035466790199279785,0.0,0.0
+8991254,419,XGBoost,block_b64_g40,La->Nd,[67],1,0,,joint_path_mean_only,False,False,0.19259095191955566,0.0,0.0
+8991254,419,XGBoost,block_b64_g40,La->Pr,[143],1,0,,joint_path_mean_only,False,False,0.09374856948852539,0.0,0.0
+8991254,419,XGBoost,block_b64_g40,La->Tm,[85],1,0,,joint_path_mean_only,False,False,0.2508535385131836,0.0,0.0
+8991254,419,XGBoost,block_b64_g40,O->F,[133],1,0,,joint_path_mean_only,False,False,0.055475473403930664,0.0,0.0
+8991254,419,XGBoost,block_b64_g40,geometry_only,"[174, 152, 158, 128, 146, 172, 92, 164, 68, 148, 144, 168, 86, 142, 170, 140, 104, 154, 102, 110, 106, 136, 130, 66, 160, 98, 150, 138, 108, 90, 88, 70, 16, 94, 64, 132, 74, 162, 84, 72]",40,2,5.232598792624573,affine,True,True,0.0,-0.7405167527863401,1.2783436413521054
+6399780,307,frozen_ET,block_b64_g40,Cl->Br,"[153, 173, 35]",3,2,15.509232700808147,affine,True,False,0.18011019059863473,-0.21344884730237398,-1.596788077850476
+6399780,307,frozen_ET,block_b64_g40,Cl->S,"[175, 65, 95]",3,2,125.3719743122204,affine,True,False,-0.2771564235053827,-0.07316049474709381,-0.004740995478819151
+6399780,307,frozen_ET,block_b64_g40,Cl->Se,"[143, 17]",2,1,,joint_path_mean_only,False,False,-0.9069960000000041,0.0,0.0
+6399780,307,frozen_ET,block_b64_g40,K->Ca,"[139, 73]",2,1,,joint_path_mean_only,False,False,0.5560719999999963,0.0,0.0
+6399780,307,frozen_ET,block_b64_g40,K->Rb,"[141, 71]",2,1,,joint_path_mean_only,False,False,0.6454439999999968,0.0,0.0
+6399780,307,frozen_ET,block_b64_g40,K->Sr,"[43, 29]",2,1,,joint_path_mean_only,False,False,0.30000799999999916,0.0,0.0
+6399780,307,frozen_ET,block_b64_g40,Na->Ca,"[137, 85]",2,1,,joint_path_mean_only,False,False,0.8865300000000012,0.0,0.0
+6399780,307,frozen_ET,block_b64_g40,Na->Li,"[135, 83]",2,1,,joint_path_mean_only,False,False,1.1174059999999935,0.0,0.0
+6399780,307,frozen_ET,block_b64_g40,Tl->In,"[163, 99]",2,1,,joint_path_mean_only,False,False,1.276875999999989,0.0,0.0
+6399780,307,frozen_ET,block_b64_g40,Tl->Pb,"[91, 93]",2,1,,joint_path_mean_only,False,False,0.862552,0.0,0.0
+6399780,307,frozen_ET,block_b64_g40,Tl->Sn,"[161, 155]",2,1,,joint_path_mean_only,False,False,0.10555400000000126,0.0,0.0
+6399780,307,frozen_ET,block_b64_g40,geometry_only,"[130, 132, 144, 164, 156, 138, 160, 128, 150, 140, 158, 162, 134, 142, 174, 68, 166, 148, 154, 146, 172, 86, 136, 76, 152, 168, 74, 170, 70, 66, 88, 90, 40, 94, 84, 42, 82, 80, 78, 0]",40,2,1.7741678595077404,affine,True,True,0.0,-1.384565402919291,-34.76061512734056
+6399780,307,XGBoost,block_b64_g40,Cl->Br,"[153, 173, 35]",3,2,15.509232700808147,affine,True,False,-1.2128505113459083,0.004456519046829419,-1.4817770163847446
+6399780,307,XGBoost,block_b64_g40,Cl->S,"[175, 65, 95]",3,2,125.3719743122204,affine,True,False,-1.2340615588502326,0.025033640745153733,0.0025730642350427647
+6399780,307,XGBoost,block_b64_g40,Cl->Se,"[143, 17]",2,1,,joint_path_mean_only,False,False,-1.95989990234375,0.0,0.0
+6399780,307,XGBoost,block_b64_g40,K->Ca,"[139, 73]",2,1,,joint_path_mean_only,False,False,0.20903313159942627,0.0,0.0
+6399780,307,XGBoost,block_b64_g40,K->Rb,"[141, 71]",2,1,,joint_path_mean_only,False,False,0.3724409341812134,0.0,0.0
+6399780,307,XGBoost,block_b64_g40,K->Sr,"[43, 29]",2,1,,joint_path_mean_only,False,False,-0.40356016159057617,0.0,0.0
+6399780,307,XGBoost,block_b64_g40,Na->Ca,"[137, 85]",2,1,,joint_path_mean_only,False,False,-0.14308810234069824,0.0,0.0
+6399780,307,XGBoost,block_b64_g40,Na->Li,"[135, 83]",2,1,,joint_path_mean_only,False,False,0.19262933731079102,0.0,0.0
+6399780,307,XGBoost,block_b64_g40,Tl->In,"[163, 99]",2,1,,joint_path_mean_only,False,False,0.4402261972427368,0.0,0.0
+6399780,307,XGBoost,block_b64_g40,Tl->Pb,"[91, 93]",2,1,,joint_path_mean_only,False,False,0.0004960298538208008,0.0,0.0
+6399780,307,XGBoost,block_b64_g40,Tl->Sn,"[161, 155]",2,1,,joint_path_mean_only,False,False,-0.02035069465637207,0.0,0.0
+6399780,307,XGBoost,block_b64_g40,geometry_only,"[130, 132, 144, 164, 156, 138, 160, 128, 150, 140, 158, 162, 134, 142, 174, 68, 166, 148, 154, 146, 172, 86, 136, 76, 152, 168, 74, 170, 70, 66, 88, 90, 40, 94, 84, 42, 82, 80, 78, 0]",40,2,1.7741678595077404,affine,True,True,0.0,0.0036699207330879303,-9.3688378382984
+6399780,419,frozen_ET,block_b64_g40,Cl->Br,"[143, 151, 73]",3,2,27.281136989403148,affine,True,False,0.23521869616775395,-0.3290746472084019,0.018937826849855028
+6399780,419,frozen_ET,block_b64_g40,Cl->S,"[173, 175, 145]",3,2,57.42380328234483,affine,True,False,-0.27481932663026776,-0.06759990234722668,-0.007129964104316475
+6399780,419,frozen_ET,block_b64_g40,Cl->Se,"[135, 167]",2,1,,joint_path_mean_only,False,False,-0.9117640000000041,0.0,0.0
+6399780,419,frozen_ET,block_b64_g40,K->Ca,"[89, 15]",2,1,,joint_path_mean_only,False,False,0.5522619999999969,0.0,0.0
+6399780,419,frozen_ET,block_b64_g40,K->Rb,"[169, 155]",2,1,,joint_path_mean_only,False,False,0.7537619999999947,0.0,0.0
+6399780,419,frozen_ET,block_b64_g40,K->Sr,"[131, 163]",2,1,,joint_path_mean_only,False,False,0.29691599999999907,0.0,0.0
+6399780,419,frozen_ET,block_b64_g40,Na->Ca,"[133, 171]",2,1,,joint_path_mean_only,False,False,0.9949379999999994,0.0,0.0
+6399780,419,frozen_ET,block_b64_g40,Na->Li,"[65, 101]",2,1,,joint_path_mean_only,False,False,1.0808719999999934,0.0,0.0
+6399780,419,frozen_ET,block_b64_g40,Tl->In,"[93, 79]",2,1,,joint_path_mean_only,False,False,1.2432439999999885,0.0,0.0
+6399780,419,frozen_ET,block_b64_g40,Tl->Pb,"[129, 159]",2,1,,joint_path_mean_only,False,False,0.7633919999999983,0.0,0.0
+6399780,419,frozen_ET,block_b64_g40,Tl->Sn,"[137, 45]",2,1,,joint_path_mean_only,False,False,-0.014823999999998505,0.0,0.0
+6399780,419,frozen_ET,block_b64_g40,geometry_only,"[132, 130, 128, 164, 142, 168, 146, 156, 154, 162, 140, 160, 158, 170, 84, 174, 152, 144, 136, 148, 100, 172, 72, 166, 134, 138, 44, 110, 76, 150, 68, 82, 64, 4, 78, 90, 96, 18, 80, 106]",40,2,1.3943045166334642,affine,True,True,0.0,-2.1809562928059294,-33.418391943058445
+6399780,419,XGBoost,block_b64_g40,Cl->Br,"[143, 151, 73]",3,2,27.281136989403148,affine,True,False,-1.1325214165618132,0.022015763407820712,0.002456341356831644
+6399780,419,XGBoost,block_b64_g40,Cl->S,"[173, 175, 145]",3,2,57.42380328234483,affine,True,False,-1.2300074232633855,0.06464658863081063,0.004665728536107885
+6399780,419,XGBoost,block_b64_g40,Cl->Se,"[135, 167]",2,1,,joint_path_mean_only,False,False,-1.9090684056282043,0.0,0.0
+6399780,419,XGBoost,block_b64_g40,K->Ca,"[89, 15]",2,1,,joint_path_mean_only,False,False,0.2177335023880005,0.0,0.0
+6399780,419,XGBoost,block_b64_g40,K->Rb,"[169, 155]",2,1,,joint_path_mean_only,False,False,0.38110828399658203,0.0,0.0
+6399780,419,XGBoost,block_b64_g40,K->Sr,"[131, 163]",2,1,,joint_path_mean_only,False,False,-0.3688162565231323,0.0,0.0
+6399780,419,XGBoost,block_b64_g40,Na->Ca,"[133, 171]",2,1,,joint_path_mean_only,False,False,-0.029082894325256348,0.0,0.0
+6399780,419,XGBoost,block_b64_g40,Na->Li,"[65, 101]",2,1,,joint_path_mean_only,False,False,0.19860923290252686,0.0,0.0
+6399780,419,XGBoost,block_b64_g40,Tl->In,"[93, 79]",2,1,,joint_path_mean_only,False,False,0.4463503360748291,0.0,0.0
+6399780,419,XGBoost,block_b64_g40,Tl->Pb,"[129, 159]",2,1,,joint_path_mean_only,False,False,0.0019576549530029297,0.0,0.0
+6399780,419,XGBoost,block_b64_g40,Tl->Sn,"[137, 45]",2,1,,joint_path_mean_only,False,False,-0.04146778583526611,0.0,0.0
+6399780,419,XGBoost,block_b64_g40,geometry_only,"[132, 130, 128, 164, 142, 168, 146, 156, 154, 162, 140, 160, 158, 170, 84, 174, 152, 144, 136, 148, 100, 172, 72, 166, 134, 138, 44, 110, 76, 150, 68, 82, 64, 4, 78, 90, 96, 18, 80, 106]",40,2,1.3943045166334642,affine,True,True,0.0,-0.18393729714664508,-9.031478664480431
+8712335,307,frozen_ET,block_b64_g40,Co->Fe,"[175, 65, 171]",3,2,288.12724154522715,affine,True,False,-0.14323211057047566,-0.4436198424893013,-0.0135092107925073
+8712335,307,frozen_ET,block_b64_g40,Co->Ni,"[153, 173, 143]",3,2,576.1512911789245,affine,True,False,0.08896541047995286,-0.23174687785883644,-0.000579817614278959
+8712335,307,frozen_ET,block_b64_g40,Co->Rh,"[141, 147, 145]",3,2,370.87454385725323,affine,True,False,0.10053120630153911,-0.4507045861544271,-0.0018009273222162774
+8712335,307,frozen_ET,block_b64_g40,Co->Ru,"[139, 149, 21]",3,2,38.2514178478448,affine,True,False,0.3689695665992321,-0.21319932152711274,0.02873554207677485
+8712335,307,frozen_ET,block_b64_g40,Na->Ca,"[135, 83, 107]",3,2,174.6030565829964,affine,True,False,0.011799862246967533,-0.4610674408134307,0.007626793058455224
+8712335,307,frozen_ET,block_b64_g40,Na->Li,"[71, 29, 43]",3,2,72.12999521677789,affine,True,False,0.4479852349185736,-0.2553426293364884,-0.002481270834830736
+8712335,307,frozen_ET,block_b64_g40,Tl->In,"[163, 99]",2,1,,joint_path_mean_only,False,False,-0.14371800000000023,0.0,0.0
+8712335,307,frozen_ET,block_b64_g40,Tl->Pb,"[91, 93]",2,1,,joint_path_mean_only,False,False,-0.15457199999999993,0.0,0.0
+8712335,307,frozen_ET,block_b64_g40,Tl->Sn,"[161, 155]",2,1,,joint_path_mean_only,False,False,0.09749799999999953,0.0,0.0
+8712335,307,frozen_ET,block_b64_g40,geometry_only,"[130, 132, 156, 144, 150, 174, 140, 160, 128, 138, 134, 68, 164, 158, 142, 162, 166, 172, 86, 154, 136, 152, 74, 76, 148, 168, 90, 146, 70, 40, 88, 170, 66, 84, 82, 94, 78, 42, 104, 80]",40,2,4.730851491119948,affine,True,True,0.0,-0.35843202992903006,0.582327115052734
+8712335,307,XGBoost,block_b64_g40,Co->Fe,"[175, 65, 171]",3,2,288.12724154522715,affine,True,False,-0.2384394407272339,0.0,0.0
+8712335,307,XGBoost,block_b64_g40,Co->Ni,"[153, 173, 143]",3,2,576.1512911789245,affine,True,False,0.15741777420043945,0.0,0.0
+8712335,307,XGBoost,block_b64_g40,Co->Rh,"[141, 147, 145]",3,2,370.87454385725323,affine,True,False,-0.1205751895904541,0.0,0.0
+8712335,307,XGBoost,block_b64_g40,Co->Ru,"[139, 149, 21]",3,2,38.2514178478448,affine,True,False,0.029525160789489746,0.0,0.0
+8712335,307,XGBoost,block_b64_g40,Na->Ca,"[135, 83, 107]",3,2,174.6030565829964,affine,True,False,-0.43892425298690796,0.0,0.0
+8712335,307,XGBoost,block_b64_g40,Na->Li,"[71, 29, 43]",3,2,72.12999521677789,affine,True,False,0.9080042839050293,0.0,0.0
+8712335,307,XGBoost,block_b64_g40,Tl->In,"[163, 99]",2,1,,joint_path_mean_only,False,False,-0.30365848541259766,0.0,0.0
+8712335,307,XGBoost,block_b64_g40,Tl->Pb,"[91, 93]",2,1,,joint_path_mean_only,False,False,-0.20466220378875732,0.0,0.0
+8712335,307,XGBoost,block_b64_g40,Tl->Sn,"[161, 155]",2,1,,joint_path_mean_only,False,False,0.16456663608551025,0.0,0.0
+8712335,307,XGBoost,block_b64_g40,geometry_only,"[130, 132, 156, 144, 150, 174, 140, 160, 128, 138, 134, 68, 164, 158, 142, 162, 166, 172, 86, 154, 136, 152, 74, 76, 148, 168, 90, 146, 70, 40, 88, 170, 66, 84, 82, 94, 78, 42, 104, 80]",40,2,4.730851491119948,affine,True,True,0.0,-0.027435095643597696,2.094562499506103
+8712335,419,frozen_ET,block_b64_g40,Co->Fe,"[173, 167, 145]",3,2,106.903049726127,affine,True,False,-0.1459384152545151,-0.47995722839230026,-0.006020179890453158
+8712335,419,frozen_ET,block_b64_g40,Co->Ni,"[135, 143, 151]",3,2,131.63562146980263,affine,True,False,0.08556296701399947,-0.27248079124515157,-0.007063355818221442
+8712335,419,frozen_ET,block_b64_g40,Co->Rh,"[169, 155, 157]",3,2,208.71845945891786,affine,True,False,0.09115062246233518,-0.36848429260988214,-0.004714704112395357
+8712335,419,frozen_ET,block_b64_g40,Co->Ru,"[95, 103, 5]",3,2,84.35978834055257,affine,True,False,0.3650148269897366,-0.14734618959155635,0.0025427885485777954
+8712335,419,frozen_ET,block_b64_g40,Na->Ca,"[171, 101, 29]",3,2,125.58599690881677,affine,True,False,0.01900940623667789,-0.7927504603144933,0.01596408874906196
+8712335,419,frozen_ET,block_b64_g40,Na->Li,"[131, 163, 27]",3,2,80.83945461302936,affine,True,False,0.44279108620483854,-0.47822436315566524,-0.009622423455879858
+8712335,419,frozen_ET,block_b64_g40,Tl->In,"[133, 43]",2,1,,joint_path_mean_only,False,False,-0.15765399999999996,0.0,0.0
+8712335,419,frozen_ET,block_b64_g40,Tl->Pb,"[129, 159]",2,1,,joint_path_mean_only,False,False,-0.1846359999999999,0.0,0.0
+8712335,419,frozen_ET,block_b64_g40,Tl->Sn,"[137, 93]",2,1,,joint_path_mean_only,False,False,0.0976859999999996,0.0,0.0
+8712335,419,frozen_ET,block_b64_g40,geometry_only,"[132, 130, 128, 142, 146, 154, 164, 152, 168, 170, 150, 84, 140, 134, 160, 162, 72, 100, 136, 156, 174, 158, 44, 166, 148, 138, 68, 110, 76, 144, 64, 102, 172, 82, 4, 90, 18, 106, 16, 98]",40,2,3.811752298030468,affine,True,True,0.0,-0.25236196890585383,0.4772924836612166
+8712335,419,XGBoost,block_b64_g40,Co->Fe,"[173, 167, 145]",3,2,106.903049726127,affine,True,False,-0.2384394407272339,0.0,0.0
+8712335,419,XGBoost,block_b64_g40,Co->Ni,"[135, 143, 151]",3,2,131.63562146980263,affine,True,False,0.15741777420043945,0.0,0.0
+8712335,419,XGBoost,block_b64_g40,Co->Rh,"[169, 155, 157]",3,2,208.71845945891786,affine,True,False,-0.1205751895904541,0.0,0.0
+8712335,419,XGBoost,block_b64_g40,Co->Ru,"[95, 103, 5]",3,2,84.35978834055257,affine,True,False,0.029525160789489746,0.0,0.0
+8712335,419,XGBoost,block_b64_g40,Na->Ca,"[171, 101, 29]",3,2,125.58599690881677,affine,True,False,-0.43892425298690796,0.0,0.0
+8712335,419,XGBoost,block_b64_g40,Na->Li,"[131, 163, 27]",3,2,80.83945461302936,affine,True,False,0.9080042839050293,0.0,0.0
+8712335,419,XGBoost,block_b64_g40,Tl->In,"[133, 43]",2,1,,joint_path_mean_only,False,False,-0.30365848541259766,0.0,0.0
+8712335,419,XGBoost,block_b64_g40,Tl->Pb,"[129, 159]",2,1,,joint_path_mean_only,False,False,-0.20466220378875732,0.0,0.0
+8712335,419,XGBoost,block_b64_g40,Tl->Sn,"[137, 93]",2,1,,joint_path_mean_only,False,False,0.16456663608551025,0.0,0.0
+8712335,419,XGBoost,block_b64_g40,geometry_only,"[132, 130, 128, 142, 146, 154, 164, 152, 168, 170, 150, 84, 140, 134, 160, 162, 72, 100, 136, 156, 174, 158, 44, 166, 148, 138, 68, 110, 76, 144, 64, 102, 172, 82, 4, 90, 18, 106, 16, 98]",40,2,3.811752298030468,affine,True,True,0.0,0.05982434735933158,2.066513497227198
+5450876,307,frozen_ET,block_b64_g40,Cs->Ba,"[153, 173]",2,1,,joint_path_mean_only,False,False,0.6809600000000017,0.0,0.0
+5450876,307,frozen_ET,block_b64_g40,Cs->Ra,"[149, 33]",2,1,,joint_path_mean_only,False,False,0.5751900000000018,0.0,0.0
+5450876,307,frozen_ET,block_b64_g40,Cs->Rb,"[175, 95]",2,1,,joint_path_mean_only,False,False,0.05091199999999835,0.0,0.0
+5450876,307,frozen_ET,block_b64_g40,Cs->Sr,"[65, 171]",2,1,,joint_path_mean_only,False,False,0.7020180000000025,0.0,0.0
+5450876,307,frozen_ET,block_b64_g40,Cu->Ag,"[145, 71]",2,1,,joint_path_mean_only,False,False,0.474069999999997,0.0,0.0
+5450876,307,frozen_ET,block_b64_g40,Cu->Ni,"[139, 21]",2,1,,joint_path_mean_only,False,False,0.17392399999999786,0.0,0.0
+5450876,307,frozen_ET,block_b64_g40,Cu->Pd,"[141, 147]",2,1,,joint_path_mean_only,False,False,0.4861720000000004,0.0,0.0
+5450876,307,frozen_ET,block_b64_g40,F->O,"[167, 169]",2,1,,joint_path_mean_only,False,False,0.815879999999999,0.0,0.0
+5450876,307,frozen_ET,block_b64_g40,Rh->Co,"[131, 5]",2,1,,joint_path_mean_only,False,False,0.028039999999998344,0.0,0.0
+5450876,307,frozen_ET,block_b64_g40,Rh->Fe,[135],1,0,,joint_path_mean_only,False,False,0.08127999999999824,0.0,0.0
+5450876,307,frozen_ET,block_b64_g40,Rh->Ir,[155],1,0,,joint_path_mean_only,False,False,0.24011599999999889,0.0,0.0
+5450876,307,frozen_ET,block_b64_g40,Rh->Ni,[137],1,0,,joint_path_mean_only,False,False,-0.16714400000000007,0.0,0.0
+5450876,307,frozen_ET,block_b64_g40,Rh->Os,[161],1,0,,joint_path_mean_only,False,False,0.3570440000000017,0.0,0.0
+5450876,307,frozen_ET,block_b64_g40,Rh->Pt,[91],1,0,,joint_path_mean_only,False,False,0.16726799999999775,0.0,0.0
+5450876,307,frozen_ET,block_b64_g40,Rh->Ru,[163],1,0,,joint_path_mean_only,False,False,0.04605999999999799,0.0,0.0
+5450876,307,frozen_ET,block_b64_g40,geometry_only,"[130, 132, 156, 164, 144, 138, 128, 160, 150, 158, 140, 162, 134, 174, 68, 148, 166, 142, 172, 136, 86, 146, 168, 154, 152, 76, 74, 70, 66, 170, 88, 84, 40, 90, 78, 82, 42, 94, 0, 80]",40,2,1.260108771105982,affine,True,True,0.0,1.212684816479769,-0.6956601269119164
+5450876,307,XGBoost,block_b64_g40,Cs->Ba,"[153, 173]",2,1,,joint_path_mean_only,False,False,0.41140860319137573,0.0,0.0
+5450876,307,XGBoost,block_b64_g40,Cs->Ra,"[149, 33]",2,1,,joint_path_mean_only,False,False,0.4049169421195984,0.0,0.0
+5450876,307,XGBoost,block_b64_g40,Cs->Rb,"[175, 95]",2,1,,joint_path_mean_only,False,False,-0.11077302694320679,0.0,0.0
+5450876,307,XGBoost,block_b64_g40,Cs->Sr,"[65, 171]",2,1,,joint_path_mean_only,False,False,0.43374162912368774,0.0,0.0
+5450876,307,XGBoost,block_b64_g40,Cu->Ag,"[145, 71]",2,1,,joint_path_mean_only,False,False,-0.013383448123931885,0.0,0.0
+5450876,307,XGBoost,block_b64_g40,Cu->Ni,"[139, 21]",2,1,,joint_path_mean_only,False,False,-0.23619705438613892,0.0,0.0
+5450876,307,XGBoost,block_b64_g40,Cu->Pd,"[141, 147]",2,1,,joint_path_mean_only,False,False,0.4274559020996094,0.0,0.0
+5450876,307,XGBoost,block_b64_g40,F->O,"[167, 169]",2,1,,joint_path_mean_only,False,False,0.519910991191864,0.0,0.0
+5450876,307,XGBoost,block_b64_g40,Rh->Co,"[131, 5]",2,1,,joint_path_mean_only,False,False,0.5425745248794556,0.0,0.0
+5450876,307,XGBoost,block_b64_g40,Rh->Fe,[135],1,0,,joint_path_mean_only,False,False,0.5354865193367004,0.0,0.0
+5450876,307,XGBoost,block_b64_g40,Rh->Ir,[155],1,0,,joint_path_mean_only,False,False,-0.08019554615020752,0.0,0.0
+5450876,307,XGBoost,block_b64_g40,Rh->Ni,[137],1,0,,joint_path_mean_only,False,False,-0.3832181394100189,0.0,0.0
+5450876,307,XGBoost,block_b64_g40,Rh->Os,[161],1,0,,joint_path_mean_only,False,False,0.22399574518203735,0.0,0.0
+5450876,307,XGBoost,block_b64_g40,Rh->Pt,[91],1,0,,joint_path_mean_only,False,False,-0.1794026494026184,0.0,0.0
+5450876,307,XGBoost,block_b64_g40,Rh->Ru,[163],1,0,,joint_path_mean_only,False,False,-0.2739962935447693,0.0,0.0
+5450876,307,XGBoost,block_b64_g40,geometry_only,"[130, 132, 156, 164, 144, 138, 128, 160, 150, 158, 140, 162, 134, 174, 68, 148, 166, 142, 172, 136, 86, 146, 168, 154, 152, 76, 74, 70, 66, 170, 88, 84, 40, 90, 78, 82, 42, 94, 0, 80]",40,2,1.260108771105982,affine,True,True,0.0,0.764397875843739,3.7863849303538304
+5450876,419,frozen_ET,block_b64_g40,Cs->Ba,"[135, 11]",2,1,,joint_path_mean_only,False,False,0.6832000000000013,0.0,0.0
+5450876,419,frozen_ET,block_b64_g40,Cs->Ra,"[143, 73]",2,1,,joint_path_mean_only,False,False,0.5574040000000019,0.0,0.0
+5450876,419,frozen_ET,block_b64_g40,Cs->Rb,"[173, 175]",2,1,,joint_path_mean_only,False,False,0.11221999999999865,0.0,0.0
+5450876,419,frozen_ET,block_b64_g40,Cs->Sr,"[145, 167]",2,1,,joint_path_mean_only,False,False,0.7102260000000025,0.0,0.0
+5450876,419,frozen_ET,block_b64_g40,Cu->Ag,"[131, 27]",2,1,,joint_path_mean_only,False,False,0.5091319999999974,0.0,0.0
+5450876,419,frozen_ET,block_b64_g40,Cu->Ni,[15],1,0,,joint_path_mean_only,False,False,0.21083199999999835,0.0,0.0
+5450876,419,frozen_ET,block_b64_g40,Cu->Pd,"[157, 155]",2,1,,joint_path_mean_only,False,False,0.43145599999999995,0.0,0.0
+5450876,419,frozen_ET,block_b64_g40,F->O,"[163, 85]",2,1,,joint_path_mean_only,False,False,0.7579359999999993,0.0,0.0
+5450876,419,frozen_ET,block_b64_g40,Rh->Co,"[171, 69]",2,1,,joint_path_mean_only,False,False,0.15421999999999897,0.0,0.0
+5450876,419,frozen_ET,block_b64_g40,Rh->Fe,"[97, 101]",2,1,,joint_path_mean_only,False,False,0.12725799999999787,0.0,0.0
+5450876,419,frozen_ET,block_b64_g40,Rh->Ir,[129],1,0,,joint_path_mean_only,False,False,0.24011599999999889,0.0,0.0
+5450876,419,frozen_ET,block_b64_g40,Rh->Ni,[71],1,0,,joint_path_mean_only,False,False,-0.017619999999999303,0.0,0.0
+5450876,419,frozen_ET,block_b64_g40,Rh->Os,[137],1,0,,joint_path_mean_only,False,False,0.2551719999999993,0.0,0.0
+5450876,419,frozen_ET,block_b64_g40,Rh->Pt,[159],1,0,,joint_path_mean_only,False,False,0.31477199999999983,0.0,0.0
+5450876,419,frozen_ET,block_b64_g40,Rh->Ru,[93],1,0,,joint_path_mean_only,False,False,0.08127999999999902,0.0,0.0
+5450876,419,frozen_ET,block_b64_g40,geometry_only,"[132, 130, 146, 128, 142, 168, 164, 154, 160, 162, 140, 156, 158, 148, 152, 170, 84, 136, 174, 144, 134, 138, 72, 150, 100, 166, 44, 172, 110, 68, 76, 64, 82, 4, 78, 90, 18, 104, 80, 98]",40,2,1.1549018826844497,affine,True,True,0.0,1.102731077079134,-0.6148574925560913
+5450876,419,XGBoost,block_b64_g40,Cs->Ba,"[135, 11]",2,1,,joint_path_mean_only,False,False,0.3313249945640564,0.0,0.0
+5450876,419,XGBoost,block_b64_g40,Cs->Ra,"[143, 73]",2,1,,joint_path_mean_only,False,False,0.40122079849243164,0.0,0.0
+5450876,419,XGBoost,block_b64_g40,Cs->Rb,"[173, 175]",2,1,,joint_path_mean_only,False,False,0.0029714107513427734,0.0,0.0
+5450876,419,XGBoost,block_b64_g40,Cs->Sr,"[145, 167]",2,1,,joint_path_mean_only,False,False,0.46521443128585815,0.0,0.0
+5450876,419,XGBoost,block_b64_g40,Cu->Ag,"[131, 27]",2,1,,joint_path_mean_only,False,False,0.04912164807319641,0.0,0.0
+5450876,419,XGBoost,block_b64_g40,Cu->Ni,[15],1,0,,joint_path_mean_only,False,False,-0.17819344997406006,0.0,0.0
+5450876,419,XGBoost,block_b64_g40,Cu->Pd,"[157, 155]",2,1,,joint_path_mean_only,False,False,0.39904290437698364,0.0,0.0
+5450876,419,XGBoost,block_b64_g40,F->O,"[163, 85]",2,1,,joint_path_mean_only,False,False,0.5351049900054932,0.0,0.0
+5450876,419,XGBoost,block_b64_g40,Rh->Co,"[171, 69]",2,1,,joint_path_mean_only,False,False,0.6857202649116516,0.0,0.0
+5450876,419,XGBoost,block_b64_g40,Rh->Fe,"[97, 101]",2,1,,joint_path_mean_only,False,False,0.5658454895019531,0.0,0.0
+5450876,419,XGBoost,block_b64_g40,Rh->Ir,[129],1,0,,joint_path_mean_only,False,False,-0.08018994331359863,0.0,0.0
+5450876,419,XGBoost,block_b64_g40,Rh->Ni,[71],1,0,,joint_path_mean_only,False,False,-0.2301008105278015,0.0,0.0
+5450876,419,XGBoost,block_b64_g40,Rh->Os,[137],1,0,,joint_path_mean_only,False,False,-0.11466234922409058,0.0,0.0
+5450876,419,XGBoost,block_b64_g40,Rh->Pt,[159],1,0,,joint_path_mean_only,False,False,-0.11141842603683472,0.0,0.0
+5450876,419,XGBoost,block_b64_g40,Rh->Ru,[93],1,0,,joint_path_mean_only,False,False,-0.15802490711212158,0.0,0.0
+5450876,419,XGBoost,block_b64_g40,geometry_only,"[132, 130, 146, 128, 142, 168, 164, 154, 160, 162, 140, 156, 158, 148, 152, 170, 84, 136, 174, 144, 134, 138, 72, 150, 100, 166, 44, 172, 110, 68, 76, 64, 82, 4, 78, 90, 18, 104, 80, 98]",40,2,1.1549018826844497,affine,True,True,0.0,0.7416739347468093,3.647105336631649
+6282869,307,frozen_ET,block_b64_g40,F->O,"[175, 95]",2,1,,joint_path_mean_only,False,False,-2.470033999999984,0.0,0.0
+6282869,307,frozen_ET,block_b64_g40,Na->Ca,"[153, 173]",2,1,,joint_path_mean_only,False,False,-1.3573339999999896,0.0,0.0
+6282869,307,frozen_ET,block_b64_g40,Na->Li,"[65, 171]",2,1,,joint_path_mean_only,False,False,-0.07126799999999056,0.0,0.0
+6282869,307,frozen_ET,block_b64_g40,Pb->Bi,"[135, 83]",2,1,,joint_path_mean_only,False,False,0.05948400000001852,0.0,0.0
+6282869,307,frozen_ET,block_b64_g40,Pb->In,"[149, 133]",2,1,,joint_path_mean_only,False,False,1.086874000000011,0.0,0.0
+6282869,307,frozen_ET,block_b64_g40,Pb->Sb,"[141, 71]",2,1,,joint_path_mean_only,False,False,-0.5025879999999971,0.0,0.0
+6282869,307,frozen_ET,block_b64_g40,Pb->Sn,"[139, 23]",2,1,,joint_path_mean_only,False,False,-0.848499999999988,0.0,0.0
+6282869,307,frozen_ET,block_b64_g40,Pb->Tl,"[167, 169]",2,1,,joint_path_mean_only,False,False,-0.533061999999981,0.0,0.0
+6282869,307,frozen_ET,block_b64_g40,Rb->Ba,"[91, 93]",2,1,,joint_path_mean_only,False,False,-1.8887659999999844,0.0,0.0
+6282869,307,frozen_ET,block_b64_g40,Rb->Ca,"[163, 99]",2,1,,joint_path_mean_only,False,False,-1.6696299999999906,0.0,0.0
+6282869,307,frozen_ET,block_b64_g40,Rb->Cs,"[155, 75]",2,1,,joint_path_mean_only,False,False,-0.12740399999999497,0.0,0.0
+6282869,307,frozen_ET,block_b64_g40,Rb->K,[131],1,0,,joint_path_mean_only,False,False,-0.05170399999999109,0.0,0.0
+6282869,307,frozen_ET,block_b64_g40,Rb->Sr,[161],1,0,,joint_path_mean_only,False,False,-1.8898759999999881,0.0,0.0
+6282869,307,frozen_ET,block_b64_g40,geometry_only,"[130, 132, 144, 164, 156, 138, 160, 128, 150, 140, 158, 162, 134, 142, 174, 68, 166, 148, 154, 146, 172, 86, 136, 76, 152, 168, 74, 170, 70, 66, 88, 90, 40, 94, 84, 42, 82, 80, 78, 0]",40,2,1.2956769319907817,affine,True,True,0.0,1.1544699795333275,0.6586044775769827
+6282869,307,XGBoost,block_b64_g40,F->O,"[175, 95]",2,1,,joint_path_mean_only,False,False,-1.2121227979660034,0.0,0.0
+6282869,307,XGBoost,block_b64_g40,Na->Ca,"[153, 173]",2,1,,joint_path_mean_only,False,False,-0.19172823429107666,0.0,0.0
+6282869,307,XGBoost,block_b64_g40,Na->Li,"[65, 171]",2,1,,joint_path_mean_only,False,False,0.5467371940612793,0.0,0.0
+6282869,307,XGBoost,block_b64_g40,Pb->Bi,"[135, 83]",2,1,,joint_path_mean_only,False,False,0.147918701171875,0.0,0.0
+6282869,307,XGBoost,block_b64_g40,Pb->In,"[149, 133]",2,1,,joint_path_mean_only,False,False,2.369689702987671,0.0,0.0
+6282869,307,XGBoost,block_b64_g40,Pb->Sb,"[141, 71]",2,1,,joint_path_mean_only,False,False,0.4806966781616211,0.0,0.0
+6282869,307,XGBoost,block_b64_g40,Pb->Sn,"[139, 23]",2,1,,joint_path_mean_only,False,False,0.425614595413208,0.0,0.0
+6282869,307,XGBoost,block_b64_g40,Pb->Tl,"[167, 169]",2,1,,joint_path_mean_only,False,False,2.1029882431030273,0.0,0.0
+6282869,307,XGBoost,block_b64_g40,Rb->Ba,"[91, 93]",2,1,,joint_path_mean_only,False,False,-0.9734711647033691,0.0,0.0
+6282869,307,XGBoost,block_b64_g40,Rb->Ca,"[163, 99]",2,1,,joint_path_mean_only,False,False,-0.31480395793914795,0.0,0.0
+6282869,307,XGBoost,block_b64_g40,Rb->Cs,"[155, 75]",2,1,,joint_path_mean_only,False,False,0.7699401378631592,0.0,0.0
+6282869,307,XGBoost,block_b64_g40,Rb->K,[131],1,0,,joint_path_mean_only,False,False,0.33472108840942383,0.0,0.0
+6282869,307,XGBoost,block_b64_g40,Rb->Sr,[161],1,0,,joint_path_mean_only,False,False,-0.9190962314605713,0.0,0.0
+6282869,307,XGBoost,block_b64_g40,geometry_only,"[130, 132, 144, 164, 156, 138, 160, 128, 150, 140, 158, 162, 134, 142, 174, 68, 166, 148, 154, 146, 172, 86, 136, 76, 152, 168, 74, 170, 70, 66, 88, 90, 40, 94, 84, 42, 82, 80, 78, 0]",40,2,1.2956769319907817,affine,True,True,0.0,0.4497512324127031,-13.130120223511348
+6282869,419,frozen_ET,block_b64_g40,F->O,"[173, 175]",2,1,,joint_path_mean_only,False,False,-2.419085999999984,0.0,0.0
+6282869,419,frozen_ET,block_b64_g40,Na->Ca,"[143, 151]",2,1,,joint_path_mean_only,False,False,-1.3825179999999908,0.0,0.0
+6282869,419,frozen_ET,block_b64_g40,Na->Li,"[135, 167]",2,1,,joint_path_mean_only,False,False,-0.07503999999998667,0.0,0.0
+6282869,419,frozen_ET,block_b64_g40,Pb->Bi,"[97, 101]",2,1,,joint_path_mean_only,False,False,0.24728600000002032,0.0,0.0
+6282869,419,frozen_ET,block_b64_g40,Pb->In,"[95, 103]",2,1,,joint_path_mean_only,False,False,1.0939400000000066,0.0,0.0
+6282869,419,frozen_ET,block_b64_g40,Pb->Sb,"[131, 155]",2,1,,joint_path_mean_only,False,False,-0.49438799999999183,0.0,0.0
+6282869,419,frozen_ET,block_b64_g40,Pb->Sn,"[157, 15]",2,1,,joint_path_mean_only,False,False,-0.8002079999999898,0.0,0.0
+6282869,419,frozen_ET,block_b64_g40,Pb->Tl,"[163, 85]",2,1,,joint_path_mean_only,False,False,-0.4356899999999788,0.0,0.0
+6282869,419,frozen_ET,block_b64_g40,Rb->Ba,"[159, 153]",2,1,,joint_path_mean_only,False,False,-1.8583839999999845,0.0,0.0
+6282869,419,frozen_ET,block_b64_g40,Rb->Ca,"[43, 71]",2,1,,joint_path_mean_only,False,False,-1.6582799999999904,0.0,0.0
+6282869,419,frozen_ET,block_b64_g40,Rb->Cs,"[137, 45]",2,1,,joint_path_mean_only,False,False,-0.13486199999999426,0.0,0.0
+6282869,419,frozen_ET,block_b64_g40,Rb->K,[171],1,0,,joint_path_mean_only,False,False,-0.03618399999998978,0.0,0.0
+6282869,419,frozen_ET,block_b64_g40,Rb->Sr,[93],1,0,,joint_path_mean_only,False,False,-1.9431919999999883,0.0,0.0
+6282869,419,frozen_ET,block_b64_g40,geometry_only,"[132, 130, 128, 164, 142, 168, 146, 154, 162, 156, 140, 160, 158, 170, 84, 174, 152, 144, 148, 136, 134, 172, 100, 166, 72, 138, 44, 110, 150, 76, 68, 82, 64, 4, 78, 90, 96, 18, 80, 106]",40,2,1.0427959155747837,affine,True,True,0.0,1.4826452494560387,0.5380768851033929
+6282869,419,XGBoost,block_b64_g40,F->O,"[173, 175]",2,1,,joint_path_mean_only,False,False,-1.2159219980239868,0.0,0.0
+6282869,419,XGBoost,block_b64_g40,Na->Ca,"[143, 151]",2,1,,joint_path_mean_only,False,False,-0.1905442476272583,0.0,0.0
+6282869,419,XGBoost,block_b64_g40,Na->Li,"[135, 167]",2,1,,joint_path_mean_only,False,False,0.48726820945739746,0.0,0.0
+6282869,419,XGBoost,block_b64_g40,Pb->Bi,"[97, 101]",2,1,,joint_path_mean_only,False,False,0.14010381698608398,0.0,0.0
+6282869,419,XGBoost,block_b64_g40,Pb->In,"[95, 103]",2,1,,joint_path_mean_only,False,False,2.4299962520599365,0.0,0.0
+6282869,419,XGBoost,block_b64_g40,Pb->Sb,"[131, 155]",2,1,,joint_path_mean_only,False,False,0.41150951385498047,0.0,0.0
+6282869,419,XGBoost,block_b64_g40,Pb->Sn,"[157, 15]",2,1,,joint_path_mean_only,False,False,0.5436348915100098,0.0,0.0
+6282869,419,XGBoost,block_b64_g40,Pb->Tl,"[163, 85]",2,1,,joint_path_mean_only,False,False,2.1028547286987305,0.0,0.0
+6282869,419,XGBoost,block_b64_g40,Rb->Ba,"[159, 153]",2,1,,joint_path_mean_only,False,False,-0.9766273498535156,0.0,0.0
+6282869,419,XGBoost,block_b64_g40,Rb->Ca,"[43, 71]",2,1,,joint_path_mean_only,False,False,-0.28499650955200195,0.0,0.0
+6282869,419,XGBoost,block_b64_g40,Rb->Cs,"[137, 45]",2,1,,joint_path_mean_only,False,False,0.7811572551727295,0.0,0.0
+6282869,419,XGBoost,block_b64_g40,Rb->K,[171],1,0,,joint_path_mean_only,False,False,0.30213260650634766,0.0,0.0
+6282869,419,XGBoost,block_b64_g40,Rb->Sr,[93],1,0,,joint_path_mean_only,False,False,-0.8797118663787842,0.0,0.0
+6282869,419,XGBoost,block_b64_g40,geometry_only,"[132, 130, 128, 164, 142, 168, 146, 154, 162, 156, 140, 160, 158, 170, 84, 174, 152, 144, 148, 136, 134, 172, 100, 166, 72, 138, 44, 110, 150, 76, 68, 82, 64, 4, 78, 90, 96, 18, 80, 106]",40,2,1.0427959155747837,affine,True,True,0.0,0.12137376446496856,-12.727135881521919

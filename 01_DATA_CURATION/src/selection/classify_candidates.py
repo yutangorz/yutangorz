@@ -22,7 +22,7 @@ import os
 
 # 1. 加载训练好的模型
 model = xgb.XGBClassifier()
-model.load_model('model_PVK.json')  # 加载之前保存的模型
+model.load_model(str(_RepositoryPath(__file__).with_name('model_PVK.json')))  # 加载之前保存的模型
 
 # 2. 加载新数据进行预测
 new_data_path = str(_repo_path('external_inputs/original_workspace/OQMD/Dateset/XRD_results/DPVK-OQMD-cif_no_bandgap0_Conventional_with_XRD_Fxrd_St改_numbered.csv'))
@@ -52,6 +52,10 @@ else:
 # 仅删除实际存在的列
 cols_to_drop = [col for col in delect_col if col in full_data_with_predictions.columns]
 X_predict = full_data_with_predictions.drop(cols_to_drop + identifier_col, axis=1, errors='ignore')
+expected_features = model.get_booster().feature_names
+if set(X_predict.columns) != set(expected_features):
+    raise ValueError('PVK feature names differ from the frozen 47-feature model')
+X_predict = X_predict.loc[:, expected_features]
 
 # 5. 进行预测
 # 获取预测类别（0=非半导体，1=半导体）

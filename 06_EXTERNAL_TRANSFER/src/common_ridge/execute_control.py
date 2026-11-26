@@ -7,7 +7,7 @@ _repository_root = next((p for p in _RepositoryPath(__file__).resolve().parents 
 if _repository_root is None:
     raise RuntimeError("Repository root marker is missing")
 _repository_sys.path.insert(0, str(_repository_root))
-from repository_paths import repo_path as _repo_path
+from repository_paths import repo_path as _repo_path, input_path as _input_path
 pass  # Optional local dependency directory is not included.
 pass  # Optional local dependency directory is not included.
 pass  # Optional local dependency directory is not included.
@@ -72,8 +72,8 @@ def execute(approval_path,output_dir):
   from lime.lime_tabular import LimeTabularExplainer
   sys.path.insert(0,str(_repo_path('06_EXTERNAL_TRANSFER/src/common_ridge')));from refined import weighted_local
   sys.path.insert(0,str(_repo_path('06_EXTERNAL_TRANSFER/src/common_ridge')));from statistics_locked import scores,analyze
-  cfg=config;F=cfg['features'];training=np.load(_repo_path('06_EXTERNAL_TRANSFER/workflows/common_ridge/training5714.npy'),allow_pickle=False);scale=np.load(_repo_path('06_EXTERNAL_TRANSFER/workflows/common_ridge/training_SD.npy'),allow_pickle=False)
-  with np.load(_repo_path('06_EXTERNAL_TRANSFER/workflows/common_ridge/EXACT_ANCHORS38.npz'),allow_pickle=False) as a:anchors={str(ID):v.copy() for ID,v in zip(a['IDs'],a['x0'])}
+  cfg=config;F=cfg['features'];training=np.load(_input_path('06_EXTERNAL_TRANSFER/workflows/common_ridge/training5714.npy'),allow_pickle=False);scale=np.load(_input_path('06_EXTERNAL_TRANSFER/workflows/common_ridge/training_SD.npy'),allow_pickle=False)
+  with np.load(_input_path('06_EXTERNAL_TRANSFER/workflows/common_ridge/EXACT_ANCHORS38.npz'),allow_pickle=False) as a:anchors={str(ID):v.copy() for ID,v in zip(a['IDs'],a['x0'])}
   cases=json.loads((_repo_path('06_EXTERNAL_TRANSFER/data/common_ridge/CASE_INPUTS76.json')).read_text(encoding='utf-8'));plans=pd.read_csv(_repo_path('06_EXTERNAL_TRANSFER/data/common_ridge/SELECTED_FIT_INDICES760.csv'),dtype={'ID':str})
   # Copies planned denominators before any model query; even interrupted runs retain all38/76/760.
   plans.to_csv(out/'ALL_PLANNED_FITS760.csv',index=False)
@@ -95,8 +95,8 @@ def execute(approval_path,output_dir):
    np.savez_compressed(out/'Gaussian_caches'/f'{ID}.npz',features=gx,ET_prediction=gp,x0=x0,Gaussian_seed=seed,training_SD=scale)
    gz=(gx-x0)/scale;gy=gp-gp[0]
    for c in [v for v in cases if v['ID']==ID]:
-    ss=c['seed'];pool=pd.read_csv(c['pool_path']);x=pool[F].to_numpy();z=(x-x0)/scale;y=pool.delta_frozen_ET.to_numpy();test=np.array(c['test'])
-    events=json.loads(Path(c['events_path']).read_text(encoding='utf-8'));kind=np.array(['geometry' if events[int(j)]['kind']=='strain_and_internal_displacement' else 'chemical' for j in test])
+    ss=c['seed'];pool=pd.read_csv(_input_path(c['pool_path']));x=pool[F].to_numpy();z=(x-x0)/scale;y=pool.delta_frozen_ET.to_numpy();test=np.array(c['test'])
+    events=json.loads(_input_path(c['events_path']).read_text(encoding='utf-8'));kind=np.array(['geometry' if events[int(j)]['kind']=='strain_and_internal_displacement' else 'chemical' for j in test])
     # Stop on exact descriptor leakage; don't alter the heldout set or drop offending rows.
     assert not any(np.any(np.max(abs(gx[1:]-x[j]),axis=1)<1e-12) for j in test)
     for q in plans[(plans.ID==ID)&(plans.seed==ss)].itertuples():

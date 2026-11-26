@@ -1,0 +1,15 @@
+{
+  "status": "feature_extraction_closed_with_explicit_LIME_limits",
+  "completed": true,
+  "rank_comparison": "same-model same-parent same-response contrasts; different attribution mechanisms remain",
+  "methods": [
+    "SHAP_contrast",
+    "LIME_standard512_contrast",
+    "LIME_constrained9_contrast"
+  ],
+  "native_global_SHAP_preserved": true,
+  "CRISP_not_an_independent_nine_rank": true,
+  "no_DFT_or_four_method_strong_agreement_claim": true,
+  "next_stage": "03_xgboost_validation/run_001",
+  "new_XGBoost_training_target": "original database band gap; not ALIGNN outputs"
+}

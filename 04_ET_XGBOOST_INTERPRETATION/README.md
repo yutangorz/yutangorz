@@ -25,3 +25,7 @@ Source files:
 - [src/xgboost_ablation/finalize_ablation.py](src/xgboost_ablation/finalize_ablation.py)
 - [src/xgboost_ablation/study_ablation.py](src/xgboost_ablation/study_ablation.py)
 - [src/xgboost_ablation/test_ablation.py](src/xgboost_ablation/test_ablation.py)
+
+Conditioned attribution reference data and results are described in [conditioned attribution](data/conditioned_shap/README.md). Input consistency is checked by `python 09_REPRODUCTION_CHECKS/verify_input_identity.py`, using absolute tolerance 1e-12 for floating-point serialization differences. This does not establish explanation fidelity.
+
+Author-owned material is MIT-licensed; third-party terms remain applicable. See the root [licence and source notes](../DATA_AND_LICENSE_AUDIT.md).

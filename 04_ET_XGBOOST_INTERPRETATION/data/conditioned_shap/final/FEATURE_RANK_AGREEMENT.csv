@@ -1,0 +1,4 @@
+comparison,n_features,scope,spearman_rank,kendall_tau,qualification
+ET_vs_native_LIME,9,same 1462 heldout materials,0.8666666666666667,0.77777777777777779,MODEL_RANK_ONLY; LIME dual-fidelity 1/1462
+ET_vs_DFT_abs_marginal,7,7 atomic features; 13 DFT pairs vs 1462 ET,0.8928571428571429,0.80952380952380965,EXPLORATORY; correlations not attribution
+ET_vs_CRISP_delta_all,9,24 CRISP parents vs 1462 ET,0.81666666666666665,0.61111111111111105,SAME_MODEL_DIFFERENT_INPUT_SUPPORT; not independent validation

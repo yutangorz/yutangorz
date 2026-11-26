@@ -1,0 +1,10 @@
+feature,category,mean_abs_SHAP_eV,share,rank,low95_eV,high95_eV,bootstrap_rank_low,bootstrap_rank_high,convention
+valence_electrons,atomic,0.7543953771078122,0.37896267131797495,1,0.7249315647571017,0.7843665628536036,1.0,1.0,TreeSHAP tree_path_dependent; fixed fold0 ExtraTrees
+electron_affinity,atomic,0.501171811581845,0.25175844692269655,2,0.4821746179186557,0.5198339379726783,2.0,2.0,TreeSHAP tree_path_dependent; fixed fold0 ExtraTrees
+ionization_energy,atomic,0.17301602980508057,0.08691280305445648,3,0.1605168175625495,0.18560096133641882,3.0,3.0,TreeSHAP tree_path_dependent; fixed fold0 ExtraTrees
+atomic_volume,atomic,0.14245581237422167,0.07156119568107071,4,0.1347986143380144,0.15119436319892035,4.0,4.0,TreeSHAP tree_path_dependent; fixed fold0 ExtraTrees
+electronegativity,atomic,0.12787513231234587,0.06423674270382039,5,0.11994912764986801,0.13643351131896872,5.0,5.0,TreeSHAP tree_path_dependent; fixed fold0 ExtraTrees
+covalent_radius,atomic,0.09086443015291763,0.04564480141772416,6,0.0860454692401599,0.09587543159379351,6.0,6.0,TreeSHAP tree_path_dependent; fixed fold0 ExtraTrees
+period,atomic,0.08109215705398588,0.04073580166666827,7,0.07514867260777194,0.08772880849956179,7.0,7.0,TreeSHAP tree_path_dependent; fixed fold0 ExtraTrees
+bond_length,structural,0.06721597877840711,0.033765247834329146,8,0.06256699135027335,0.07242963895821704,8.0,8.0,TreeSHAP tree_path_dependent; fixed fold0 ExtraTrees
+bond_angle,structural,0.05259846017970919,0.02642228940125926,9,0.04881263207919973,0.05710292570647729,9.0,9.0,TreeSHAP tree_path_dependent; fixed fold0 ExtraTrees

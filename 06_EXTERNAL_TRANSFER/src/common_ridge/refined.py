@@ -10,7 +10,7 @@ _repository_root = next((p for p in _RepositoryPath(__file__).resolve().parents 
 if _repository_root is None:
     raise RuntimeError("Repository root marker is missing")
 _repository_sys.path.insert(0, str(_repository_root))
-from repository_paths import repo_path as _repo_path
+from repository_paths import repo_path as _repo_path, input_path as _input_path
 pass  # Optional local dependency directory is not included.
 pass  # Optional local dependency directory is not included.
 pass  # Optional local dependency directory is not included.

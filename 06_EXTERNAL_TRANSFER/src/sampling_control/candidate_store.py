@@ -28,12 +28,12 @@ class FrozenCandidateStore:
   if len(rows)!=38 or len(self.rows)!=38 or set(self.rows)!=set(expected_IDs):raise RuntimeError('Candidate parent identity mismatch')
   for r in rows:
    if r['dtype']!='<f8' or r['shape']!='(512, 9)' or r['index_definition']!='original rows0..511; no reorder; anchor0':raise RuntimeError('Candidate index/dtype/shape declaration changed')
-   p=Path(r['path']).resolve()
+   p=_repo_path(r['path']).resolve()
    if p.name!=r['ID']+'.npy' or sha(p)!=r['sha256']:raise RuntimeError('Candidate path/SHA mismatch')
  def load(self,ID,x0):
   import numpy as np
   if sha(self.path)!=self.expected_sha:raise RuntimeError('Candidate manifest changed')
-  row=self.rows[ID];p=Path(row['path']).resolve()
+  row=self.rows[ID];p=_repo_path(row['path']).resolve()
   if sha(p)!=row['sha256']:raise RuntimeError('Candidate changed before read')
   a=np.load(p,allow_pickle=False)
   if sha(p)!=row['sha256']:raise RuntimeError('Candidate changed during read')
